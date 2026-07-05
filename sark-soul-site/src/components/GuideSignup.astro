@@ -1,0 +1,44 @@
+---
+// Guide downloads band: the "Getting to Sark Guide signup" MailerLite form
+// on a cream strip. Used on Home, /why-sark and the Getting to Sark guide
+// page per spec section 10.
+
+import MailerLiteForm from './MailerLiteForm.astro';
+---
+
+<section class="guide-signup">
+  <div class="container">
+    <span class="eyebrow">Free island guide</span>
+    <h2>How do you actually get to Sark?</h2>
+    <p>
+      Our Getting to Sark guide walks you through it: the
+      <a href="https://sarkshipping.gg" rel="noopener">ferry from Guernsey</a>, around 55 minutes,
+      the tractor drawn toast rack up from the harbour, and the horse and carriage on to the
+      retreat house. Leave your email and we will send it straight over.
+    </p>
+    <MailerLiteForm
+      formId="191498830146962835"
+      shareUrl="https://preview.mailerlite.io/forms/2309024/191498830146962835/share"
+      label="Get the Getting to Sark guide"
+    />
+  </div>
+</section>
+
+<style>
+  .guide-signup {
+    background: var(--cream);
+    padding-block: 4rem;
+    text-align: center;
+    margin-top: var(--space-section);
+  }
+
+  .guide-signup h2 {
+    margin-block: 0.8rem 1rem;
+  }
+
+  .guide-signup p {
+    max-width: 62ch;
+    margin-inline: auto;
+    margin-bottom: 1.8rem;
+  }
+</style>

@@ -11,6 +11,7 @@ import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import FAQ from '../components/FAQ.astro';
 import CTABand from '../components/CTABand.astro';
+import GuideSignup from '../components/GuideSignup.astro';
 
 const tokens = [
   ['--ink', '#15212e'],
@@ -111,6 +112,9 @@ const sampleFaqs = [
 
   <h2 class="container section-label">FAQ</h2>
   <FAQ items={sampleFaqs} />
+
+  <h2 class="container section-label">GuideSignup (MailerLite embed)</h2>
+  <GuideSignup />
 
   <h2 class="container section-label">CTABand</h2>
   <CTABand title="The closing move on every page" line="Teal button, booking page link, no exceptions." />

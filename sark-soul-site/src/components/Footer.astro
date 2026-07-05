@@ -1,7 +1,7 @@
 ---
 // Footer: ink background, links row, NAP line, copyright, italic gold sign off.
-// Carries the sitewide MailerLite waitlist embed and the single universal
-// loader script (async, non render-blocking, sanctioned by SPEC section 10).
+// The waitlist CTA embeds the "Join the waitlist" MailerLite form site wide.
+
 import MailerLiteForm from './MailerLiteForm.astro';
 
 const columns = [
@@ -37,7 +37,11 @@ const year = new Date().getFullYear();
     <div class="footer-cta">
       <span class="eyebrow on-dark">Stay close to the island</span>
       <h2>When we open new dates, hear it first</h2>
-      <MailerLiteForm slug="GIRqf4" />
+      <MailerLiteForm
+        formId="191499361450984838"
+        shareUrl="https://preview.mailerlite.io/forms/2309024/191499361450984838/share"
+        label="Join the waitlist"
+      />
     </div>
 
     <div class="footer-grid">
@@ -75,22 +79,6 @@ const year = new Date().getFullYear();
     </div>
   </div>
 </footer>
-
-<script is:inline>
-  (function (w, d, e, u, f, l, n) {
-    w[f] =
-      w[f] ||
-      function () {
-        (w[f].q = w[f].q || []).push(arguments);
-      };
-    l = d.createElement(e);
-    l.async = 1;
-    l.src = u;
-    n = d.getElementsByTagName(e)[0];
-    n.parentNode.insertBefore(l, n);
-  })(window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
-  ml('account', '2309024');
-</script>
 
 <style>
   .site-footer {

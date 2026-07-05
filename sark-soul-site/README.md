@@ -31,10 +31,16 @@ property is account 141587640, property 519849557.
   approved design pack in /designs
 - Migrated pages: holding versions live at their final slugs with the known fixes applied, awaiting pasted live copy
 - Journal: collection and index live, awaiting Story Bank articles
-- MailerLite embeds: wired (waitlist in footer, guide form on Why Sark
-  and Getting to Sark)
+- MailerLite: embedded via src/components/MailerLiteForm.astro (account
+  2309024). Waitlist form 191499361450984838 in the footer CTA site wide,
+  Getting to Sark Guide signup 191498830146962835 in the GuideSignup band
+  on Home, /why-sark and /getting-to-sark. The MailerLite script loads
+  lazily when a form nears the viewport, nothing third party at first
+  paint. NOTE: both forms currently show active: false in MailerLite,
+  activate them in the dashboard before launch.
 - GA4: wired, set PUBLIC_GA4_MEASUREMENT_ID in Cloudflare Pages
 - QA: npm run qa checks the built HTML against the CLAUDE.md guardrails
 - Launch items outstanding: live sitemap reconciliation (Wix blocks
   automated fetch, export it manually), _redirects completion, PayPal per
-  rate links, OG default image, real photography
+  rate links, OG default image, real photography, MailerLite form
+  activation
