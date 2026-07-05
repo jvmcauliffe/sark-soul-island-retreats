@@ -26,11 +26,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Wild%20Thyme%20shared%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/CW3ZA8LASXT3J"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Wild%20Thyme%20single%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/A482BPHGYSNZE"
     images:
       - alt: The Wild Thyme bedroom at the retreat house on Sark
         shot: Wild Thyme bedroom
@@ -46,11 +46,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Sea%20Lavender%20shared%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/847CR2D6UZJL6"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Sea%20Lavender%20single%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/MCSTQLRYGRTGY"
     images:
       - alt: The Sea Lavender bedroom at the retreat house on Sark
         shot: Sea Lavender bedroom
@@ -67,7 +67,7 @@ rooms:
         price: £1,495 per person
         cta: Choose shared room
         note: 1 space left
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Coastal%20Rose%20shared%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/D7W6GJZAYXQSC"
       - label: Single
         price: £1,995 per person
         status: soldout
@@ -86,11 +86,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Sea%20Holly%20shared%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/5E59QTCF28MA6"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Sea%20Holly%20single%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/KDWDKNN6NSKGQ"
     images:
       - src: ../../assets/photos/sark-sea-holly-room.jpg
         alt: The Sea Holly bedroom at the retreat house on Sark
@@ -124,7 +124,7 @@ rooms:
       - label: Single
         price: £1,995 per person
         cta: Choose room
-        href: "mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Foxglove%20single%2C%2012%20to%2017%20September%202026"
+        href: "https://www.paypal.com/ncp/payment/QSU7ADFNXK7E6"
     images:
       - src: ../../assets/photos/sark-foxglove-single-room.jpg
         alt: The Foxglove single bedroom at the retreat house on Sark
@@ -248,4 +248,4 @@ All-inclusive 5-night retreat: accommodation, meals, yoga and activities. Prices
 
 All rooms are located within our beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
-To book, choose your room below and pay the £300 deposit. Each room and rate has its own reservation button; until the per-rate PayPal payment links are connected, each button opens an email to Nadia with your room and rate already named.
+To book, choose your room below and pay the £300 deposit. Each room and rate has its own reservation button, taking you to a secure PayPal checkout where you can pay by PayPal or card.
