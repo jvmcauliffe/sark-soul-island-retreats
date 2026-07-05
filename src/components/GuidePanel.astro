@@ -7,8 +7,9 @@ import MailerLiteForm from './MailerLiteForm.astro';
 import milkyWay from '../assets/photos/sark-milky-way-dark-sky.jpg';
 ---
 
-<section class="guide-wrap">
-  <div class="guide-panel on-dark">
+<section class="guide-strip on-dark">
+  <div class="guide-wrap">
+  <div class="guide-panel">
     <div class="guide-media">
       <Image
         src={milkyWay}
@@ -32,9 +33,14 @@ import milkyWay from '../assets/photos/sark-milky-way-dark-sky.jpg';
       <p class="guide-fine">No spam, just island news now and then. Unsubscribe anytime.</p>
     </div>
   </div>
+  </div>
 </section>
 
 <style>
+  .guide-strip {
+    background: var(--ink);
+  }
+
   .guide-wrap {
     width: min(100% - 48px, 1040px);
     margin-inline: auto;
