@@ -19,6 +19,8 @@ interface Props {
 }
 
 const { slug, cta } = Astro.props;
+// Only the Getting to Sark guide button carries the earth clay colour.
+const earth = slug === '9SoA2F';
 const toggleId = `ml-reveal-${slug}`;
 ---
 
@@ -26,7 +28,7 @@ const toggleId = `ml-reveal-${slug}`;
   cta ? (
     <div class="ml-reveal">
       <input type="checkbox" id={toggleId} class="ml-toggle" />
-      <label for={toggleId} class="btn earth">
+      <label for={toggleId} class:list={['btn', { earth }]}>
         {cta}
       </label>
       <div class="ml-body">

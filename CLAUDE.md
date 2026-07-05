@@ -33,7 +33,7 @@ These are hard rules for every session working in this repository. Violating any
 
 ## Design
 
-- Booking and reserve buttons teal #4f9fb0. Newsletter buttons only (Join the waitlist, Send me the guide, and their MailerLite form submits) use earth clay #b07a4f, per John, 5 July 2026. Clay is never used on booking or reserve CTAs.
+- All buttons teal #4f9fb0, with one exception: the Send me the guide button (and the submit inside its MailerLite form, slug 9SoA2F) uses earth clay #b07a4f, per John, 5 July 2026. Clay is never used on any other button.
 - Mobile first. Mobile already outranks desktop dramatically; mobile LCP is the priority in every image and layout decision.
 - Zero client-side JS by default. The FAQ accordions use native details elements, not JS. Total client JS budget: under 15KB; if a feature needs more, it does not ship.
 - Copy is never hard-coded into components. Pages and Journal articles are markdown content collections.

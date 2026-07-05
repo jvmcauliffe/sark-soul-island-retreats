@@ -131,8 +131,8 @@ img {
   color: #fff;
 }
 
-/* Earth variant: Join the waitlist and Send me the guide buttons only.
-   Booking and reserve CTAs stay teal. */
+/* Earth variant: the Send me the guide button only. Every other button
+   on the site is teal. */
 .btn.earth {
   background: var(--clay);
 }
@@ -206,10 +206,11 @@ img {
   color: var(--ink-soft);
 }
 
-/* MailerLite embedded forms: waitlist and guide submits use the earth clay */
+/* MailerLite embedded forms: brand buttons. Teal by default; the guide
+   form submit alone uses the earth clay. */
 .ml-embedded button,
 .ml-embedded .ml-form-embedSubmit button {
-  background: var(--clay) !important;
+  background: var(--teal) !important;
   color: #fff !important;
   font-family: var(--font-body) !important;
   letter-spacing: 2px !important;
@@ -219,6 +220,14 @@ img {
 }
 
 .ml-embedded button:hover {
+  background: var(--teal-dark) !important;
+}
+
+.ml-embedded[data-form='9SoA2F'] button {
+  background: var(--clay) !important;
+}
+
+.ml-embedded[data-form='9SoA2F'] button:hover {
   background: var(--clay-dark) !important;
 }
 
