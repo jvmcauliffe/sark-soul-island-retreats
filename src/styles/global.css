@@ -228,6 +228,10 @@ img {
 }
 
 .prose img {
+  width: 100%;
+  max-width: var(--measure);
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
   margin: 2em 0;
 }
 
