@@ -9,6 +9,7 @@ heroLine: Nadia, Monica, Bram and the souls who bring each retreat to life.
 heroImageAlt: The Sark Soul Island Retreats team at the retreat house on Sark
 heroShot: Meet the Team hero, team photo at the retreat house
 retreatPage: false
+practiceBand: true
 ---
 
 ## Nadia
@@ -59,7 +60,7 @@ Chef Extraordinaire, Director of Laughter and excellent vibes.
 
 Bram is one of our retreat chefs with years of professional kitchen experience and a passion for good, honest food. He focuses on seasonal ingredients, simple flavourful cooking and a deep love of food as nourishment for body and soul.
 
-He co-runs a freelance catering company on Sark with his good friend and fellow chef, Phil. Together they will be preparing fresh nourishing vegetarian meals that are both wholesome and indulgent, to support daily yoga practice, served in a relaxed welcoming atmosphere, making each meal an experience in itself.
+He co-runs a freelance catering company on Sark with his good friend and fellow chef, Pip. Together they will be preparing fresh nourishing vegetarian meals that are both wholesome and indulgent, to support daily yoga practice, served in a relaxed welcoming atmosphere, making each meal an experience in itself.
 
 ## Julienne
 

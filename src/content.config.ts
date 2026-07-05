@@ -20,6 +20,7 @@ const pages = defineCollection({
     ogImage: z.string().optional(),
     retreatPage: z.boolean().default(true),
     guideForm: z.boolean().default(false),
+    practiceBand: z.boolean().default(false),
     darkStrip: z
       .object({
         eyebrow: z.string().default('After dark'),

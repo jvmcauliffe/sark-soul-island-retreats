@@ -1,0 +1,119 @@
+---
+// The "Your Yoga guide for the week" navy band from the live site: three
+// cross link cards to The Practice, Why Sark and the booking page.
+const cards = [
+  {
+    eyebrow: 'The practice',
+    heading: 'The Yoga',
+    line: 'How the practice sits at the heart of every retreat.',
+    label: 'The practice',
+    href: '/the-practice',
+  },
+  {
+    eyebrow: 'Why Sark',
+    heading: 'The Island',
+    line: 'Why Sark is a perfect place for this retreat.',
+    label: 'Why Sark',
+    href: '/why-sark',
+  },
+  {
+    eyebrow: 'The retreat',
+    heading: 'The Retreat',
+    line: 'Dates, rooms and what is included.',
+    label: 'See dates',
+    href: '/retreats-on-sark',
+  },
+];
+---
+
+<section class="pg-band on-dark">
+  <div class="container">
+    <span class="eyebrow gold">Learn about the practice</span>
+    <h2>Your Yoga guide for the week</h2>
+    <div class="pg-cards">
+      {
+        cards.map((c) => (
+          <div class="pg-card">
+            <span class="pg-eyebrow">{c.eyebrow}</span>
+            <h3>{c.heading}</h3>
+            <p>{c.line}</p>
+            <a class="pg-btn" href={c.href}>
+              {c.label} &rarr;
+            </a>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .pg-band {
+    background: var(--ink-soft);
+    padding-block: clamp(56px, 8vw, 90px);
+    text-align: center;
+  }
+
+  .pg-band h2 {
+    color: var(--cream);
+    margin-bottom: 1.2em;
+  }
+
+  .pg-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    text-align: left;
+  }
+
+  @media (min-width: 760px) {
+    .pg-cards {
+      grid-template-columns: repeat(3, 1fr);
+      gap: clamp(20px, 4vw, 56px);
+    }
+  }
+
+  .pg-card {
+    background: rgba(255, 255, 255, 0.06);
+    padding: clamp(24px, 3vw, 36px);
+  }
+
+  .pg-eyebrow {
+    display: block;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+  }
+
+  .pg-card h3 {
+    color: #fff;
+    margin-bottom: 0.3em;
+  }
+
+  .pg-card p {
+    color: var(--cream-deep);
+    font-size: 15px;
+    margin-bottom: 1.6em;
+  }
+
+  .pg-btn {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--cream);
+    border: 1px solid rgba(255, 255, 255, 0.55);
+    padding: 12px 22px;
+    transition: background 0.2s ease;
+  }
+
+  .pg-btn:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #fff;
+  }
+</style>

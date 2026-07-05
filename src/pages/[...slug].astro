@@ -18,6 +18,7 @@ import FeatureRows from '../components/FeatureRows.astro';
 import ImageSlot from '../components/ImageSlot.astro';
 import RetreatIcon from '../components/RetreatIcon.astro';
 import GuidePanel from '../components/GuidePanel.astro';
+import PracticeGuideBand from '../components/PracticeGuideBand.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -227,6 +228,8 @@ const breadcrumbs =
   }
 
   {!d.retreatPage && d.faqs.length > 0 && <FAQ items={d.faqs} />}
+
+  {d.practiceBand && <PracticeGuideBand />}
 
   {d.guideForm && <GuidePanel />}
 
