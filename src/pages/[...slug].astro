@@ -195,6 +195,20 @@ const breadcrumbs =
     )
   }
 
+  {
+    d.addOns && d.retreatPage && (
+      <DarkStrip
+        eyebrow={d.darkStrip?.eyebrow ?? 'After dark'}
+        heading={d.darkStrip?.heading ?? 'When the lights never come on, the sky does'}
+      >
+        <p>
+          {d.darkStrip?.body ??
+            'Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.'}
+        </p>
+      </DarkStrip>
+    )
+  }
+
   {d.features.length > 0 && <FeatureRows features={d.features} />}
 
   {
@@ -219,15 +233,17 @@ const breadcrumbs =
   {
     d.retreatPage && (
       <>
-        <DarkStrip
-          eyebrow={d.darkStrip?.eyebrow ?? 'After dark'}
-          heading={d.darkStrip?.heading ?? 'When the lights never come on, the sky does'}
-        >
-          <p>
-            {d.darkStrip?.body ??
-              'Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.'}
-          </p>
-        </DarkStrip>
+        {!d.addOns && (
+          <DarkStrip
+            eyebrow={d.darkStrip?.eyebrow ?? 'After dark'}
+            heading={d.darkStrip?.heading ?? 'When the lights never come on, the sky does'}
+          >
+            <p>
+              {d.darkStrip?.body ??
+                'Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.'}
+            </p>
+          </DarkStrip>
+        )}
         <PriceCards />
         <NadiaNote quote={d.nadiaNote ?? defaultNote} />
         {d.faqs.length > 0 && <FAQ items={d.faqs} />}
