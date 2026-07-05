@@ -47,4 +47,6 @@ These are hard rules for every session working in this repository. Violating any
 - Every retreat intent page carries: attribution strip, one DarkStrip, PriceCards, NadiaNote, FAQ block, closing CTABand.
 - Internal linking: all intent pages link up to /why-sark and across to each other; every page links to /retreats-on-sark. The booking page must never be the least-linked page on the site.
 - Do not touch DNS or launch steps. Launch is a separate, deliberate step (October 2026, post-retreat).
+- Booking: one payment link per room and rate on /retreats-on-sark, never a shared PayPal link across different prices. Until John supplies per-rate PayPal links, the room buttons open a pre-filled email to info@sarksoulretreats.com.
+- Analytics: GA4 ships only when PUBLIC_GA4_ID is set in the Cloudflare Pages build environment. Without it, zero analytics JS is emitted.
 - Run `npm run qa` after every change. It builds the site and enforces these guardrails against the built HTML (dashes, links, attribution, schema, meta lengths, JS budget). A change is not done until it passes.

@@ -42,7 +42,15 @@ All rooms are located within our beautifully historic farmhouse surrounded by aw
 
 **'Foxglove', private ensuite room, single occupancy only** (£1,995). A serene sanctuary designed for one, this charming en-suite room invites deep rest and a restful space. Perfect for those welcoming additional privacy within the rhythm of retreat life.
 
-To book, choose your room and pay the deposit. Payment links for each room rate will appear here, one link per rate.
+To book, choose your room and pay the £300 deposit. Each room has its own reservation link below; until the per-rate PayPal payment links are connected, each one opens an email to Nadia with your room already named. One link per room and rate, never a shared payment link across different prices.
+
+<p>
+<a class="btn" href="mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Wild%20Thyme%2C%2012%20to%2017%20September%202026">Reserve Wild Thyme</a>
+<a class="btn" href="mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Sea%20Lavender%2C%2012%20to%2017%20September%202026">Reserve Sea Lavender</a>
+<a class="btn" href="mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Coastal%20Rose%2C%2012%20to%2017%20September%202026">Reserve Coastal Rose</a>
+<a class="btn" href="mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Sea%20Holly%2C%2012%20to%2017%20September%202026">Reserve Sea Holly</a>
+<a class="btn" href="mailto:info@sarksoulretreats.com?subject=Booking%20request%3A%20Foxglove%20single%2C%2012%20to%2017%20September%202026">Reserve Foxglove</a>
+</p>
 
 ## What's Included
 

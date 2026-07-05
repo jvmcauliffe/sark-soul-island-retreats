@@ -46,7 +46,7 @@ const breadcrumbs =
 <BaseLayout
   title={d.metaTitle}
   description={d.metaDescription}
-  ogImage={d.ogImage}
+  ogImage={d.ogImage ?? d.heroImage?.src}
   event={d.retreatPage}
   breadcrumbs={breadcrumbs}
 >
