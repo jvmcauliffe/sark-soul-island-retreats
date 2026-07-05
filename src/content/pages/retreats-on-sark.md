@@ -28,6 +28,8 @@ All rooms are located within our beautifully historic farmhouse surrounded by aw
 
 ## The rooms
 
+![A bedroom at the retreat house on Sark, Channel Islands](../../assets/photos/sark-bedroom-retreat-house.jpg)
+
 **'Wild Thyme', double or twin room en suite** (shared £1,495 per person, single £1,995). Elegant and serene, our ensuite rooms offer a soothing space after each day's practice. Every detail has been designed for comfort, so you can breathe, reflect, and simply be.
 
 **'Sea Lavender', double or twin room en suite** (shared £1,495 per person, single £1,995). Spacious and comfortable, this ensuite room is a sanctuary for slowing down. Thoughtfully arranged to support rest and reflection.

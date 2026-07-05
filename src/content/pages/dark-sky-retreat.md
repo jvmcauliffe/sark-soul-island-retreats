@@ -6,8 +6,8 @@ slug: dark-sky-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Retreat on the World's First Dark Sky Island
 heroLine: When the sun goes down here, the night does not dim. It deepens.
-heroImage: ../../assets/photos/sark-dark-sky-stargazing-firelight.jpg
-heroImageAlt: Guests stargazing by firelight under the dark night sky on Sark, the world's first Dark Sky Island
+heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
+heroImageAlt: The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island, Channel Islands
 heroShot: Milky Way over Sark, this shot must lead
 retreatPage: true
 darkStrip:
@@ -47,7 +47,7 @@ On a clear evening the Milky Way is not a faint smudge but a textured band acros
 
 [Reserve my place](/retreats-on-sark)
 
-<div class="photo-slot">Photo needed, lead: Milky Way over Sark. Alt: the Milky Way over Sark, the world's first Dark Sky Island, Channel Islands.</div>
+![Guests stargazing by firelight under the dark night sky on Sark](../../assets/photos/sark-dark-sky-stargazing-firelight.jpg)
 
 ## How dark is dark?
 
@@ -69,7 +69,7 @@ Stargazing on the retreat is unhurried and unforced. Some evenings we walk out t
 
 Other evenings, guests simply step into the farmhouse garden and look up. No equipment is needed, though binoculars reward the curious. In skies this dark, your own eyes are enough.
 
-<div class="photo-slot">Photo needed: Sark Henge at dusk. Alt: Sark Henge standing stones at dusk, a stargazing spot on the Dark Sky Island of Sark.</div>
+![Sark Henge standing stones at dusk, a stargazing spot on the Dark Sky Island of Sark](../../assets/photos/sark-henge-standing-stones-dusk.jpg)
 
 ## The rest of the retreat
 

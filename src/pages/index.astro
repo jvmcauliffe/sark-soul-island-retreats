@@ -1,7 +1,9 @@
 ---
 // Home, migrated from the live Wix site with the known fixes applied.
-// Copy is verbatim from the live homepage; images follow the live site's
-// own placements (La Coupée hero, island aerial, Monica, Nadia, the house).
+// Copy is verbatim from the live homepage; the section order, the two
+// retreat cards, the values strip, the starred testimonials, the dark
+// guide panel and the Join Our Circle grid follow the live design,
+// rebuilt with zero client side JavaScript.
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import AttributionStrip from '../components/AttributionStrip.astro';
@@ -11,11 +13,27 @@ import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import CTABand from '../components/CTABand.astro';
 import MailerLiteForm from '../components/MailerLiteForm.astro';
+import { Image } from 'astro:assets';
 import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
 import islandAerial from '../assets/photos/sark-island-aerial.jpg';
 import monicaStudio from '../assets/photos/sark-monica-yogamorphic-studio.jpg';
 import nadiaStudio from '../assets/photos/sark-nadia-founder-host-studio.jpg';
 import retreatHouse from '../assets/photos/sark-retreat-house-aerial.jpg';
+import coastalWalk from '../assets/photos/sark-coastal-path-walk.jpg';
+import headlandView from '../assets/photos/sark-la-coupee-headland-view.jpg';
+import stargazing from '../assets/photos/sark-dark-sky-stargazing-firelight.jpg';
+import circleArch from '../assets/photos/sark-wild-swim-rock-arch.jpg';
+import circleGoat from '../assets/photos/sark-goat-carved-stone.jpg';
+import circlePose from '../assets/photos/sark-yoga-childs-pose-class.jpg';
+import circleSwim from '../assets/photos/sark-wild-swimming-cove.jpg';
+import circleBuddha from '../assets/photos/sark-buddha-statue-garden.jpg';
+import circleHenge from '../assets/photos/sark-henge-standing-stones-dusk.jpg';
+import circleWarrior from '../assets/photos/sark-clifftop-yoga-warrior-pose.jpg';
+import circleBay from '../assets/photos/sark-turquoise-bay-beach-path.jpg';
+import circleCove from '../assets/photos/sark-rocky-cove-turquoise.jpg';
+import circleMeadow from '../assets/photos/sark-meadow-yoga-pose.jpg';
+import circleYachts from '../assets/photos/sark-harbour-bay-yachts.jpg';
+import circleCurry from '../assets/photos/sark-vegetarian-curry-bowl.jpg';
 
 const testimonials = [
   {
@@ -44,6 +62,21 @@ const testimonials = [
     name: 'Andrea · May 2026',
   },
 ];
+
+const circle = [
+  { src: circleArch, alt: 'Wild swimming beneath a rock arch on the coast of Sark, Channel Islands' },
+  { src: circleWarrior, alt: 'Warrior pose on the clifftop above the sea on Sark, Channel Islands' },
+  { src: circleGoat, alt: 'A Sark goat standing on a carved stone on Sark' },
+  { src: circleBay, alt: 'A grassy path down to a turquoise bay on Sark, Channel Islands' },
+  { src: circlePose, alt: "Child's pose during a yoga class at the retreat on Sark" },
+  { src: circleHenge, alt: 'Sark Henge standing stones at dusk on the Dark Sky Island of Sark' },
+  { src: circleSwim, alt: 'Guests swimming in a sheltered turquoise cove on Sark, Channel Islands' },
+  { src: circleMeadow, alt: 'A yoga pose in a wildflower meadow on Sark' },
+  { src: circleBuddha, alt: 'Buddha statue in the garden of the retreat house on Sark' },
+  { src: circleYachts, alt: 'Yachts at anchor in a turquoise bay on Sark, Channel Islands' },
+  { src: circleCurry, alt: 'A vegetarian curry bowl at the retreat on Sark' },
+  { src: circleCove, alt: 'A rocky turquoise cove on the coast of Sark, Channel Islands' },
+];
 ---
 
 <BaseLayout
@@ -52,6 +85,7 @@ const testimonials = [
 >
   <Hero
     eyebrow="Isle of Sark · Channel Islands"
+    brand={true}
     title="Yoga & Nature Retreats on Sark Island"
     line="Intimate five-night retreats on the world's first Dark Sky Island, half a day from London, a world away from everything else."
     image={laCoupee}
@@ -60,15 +94,33 @@ const testimonials = [
   />
   <AttributionStrip />
 
-  <section class="section" style="text-align: center;">
+  <section class="retreat-cards container">
+    <a class="retreat-card" href="/retreats-on-sark">
+      <Image src={coastalWalk} alt="" width={880} height={620} class="retreat-card-img" />
+      <div class="retreat-card-scrim" aria-hidden="true"></div>
+      <div class="retreat-card-body">
+        <h2>Late Summer Retreat</h2>
+        <p>12 to 17 September 2026</p>
+        <span class="btn">Reserve my place</span>
+      </div>
+    </a>
+    <a class="retreat-card" href="/contact">
+      <Image src={headlandView} alt="" width={880} height={620} class="retreat-card-img" />
+      <div class="retreat-card-scrim" aria-hidden="true"></div>
+      <div class="retreat-card-body">
+        <h2>Early Summer Retreat</h2>
+        <p>2027 dates coming soon</p>
+        <span class="btn">Join the waitlist</span>
+      </div>
+    </a>
+  </section>
+
+  <section class="section" style="text-align: center; padding-top: 0;">
     <div class="narrow">
-      <span class="eyebrow">Late Summer Retreat · September 2026</span>
-      <h2>A small group, twice a year, in a historic farmhouse by the sea.</h2>
       <p style="margin-inline: auto;">
-        Daily yoga, coastal walks, nourishing food, and the kind of quiet most people haven't
-        experienced in years. Early Summer Retreat 2027 dates coming soon.
+        A small group, twice a year, in a historic farmhouse by the sea. Daily yoga, coastal
+        walks, nourishing food, and the kind of quiet most people haven't experienced in years.
       </p>
-      <a class="btn" href="/retreats-on-sark">Reserve my place</a>
     </div>
   </section>
 
@@ -134,27 +186,35 @@ const testimonials = [
     </p>
   </QRow>
 
-  <QRow
-    question="A place to arrive"
-    eyebrow="Your home for the week"
-    image={retreatHouse}
-    imageAlt="Our historic farmhouse and its gardens from the air on Sark, Channel Islands"
-    shot="The retreat house"
-    caption="Our historic farmhouse and its gardens."
-    reverse
-  >
-    <p>
-      Held within a historic farmhouse surrounded by stunning gardens, this is more than a
-      beautiful setting, it is a place that naturally slows the body and quiets the mind. The
-      setting supports rest, reflection, and a gentle return to yourself.
-    </p>
-    <p>
-      Sark sits a short ferry from Guernsey, half a day from London and a world away from
-      everything else. Plenty of guests first meet the island on a day trip, then find
-      themselves wanting more than a few hours. A week is how you really feel the place settle
-      into you. <a href="/retreats-on-sark">Find out more about our retreats</a>
-    </p>
-  </QRow>
+  <section class="values section cream">
+    <div class="container values-grid">
+      <div>
+        <h3>A place to arrive</h3>
+        <p>
+          Held within a historic farmhouse surrounded by stunning gardens, this is more than a
+          beautiful setting, it is a place that naturally slows the body and quiets the mind.
+          The setting supports rest, reflection, and a gentle return to yourself.
+        </p>
+      </div>
+      <div>
+        <h3>A yoga retreat in the Channel Islands</h3>
+        <p>
+          Sark sits a short ferry from Guernsey, half a day from London and a world away from
+          everything else. Plenty of guests first meet the island on a day trip, then find
+          themselves wanting more than a few hours. A week is how you really feel the place
+          settle into you.
+        </p>
+      </div>
+      <div>
+        <h3>Balancing practice &amp; ease</h3>
+        <p>
+          Spacious days, time to rest, sea air, coastal walks, turquoise coves, daily swims,
+          shared meals, with morning and evening Yoga framing the day. Life on Sark is simple
+          and unhurried, offering space to breathe, move, and settle.
+        </p>
+      </div>
+    </div>
+  </section>
 
   <DarkStrip eyebrow="After dark" heading="No street lighting. The first Dark Sky Island on Earth.">
     <p>
@@ -168,6 +228,25 @@ const testimonials = [
     <p style="font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase;">Victor Hugo</p>
   </DarkStrip>
 
+  <QRow
+    question="Your home for the week"
+    eyebrow="A place to arrive"
+    image={retreatHouse}
+    imageAlt="Our historic farmhouse and its gardens from the air on Sark, Channel Islands"
+    shot="The retreat house"
+    caption="Our historic farmhouse and its gardens."
+    reverse
+  >
+    <p>
+      Your retreat house is one of Sark's most beautiful historic farmhouses. A small private
+      estate surrounded by gardens, woodland, and birdsong. It's intimate, warm, and deeply
+      peaceful, the perfect setting for a soulful retreat.
+    </p>
+    <p>
+      <a href="/retreats-on-sark">Find out more about our retreats</a>
+    </p>
+  </QRow>
+
   <section class="section cream">
     <div class="container" style="text-align: center;">
       <span class="eyebrow">What guests say</span>
@@ -176,6 +255,7 @@ const testimonials = [
         {
           testimonials.map((t) => (
             <blockquote>
+              <span class="stars" aria-label="Five stars">★★★★★</span>
               <p>"{t.quote}"</p>
               <cite>{t.name}</cite>
             </blockquote>
@@ -191,16 +271,35 @@ const testimonials = [
     quote="People arrive with their shoulders somewhere near their ears. By the second morning on Sark, they have let them down. That is the transformative part, and the island does most of it."
   />
 
-  <section class="section" style="text-align: center;">
-    <div class="narrow">
-      <span class="eyebrow">Free travel guide</span>
+  <section class="guide-panel on-dark">
+    <Image src={stargazing} alt="" width={1200} height={800} class="guide-bg" loading="lazy" />
+    <div class="guide-scrim" aria-hidden="true"></div>
+    <div class="narrow guide-content">
+      <span class="eyebrow gold">Free guide</span>
       <h2>Getting to Sark</h2>
-      <p style="margin-inline: auto;">
+      <p>
         Guests used to ask me the same things before they came, and I loved answering. So I
         gathered it all into this little guide: the ferry, the famous luggage system, what the
         first evening feels like. No spam, just island news now and then. Unsubscribe anytime.
       </p>
+      <p class="guide-sig">Nadia, founder and host 🌿</p>
       <MailerLiteForm slug="9SoA2F" />
+    </div>
+  </section>
+
+  <section class="section" style="text-align: center;">
+    <div class="container">
+      <span class="eyebrow">Join our circle</span>
+      <h2>Follow us @sarksoulretreats</h2>
+      <div class="circle-grid">
+        {
+          circle.map((c) => (
+            <a href="https://www.instagram.com/sarksoulretreats" rel="noopener">
+              <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
+            </a>
+          ))
+        }
+      </div>
     </div>
   </section>
 
@@ -208,6 +307,88 @@ const testimonials = [
 </BaseLayout>
 
 <style>
+  .retreat-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding-block: clamp(28px, 4vw, 48px);
+  }
+
+  @media (min-width: 700px) {
+    .retreat-cards {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .retreat-card {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-decoration: none;
+    aspect-ratio: 16 / 9;
+  }
+
+  .retreat-card :global(.retreat-card-img) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .retreat-card:hover :global(.retreat-card-img) {
+    transform: scale(1.03);
+  }
+
+  .retreat-card-scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(17, 27, 39, 0.72), rgba(17, 27, 39, 0.15) 60%);
+  }
+
+  .retreat-card-body {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4px;
+    padding: 20px;
+  }
+
+  .retreat-card-body h2 {
+    color: #fff;
+    margin: 0;
+  }
+
+  .retreat-card-body p {
+    color: var(--cream);
+    margin: 0 0 14px;
+  }
+
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  @media (min-width: 820px) {
+    .values-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .values-grid h3 {
+    margin-bottom: 0.5em;
+  }
+
+  .values-grid p {
+    max-width: none;
+  }
+
   .testimonials {
     display: grid;
     grid-template-columns: 1fr;
@@ -220,11 +401,6 @@ const testimonials = [
     .testimonials {
       grid-template-columns: repeat(3, 1fr);
     }
-
-    .testimonials blockquote:nth-child(4),
-    .testimonials blockquote:nth-child(5) {
-      grid-column: span 1;
-    }
   }
 
   .testimonials blockquote {
@@ -232,6 +408,14 @@ const testimonials = [
     background: var(--paper);
     border: 1px solid var(--cream-deep);
     padding: 28px;
+  }
+
+  .stars {
+    display: block;
+    color: var(--gold);
+    font-size: 15px;
+    letter-spacing: 4px;
+    margin-bottom: 12px;
   }
 
   .testimonials p {
@@ -249,5 +433,76 @@ const testimonials = [
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: var(--sage);
+  }
+
+  .guide-panel {
+    position: relative;
+    overflow: hidden;
+    padding-block: clamp(64px, 9vw, 110px);
+    text-align: center;
+  }
+
+  .guide-panel :global(.guide-bg) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .guide-scrim {
+    position: absolute;
+    inset: 0;
+    background: rgba(17, 27, 39, 0.78);
+  }
+
+  .guide-content {
+    position: relative;
+  }
+
+  .guide-content h2 {
+    color: var(--cream);
+  }
+
+  .guide-content p {
+    color: var(--cream);
+    margin-inline: auto;
+  }
+
+  .guide-sig {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 18px;
+    color: var(--gold);
+  }
+
+  .circle-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 36px;
+  }
+
+  @media (min-width: 700px) {
+    .circle-grid {
+      grid-template-columns: repeat(6, 1fr);
+    }
+  }
+
+  .circle-grid a {
+    display: block;
+    aspect-ratio: 1;
+    overflow: hidden;
+  }
+
+  .circle-grid :global(.circle-img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+  }
+
+  .circle-grid a:hover :global(.circle-img) {
+    transform: scale(1.05);
   }
 </style>
