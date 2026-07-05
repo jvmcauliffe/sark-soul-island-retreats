@@ -23,13 +23,15 @@ Every retreat is a chance to find your tribe: people who share your love of yoga
 
 We are constantly inspired by the generations who have called Sark home before us. Their traditions and way of life remind us of the importance of caring for the land and sea. Our hope is to share the magic of Sark with the wider world in a way that respects this heritage, treads lightly, and supports the local community.
 
-![Guests walking together on a coastal path on Sark, Channel Islands](../../assets/photos/sark-guests-walking-group.jpg)
-
 ## Why yoga works here.
+
+![Morning yoga practice in the private studio at the retreat house on Sark](../../assets/photos/sark-morning-yoga-practice-studio.jpg)
 
 With no cars and no traffic, every breath feels lighter. Surrounded by sea air, nourished by local food and held by the island's stillness, the practice deepens almost on its own.
 
 ## Can I come on my own?
+
+![A shared vegetarian feast in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
 
 Most of our guests do. With only ten to twelve people in one house, no-one stays a stranger past the first evening. You'll share the table, the walks, the morning practice, and people who arrived alone tend to leave with friends they keep.
 
@@ -39,7 +41,9 @@ You don't need to bring anyone. You just need to come. Our [solo retreat page](/
 
 Sark is closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the pleasant passenger ferry from St Peter Port with [Sark Shipping](https://sarkshipping.gg). We help guests choose flights that connect comfortably with the Sark ferry and advise them on timings.
 
-When guests arrive in Guernsey, they often have time to explore St Peter Port before the ferry leaves. It's a lovely way to begin the retreat. They can wander around the harbour, explore the cobbled streets, have lunch and start slowing down before heading to Sark. Guests can collect their ferry tickets and luggage labels from Sark Shipping, leave their luggage in the holding area and enjoy Guernsey without dragging suitcases around. On arrival your luggage is then transferred for you and delivered directly to the accommodation in Sark.
+![The harbour at St Peter Port, Guernsey, before the ferry crossing to Sark](../../assets/photos/sark-st-peter-port-guernsey.jpg)
+
+When guests arrive in Guernsey, they often have time to explore St Peter Port before the ferry leaves. It's a lovely way to begin the retreat. They can wander around the harbour, explore the cobbled streets, have lunch and start slowing down before heading to Sark.
 
 ## What is the boat journey like?
 
@@ -71,9 +75,17 @@ By the time you arrive at the accommodation, something has already shifted. You'
 
 ## Is it really that dark at night?
 
+![Sark Henge under the Milky Way at night on Sark, the world's first Dark Sky Island](../../assets/photos/sark-henge-night-sky-stars.jpg)
+
 When night falls on Sark, the sky transforms into a breathtaking theatre of stars. Recognised as the world's first Dark Sky Island, Sark offers unparalleled stargazing. With no streetlights and no cars, the night deepens. Beneath the Milky Way, connection deepens, with the cosmos, with nature, and with one another.
 
 There's signal here, and there's wifi. You simply stop reaching for your phone, because there's something better to look at. Our [Dark Sky retreat](/dark-sky-retreat) is built around exactly this.
+
+## Planning for your visit
+
+![The ferry to Sark leaving the harbour, Channel Islands](../../assets/photos/sark-ferry-to-island.jpg)
+
+Sark operates its own unique luggage system. Guests can collect their ferry tickets and luggage labels from Sark Shipping, leave their luggage in the holding area and enjoy Guernsey without dragging suitcases around. Their luggage is then transferred for them and delivered directly to the accommodation in Sark.
 
 ## Do I need to be good at Yoga?
 
@@ -91,7 +103,11 @@ Our Chefs, Bram and Pip, cook vegetarian, generous and seasonal, from what the i
 
 Home for the week is a historic farmhouse with a much-loved garden, a real home rather than a hotel. With only ten to twelve guests, the shared rooms fill with easy conversation, while quiet corners wait for the moments you would rather be alone.
 
+![The Honeysuckle room with original stonework at the retreat house on Sark](../../assets/photos/sark-honeysuckle-room.jpg)
+
 ## What can I expect from the week?
+
+![Retreat guests together in the farmhouse garden on Sark, Channel Islands](../../assets/photos/sark-retreat-group-garden.jpg)
 
 Your investment covers everything that matters: your room, the wellness facilities, all Bram and Pip's fabulous meals, daily yoga with Monica, and of course the island itself.
 
