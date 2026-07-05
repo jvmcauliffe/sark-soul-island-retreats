@@ -61,12 +61,88 @@ const breadcrumbs =
     image={d.heroImage}
     imageAlt={d.heroImageAlt}
     shot={d.heroShot}
+    ctaHref={d.booking?.paypal}
   />
   <AttributionStrip />
 
-  <article class="prose section container">
-    <Content />
-  </article>
+  {
+    page.body?.trim() && (
+      <article class="prose section container">
+        <Content />
+      </article>
+    )
+  }
+
+  {
+    d.booking && (
+      <section class="section container booking">
+        <div class="booking-top">
+          {
+            d.booking.paypal ? (
+              <>
+                <a class="btn" href={d.booking.paypal}>Reserve my place</a>
+                {d.booking.note && <p class="booking-note">{d.booking.note}</p>}
+              </>
+            ) : (
+              <p class="booking-soldout">
+                Sold out for September 2026. <a href="/contact">Join the waitlist</a> or
+                <a href="/retreats-on-sark"> choose another room</a>.
+              </p>
+            )
+          }
+        </div>
+
+        {
+          d.booking.images.length > 0 && (
+            <div class="booking-photos">
+              {d.booking.images.map((img) => (
+                <ImageSlot src={img.src} alt={img.alt} shot={img.alt} width={800} height={560} />
+              ))}
+            </div>
+          )
+        }
+
+        <div class="booking-grid">
+          <div class="booking-what">
+            <h2>What You're Booking</h2>
+            <ul>
+              {d.booking.includes.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </div>
+          <div class="booking-rate">
+            <p class="rate-line">{d.booking.rateLine}</p>
+            <p>
+              {d.booking.deposit}
+              <br />
+              {d.booking.balance}
+            </p>
+            <p class="booking-terms">
+              Bookings are subject to our <a href="/terms-conditions">Terms &amp; Conditions</a>.
+            </p>
+          </div>
+        </div>
+
+        {
+          d.booking.paypal && (
+            <div class="booking-final">
+              <h2>Reserve my place</h2>
+              <p>
+                You are one step away from securing your place. Complete your booking securely via
+                PayPal or card payment.
+              </p>
+              <a class="btn" href={d.booking.paypal}>Reserve my place</a>
+            </div>
+          )
+        }
+
+        <p class="booking-back">
+          <a href="/retreats-on-sark">Back to all rooms and rates</a>
+        </p>
+      </section>
+    )
+  }
 
   {d.rooms.length > 0 && <RoomCards rooms={d.rooms} />}
 
@@ -259,6 +335,111 @@ const breadcrumbs =
     height: auto;
     aspect-ratio: 1;
     object-fit: cover;
+  }
+
+  .booking {
+    text-align: center;
+  }
+
+  .booking-top {
+    margin-bottom: 40px;
+  }
+
+  .booking-note {
+    margin: 12px auto 0;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--clay);
+  }
+
+  .booking-soldout {
+    margin-inline: auto;
+    font-size: 18px;
+  }
+
+  .booking-photos {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+    max-width: 880px;
+    margin: 0 auto 48px;
+  }
+
+  .booking-photos :global(picture) {
+    display: block;
+  }
+
+  .booking-photos :global(img) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 10 / 7;
+    object-fit: cover;
+  }
+
+  .booking-grid {
+    display: grid;
+    gap: 40px;
+    max-width: 880px;
+    margin: 0 auto 56px;
+    text-align: left;
+  }
+
+  @media (min-width: 700px) {
+    .booking-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .booking-what ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .booking-what li {
+    padding-left: 24px;
+    position: relative;
+  }
+
+  .booking-what li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 12px;
+    height: 2px;
+    background: var(--gold);
+  }
+
+  .rate-line {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 3vw, 30px);
+    color: var(--ink);
+    margin-bottom: 12px;
+  }
+
+  .booking-terms {
+    font-size: 14px;
+    color: var(--sage-dark);
+  }
+
+  .booking-final {
+    background: var(--cream);
+    padding: clamp(32px, 5vw, 56px);
+    max-width: 720px;
+    margin: 0 auto 32px;
+  }
+
+  .booking-final p {
+    margin-inline: auto;
+  }
+
+  .booking-back {
+    font-size: 14px;
   }
 
   .travel {

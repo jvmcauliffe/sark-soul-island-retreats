@@ -92,6 +92,21 @@ const pages = defineCollection({
         })
       )
       .default([]),
+    // Per room-and-rate booking pages, mirroring the live site's individual
+    // reservation pages. No paypal link means the rate is sold out.
+    booking: z
+      .object({
+        rateLine: z.string(),
+        deposit: z.string().default('Deposit due: £300'),
+        balance: z.string().default('Balance due 45 days before arrival'),
+        paypal: z.string().optional(),
+        note: z.string().optional(),
+        includes: z.array(z.string()),
+        images: z
+          .array(z.object({ src: image(), alt: z.string() }))
+          .default([]),
+      })
+      .optional(),
   }),
 });
 
