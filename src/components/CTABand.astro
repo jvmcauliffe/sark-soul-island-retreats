@@ -11,9 +11,9 @@ const {
 } = Astro.props;
 ---
 
-<section class="cta-band">
+<section class="cta-band on-dark">
   <div class="narrow">
-    <span class="eyebrow">Late Summer Retreat 2026</span>
+    <span class="eyebrow gold">Late Summer Retreat 2026</span>
     <h2>{heading}</h2>
     <p>{line}</p>
     <a class="btn" href="/retreats-on-sark">Reserve my place</a>
@@ -22,18 +22,17 @@ const {
 
 <style>
   .cta-band {
-    background: var(--cream);
-    border-top: 1px solid var(--cream-deep);
+    background: var(--ink-soft);
     padding-block: clamp(56px, 8vw, 90px);
     text-align: center;
   }
 
   .cta-band h2 {
-    color: var(--ink);
+    color: var(--cream);
   }
 
   .cta-band p {
-    color: var(--sage-dark);
+    color: var(--cream-deep);
     margin: 0 auto 28px;
   }
 </style>
