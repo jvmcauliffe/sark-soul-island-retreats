@@ -165,12 +165,12 @@ addOns:
     - icon: snowflake
       text: Guided Breathwork and Cold Immersion, available as additional treatment
   images:
-    - src: ../../assets/photos/sark-julienne-massage-therapist.jpg
-      alt: Julienne, massage therapist at the retreat house on Sark
-    - src: ../../assets/photos/sark-louise-reiki-artist.jpg
-      alt: Louise, Reiki practitioner at the retreat house on Sark
-    - src: ../../assets/photos/sark-ana-cold-immersion.jpg
-      alt: Ana guiding a cold immersion session on Sark, Channel Islands
+    - src: ../../assets/photos/sark-massage-therapy-treatment.jpg
+      alt: Relaxing massage treatment at the wellness retreat on Sark
+    - src: ../../assets/photos/sark-reiki-treatment.jpg
+      alt: Relaxing Reiki treatment at the yoga wellness retreat on Sark
+    - src: ../../assets/photos/sark-cold-water-ice-bath.jpg
+      alt: Cold water ice bath experience at the yoga retreat on Sark
 features:
   - heading: Private Lounge
     body: Your retreat house offers plenty of spaces for reflection and quiet corners for journaling or solitude.

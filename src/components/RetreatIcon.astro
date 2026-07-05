@@ -1,40 +1,29 @@
 ---
-// Thin line-art icons for the What's Included and Retreat Add-ons lists,
-// mirroring the live site's icon treatment. Pure inline SVG, zero JS.
-// Icon names are chosen in page frontmatter; only the artwork lives here.
+// Icons for the What's Included and Retreat Add-ons lists. These are the
+// exact vector icons from the live site, saved as static SVGs under
+// /public/icons/. Decorative only, zero JS. Icon names are chosen in page
+// frontmatter; this component maps them to their files.
 interface Props {
   name: string;
 }
 
 const { name } = Astro.props;
 
-const paths: Record<string, string> = {
-  yoga: '<circle cx="12" cy="5.2" r="2"/><path d="M12 7.5v4.2M12 11.7c-2.6 0-4.8 1.6-5.7 4M12 11.7c2.6 0 4.8 1.6 5.7 4M4 18.5c2.5-1.6 5-2.4 8-2.4s5.5.8 8 2.4"/>',
-  stars: '<path d="M12 4l1.3 4.2L17.5 9.5l-4.2 1.3L12 15l-1.3-4.2L6.5 9.5l4.2-1.3z"/><path d="M18.5 15.5l.6 1.9 1.9.6-1.9.6-.6 1.9-.6-1.9-1.9-.6 1.9-.6zM5.5 16.5l.5 1.5 1.5.5-1.5.5-.5 1.5-.5-1.5-1.5-.5 1.5-.5z"/>',
-  moon: '<path d="M19.5 13.8A8 8 0 1 1 10.2 4.5a6.4 6.4 0 0 0 9.3 9.3z"/>',
-  carriage: '<circle cx="7.5" cy="16.5" r="3"/><circle cx="17" cy="17" r="2.2"/><path d="M4.5 13.5l2.2-5h5.8v5zM12.5 13.5h4.5l3-1.5"/>',
-  house: '<path d="M4.5 11.5L12 5l7.5 6.5M6 10.5V19h12v-8.5M10 19v-4.5h4V19"/>',
-  path: '<path d="M4 18.5c4.5-1.5 3.5-5.5 8-6.5s5-3.5 8-7.5" stroke-dasharray="0.2 3.4" stroke-linecap="round" stroke-width="2"/>',
-  cutlery: '<path d="M7.5 3.5v5.5M5.5 3.5v3a2 2 0 0 0 4 0v-3M7.5 9v11.5M16.5 20.5v-17c-1.8 1.6-2.6 4.4-2 7l2 .8"/>',
-  ferry: '<path d="M4 14.5l1.6 3.5h12.8l1.6-3.5-8-2zM9.5 12V8.5h5V12M12 8.5V6"/><path d="M4 21c1.8-1 3.5-1 5.3 0 1.8 1 3.6 1 5.4 0 1.8-1 3.5-1 5.3 0" stroke-width="1"/>',
-  pool: '<path d="M8.5 4.5v11M13 4.5v11M8.5 8h4.5M8.5 11.5h4.5"/><path d="M3.5 18.5c1.9-1.3 3.8-1.3 5.7 0 1.9 1.3 3.7 1.3 5.6 0 1.9-1.3 3.8-1.3 5.7 0"/>',
-  heart: '<rect x="4" y="4" width="16" height="16" rx="4"/><path d="M12 15.5s-3.2-2-3.2-4.2c0-1.1.9-2 1.9-2 .6 0 1.1.4 1.3 1 .2-.6.7-1 1.3-1 1 0 1.9.9 1.9 2 0 2.2-3.2 4.2-3.2 4.2z"/>',
-  massage: '<path d="M12 4.5c1.2 2 1.2 3.8 0 5.5-1.2-1.7-1.2-3.5 0-5.5zM7 8.5c2.2.4 3.6 1.5 4.4 3.4-2.2.3-3.9-.7-4.4-3.4zM17 8.5c-.5 2.7-2.2 3.7-4.4 3.4.8-1.9 2.2-3 4.4-3.4z"/><path d="M5 19.5c2-3 4.5-4.5 7-4.5s5 1.5 7 4.5"/>',
-  reiki: '<circle cx="12" cy="12" r="3.2"/><path d="M12 4.5v2.2M12 17.3v2.2M4.5 12h2.2M17.3 12h2.2M6.7 6.7l1.6 1.6M15.7 15.7l1.6 1.6M17.3 6.7l-1.6 1.6M8.3 15.7l-1.6 1.6"/>',
-  snowflake: '<path d="M12 3.5v17M4.6 7.75l14.8 8.5M19.4 7.75l-14.8 8.5M12 3.5l-2-1.5M12 3.5l2-1.5M12 20.5l-2 1.5M12 20.5l2 1.5"/>',
+const files: Record<string, string> = {
+  yoga: 'yoga',
+  stars: 'night-sky',
+  moon: 'rest',
+  carriage: 'carriage',
+  house: 'farmhouse',
+  path: 'activities',
+  cutlery: 'meals',
+  ferry: 'ferry',
+  pool: 'pools',
+  heart: 'support',
+  massage: 'massage',
+  reiki: 'reiki',
+  snowflake: 'cold-immersion',
 };
 ---
 
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  width="34"
-  height="34"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="1.2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
-  aria-hidden="true"
-  set:html={paths[name] ?? ''}
-/>
+<img src={`/icons/${files[name] ?? name}.svg`} alt="" width="44" height="44" loading="lazy" />
