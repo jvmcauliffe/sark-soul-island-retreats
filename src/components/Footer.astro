@@ -48,8 +48,10 @@ const columns = [
       <span class="eyebrow gold">Stay in touch</span>
       <h2>Join the waitlist for future retreats</h2>
       <p>Be the first to hear when new dates open.</p>
-      <MailerLiteForm slug="GIRqf4" cta="Join the waitlist" />
-      <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+      <div class="footer-actions">
+        <MailerLiteForm slug="GIRqf4" cta="Join the waitlist" />
+        <a class="btn ghost-dark" href="/retreats-on-sark">Reserve my place</a>
+      </div>
     </div>
 
     <div class="footer-links">
@@ -116,6 +118,26 @@ const columns = [
   .footer-cta p {
     margin-inline: auto;
     color: var(--cream-deep);
+  }
+
+  .footer-actions {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+
+  .footer-actions .btn.ghost-dark {
+    background: transparent;
+    box-shadow: inset 0 0 0 1px var(--teal);
+    color: var(--cream);
+  }
+
+  .footer-actions .btn.ghost-dark:hover {
+    background: var(--teal);
+    color: #fff;
   }
 
   .footer-links {
