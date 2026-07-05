@@ -57,6 +57,8 @@ You walk through a tunnel cut into the rock where guests are met by our team and
 
 For many people this is their first truly memorable Sark moment. It's bumpy, fun and usually involves a lot of laughter. I can remember being told "Hold on to your boobs, it's a bumpy ride."
 
+![Guests riding the tractor-drawn toast rack up Harbour Hill on Sark](../../assets/photos/sark-toast-rack-guests-arrival.jpg)
+
 ## Do people use Horse and Carriages on Sark?
 
 At the top of the hill, guests transfer to a beautiful horse and carriage. The carriage ride is your first proper introduction to the island. You begin learning about Sark while taking in the scenery and atmosphere.
@@ -64,6 +66,8 @@ At the top of the hill, guests transfer to a beautiful horse and carriage. The c
 ![A horse and carriage on the car-free coastal road on Sark, Channel Islands](../../assets/photos/sark-horse-carriage-coastal-road.jpg)
 
 By the time you arrive at the accommodation, something has already shifted. You've left airports behind. You've left traffic behind. You've left deadlines and daily routines behind. You've crossed the sea, seen dolphins, travelled by toast rack and horse and carriage, and arrived somewhere that feels completely different from modern life. No wonder the retreat begins long before the first yoga session.
+
+![Our historic farmhouse behind summer poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
 
 ## Is it really that dark at night?
 

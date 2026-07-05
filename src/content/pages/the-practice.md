@@ -18,6 +18,8 @@ Each day opens and closes with yoga. Morning practice to wake the body gently, e
 
 You will never be pushed to perform. Sessions are small by design, so the teaching meets you where you are. Through years of study with international teachers and her own dedicated practice, Monica has learned to make space for creativity, integration, and the quiet joy of inner freedom. Between practices, the days are yours: coastal walks, sea swims, quiet corners for rest. The rhythm is simple, and that simplicity is the point.
 
+![Guests wild swimming at the Venus Pool on Sark, Channel Islands](../../assets/photos/sark-venus-pool-wild-swimming.jpg)
+
 ![Monica guiding a student through a posture during the yoga immersion on Sark](../../assets/photos/sark-yoga-immersion-monica-teaching.jpg)
 
 ## This immersion is for you, if:

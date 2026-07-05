@@ -83,7 +83,7 @@ Most guests fly into Guernsey, around 45 minutes from London, then take the pass
 
 Our full travel guide answers every practical question: [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat).
 
-<div class="photo-slot">Photo needed: the toast rack or harbour. Alt: arriving on car-free Sark by tractor-drawn toast rack from the harbour.</div>
+![Arriving on car-free Sark by tractor-drawn toast rack from the harbour at dusk](../../assets/photos/sark-toast-rack-harbour-evening.jpg)
 
 ## Dates, price and what's included
 

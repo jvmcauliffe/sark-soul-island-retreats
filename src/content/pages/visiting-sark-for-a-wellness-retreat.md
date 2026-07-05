@@ -17,6 +17,8 @@ This page carries the Getting to Sark guide migrated from the live site. Holding
 
 The short version: travel to Guernsey by air or sea, then take the ferry with [Sark Shipping](https://sarkshipping.gg), around 55 minutes across. From the harbour the tractor-drawn toast rack climbs the hill, and a horse and carriage brings you to the retreat house. Sark is car-free for visitors, though the island's tractors are very much part of daily life.
 
+![Guests riding the tractor-drawn toast rack from the harbour on Sark](../../assets/photos/sark-toast-rack-guests-arrival.jpg)
+
 Prefer it all in one place? The full guide is free to download just below.
 
 See [the retreat dates and booking page](/retreats-on-sark) or read [why we chose Sark](/why-sark).

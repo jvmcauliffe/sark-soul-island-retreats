@@ -186,8 +186,8 @@ features:
     alt: A bicycle at La Coupee above turquoise bays on Sark, Channel Islands
   - heading: Private Yoga Studio
     body: A newly created private yoga studio designed specifically for this retreat.
-    image: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
-    alt: Morning yoga practice in the private studio at the retreat house on Sark
+    image: ../../assets/photos/sark-private-yoga-studio-garden.jpg
+    alt: The newly created private yoga studio in the gardens of the retreat house on Sark
   - heading: Carriage Rides
     body: Experience Sark's traditional mode of transport with a scenic carriage ride.
     image: ../../assets/photos/sark-horse-and-carriage-guests.jpg

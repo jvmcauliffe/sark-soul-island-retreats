@@ -19,6 +19,8 @@ nadiaNote: From the first time I set foot on Sark, I knew this island held somet
 
 Sark Soul Island Retreats was born from a deep love of yoga, nature, and the rare magic of this car-free island.
 
+![Nadia, founder and host, looking out over the sea from the cliffs of Sark, Channel Islands](../../assets/photos/sark-nadia-looking-over-coast.jpg)
+
 Experiencing Sark's timeless beauty, the sound of the sea, the rhythm of horse-drawn carriages, and the starlit skies inspired a vision: to create a space where people could come together, belong, and reconnect with what truly matters.
 
 The retreats weave together daily yoga, nourishing food, and the wonder of Sark's wild landscape, from hidden coves and woodland paths to its world-renowned Dark Sky. Each gathering is about connection: to the island, to each other, and to ourselves.

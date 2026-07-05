@@ -6,6 +6,7 @@ slug: sark-island-yoga-retreat-faq
 heroEyebrow: Good to know
 heroTitle: FAQ
 heroLine: Answers to the most common questions about our retreat. Anything else, we are happy to help.
+heroImage: ../../assets/photos/sark-toast-rack-tractor-harbour-hill.jpg
 heroImageAlt: The tractor-drawn toast rack climbing from the harbour on Sark
 heroShot: FAQ hero, toast rack or harbour arrival
 retreatPage: false
