@@ -15,6 +15,7 @@ const pages = defineCollection({
     heroShot: z.string().default('Hero photograph, Sark'),
     ogImage: z.string().optional(),
     isRetreatPage: z.boolean().default(true),
+    guideForm: z.boolean().default(false),
     darkStrip: z
       .object({
         eyebrow: z.string(),

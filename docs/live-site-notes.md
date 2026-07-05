@@ -20,7 +20,8 @@ To unblock a full automated migration, either add www.sarksoulretreats.com to th
 
 - / (title: "Sark Soul Island Retreats | Yoga, Wellness & Nature Escapes on Sark")
 - /why-sark (title: "WHY SARK? - Sark Soul Island Retreats")
-- /spring (title seen as "SPRING | My Site 3 - Island Retreats" in one index entry, "SPRING | Sark Soul Retreats" in another)
+- /spring (title seen as "SPRING | My Site 3 - Island Retreats" in one index entry, "SPRING | Sark Soul Retreats" in another). Confirmed by John on 5 July: /spring now redirects to /retreats-on-sark, so the indexed spring content is the booking page. No separate /spring redirect needed at launch beyond /spring to /retreats-on-sark.
+- /retreats-on-sark (the live booking page, target of the /spring redirect)
 
 **Homepage themes:** 6 night yoga and wellness retreats, daily yoga, vegetarian meals, wild swimming, island walks, deep relaxation, observatory visits and stargazing, indoor and outdoor swimming pools, 15% Sark ferry discount code on booking.
 
@@ -38,3 +39,11 @@ To unblock a full automated migration, either add www.sarksoulretreats.com to th
 ## Facts harvested that may be useful for migrated page drafts
 
 These are true of the current offer per the live site and can inform drafts, subject to John's confirmation: private yoga studio, indoor and outdoor pools at the house, observatory visits, 15% ferry discount code for booked guests, £350 deposit, wild swimming, add-on treatments (massage, Reiki, breathwork, ice bath).
+
+## Analytics
+
+GA4 property supplied by John: account 141587640, property 519849557. The site's gtag include is already wired in BaseLayout and activates when PUBLIC_GA4_MEASUREMENT_ID is set in Cloudflare Pages. The Measurement ID (starts with G-) is in GA Admin, Data streams, web stream. The property number alone is not enough.
+
+## Parallel branch reconciliation, 5 July 2026
+
+A second Claude session pushed claude/sark-soul-astro-rebuild-io4yyx, a separate Astro implementation at the repo root. Its useful extras were ported into sark-soul-site on this branch: the qa guardrail script (npm run qa), the MailerLiteForm component and footer wiring (account 2309024, waitlist form GIRqf4, guide form 9SoA2F), holding pages for all migrated routes so every internal link resolves, and the La Coupee cliff path photo. The approved uploaded scaffold remains the base. The other branch can be closed once its session stops pushing; do not merge it wholesale on top of this layout.

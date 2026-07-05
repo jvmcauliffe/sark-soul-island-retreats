@@ -1,6 +1,8 @@
 ---
 // Footer: ink background, links row, NAP line, copyright, italic gold sign off.
-// The MailerLite waitlist form slot is marked below, snippet arrives from John.
+// Carries the sitewide MailerLite waitlist embed and the single universal
+// loader script (async, non render-blocking, sanctioned by SPEC section 10).
+import MailerLiteForm from './MailerLiteForm.astro';
 
 const columns = [
   {
@@ -35,9 +37,7 @@ const year = new Date().getFullYear();
     <div class="footer-cta">
       <span class="eyebrow on-dark">Stay close to the island</span>
       <h2>When we open new dates, hear it first</h2>
-      <!-- MailerLite waitlist form slot. Replace this placeholder with the
-           official MailerLite embedded form snippet when John supplies it. -->
-      <p class="form-placeholder">Waitlist form arrives here, MailerLite embed pending.</p>
+      <MailerLiteForm slug="GIRqf4" />
     </div>
 
     <div class="footer-grid">
@@ -76,6 +76,22 @@ const year = new Date().getFullYear();
   </div>
 </footer>
 
+<script is:inline>
+  (function (w, d, e, u, f, l, n) {
+    w[f] =
+      w[f] ||
+      function () {
+        (w[f].q = w[f].q || []).push(arguments);
+      };
+    l = d.createElement(e);
+    l.async = 1;
+    l.src = u;
+    n = d.getElementsByTagName(e)[0];
+    n.parentNode.insertBefore(l, n);
+  })(window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+  ml('account', '2309024');
+</script>
+
 <style>
   .site-footer {
     background: var(--ink);
@@ -94,16 +110,6 @@ const year = new Date().getFullYear();
   .footer-cta h2 {
     color: var(--cream);
     margin-bottom: 1rem;
-  }
-
-  .form-placeholder {
-    display: inline-block;
-    border: 1px dashed var(--gold);
-    color: var(--gold);
-    font-size: 13px;
-    letter-spacing: 1px;
-    padding: 0.9rem 1.6rem;
-    margin: 0;
   }
 
   .footer-grid {

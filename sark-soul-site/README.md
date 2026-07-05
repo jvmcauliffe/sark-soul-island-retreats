@@ -29,9 +29,12 @@ property is account 141587640, property 519849557.
 - Home: styled placeholder awaiting migrated Wix copy
 - Five intent pages: done, copy files in src/content/pages built from the
   approved design pack in /designs
-- Migrated pages: awaiting pasted live copy
+- Migrated pages: holding versions live at their final slugs with the known fixes applied, awaiting pasted live copy
 - Journal: collection and index live, awaiting Story Bank articles
+- MailerLite embeds: wired (waitlist in footer, guide form on Why Sark
+  and Getting to Sark)
+- GA4: wired, set PUBLIC_GA4_MEASUREMENT_ID in Cloudflare Pages
+- QA: npm run qa checks the built HTML against the CLAUDE.md guardrails
 - Launch items outstanding: live sitemap reconciliation (Wix blocks
-  automated fetch, export it manually), _redirects completion, MailerLite
-  embed snippets, PayPal per rate links, GA4 include, OG default image,
-  real photography
+  automated fetch, export it manually), _redirects completion, PayPal per
+  rate links, OG default image, real photography

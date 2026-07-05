@@ -13,6 +13,7 @@ import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import FAQ from '../components/FAQ.astro';
 import CTABand from '../components/CTABand.astro';
+import MailerLiteForm from '../components/MailerLiteForm.astro';
 
 export async function getStaticPaths() {
   const entries = await getCollection('pages');
@@ -58,6 +59,18 @@ const breadcrumbs = [
       <Content />
     </div>
   </article>
+
+  {
+    data.guideForm && (
+      <section class="section guide-form">
+        <div class="container" style="text-align:center">
+          <span class="eyebrow">Free guide</span>
+          <h2>Get the Getting to Sark guide</h2>
+          <MailerLiteForm slug="9SoA2F" />
+        </div>
+      </section>
+    )
+  }
 
   {
     data.darkStrip && (
