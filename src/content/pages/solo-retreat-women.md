@@ -63,6 +63,8 @@ The middle of each day is yours. Swim, read in the garden, find a quiet cove, or
 
 Guests who arrive alone tend to leave with friends they keep. The change in the group between day one and day four is one of the quiet pleasures of hosting these weeks.
 
+![Guests together in the farmhouse garden on the last morning of a retreat on Sark](../../assets/photos/sark-retreat-group-garden.jpg)
+
 ## One house, one table
 
 You stay at our historic farmhouse, a real home rather than a hotel, with a much-loved garden and corners to disappear into. Shared rooms make the retreat more affordable and are how many solo guests choose to come. A limited number of single rooms are available if you would rather have your own space.

@@ -6,8 +6,8 @@ slug: visiting-sark-for-a-wellness-retreat
 heroEyebrow: The journey is part of it
 heroTitle: Getting to Sark
 heroLine: Fly or sail to Guernsey, then let the island take over.
-heroImage: ../../assets/photos/sark-ferry-boat-crossing.jpg
-heroImageAlt: The boat crossing to Sark past the island cliffs, Channel Islands
+heroImage: ../../assets/photos/sark-ferry-to-island.jpg
+heroImageAlt: The Sark Shipping ferry crossing to Sark, Channel Islands
 heroShot: Getting to Sark hero, ferry or harbour
 retreatPage: false
 guideForm: true

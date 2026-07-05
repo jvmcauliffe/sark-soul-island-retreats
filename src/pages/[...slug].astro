@@ -64,6 +64,8 @@ const breadcrumbs =
     <Content />
   </article>
 
+  {!d.retreatPage && d.faqs.length > 0 && <FAQ items={d.faqs} />}
+
   {
     d.guideForm && (
       <section class="section cream" style="text-align: center;">

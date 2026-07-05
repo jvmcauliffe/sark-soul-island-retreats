@@ -1,7 +1,7 @@
 ---
-// Placeholder home page, styled with the design system. Final copy is
-// migrated from the live Wix site when John pastes it (with the known fix:
-// duplicate paragraph removed).
+// Home, migrated from the live Wix site with the known fixes applied.
+// Copy is verbatim from the live homepage; images follow the live site's
+// own placements (La Coupée hero, island aerial, Monica, Nadia, the house).
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import AttributionStrip from '../components/AttributionStrip.astro';
@@ -12,69 +12,178 @@ import NadiaNote from '../components/NadiaNote.astro';
 import CTABand from '../components/CTABand.astro';
 import MailerLiteForm from '../components/MailerLiteForm.astro';
 import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
-import carriageGuests from '../assets/photos/sark-horse-and-carriage-guests.jpg';
+import islandAerial from '../assets/photos/sark-island-aerial.jpg';
+import monicaStudio from '../assets/photos/sark-monica-yogamorphic-studio.jpg';
 import nadiaStudio from '../assets/photos/sark-nadia-founder-host-studio.jpg';
+import retreatHouse from '../assets/photos/sark-retreat-house-aerial.jpg';
+
+const testimonials = [
+  {
+    quote:
+      'I just loved the whole experience. I was quite nervous about it all. Nadia met us as we got off the ferry. She could not have been more welcoming...',
+    name: 'Yvonne · May 2026',
+  },
+  {
+    quote:
+      'The experience surpassed my expectations. Everyone really cared that we were getting the best out of our time on Sark. I came away feeling restored.',
+    name: 'Anne · May 2026',
+  },
+  {
+    quote:
+      'From the first communication our host Nadia was kind, warm and welcoming. Monica is a wonderful yoga teacher. I would definitely recommend the retreat and look forward to returning.',
+    name: 'Amanda · May 2026',
+  },
+  {
+    quote:
+      'I thoroughly enjoyed this retreat. Sark is a special island. I loved the camaraderie of our small group. The grounds are beautiful.. a warm and welcoming atmosphere',
+    name: 'Maxine · May 2026',
+  },
+  {
+    quote:
+      'The food, and the chefs were fabulous. Everything was brilliantly organised. The location is stunning. Sark is such a beautiful place. I had the most wonderful time.',
+    name: 'Andrea · May 2026',
+  },
+];
 ---
 
 <BaseLayout
   title="Sark Soul Island Retreats | Yoga Retreats, Isle of Sark"
-  description="Luxury small-group yoga retreats on the Isle of Sark, Channel Islands. Founded and hosted by Nadia. Five nights, one small group, space to breathe."
+  description="Yoga and nature retreats on Sark Island. Intimate five-night retreats on the world's first Dark Sky Island, half a day from London, a world away."
 >
   <Hero
     eyebrow="Isle of Sark · Channel Islands"
-    title="Come back to yourself on a car-free island"
-    line="A luxury small-group yoga retreat on Sark, the world's first Dark Sky Island."
+    title="Yoga & Nature Retreats on Sark Island"
+    line="Intimate five-night retreats on the world's first Dark Sky Island, half a day from London, a world away from everything else."
     image={laCoupee}
     imageAlt="The cliff path across La Coupée between Sark and Little Sark, Channel Islands"
     shot="Hero, clifftop or coastal golden hour, landscape"
   />
   <AttributionStrip />
 
+  <section class="section" style="text-align: center;">
+    <div class="narrow">
+      <span class="eyebrow">Late Summer Retreat · September 2026</span>
+      <h2>A small group, twice a year, in a historic farmhouse by the sea.</h2>
+      <p style="margin-inline: auto;">
+        Daily yoga, coastal walks, nourishing food, and the kind of quiet most people haven't
+        experienced in years. Early Summer Retreat 2027 dates coming soon.
+      </p>
+      <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+    </div>
+  </section>
+
   <QRow
-    question="What makes a retreat on Sark different?"
-    eyebrow="Why Sark"
-    image={carriageGuests}
-    imageAlt="Guests riding a horse and carriage on Sark, Channel Islands"
-    shot="Horse and carriage on a lane"
-    caption="Arrival by horse and carriage, the only way to the retreat house."
+    question="The world's first Dark Sky Island"
+    eyebrow="The setting"
+    image={islandAerial}
+    imageAlt="Aerial view of car-free Sark surrounded by open sea, Channel Islands"
+    shot="Island aerial"
+    caption="Sark, Channel Islands. Car-free, no streetlights, no rush."
   >
     <p>
-      Sark is car-free for visitors. You arrive by boat from Guernsey in around 55 minutes,
-      ride the tractor-drawn toast rack up from the harbour, then travel by horse and
-      carriage to our historic farmhouse. The pace of the island does half the work of the
-      retreat before the first class begins.
+      Sark Soul Island Retreats hosts intimate yoga retreats on Sark Island in the Channel
+      Islands. Our small group immersions are designed for those seeking deep rest, reconnection
+      and space away from mainland pace. This yoga retreat welcomes both experienced
+      practitioners and curious newcomers.
     </p>
     <p>
-      <a href="/why-sark">Why we chose Sark</a> · <a href="/retreats-on-sark">Dates and booking</a>
+      From the moment you step off the boat, distraction falls away. There are no cars, no
+      streetlights, no rush. Daily yoga, coastal walks and nourishing seasonal food support
+      genuine restoration, and when night falls, the world's first Dark Sky Island reveals its
+      greatest gift. <a href="/why-sark">Why Sark?</a>
     </p>
   </QRow>
 
   <QRow
-    question="Who will be looking after you?"
-    eyebrow="Your hosts"
+    question="Led by Monica, our teacher"
+    eyebrow="The practice"
+    image={monicaStudio}
+    imageAlt="Senior yoga teacher Monica of YogaMorphic in the studio on Sark"
+    shot="Monica in the studio"
+    caption="Monica of YogaMorphic, senior yoga teacher."
+    reverse
+  >
+    <p>
+      Each day opens and closes with yoga. Morning practice to wake the body gently, evening
+      practice to let the day settle. Monica Marini leads every session, drawing on around
+      thirty years of teaching. Her style is warm and unhurried, with room for both seasoned
+      practitioners and those returning to the mat after time away.
+    </p>
+    <p>
+      You will never be pushed to perform. Sessions are small by design, so the teaching meets
+      you where you are. Between practices, the days are yours: coastal walks, sea swims, quiet
+      corners for rest. <a href="/the-practice">The practice</a>
+    </p>
+  </QRow>
+
+  <QRow
+    question="Created and Hosted by Nadia"
+    eyebrow="The founder"
     image={nadiaStudio}
     imageAlt="Nadia, founder and host, in the yoga studio at the retreat house on Sark"
     shot="Nadia at the retreat house"
     caption="Nadia, founder and host."
+  >
+    <p>
+      Sark Soul Island Retreats was founded by Nadia, who fell for the island's stillness and
+      built a retreat around it. She hosts every gathering personally, and she's who you'll be
+      speaking to from your first enquiry to your last morning.
+    </p>
+    <p>
+      <a href="/our-story">Our story</a> · <a href="/meet-the-team">Meet the team</a>
+    </p>
+  </QRow>
+
+  <QRow
+    question="A place to arrive"
+    eyebrow="Your home for the week"
+    image={retreatHouse}
+    imageAlt="Our historic farmhouse and its gardens from the air on Sark, Channel Islands"
+    shot="The retreat house"
+    caption="Our historic farmhouse and its gardens."
     reverse
   >
     <p>
-      Sark Soul Island Retreats was founded by Nadia, who hosts every retreat personally.
-      Daily yoga is led by senior teacher Monica of YogaMorphic, whose practice is a slow,
-      deep immersion suited to every level.
+      Held within a historic farmhouse surrounded by stunning gardens, this is more than a
+      beautiful setting, it is a place that naturally slows the body and quiets the mind. The
+      setting supports rest, reflection, and a gentle return to yourself.
     </p>
     <p>
-      <a href="/meet-the-team">Meet the team</a> · <a href="/the-practice">The practice</a>
+      Sark sits a short ferry from Guernsey, half a day from London and a world away from
+      everything else. Plenty of guests first meet the island on a day trip, then find
+      themselves wanting more than a few hours. A week is how you really feel the place settle
+      into you. <a href="/retreats-on-sark">Find out more about our retreats</a>
     </p>
   </QRow>
 
   <DarkStrip eyebrow="After dark" heading="No street lighting. The first Dark Sky Island on Earth.">
     <p>
-      Sark has no street lighting, and in 2011 it became the world's first Dark Sky Island.
-      On clear September nights the Milky Way stretches from cliff to cliff.
+      When night falls, the world's first Dark Sky Island reveals its greatest gift. A guided
+      night-sky session at the Sark Observatory is part of every retreat.
       <a href="/dark-sky-retreat">Our Dark Sky retreat</a> is built around it.
     </p>
+    <p style="font-family: var(--font-display); font-style: italic; font-size: 1.3em;">
+      "There is no island in the world that I love more"
+    </p>
+    <p style="font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase;">Victor Hugo</p>
   </DarkStrip>
+
+  <section class="section cream">
+    <div class="container" style="text-align: center;">
+      <span class="eyebrow">What guests say</span>
+      <h2>In their own words</h2>
+      <div class="testimonials">
+        {
+          testimonials.map((t) => (
+            <blockquote>
+              <p>"{t.quote}"</p>
+              <cite>{t.name}</cite>
+            </blockquote>
+          ))
+        }
+      </div>
+    </div>
+  </section>
 
   <PriceCards />
 
@@ -85,9 +194,11 @@ import nadiaStudio from '../assets/photos/sark-nadia-founder-host-studio.jpg';
   <section class="section" style="text-align: center;">
     <div class="narrow">
       <span class="eyebrow">Free travel guide</span>
-      <h2>How do you actually get to Sark?</h2>
+      <h2>Getting to Sark</h2>
       <p style="margin-inline: auto;">
-        Ferry to farmhouse, everything you need for the journey over, straight to your inbox.
+        Guests used to ask me the same things before they came, and I loved answering. So I
+        gathered it all into this little guide: the ferry, the famous luggage system, what the
+        first evening feels like. No spam, just island news now and then. Unsubscribe anytime.
       </p>
       <MailerLiteForm slug="9SoA2F" />
     </div>
@@ -95,3 +206,48 @@ import nadiaStudio from '../assets/photos/sark-nadia-founder-host-studio.jpg';
 
   <CTABand />
 </BaseLayout>
+
+<style>
+  .testimonials {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-top: 40px;
+    text-align: left;
+  }
+
+  @media (min-width: 768px) {
+    .testimonials {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .testimonials blockquote:nth-child(4),
+    .testimonials blockquote:nth-child(5) {
+      grid-column: span 1;
+    }
+  }
+
+  .testimonials blockquote {
+    margin: 0;
+    background: var(--paper);
+    border: 1px solid var(--cream-deep);
+    padding: 28px;
+  }
+
+  .testimonials p {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+  }
+
+  .testimonials cite {
+    font-style: normal;
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--sage);
+  }
+</style>
