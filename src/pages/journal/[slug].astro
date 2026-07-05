@@ -1,0 +1,67 @@
+---
+// Journal article route with Article schema, Nadia as author by default.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NadiaNote from '../../components/NadiaNote.astro';
+import CTABand from '../../components/CTABand.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('journal');
+  return posts.map((post) => ({
+    params: { slug: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+const d = post.data;
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+
+<BaseLayout
+  title={`${d.title} · The Sark Journal`}
+  description={d.description}
+  article={{
+    headline: d.title,
+    description: d.description,
+    datePublished: d.date.toISOString().slice(0, 10),
+    author: d.author,
+  }}
+  breadcrumbs={[
+    { label: 'Home', href: '/' },
+    { label: 'Journal', href: '/journal' },
+    { label: d.title, href: `/journal/${post.id}` },
+  ]}
+>
+  <article class="narrow section">
+    <span class="eyebrow">The Sark Journal</span>
+    <h1>{d.title}</h1>
+    <p class="meta">{formatDate(d.date)} · {d.author}</p>
+    <div class="prose">
+      <Content />
+    </div>
+    <p class="back"><a href="/journal">All journal stories</a> · <a href="/retreats-on-sark">Retreat dates and booking</a></p>
+  </article>
+  {d.author === 'Nadia' && <NadiaNote quote="Every story here started as something a guest asked me on a walk. Keep asking." />}
+  <CTABand />
+</BaseLayout>
+
+<style>
+  .meta {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--sage);
+    margin-bottom: 2.5em;
+  }
+
+  .back {
+    margin-top: 3em;
+    padding-top: 1.5em;
+    border-top: 1px solid var(--cream-deep);
+  }
+</style>

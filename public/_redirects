@@ -1,0 +1,10 @@
+# Cloudflare Pages redirect map for the Wix cutover (launch, October 2026).
+# Slugs are kept identical to the live Wix site wherever a page already
+# exists, so most URLs need no redirect. Before launch: export the final
+# live sitemap from sarksoulretreats.com/sitemap.xml, reconcile every URL,
+# and complete this file with 301s, old slug to new, no chains.
+#
+# Format: /old-path  /new-path  301
+#
+# Known candidates (verify slugs against the live sitemap before enabling):
+# /home  /  301

@@ -1,0 +1,246 @@
+/* Sark Soul Island Retreats, design system. Tokens per SPEC section 4. */
+
+:root {
+  --ink: #15212e;        /* dark-sky navy, headings and footer */
+  --ink-soft: #243443;
+  --sage: #6f7d63;       /* eyebrows, secondary accents */
+  --sage-dark: #566049;
+  --cream: #f6f1e7;      /* warm section backgrounds */
+  --cream-deep: #ece4d3; /* borders, dividers */
+  --clay: #b07a4f;       /* decorative accent only, never buttons */
+  --gold: #c2a35c;       /* accents on dark strips */
+  --charcoal: #2c2c28;   /* body text */
+  --paper: #fbf8f1;      /* page background */
+  --teal: #4f9fb0;       /* ALL CTAs and action buttons */
+  --teal-dark: #3f8494;  /* button hover */
+
+  --font-display: 'Cormorant Garamond', 'Georgia', serif;
+  --font-body: 'Jost', 'Helvetica Neue', sans-serif;
+
+  --measure: 62ch;
+  --container: 1160px;
+  --space-section: clamp(64px, 10vw, 120px);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--charcoal);
+  font-family: var(--font-body);
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 1.75;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  color: var(--ink);
+  line-height: 1.15;
+  margin: 0 0 0.5em;
+}
+
+h1 {
+  font-size: clamp(38px, 6vw, 68px);
+  font-weight: 500;
+}
+
+h2 {
+  font-size: clamp(26px, 3.4vw, 38px);
+  font-weight: 500;
+}
+
+h3 {
+  font-size: clamp(21px, 2.4vw, 27px);
+  font-weight: 500;
+}
+
+p {
+  margin: 0 0 1.2em;
+  max-width: var(--measure);
+}
+
+a {
+  color: var(--teal-dark);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: var(--teal);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Eyebrow labels: Jost 11px, uppercase, letter-spacing 3px */
+.eyebrow {
+  display: block;
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--sage);
+  margin-bottom: 14px;
+}
+
+.on-dark .eyebrow,
+.eyebrow.gold {
+  color: var(--gold);
+}
+
+/* Buttons: teal only, per guardrails */
+.btn {
+  display: inline-block;
+  background: var(--teal);
+  color: #fff;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px 34px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn:hover {
+  background: var(--teal-dark);
+  color: #fff;
+}
+
+.btn.ghost {
+  background: transparent;
+  color: var(--teal-dark);
+  box-shadow: inset 0 0 0 1px var(--teal);
+}
+
+.btn.ghost:hover {
+  background: var(--teal);
+  color: #fff;
+}
+
+/* Layout helpers */
+.container {
+  width: min(100% - 48px, var(--container));
+  margin-inline: auto;
+}
+
+.narrow {
+  width: min(100% - 48px, 760px);
+  margin-inline: auto;
+}
+
+.section {
+  padding-block: var(--space-section);
+}
+
+.section.cream {
+  background: var(--cream);
+}
+
+/* Prose blocks rendered from markdown */
+.prose h2 {
+  margin-top: 1.6em;
+}
+
+.prose ul,
+.prose ol {
+  max-width: var(--measure);
+  padding-left: 1.2em;
+}
+
+.prose blockquote {
+  margin: 2em 0;
+  padding-left: 1.4em;
+  border-left: 2px solid var(--cream-deep);
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.25em;
+  color: var(--ink-soft);
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 18px 0 0;
+}
+
+.breadcrumbs ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+}
+
+.breadcrumbs li + li::before {
+  content: '/';
+  margin-right: 6px;
+  color: var(--sage);
+}
+
+.breadcrumbs a {
+  color: var(--sage-dark);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--teal-dark);
+}
+
+.breadcrumbs [aria-current='page'] {
+  color: var(--charcoal);
+}
+
+/* Accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

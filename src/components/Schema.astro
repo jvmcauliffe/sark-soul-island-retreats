@@ -1,0 +1,116 @@
+---
+// Sitewide JSON-LD graph. Founder attribution at schema level is a deliberate
+// fix for a live Google AI Overview misattribution: Nadia is founder, Monica
+// is a senior yoga teacher only.
+interface Offer {
+  name: string;
+  price: string;
+  validThrough?: string;
+}
+
+interface Props {
+  canonical: string;
+  event?: boolean;
+  article?: {
+    headline: string;
+    description: string;
+    datePublished: string;
+    author: string;
+  };
+}
+
+const { canonical, event = false, article } = Astro.props;
+
+const site = 'https://sarksoulretreats.com';
+
+const nadia = {
+  '@type': 'Person',
+  '@id': `${site}/#nadia`,
+  name: 'Nadia',
+  description: 'Founder and host of Sark Soul Island Retreats',
+  jobTitle: 'Founder & Host',
+  worksFor: { '@id': `${site}/#business` },
+};
+
+const monica = {
+  '@type': 'Person',
+  '@id': `${site}/#monica`,
+  name: 'Monica',
+  jobTitle: 'Senior Yoga Teacher',
+  worksFor: { '@id': `${site}/#business` },
+};
+
+const business = {
+  '@type': 'LocalBusiness',
+  '@id': `${site}/#business`,
+  name: 'Sark Soul Island Retreats',
+  url: site,
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Isle of Sark',
+    addressRegion: 'Channel Islands',
+  },
+  sameAs: ['https://g.page/r/CdhrtAEddmE_EBM/review'],
+  founder: { '@id': `${site}/#nadia` },
+  employee: [{ '@id': `${site}/#nadia` }, { '@id': `${site}/#monica` }],
+};
+
+const offers: Offer[] = [
+  { name: 'Shared room, early booking', price: '1495', validThrough: '2026-07-19' },
+  { name: 'Shared room, standard', price: '1695' },
+  { name: 'Single room, early booking', price: '1995' },
+];
+
+const eventNode = event
+  ? {
+      '@type': 'Event',
+      name: 'Sark Soul Island Retreats, Late Summer Retreat 2026',
+      startDate: '2026-09-12',
+      endDate: '2026-09-17',
+      eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+      eventStatus: 'https://schema.org/EventScheduled',
+      location: {
+        '@type': 'Place',
+        name: 'Isle of Sark',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Isle of Sark',
+          addressRegion: 'Channel Islands',
+        },
+      },
+      organizer: { '@id': `${site}/#business` },
+      performer: { '@id': `${site}/#monica` },
+      offers: offers.map((o) => ({
+        '@type': 'Offer',
+        name: o.name,
+        price: o.price,
+        priceCurrency: 'GBP',
+        url: `${site}/retreats-on-sark`,
+        availability: 'https://schema.org/InStock',
+        ...(o.validThrough ? { validThrough: o.validThrough } : {}),
+      })),
+    }
+  : null;
+
+const articleNode = article
+  ? {
+      '@type': 'Article',
+      headline: article.headline,
+      description: article.description,
+      datePublished: article.datePublished,
+      mainEntityOfPage: canonical,
+      author:
+        article.author === 'Nadia'
+          ? { '@id': `${site}/#nadia` }
+          : { '@type': 'Person', name: article.author },
+      publisher: { '@id': `${site}/#business` },
+    }
+  : null;
+
+const graph = {
+  '@context': 'https://schema.org',
+  '@graph': [business, nadia, monica, eventNode, articleNode].filter(Boolean),
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(graph)} />

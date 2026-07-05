@@ -1,0 +1,76 @@
+---
+// Dynamic route for content-collection pages. Dropping one of John's copy
+// files into src/content/pages/ makes it appear at its slug with the full
+// retreat-page battery: attribution strip, DarkStrip, PriceCards, NadiaNote,
+// FAQ and closing CTABand.
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AttributionStrip from '../components/AttributionStrip.astro';
+import DarkStrip from '../components/DarkStrip.astro';
+import PriceCards from '../components/PriceCards.astro';
+import NadiaNote from '../components/NadiaNote.astro';
+import FAQ from '../components/FAQ.astro';
+import CTABand from '../components/CTABand.astro';
+
+export async function getStaticPaths() {
+  const pages = await getCollection('pages');
+  return pages.map((page) => ({
+    params: { slug: page.data.slug ?? page.id },
+    props: { page },
+  }));
+}
+
+const { page } = Astro.props;
+const { Content } = await render(page);
+const d = page.data;
+const slug = d.slug ?? page.id;
+
+const defaultNote =
+  'Sark gives people something no timetable can, time that belongs to them again. That is the most transformative thing we offer.';
+---
+
+<BaseLayout
+  title={d.metaTitle}
+  description={d.metaDescription}
+  ogImage={d.ogImage}
+  event={d.retreatPage}
+  breadcrumbs={[
+    { label: 'Home', href: '/' },
+    { label: 'Retreats', href: '/retreats-on-sark' },
+    { label: d.title, href: `/${slug}` },
+  ]}
+>
+  <Hero
+    eyebrow={d.heroEyebrow}
+    title={d.heroTitle ?? d.title}
+    line={d.heroLine}
+    imageAlt={d.heroImageAlt}
+    shot={d.heroShot}
+  />
+  <AttributionStrip />
+
+  <article class="prose section container">
+    <Content />
+  </article>
+
+  {
+    d.retreatPage && (
+      <>
+        <DarkStrip
+          eyebrow={d.darkStrip?.eyebrow ?? 'After dark'}
+          heading={d.darkStrip?.heading ?? 'When the lights never come on, the sky does'}
+        >
+          <p>
+            {d.darkStrip?.body ??
+              'Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.'}
+          </p>
+        </DarkStrip>
+        <PriceCards />
+        <NadiaNote quote={d.nadiaNote ?? defaultNote} />
+        {d.faqs.length > 0 && <FAQ items={d.faqs} />}
+        <CTABand />
+      </>
+    )
+  }
+</BaseLayout>

@@ -1,0 +1,106 @@
+---
+// Internal style guide rendering every signature component for John's
+// sign-off. Excluded from the sitemap and noindexed.
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AttributionStrip from '../components/AttributionStrip.astro';
+import QRow from '../components/QRow.astro';
+import DarkStrip from '../components/DarkStrip.astro';
+import PriceCards from '../components/PriceCards.astro';
+import NadiaNote from '../components/NadiaNote.astro';
+import FAQ from '../components/FAQ.astro';
+import CTABand from '../components/CTABand.astro';
+
+const faqs = [
+  {
+    q: 'How do I get to Sark?',
+    a: 'Fly or sail to Guernsey, then take the ferry with Sark Shipping. The crossing takes around 55 minutes. From the harbour, the tractor-drawn toast rack brings you up the hill, and a horse and carriage takes you on to the retreat house.',
+  },
+  {
+    q: 'Is there wifi and phone signal on the island?',
+    a: 'Yes, Sark has both mobile signal and wifi. Our digital detox is a choice we make together, supported by the environment, not enforced by a lack of coverage.',
+  },
+  {
+    q: 'I am coming alone. Will I feel out of place?',
+    a: 'Most of our guests arrive solo. Shared rooms are matched thoughtfully, and single rooms are available if you would rather have your own space.',
+  },
+];
+---
+
+<BaseLayout
+  title="Styleguide · Sark Soul Island Retreats"
+  description="Internal component styleguide for the Sark Soul Island Retreats design system. Not indexed."
+>
+  <Fragment slot="head">
+    <meta name="robots" content="noindex, nofollow" />
+  </Fragment>
+
+  <div class="container section">
+    <span class="eyebrow">Internal</span>
+    <h1>Component styleguide</h1>
+    <p>
+      Every signature component in the design system, rendered once, for sign-off.
+      Placeholders name the photograph each slot needs.
+    </p>
+  </div>
+
+  <h2 class="sg-label container">Hero + attribution strip</h2>
+  <Hero
+    eyebrow="Isle of Sark · Channel Islands"
+    title="A heading set in Cormorant Garamond"
+    line="One supporting line in Jost, held to a single sentence."
+    imageAlt="Clifftop coastal path at golden hour on Sark, Channel Islands"
+    shot="Hero, clifftop golden hour"
+  />
+  <AttributionStrip />
+
+  <h2 class="sg-label container">QRow, both directions</h2>
+  <QRow
+    question="Is this what a question-led H2 looks like?"
+    eyebrow="Eyebrow label"
+    imageAlt="Coastal path above the harbour on Sark, Channel Islands"
+    shot="Coastal path"
+    caption="Caption sits in a scrim at the base of the photo."
+  >
+    <p>Body copy in Jost 300 at 17px with a 1.75 line height, held to a comfortable measure.</p>
+  </QRow>
+  <QRow
+    question="And reversed?"
+    eyebrow="Eyebrow label"
+    imageAlt="The retreat house garden in September light on Sark"
+    shot="Retreat house garden"
+    caption="Reversed rows alternate down the page."
+    reverse
+  >
+    <p>Alternating rows are the site's rhythm. Photos always carry a caption scrim.</p>
+  </QRow>
+
+  <h2 class="sg-label container">DarkStrip</h2>
+  <DarkStrip eyebrow="After dark" heading="The brand's signature move">
+    <p>Radial navy, cream headings, gold eyebrows. Every retreat page carries one.</p>
+  </DarkStrip>
+
+  <h2 class="sg-label container">PriceCards</h2>
+  <PriceCards />
+
+  <h2 class="sg-label container">NadiaNote</h2>
+  <NadiaNote quote="An italic Cormorant quote in Nadia's voice, signed with her leaf and no one else's." />
+
+  <h2 class="sg-label container">FAQ</h2>
+  <FAQ items={faqs} />
+
+  <h2 class="sg-label container">CTABand</h2>
+  <CTABand />
+</BaseLayout>
+
+<style>
+  .sg-label {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--clay);
+    margin: 56px auto 16px;
+  }
+</style>

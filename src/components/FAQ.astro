@@ -1,0 +1,93 @@
+---
+// Native details accordions, Cormorant summaries, zero JS.
+// Emits FAQPage schema generated from its own content.
+interface Item {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  heading?: string;
+  items: Item[];
+}
+
+const { heading = 'Questions, answered', items } = Astro.props;
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: items.map((item) => ({
+    '@type': 'Question',
+    name: item.q,
+    acceptedAnswer: { '@type': 'Answer', text: item.a },
+  })),
+};
+---
+
+<section class="faq">
+  <div class="narrow">
+    <span class="eyebrow">Good to know</span>
+    <h2>{heading}</h2>
+    {
+      items.map((item) => (
+        <details>
+          <summary>{item.q}</summary>
+          <p>{item.a}</p>
+        </details>
+      ))
+    }
+  </div>
+</section>
+
+<script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+
+<style>
+  .faq {
+    padding-block: clamp(56px, 8vw, 96px);
+  }
+
+  details {
+    border-bottom: 1px solid var(--cream-deep);
+  }
+
+  details:first-of-type {
+    border-top: 1px solid var(--cream-deep);
+    margin-top: 28px;
+  }
+
+  summary {
+    font-family: var(--font-display);
+    font-size: clamp(19px, 2.2vw, 23px);
+    font-weight: 500;
+    color: var(--ink);
+    padding: 20px 36px 20px 0;
+    cursor: pointer;
+    list-style: none;
+    position: relative;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary::after {
+    content: '+';
+    position: absolute;
+    right: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--font-body);
+    font-weight: 300;
+    font-size: 24px;
+    color: var(--sage);
+  }
+
+  details[open] summary::after {
+    content: '\2212';
+  }
+
+  details p {
+    padding: 0 0 24px;
+    max-width: 58ch;
+  }
+</style>

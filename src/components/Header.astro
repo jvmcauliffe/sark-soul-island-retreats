@@ -1,0 +1,198 @@
+---
+// Site-wide navigation, matches the master header. The five intent pages are
+// reached through the Retreats dropdown and internal links, not the main nav.
+const nav = [
+  { label: 'Home', href: '/' },
+  { label: 'Our Retreats', href: '/retreats-on-sark', dropdown: true },
+  { label: 'Why Sark?', href: '/why-sark' },
+  { label: 'The Practice', href: '/the-practice' },
+  { label: 'Our Story', href: '/our-story' },
+  { label: 'Meet the Team', href: '/meet-the-team' },
+];
+
+const retreats = [
+  { label: 'Retreats & Booking', href: '/retreats-on-sark' },
+  { label: 'Yoga Retreat on Sark', href: '/yoga-retreat-sark' },
+  { label: 'Digital Detox Retreat', href: '/digital-detox-retreat' },
+  { label: 'Solo Retreat for Women', href: '/solo-retreat-women' },
+  { label: 'Burnout Retreat', href: '/burnout-retreat' },
+  { label: 'Dark Sky Retreat', href: '/dark-sky-retreat' },
+];
+
+const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="wordmark" href="/">Sark Soul Island Retreats</a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </label>
+    <nav aria-label="Main">
+      <ul>
+        {
+          nav.map((item) =>
+            item.dropdown ? (
+              <li class="has-dropdown">
+                <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+                  {item.label}
+                </a>
+                <ul class="dropdown">
+                  {retreats.map((r) => (
+                    <li>
+                      <a href={r.href}>{r.label}</a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li>
+                <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+                  {item.label}
+                </a>
+              </li>
+            )
+          )
+        }
+        <li class="nav-cta">
+          <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: var(--paper);
+    border-bottom: 1px solid var(--cream-deep);
+    position: relative;
+    z-index: 50;
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    padding-block: 18px;
+    flex-wrap: wrap;
+  }
+
+  .wordmark {
+    font-family: var(--font-display);
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: var(--ink);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 26px;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    text-decoration: none;
+  }
+
+  nav a:hover,
+  nav a[aria-current='page'] {
+    color: var(--teal-dark);
+  }
+
+  .nav-cta .btn {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+
+  .has-dropdown {
+    position: relative;
+  }
+
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -18px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+    background: var(--paper);
+    border: 1px solid var(--cream-deep);
+    padding: 10px 0;
+    min-width: 230px;
+    box-shadow: 0 12px 30px rgba(21, 33, 46, 0.08);
+  }
+
+  .has-dropdown:hover .dropdown,
+  .has-dropdown:focus-within .dropdown {
+    display: flex;
+  }
+
+  .dropdown a {
+    display: block;
+    padding: 8px 18px;
+    text-transform: none;
+    letter-spacing: 0.3px;
+    font-size: 14px;
+  }
+
+  .nav-toggle,
+  .nav-toggle-label {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    .nav-toggle-label {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 8px 0;
+    }
+
+    .nav-toggle-label span {
+      width: 24px;
+      height: 1.5px;
+      background: var(--ink);
+    }
+
+    nav {
+      display: none;
+      width: 100%;
+    }
+
+    .nav-toggle:checked ~ nav {
+      display: block;
+    }
+
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      padding-block: 12px 20px;
+    }
+
+    .dropdown {
+      display: flex;
+      position: static;
+      border: none;
+      box-shadow: none;
+      background: transparent;
+      padding: 8px 0 0 16px;
+    }
+  }
+</style>

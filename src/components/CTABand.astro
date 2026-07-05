@@ -1,0 +1,38 @@
+---
+// Closing call to action. All CTAs are teal and say "Reserve my place".
+interface Props {
+  heading?: string;
+  line?: string;
+}
+
+const {
+  heading = 'Five nights on Sark. One small group. Space to breathe.',
+  line = '12 to 17 September 2026 · Early booking rate ends 19 July 2026',
+} = Astro.props;
+---
+
+<section class="cta-band on-dark">
+  <div class="narrow">
+    <span class="eyebrow gold">Late Summer Retreat 2026</span>
+    <h2>{heading}</h2>
+    <p>{line}</p>
+    <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+  </div>
+</section>
+
+<style>
+  .cta-band {
+    background: var(--ink-soft);
+    padding-block: clamp(56px, 8vw, 90px);
+    text-align: center;
+  }
+
+  .cta-band h2 {
+    color: var(--cream);
+  }
+
+  .cta-band p {
+    color: var(--cream-deep);
+    margin: 0 auto 28px;
+  }
+</style>

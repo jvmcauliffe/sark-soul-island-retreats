@@ -1,0 +1,70 @@
+---
+// Alternating two-column rows with question-led H2s. The site's rhythm.
+import ImageSlot from './ImageSlot.astro';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  question: string;
+  eyebrow?: string;
+  image?: ImageMetadata;
+  imageAlt: string;
+  shot: string;
+  caption?: string;
+  reverse?: boolean;
+}
+
+const { question, eyebrow, image, imageAlt, shot, caption, reverse = false } = Astro.props;
+---
+
+<section class:list={['qrow', 'container', { reverse }]}>
+  <div class="qrow-text">
+    {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+    <h2>{question}</h2>
+    <slot />
+  </div>
+  <figure class="qrow-media">
+    <ImageSlot src={image} alt={imageAlt} shot={shot} width={880} height={660} />
+    {caption && <figcaption>{caption}</figcaption>}
+  </figure>
+</section>
+
+<style>
+  .qrow {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(28px, 5vw, 72px);
+    align-items: center;
+    padding-block: clamp(40px, 6vw, 80px);
+  }
+
+  @media (min-width: 768px) {
+    .qrow {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .qrow.reverse .qrow-text {
+      order: 2;
+    }
+
+    .qrow.reverse .qrow-media {
+      order: 1;
+    }
+  }
+
+  .qrow-media {
+    margin: 0;
+    position: relative;
+  }
+
+  .qrow-media figcaption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 28px 18px 12px;
+    background: linear-gradient(to top, rgba(17, 27, 39, 0.65), transparent);
+    color: var(--cream);
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+</style>

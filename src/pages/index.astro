@@ -1,0 +1,79 @@
+---
+// Placeholder home page, styled with the design system. Final copy is
+// migrated from the live Wix site when John pastes it (with the known fix:
+// duplicate paragraph removed).
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AttributionStrip from '../components/AttributionStrip.astro';
+import QRow from '../components/QRow.astro';
+import DarkStrip from '../components/DarkStrip.astro';
+import PriceCards from '../components/PriceCards.astro';
+import NadiaNote from '../components/NadiaNote.astro';
+import CTABand from '../components/CTABand.astro';
+---
+
+<BaseLayout
+  title="Sark Soul Island Retreats · Yoga Retreats on the Isle of Sark"
+  description="Luxury small-group yoga retreats on the Isle of Sark, Channel Islands. Founded and hosted by Nadia. Five nights, one small group, space to breathe."
+>
+  <Hero
+    eyebrow="Isle of Sark · Channel Islands"
+    title="Come back to yourself on a car-free island"
+    line="A luxury small-group yoga retreat on Sark, the world's first Dark Sky Island."
+    imageAlt="Clifftop coastal path at golden hour on Sark, Channel Islands"
+    shot="Hero, clifftop or coastal golden hour, landscape"
+  />
+  <AttributionStrip />
+
+  <QRow
+    question="What makes a retreat on Sark different?"
+    eyebrow="Why Sark"
+    imageAlt="Horse and carriage on a quiet lane on Sark, Channel Islands"
+    shot="Horse and carriage on a lane"
+    caption="Arrival by horse and carriage, the only way to the retreat house."
+  >
+    <p>
+      Sark is car-free for visitors. You arrive by boat from Guernsey in around 55 minutes,
+      ride the tractor-drawn toast rack up from the harbour, then travel by horse and
+      carriage to our historic farmhouse. The pace of the island does half the work of the
+      retreat before the first class begins.
+    </p>
+    <p>
+      <a href="/why-sark">Why we chose Sark</a> · <a href="/retreats-on-sark">Dates and booking</a>
+    </p>
+  </QRow>
+
+  <QRow
+    question="Who will be looking after you?"
+    eyebrow="Your hosts"
+    imageAlt="Nadia at the retreat house on Sark, Channel Islands"
+    shot="Nadia at the retreat house"
+    caption="Nadia, founder and host."
+    reverse
+  >
+    <p>
+      Sark Soul Island Retreats was founded by Nadia, who hosts every retreat personally.
+      Daily yoga is led by senior teacher Monica of YogaMorphic, whose practice is a slow,
+      deep immersion suited to every level.
+    </p>
+    <p>
+      <a href="/meet-the-team">Meet the team</a> · <a href="/the-practice">The practice</a>
+    </p>
+  </QRow>
+
+  <DarkStrip eyebrow="After dark" heading="No street lighting. The first Dark Sky Island on Earth.">
+    <p>
+      Sark has no street lighting, and in 2011 it became the world's first Dark Sky Island.
+      On clear September nights the Milky Way stretches from cliff to cliff.
+      <a href="/dark-sky-retreat">Our Dark Sky retreat</a> is built around it.
+    </p>
+  </DarkStrip>
+
+  <PriceCards />
+
+  <NadiaNote
+    quote="People arrive with their shoulders somewhere near their ears. By the second morning on Sark, they have let them down. That is the transformative part, and the island does most of it."
+  />
+
+  <CTABand />
+</BaseLayout>

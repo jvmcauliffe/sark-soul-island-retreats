@@ -1,0 +1,167 @@
+---
+// Footer: ink background, links row, NAP line, copyright, italic gold sign-off.
+const year = new Date().getFullYear();
+
+const columns = [
+  {
+    heading: 'Explore',
+    links: [
+      { label: 'Home', href: '/' },
+      { label: 'Why Sark?', href: '/why-sark' },
+      { label: 'The Practice', href: '/the-practice' },
+      { label: 'Our Story', href: '/our-story' },
+      { label: 'Meet the Team', href: '/meet-the-team' },
+      { label: 'Journal', href: '/journal' },
+    ],
+  },
+  {
+    heading: 'Retreats',
+    links: [
+      { label: 'Retreats & Booking', href: '/retreats-on-sark' },
+      { label: 'Yoga Retreat on Sark', href: '/yoga-retreat-sark' },
+      { label: 'Digital Detox Retreat', href: '/digital-detox-retreat' },
+      { label: 'Solo Retreat for Women', href: '/solo-retreat-women' },
+      { label: 'Burnout Retreat', href: '/burnout-retreat' },
+      { label: 'Dark Sky Retreat', href: '/dark-sky-retreat' },
+    ],
+  },
+  {
+    heading: 'Plan',
+    links: [
+      { label: 'Retreat FAQ', href: '/sark-island-yoga-retreat-faq' },
+      { label: 'Getting to Sark', href: '/getting-to-sark' },
+      { label: 'Reserve my place', href: '/retreats-on-sark' },
+    ],
+  },
+];
+---
+
+<footer class="site-footer on-dark">
+  <div class="container">
+    <div class="footer-cta">
+      <span class="eyebrow gold">Stay in touch</span>
+      <h2>Join the waitlist for future retreats</h2>
+      <p>
+        Be the first to hear when new dates open.
+        <!-- MailerLite waitlist embed goes here when John supplies the snippet -->
+      </p>
+      <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+    </div>
+
+    <div class="footer-links">
+      {
+        columns.map((col) => (
+          <div>
+            <h3>{col.heading}</h3>
+            <ul>
+              {col.links.map((l) => (
+                <li>
+                  <a href={l.href}>{l.label}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="footer-meta">
+      <p class="nap">
+        Sark Soul Island Retreats · Isle of Sark, Channel Islands · Founded &amp; hosted by Nadia
+      </p>
+      <p class="copyright">© {year} Sark Soul Island Retreats. All rights reserved.</p>
+      <p class="signoff">Every season is a new adventure, Nadia 🌿 &amp; the team 🪷</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--ink);
+    color: var(--cream);
+    padding-block: clamp(56px, 8vw, 96px) 40px;
+    margin-top: 0;
+  }
+
+  .footer-cta {
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto clamp(48px, 7vw, 80px);
+  }
+
+  .footer-cta h2 {
+    color: var(--cream);
+  }
+
+  .footer-cta p {
+    margin-inline: auto;
+    color: var(--cream-deep);
+  }
+
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 40px;
+    border-top: 1px solid var(--ink-soft);
+    padding-top: 48px;
+  }
+
+  .footer-links h3 {
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+  }
+
+  .footer-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+  }
+
+  .footer-links a {
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .footer-links a:hover {
+    color: var(--gold);
+  }
+
+  .footer-meta {
+    border-top: 1px solid var(--ink-soft);
+    margin-top: 48px;
+    padding-top: 32px;
+    text-align: center;
+  }
+
+  .footer-meta p {
+    max-width: none;
+    margin: 0 0 8px;
+  }
+
+  .nap {
+    font-size: 14px;
+    color: var(--cream);
+  }
+
+  .copyright {
+    font-size: 13px;
+    color: var(--cream-deep);
+  }
+
+  .signoff {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--gold);
+    margin-top: 16px;
+  }
+</style>
