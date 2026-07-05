@@ -9,6 +9,7 @@ heroLine: A very small team, doing our best to respond to every enquiry within 2
 heroImageAlt: The coastline of Sark from the sea, Channel Islands
 heroShot: Contact page hero, optional
 retreatPage: false
+practiceBand: true
 ---
 
 Please use the following contact information to reach us. We are a very small team but we do our best to respond to all enquiries within 24 hours.

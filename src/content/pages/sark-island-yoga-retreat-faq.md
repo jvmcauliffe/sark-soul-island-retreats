@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-toast-rack-tractor-harbour-hill.jpg
 heroImageAlt: The tractor-drawn toast rack climbing from the harbour on Sark
 heroShot: FAQ hero, toast rack or harbour arrival
 retreatPage: false
+practiceBand: true
 faqs:
   - q: What makes Sark different from other UK yoga retreats?
     a: >-

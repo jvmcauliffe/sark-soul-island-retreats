@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-retreat-house-aerial.jpg
 heroImageAlt: Our historic farmhouse and its gardens from the air on Sark, Channel Islands
 heroShot: Our Story hero, Nadia on the island
 retreatPage: false
+practiceBand: true
 nadiaNote: From the first time I set foot on Sark, I knew this island held something different...
 ---
 
