@@ -1,8 +1,15 @@
 ---
 // Official MailerLite embedded form. The universal loader script lives once
 // in Footer.astro; this component renders the target div, optionally behind
-// a native details disclosure so the form opens only when the button is
-// pressed, matching the live site, with zero client side JavaScript.
+// a CSS only reveal so the form opens when the button is pressed, matching
+// the live site, with zero client side JavaScript.
+//
+// The reveal uses a checkbox toggle rather than a details element on
+// purpose: the MailerLite script initialises forms on page load, and a form
+// inside a closed details is display none at that moment, which can leave it
+// unrendered when opened. Here the form stays rendered but collapsed, so it
+// initialises normally and simply expands.
+//
 // Form slugs live in the MailerLite account (2309024):
 //   9SoA2F  Getting to Sark Guide signup
 //   GIRqf4  Join the waitlist
@@ -12,14 +19,20 @@ interface Props {
 }
 
 const { slug, cta } = Astro.props;
+const toggleId = `ml-reveal-${slug}`;
 ---
 
 {
   cta ? (
-    <details class="ml-reveal">
-      <summary class="btn">{cta}</summary>
-      <div class="ml-embedded" data-form={slug} />
-    </details>
+    <div class="ml-reveal">
+      <input type="checkbox" id={toggleId} class="ml-toggle" />
+      <label for={toggleId} class="btn">
+        {cta}
+      </label>
+      <div class="ml-body">
+        <div class="ml-embedded" data-form={slug} />
+      </div>
+    </div>
   ) : (
     <div class="ml-embedded" data-form={slug} />
   )
@@ -35,21 +48,35 @@ const { slug, cta } = Astro.props;
     text-align: center;
   }
 
-  .ml-reveal summary {
-    list-style: none;
-    display: inline-block;
+  .ml-toggle {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .ml-reveal label.btn {
     cursor: pointer;
   }
 
-  .ml-reveal summary::-webkit-details-marker {
-    display: none;
+  .ml-toggle:focus-visible ~ label.btn {
+    outline: 2px solid var(--teal);
+    outline-offset: 2px;
   }
 
-  .ml-reveal[open] summary {
-    display: none;
+  .ml-body {
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
   }
 
-  .ml-reveal .ml-embedded {
+  .ml-toggle:checked ~ .ml-body {
+    height: auto;
+    overflow: visible;
+    visibility: visible;
     margin-top: 18px;
+  }
+
+  .ml-toggle:checked ~ label.btn {
+    display: none;
   }
 </style>
