@@ -1,0 +1,69 @@
+---
+// Guest testimonials: italic Cormorant quotes on paper, attribution in
+// small caps. Quotes are passed in from page copy, never hard-coded here.
+
+interface Props {
+  heading?: string;
+  items: { quote: string; name: string }[];
+}
+
+const { heading = 'What guests say', items } = Astro.props;
+---
+
+<section class="testimonials">
+  <div class="container">
+    <span class="eyebrow">In their own words</span>
+    <h2>{heading}</h2>
+    <div class="quote-grid">
+      {
+        items.map((item) => (
+          <figure>
+            <blockquote>"{item.quote}"</blockquote>
+            <figcaption>{item.name}</figcaption>
+          </figure>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .testimonials {
+    padding-block: 4.5rem;
+    text-align: center;
+  }
+
+  .testimonials h2 {
+    margin-block: 0.8rem 2.4rem;
+  }
+
+  .quote-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2.2rem;
+    text-align: left;
+  }
+
+  figure {
+    margin: 0;
+    border-top: 2px solid var(--cream-deep);
+    padding-top: 1.4rem;
+  }
+
+  blockquote {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.5;
+    color: var(--ink);
+    margin: 0 0 1rem;
+  }
+
+  figcaption {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+  }
+</style>

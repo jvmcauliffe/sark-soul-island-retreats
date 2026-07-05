@@ -1,22 +1,92 @@
 ---
 title: Retreat FAQ
-metaTitle: Retreat FAQ | Sark Soul Island Retreats
-metaDescription: Answers to the questions guests ask most about our Sark retreats, travel, experience levels, solo travel, rooms, food and what the price includes.
-eyebrow: Good to know
-heroLine: The questions guests ask most, answered plainly.
-heroShot: FAQ hero, the retreat house table, Sark
+metaTitle: Sark Yoga Retreat FAQ | Dates, Travel, What to Expect
+metaDescription: Answers about our Sark Island yoga retreat. How to get there via Guernsey, group size, experience level, what's included, treatments and insurance.
+eyebrow: Questions, answered honestly
+heroLine: Answers to the most common questions about our retreat. If anything else is on your mind, we're happy to help.
+heroShot: The ferry approaching Sark harbour, Channel Islands
 isRetreatPage: false
 faqs:
-  - q: How do I get to Sark?
-    a: Fly or sail to Guernsey, then take the ferry to Sark, around 55 minutes. We send full travel details when you book and help every guest plan the journey.
-  - q: Do I need yoga experience?
-    a: No. Every class is taught for mixed levels with options throughout. If you can breathe, you can practise.
-  - q: Can I come on my own?
-    a: Most of our guests do. Solo guests are the majority on most retreats, and no one stays a stranger past the first evening.
-  - q: What is included in the price?
-    a: Accommodation at our historic farmhouse, all meals, daily yoga, guided walks and every retreat activity. No hidden extras once you are here.
+  - q: What makes Sark different from other UK yoga retreats?
+    a: Sark is a car-free island in the Channel Islands with designated Dark Sky status. It offers complete quiet, no traffic noise, no street lighting and minimal commercial distraction. This natural stillness supports deeper rest and nervous system regulation in a way most mainland retreats cannot replicate. Unlike many UK yoga retreats located near towns or busy coastlines, a yoga retreat on Sark Island offers peace and uninterrupted night skies.
+  - q: Is it really that dark at night?
+    a: Yes. Sark was the world's first designated Dark Sky Island, and with no street lighting the night skies are extraordinary. One evening of your retreat is given over to a guided session at the Sark Observatory, and on a clear night the Milky Way is plainly visible. It's one of the things guests remember most about their stay.
+  - q: Is there phone signal and wifi on Sark?
+    a: Yes. Sark has both signal and wifi, so you can stay reachable if you need to be. The sense of switching off here comes from the island itself, the slower pace, the quiet, and the dark skies, rather than from being cut off. Most guests simply find they stop reaching for their phones.
+  - q: Do I need to be experienced in yoga to join?
+    a: No experience is required. Our retreat is suitable for mixed levels. Each session offers options and variations, so whether you are new to yoga or have an established practice, you will feel supported. The emphasis is on presence, breath and reconnection rather than performance. Monica's teaching is supportive, inclusive and adaptable, and focuses on depth and awareness rather than intensity.
+  - q: How do I get to Sark Island?
+    a: Travel to Guernsey first, by direct flight from the UK and Europe with Aurigny, British Airways or Loganair, or by ferry from the UK or France. From Guernsey, a passenger ferry takes you across to Sark in around 55 minutes. On arrival your luggage is taken care of, and you travel up from the harbour by the island's tractor-drawn toast rack, then on to the farmhouse by horse and carriage. Full travel guidance is provided after booking.
+  - q: How do I get around the island?
+    a: Sark is car-free, so bicycles are the natural way to explore. After breakfast each day we head to different parts of the island, with time to explore at your own pace too. Electric bikes tend to be the most comfortable option and are easy to use, even if you've never ridden one before. We're happy to reserve an electric bike so it's ready at the house when you arrive, or you're welcome to arrange hire yourself on the island. Electric bikes are around £19.50 per day, and based on the week's schedule, four days is typically all you'd need.
+  - q: Can I come solo?
+    a: Absolutely. Many guests come alone and often leave with lifelong friends. If you'd like to share a room, we'll do our best to match you with another solo guest, though this can't be guaranteed. Our small group format makes Sark ideal for solo travellers seeking connection without overwhelm.
+  - q: Do I need to bring a yoga mat?
+    a: Mats and props are provided, but you are welcome to bring your own.
+  - q: What should I pack?
+    a: Keep it simple. We recommend comfortable clothes for yoga and relaxing, a warm layer for cooler evenings by the sea, a light waterproof just in case, a torch, and trainers or comfortable shoes for walking the island. Bring swimwear for the sea or pool, and a reusable water bottle if you have one. Sea shoes can be useful for the beach, though this is entirely optional. Other than that, just bring yourself, we'll take care of everything else here.
+  - q: Are towels and toiletries provided?
+    a: Yes. There's no need to bring a beach towel, as we'll have a towel available for you to use for the pool or beach during your stay. We also provide shampoo and conditioner, so there's no need to worry about packing those, especially helpful if you're travelling with hand luggage only.
+  - q: Are treatments included?
+    a: Massage, Reiki and breathwork add-ons are available with our Soul team at an additional cost. Optional treatments allow you to personalise your retreat experience.
+  - q: How many participants per retreat?
+    a: Each retreat is limited to a maximum of 11 guests. We keep the group intentionally small to ensure intimacy, personal attention and a calm atmosphere. Small group size is central to the depth of the experience.
+  - q: Do you cater to dietary requirements and allergies?
+    a: Yes. We ask all guests about dietary needs or allergies when onboarding, and our chef is happy to accommodate. All meals are vegetarian and designed to support your yoga and retreat experience.
+  - q: What level of fitness do I need?
+    a: A general level of fitness is helpful for enjoying our walks, yoga and time outdoors, but this is your retreat, so you can always take things at your own pace. This is a restorative yoga retreat, not a fitness bootcamp.
+  - q: Do I need travel insurance?
+    a: Yes. We strongly recommend that all participants obtain travel insurance.
+ctaTitle: Ready to book your place?
+ctaLine: A £300 deposit per person secures your room. The early booking rate ends 19 July 2026.
 ---
 
-This page carries the Retreat FAQ copy migrated from the live site. Holding version until the live copy is pasted in; the answers below are correct for the September 2026 retreat.
+Here you'll find answers to some of the most common questions about our retreat. Please reach out if there's anything else you'd like to know, we're happy to help: [info@sarksoulretreats.com](mailto:info@sarksoulretreats.com)
 
-Have a question that is not covered here? Ask it on any page and we will answer personally, or start with [the booking page](/retreats-on-sark) and [Getting to Sark](/getting-to-sark).
+## What's included?
+
+- Five nights accommodation in a beautiful historic farmhouse
+- Morning and evening yoga immersion with Monica, including asana, pranayama and meditation
+- Three nourishing vegetarian meals each day, prepared by our private chef
+- A guided night-sky session at the Sark Observatory
+- Horse-drawn carriage arrival to your accommodation
+- Time to rest, swim, walk, read, and explore the island's cliffs and turquoise coves
+- Guided walks and island activities, woven gently through the week
+- Full use of the property's indoor and outdoor swimming pools, gardens, quiet spaces, and yoga studio
+
+All core elements of your retreat are included in the retreat price.
+
+## What's not included?
+
+- Travel to and from Sark
+- Airport transfers (can be arranged on request)
+- Travel insurance (recommended for all participants)
+- Additional optional treatments (paid separately)
+
+## How does booking work?
+
+To book your place, choose your room on [the retreats page](/retreats-on-sark) and complete the booking. A £300 deposit per person is required to secure your booking. The remaining balance will be due 45 days before the immersion.
+
+Once your deposit is received:
+
+- Your place is confirmed
+- You'll receive a confirmation email
+- Nadia will be in touch to support you with travel, arrival, and any questions
+
+From here, everything unfolds gently and with support.
+
+## How do shared rooms work?
+
+Many of our guests join on their own and choose to share a room as part of the retreat experience. Shared rooms are suitable for guests travelling solo or for friends attending together.
+
+We will do our best to thoughtfully match you with another guest of the same gender who is also looking to share. While we cannot guarantee a sharing match in advance, we will always keep you informed. If a suitable match is not possible, the single occupancy rate would apply.
+
+Booking with a friend? If you are travelling with a friend and would like to reserve a shared room together, please ensure that both deposits are paid at the time of booking so the room can be confirmed for you. One person may pay on behalf of both guests if preferred, please include both names in the booking or payment reference.
+
+Rooms marked as 'Booking in progress' are temporarily unavailable while an existing booking is being finalised. Rooms are marked 'Sold out' once bookings are fully booked and no longer available.
+
+## A note on support
+
+If you have questions before choosing your room, or need guidance at any stage, please contact Nadia at [info@sarksoulretreats.com](mailto:info@sarksoulretreats.com). Our full [booking terms](/terms-conditions) are published too.
+
+This is a small, human-led immersion. We're here to help.

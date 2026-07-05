@@ -1,11 +1,12 @@
 # Cloudflare Pages redirect map for the October 2026 cutover.
-# Completed at launch: freeze Wix, export the final live sitemap, reconcile
-# every URL, add 301s here, old slug to new, no chains.
+# Reconciled against the live Wix sitemap on 5 July 2026 (12 URLs, see
+# docs/live-copy). Every live slug exists 1:1 on this site except /blog,
+# which the rebuild replaces with /journal. Re-export the sitemap at
+# launch freeze and confirm nothing new appeared before DNS cutover.
 # Format: /old-path /new-path 301
-#
-# Known candidates, confirm against the final Wix sitemap before launch:
-# /the-practice slug to be verified
-# /our-story slug to be verified
-# /meet-the-team slug to be verified
-# Getting to Sark guide slug to be verified
-# Booking terms and contact slugs to be verified
+
+/blog /journal 301
+/blog/* /journal 301
+
+# Retired pages that may still hold external links or index entries.
+/spring /retreats-on-sark 301
