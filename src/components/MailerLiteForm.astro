@@ -1,21 +1,55 @@
 ---
-// Official MailerLite embedded form placeholder. The universal loader script
-// lives once in Footer.astro; this component only renders the target div.
+// Official MailerLite embedded form. The universal loader script lives once
+// in Footer.astro; this component renders the target div, optionally behind
+// a native details disclosure so the form opens only when the button is
+// pressed, matching the live site, with zero client side JavaScript.
 // Form slugs live in the MailerLite account (2309024):
 //   9SoA2F  Getting to Sark Guide signup
 //   GIRqf4  Join the waitlist
 interface Props {
   slug: string;
+  cta?: string;
 }
 
-const { slug } = Astro.props;
+const { slug, cta } = Astro.props;
 ---
 
-<div class="ml-embedded" data-form={slug}></div>
+{
+  cta ? (
+    <details class="ml-reveal">
+      <summary class="btn">{cta}</summary>
+      <div class="ml-embedded" data-form={slug} />
+    </details>
+  ) : (
+    <div class="ml-embedded" data-form={slug} />
+  )
+}
 
 <style>
   .ml-embedded {
     max-width: 480px;
     margin-inline: auto;
+  }
+
+  .ml-reveal {
+    text-align: center;
+  }
+
+  .ml-reveal summary {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .ml-reveal summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .ml-reveal[open] summary {
+    display: none;
+  }
+
+  .ml-reveal .ml-embedded {
+    margin-top: 18px;
   }
 </style>
