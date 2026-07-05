@@ -28,6 +28,18 @@ const slug = d.slug ?? page.id;
 
 const defaultNote =
   'Sark gives people something no timetable can, time that belongs to them again. That is the most transformative thing we offer.';
+
+const breadcrumbs =
+  d.retreatPage && slug !== 'retreats-on-sark'
+    ? [
+        { label: 'Home', href: '/' },
+        { label: 'Retreats', href: '/retreats-on-sark' },
+        { label: d.title, href: `/${slug}` },
+      ]
+    : [
+        { label: 'Home', href: '/' },
+        { label: d.title, href: `/${slug}` },
+      ];
 ---
 
 <BaseLayout
@@ -35,11 +47,7 @@ const defaultNote =
   description={d.metaDescription}
   ogImage={d.ogImage}
   event={d.retreatPage}
-  breadcrumbs={[
-    { label: 'Home', href: '/' },
-    { label: 'Retreats', href: '/retreats-on-sark' },
-    { label: d.title, href: `/${slug}` },
-  ]}
+  breadcrumbs={breadcrumbs}
 >
   <Hero
     eyebrow={d.heroEyebrow}
