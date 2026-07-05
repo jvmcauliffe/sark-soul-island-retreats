@@ -17,6 +17,12 @@ Cloudflare Pages, production branch `main`, preview deploys on every push.
 Build command `npm run build`, output directory `dist`. Do not touch DNS
 until the launch checklist is executed in October 2026.
 
+GA4: set the `PUBLIC_GA4_MEASUREMENT_ID` environment variable in Cloudflare
+Pages (production only) to the web data stream's Measurement ID, it starts
+with G-. Found in Google Analytics under Admin, Data streams. When unset,
+no analytics code ships and the build stays at zero client JS. The GA
+property is account 141587640, property 519849557.
+
 ## Status
 
 - Phase 1 scaffold and Phase 2 components: done, see /styleguide

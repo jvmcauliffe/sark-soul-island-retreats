@@ -51,6 +51,12 @@ const {
 
 const canonical = `${SITE}${path === '/' ? '' : path}`;
 const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE}${ogImage}`;
+
+// GA4: lightweight direct gtag include, no GTM container. Ships nothing
+// unless PUBLIC_GA4_MEASUREMENT_ID is set at build time (Cloudflare Pages
+// env var), so preview builds stay at zero client JS. Async, never
+// render-blocking.
+const ga4Id = import.meta.env.PUBLIC_GA4_MEASUREMENT_ID;
 ---
 
 <html lang="en-GB">
@@ -82,6 +88,18 @@ const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE}${ogImage}`;
       faqs={faqs}
       article={article}
     />
+
+    {
+      ga4Id && (
+        <>
+          <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${ga4Id}`} />
+          <script
+            is:inline
+            define:vars={{ ga4Id }}
+          >{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config',ga4Id,{anonymize_ip:true});`}</script>
+        </>
+      )
+    }
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
