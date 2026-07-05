@@ -181,6 +181,22 @@ img {
   color: var(--ink-soft);
 }
 
+/* MailerLite embedded forms: enforce the brand button, teal only, never clay */
+.ml-embedded button,
+.ml-embedded .ml-form-embedSubmit button {
+  background: var(--teal) !important;
+  color: #fff !important;
+  font-family: var(--font-body) !important;
+  letter-spacing: 2px !important;
+  text-transform: uppercase !important;
+  border: none !important;
+  border-radius: 2px !important;
+}
+
+.ml-embedded button:hover {
+  background: var(--teal-dark) !important;
+}
+
 /* In-copy photo placeholder, used inside markdown until John's photos arrive */
 .prose .photo-slot {
   background: linear-gradient(160deg, var(--cream) 0%, var(--cream-deep) 55%, #d8ccb4 100%);
