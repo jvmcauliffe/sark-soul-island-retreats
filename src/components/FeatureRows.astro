@@ -37,3 +37,18 @@ const { features, eyebrow = 'Your home for the week' } = Astro.props;
     ))
   }
 </section>
+
+<style>
+  /* Uniform photo size across the rows, whatever each shot's own ratio */
+  .features :global(.qrow-media picture) {
+    display: block;
+  }
+
+  .features :global(.qrow-media img),
+  .features :global(.qrow-media .image-slot) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+  }
+</style>

@@ -29,6 +29,8 @@ We are constantly inspired by the generations who have called Sark home before u
 
 With no cars and no traffic, every breath feels lighter. Surrounded by sea air, nourished by local food and held by the island's stillness, the practice deepens almost on its own.
 
+<span class="eyebrow">Solo travel</span>
+
 ## Can I come on my own?
 
 ![A shared vegetarian feast in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
@@ -44,6 +46,8 @@ Sark is closer than most people expect. It's a short flight from London or a reg
 ![The harbour at St Peter Port, Guernsey, before the ferry crossing to Sark](../../assets/photos/sark-st-peter-port-guernsey.jpg)
 
 When guests arrive in Guernsey, they often have time to explore St Peter Port before the ferry leaves. It's a lovely way to begin the retreat. They can wander around the harbour, explore the cobbled streets, have lunch and start slowing down before heading to Sark.
+
+<span class="eyebrow">Arriving</span>
 
 ## What is the boat journey like?
 
@@ -63,6 +67,8 @@ For many people this is their first truly memorable Sark moment. It's bumpy, fun
 
 ![Guests riding the tractor-drawn toast rack up Harbour Hill on Sark](../../assets/photos/sark-toast-rack-guests-arrival.jpg)
 
+<span class="eyebrow">Your chariot awaits</span>
+
 ## Do people use Horse and Carriages on Sark?
 
 At the top of the hill, guests transfer to a beautiful horse and carriage. The carriage ride is your first proper introduction to the island. You begin learning about Sark while taking in the scenery and atmosphere.
@@ -81,17 +87,23 @@ When night falls on Sark, the sky transforms into a breathtaking theatre of star
 
 There's signal here, and there's wifi. You simply stop reaching for your phone, because there's something better to look at. Our [Dark Sky retreat](/dark-sky-retreat) is built around exactly this.
 
+<span class="eyebrow">Arriving</span>
+
 ## Planning for your visit
 
 ![The ferry to Sark leaving the harbour, Channel Islands](../../assets/photos/sark-ferry-to-island.jpg)
 
 Sark operates its own unique luggage system. Guests can collect their ferry tickets and luggage labels from Sark Shipping, leave their luggage in the holding area and enjoy Guernsey without dragging suitcases around. Their luggage is then transferred for them and delivered directly to the accommodation in Sark.
 
+<span class="eyebrow">The practice</span>
+
 ## Do I need to be good at Yoga?
 
 ![A yoga class in the studio at the retreat on Sark](../../assets/photos/sark-yoga-class-studio.jpg)
 
 Our sessions suit every level. Monica, who has taught for thirty years, meets you where you are. Come as you are; the practice adapts to you. Mornings wake the body gently, evenings let the day settle, and the island sets the pace in between. Most guests leave feeling lighter, steadier, more themselves. Read more about [the practice](/the-practice) or our [yoga retreat on Sark](/yoga-retreat-sark).
+
+<span class="eyebrow">The food</span>
 
 ## What's the food like?
 
@@ -104,6 +116,8 @@ Our Chefs, Bram and Pip, cook vegetarian, generous and seasonal, from what the i
 Home for the week is a historic farmhouse with a much-loved garden, a real home rather than a hotel. With only ten to twelve guests, the shared rooms fill with easy conversation, while quiet corners wait for the moments you would rather be alone.
 
 ![The Honeysuckle room with original stonework at the retreat house on Sark](../../assets/photos/sark-honeysuckle-room.jpg)
+
+<span class="eyebrow">The outcome</span>
 
 ## What can I expect from the week?
 

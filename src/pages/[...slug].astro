@@ -16,6 +16,7 @@ import MailerLiteForm from '../components/MailerLiteForm.astro';
 import RoomCards from '../components/RoomCards.astro';
 import FeatureRows from '../components/FeatureRows.astro';
 import ImageSlot from '../components/ImageSlot.astro';
+import RetreatIcon from '../components/RetreatIcon.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -76,7 +77,14 @@ const breadcrumbs =
           <h2>{d.includes.heading}</h2>
           <ul>
             {d.includes.items.map((item) => (
-              <li>{item}</li>
+              <li>
+                {item.icon && (
+                  <span class="item-icon">
+                    <RetreatIcon name={item.icon} />
+                  </span>
+                )}
+                <span>{item.text}</span>
+              </li>
             ))}
           </ul>
         </div>
@@ -88,13 +96,24 @@ const breadcrumbs =
     d.addOns && (
       <section class="section addons">
         <div class="container">
-          <h2>{d.addOns.heading}</h2>
-          <p>{d.addOns.body}</p>
           <div class="addon-photos">
             {d.addOns.images.map((img) => (
               <ImageSlot src={img.src} alt={img.alt} shot={img.alt} width={800} height={600} />
             ))}
           </div>
+          <h2>{d.addOns.heading}</h2>
+          <ul class="addon-items">
+            {d.addOns.items.map((item) => (
+              <li>
+                {item.icon && (
+                  <span class="item-icon">
+                    <RetreatIcon name={item.icon} />
+                  </span>
+                )}
+                <span>{item.text}</span>
+              </li>
+            ))}
+          </ul>
         </div>
       </section>
     )
@@ -176,19 +195,20 @@ const breadcrumbs =
     }
   }
 
-  .includes li {
-    padding-left: 26px;
-    position: relative;
+  .includes ul {
+    gap: 26px 48px;
   }
 
-  .includes li::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0.62em;
-    width: 12px;
-    height: 2px;
-    background: var(--gold);
+  .includes li {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+  }
+
+  .item-icon {
+    flex: none;
+    color: var(--sage);
+    margin-top: -3px;
   }
 
   .addons {
@@ -196,8 +216,30 @@ const breadcrumbs =
     padding-top: 0;
   }
 
-  .addons p {
-    margin-inline: auto;
+  .addons h2 {
+    margin-top: 1.6em;
+  }
+
+  .addon-items {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 980px;
+    display: grid;
+    gap: 22px 40px;
+    text-align: left;
+  }
+
+  @media (min-width: 700px) {
+    .addon-items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .addon-items li {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
   }
 
   .addon-photos {

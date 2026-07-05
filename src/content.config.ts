@@ -63,13 +63,13 @@ const pages = defineCollection({
     includes: z
       .object({
         heading: z.string(),
-        items: z.array(z.string()),
+        items: z.array(z.object({ icon: z.string().default(''), text: z.string() })),
       })
       .optional(),
     addOns: z
       .object({
         heading: z.string(),
-        body: z.string(),
+        items: z.array(z.object({ icon: z.string().default(''), text: z.string() })),
         images: z.array(z.object({ src: image(), alt: z.string() })).default([]),
       })
       .optional(),

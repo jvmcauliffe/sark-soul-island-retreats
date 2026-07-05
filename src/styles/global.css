@@ -165,6 +165,20 @@ img {
   margin-top: 1.6em;
 }
 
+/* Section eyebrows written inline in markdown, sitting above their heading.
+   Markdown wraps the span in a paragraph, so target that wrapper. */
+.prose p:has(> .eyebrow) {
+  margin: 3em 0 0;
+}
+
+.prose p:has(> .eyebrow) > .eyebrow {
+  margin-bottom: 0;
+}
+
+.prose p:has(> .eyebrow) + h2 {
+  margin-top: 0.4em;
+}
+
 .prose ul,
 .prose ol {
   max-width: var(--measure);

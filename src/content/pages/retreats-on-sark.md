@@ -133,21 +133,37 @@ rooms:
       - src: ../../assets/photos/sark-breakfast-croissant.jpg
         alt: A croissant breakfast at the retreat house on Sark
 includes:
-  heading: What's Included
+  heading: "What's Included:"
   items:
-    - Yoga, Pranayama and Meditation twice daily
-    - A guided night-sky session at Sark Observatory
-    - Time to rest and relax
-    - Horse-drawn carriage to your accommodation
-    - Five nights luxury farmhouse accommodation
-    - "All activities: guided walks, turquoise coves, swimming"
-    - Nutritious vegetarian meals from our private chef
-    - Sark ferry coordination
-    - Pools and wellness facilities, plus private yoga studio, gardens and quiet spaces
-    - Dedicated retreat support
+    - icon: yoga
+      text: Yoga, Pranayama and Meditation twice daily
+    - icon: stars
+      text: A guided night-sky session at Sark Observatory
+    - icon: moon
+      text: Time to rest and relax
+    - icon: carriage
+      text: Horse-drawn carriage to your accommodation
+    - icon: house
+      text: Five nights luxury farmhouse accommodation
+    - icon: path
+      text: "All activities: guided walks, turquoise coves, swimming"
+    - icon: cutlery
+      text: Nutritious vegetarian meals from our private chef
+    - icon: ferry
+      text: Sark ferry coordination
+    - icon: pool
+      text: Pools and wellness facilities, plus private yoga studio, gardens and quiet spaces
+    - icon: heart
+      text: Dedicated retreat support
 addOns:
-  heading: Retreat Add-ons
-  body: "Available as additional treatments: massage therapy, Reiki, and guided breathwork with cold immersion."
+  heading: "Retreat Add-ons:"
+  items:
+    - icon: massage
+      text: Massage Therapy, available as additional treatment
+    - icon: reiki
+      text: Reiki, available as additional treatment
+    - icon: snowflake
+      text: Guided Breathwork and Cold Immersion, available as additional treatment
   images:
     - src: ../../assets/photos/sark-julienne-massage-therapist.jpg
       alt: Julienne, massage therapist at the retreat house on Sark
