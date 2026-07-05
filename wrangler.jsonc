@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sark-soul-island-retreats",
+  "compatibility_date": "2026-07-05",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "designs"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
