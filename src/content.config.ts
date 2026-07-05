@@ -5,7 +5,8 @@ import { glob } from 'astro/loaders';
 // parsed into this frontmatter; the copy itself stays verbatim in the body.
 const pages = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/pages' }),
-  schema: z.object({
+  schema: ({ image }) =>
+    z.object({
     title: z.string(),
     metaTitle: z.string().max(60),
     metaDescription: z.string().max(155),
@@ -13,6 +14,7 @@ const pages = defineCollection({
     heroEyebrow: z.string().default('Sark Soul Island Retreats'),
     heroTitle: z.string().optional(),
     heroLine: z.string().default('A luxury small-group retreat on the Isle of Sark'),
+    heroImage: image().optional(),
     heroImageAlt: z.string().default('Coastal clifftop at golden hour on Sark, Channel Islands'),
     heroShot: z.string().default('Hero photograph for this page'),
     ogImage: z.string().optional(),

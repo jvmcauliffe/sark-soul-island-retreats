@@ -6,7 +6,8 @@ slug: why-sark
 heroEyebrow: Isle of Sark · Channel Islands
 heroTitle: Why Sark?
 heroLine: A car-free island, an hour from Guernsey, where the night sky still belongs to everyone.
-heroImageAlt: Coastal headland and open sea from the cliff path on Sark, Channel Islands
+heroImage: ../../assets/photos/sark-la-coupee-cliff-path.jpg
+heroImageAlt: The cliff path across La Coupée between Sark and Little Sark, Channel Islands
 heroShot: Why Sark hero, headland or cliff path
 retreatPage: false
 ---

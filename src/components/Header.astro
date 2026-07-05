@@ -90,7 +90,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     white-space: nowrap;
   }
 
-  nav ul {
+  nav > ul {
     list-style: none;
     display: flex;
     align-items: center;
@@ -124,6 +124,8 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
 
   .dropdown {
     display: none;
+    list-style: none;
+    margin: 0;
     position: absolute;
     top: 100%;
     left: -18px;
@@ -179,7 +181,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
       display: block;
     }
 
-    nav ul {
+    nav > ul {
       flex-direction: column;
       align-items: flex-start;
       gap: 16px;

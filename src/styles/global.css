@@ -181,6 +181,26 @@ img {
   color: var(--ink-soft);
 }
 
+/* In-copy photo placeholder, used inside markdown until John's photos arrive */
+.prose .photo-slot {
+  background: linear-gradient(160deg, var(--cream) 0%, var(--cream-deep) 55%, #d8ccb4 100%);
+  aspect-ratio: 3 / 2;
+  max-width: var(--measure);
+  display: flex;
+  align-items: flex-end;
+  padding: 18px;
+  margin: 2em 0;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--sage-dark);
+}
+
+.prose img {
+  margin: 2em 0;
+}
+
 /* Breadcrumbs */
 .breadcrumbs {
   font-size: 12px;

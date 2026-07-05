@@ -1,18 +1,79 @@
 ---
 title: Solo Retreat for Women
-metaTitle: Solo Retreat for Women on Sark · Sark Soul Island Retreats
-metaDescription: A solo retreat for women on the Isle of Sark, 12 to 17 September 2026. Most guests arrive alone. Shared rooms matched with care, single rooms available.
+metaTitle: Solo Retreat for Women | Sark Soul Island Retreats
+metaDescription: A yoga and wellness retreat where most guests arrive alone. Small group, one shared house, car-free island. Come on your own, leave with friends.
 slug: solo-retreat-women
-heroEyebrow: Late Summer Retreat · September 2026
-heroTitle: Come alone, you will be in company
-heroLine: Most of our guests arrive solo. The island and the group do the rest.
-heroImageAlt: A guest walking alone on a clifftop path on Sark, Channel Islands
-heroShot: Solo retreat hero, lone walker on the cliffs
+heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
+heroTitle: A Solo Retreat for Women, on an Island Made for It
+heroLine: Most of our guests arrive alone. You will probably be in the majority.
+heroImageAlt: Guests walking a quiet car-free lane on Sark during a women's wellness retreat
+heroShot: Two guests walking a lane
 retreatPage: true
+nadiaNote: >-
+  I came to Sark searching for something myself. The island gave me space,
+  freedom and the feeling of coming home to myself. Watching guests who
+  arrived alone open up over five days, and leave with people they now call
+  friends, is my favourite part of every retreat.
+faqs:
+  - q: Will I be the only person on my own?
+    a: >-
+      Almost certainly not. Solo guests are the majority on most of our
+      retreats.
+  - q: Is Sark safe for a woman travelling alone?
+    a: >-
+      Sark is a small, close community with no cars and quiet lanes, and
+      guests are together at the retreat house throughout. Travel from the
+      harbour to the house is arranged for the whole group.
+  - q: Do I have to share a room?
+    a: >-
+      No. Shared rooms are popular with solo guests and keep the price down,
+      but single rooms are available.
+  - q: I'm nervous about the group. What if I need space?
+    a: >-
+      Free time is built into every day and taking it is completely normal
+      here. The retreat is an invitation, not a timetable.
 ---
 
-Holding page. John's supplied copy file replaces this one, same filename, and renders verbatim with the build notes parsed into frontmatter.
+Most of our guests arrive alone. It is worth saying that first, because it is the question almost everyone asks and almost no retreat answers plainly.
 
-Most of our guests arrive on their own. Shared rooms are matched thoughtfully, single rooms are available, and Nadia hosts every retreat personally from ferry to farewell.
+You will not be the only one. You will probably be in the majority. And with ten to twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
 
-Start with [why we chose Sark](/why-sark), or explore the other retreats: [the yoga retreat](/yoga-retreat-sark), [the digital detox retreat](/digital-detox-retreat), [the burnout retreat](/burnout-retreat) and [the dark sky retreat](/dark-sky-retreat). Dates and rates are on [the booking page](/retreats-on-sark).
+**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
+
+[Reserve my place](/retreats-on-sark)
+
+## Why solo travellers choose Sark
+
+Some places are simply easy to be alone in, and Sark is one of them.
+
+The island is car-free for visitors, so there is no traffic to navigate and nowhere feels hurried. The lanes are quiet, the distances are small and everything on the island is reachable on foot or by bicycle. It is a small community where people greet each other on the paths. On an island with no street lighting, a friendly "evening" on a dark lane is simply how Sark works.
+
+None of this needs dramatising. It is just a very comfortable place to travel on your own, which is exactly why so many women do.
+
+<div class="photo-slot">Photo needed: guests walking a lane. Alt: guests walking a quiet car-free lane on Sark during a women's wellness retreat.</div>
+
+## Alone, but never lonely
+
+The rhythm of the retreat gives you both things people come for: company when you want it, and solitude when you need it.
+
+Mornings begin together with yoga, taught by Monica for every level of experience. Meals are shared around one long table, cooked by Bram, and the conversation takes care of itself. Walks along the cliff paths happen in twos and threes and comfortable silences.
+
+The middle of each day is yours. Swim, read in the garden, find a quiet cove, or do nothing at all. Nothing is compulsory, and needing an afternoon to yourself is understood here, not questioned.
+
+Guests who arrive alone tend to leave with friends they keep. The change in the group between day one and day four is one of the quiet pleasures of hosting these weeks.
+
+## One house, one table
+
+You stay at our historic farmhouse, a real home rather than a hotel, with a much-loved garden and corners to disappear into. Shared rooms make the retreat more affordable and are how many solo guests choose to come. A limited number of single rooms are available if you would rather have your own space.
+
+<div class="photo-slot">Photo needed: shared table. Alt: guests sharing a vegetarian dinner at a small group retreat on Sark, Channel Islands.</div>
+
+## The journey is simple
+
+Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of around 55 minutes. From the harbour, a tractor-drawn toast rack carries everyone up the hill and a horse and carriage brings you to the retreat house. Many guests travelling alone find others from the retreat on the same crossing. Our [Getting to Sark guide](/getting-to-sark) covers every practical detail, and we help you plan the journey when you book.
+
+## Dates, price and what's included
+
+**12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every activity included. Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
+
+[Reserve my place](/retreats-on-sark)
