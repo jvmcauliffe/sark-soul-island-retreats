@@ -255,6 +255,26 @@ img {
   margin: 2em 0;
 }
 
+/* Centered prose pages (booking page intro), live site treatment */
+.prose.centered {
+  text-align: center;
+}
+
+.prose.centered p,
+.prose.centered ul {
+  margin-inline: auto;
+}
+
+.prose.centered img {
+  margin: 2.4em auto;
+}
+
+.prose.centered h2 {
+  font-size: clamp(32px, 4.6vw, 54px);
+  letter-spacing: 0.5px;
+  margin-top: 1.2em;
+}
+
 /* Breadcrumbs */
 .breadcrumbs {
   font-size: 12px;

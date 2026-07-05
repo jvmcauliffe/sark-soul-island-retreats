@@ -69,7 +69,7 @@ const breadcrumbs =
 
   {
     page.body?.trim() && (
-      <article class="prose section container">
+      <article class:list={['prose', 'section', 'container', { centered: d.centerBody }]}>
         <Content />
       </article>
     )

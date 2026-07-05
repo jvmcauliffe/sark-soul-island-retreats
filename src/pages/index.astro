@@ -31,6 +31,13 @@ import circleCove from '../assets/photos/sark-rocky-cove-turquoise.jpg';
 import circleMeadow from '../assets/photos/sark-meadow-yoga-pose.jpg';
 import circleYachts from '../assets/photos/sark-harbour-bay-yachts.jpg';
 import circleCurry from '../assets/photos/sark-vegetarian-curry-bowl.jpg';
+import monicaCobra from '../assets/photos/sark-monica-cobra-pose-studio.jpg';
+import laCoupeeSunny from '../assets/photos/sark-la-coupee-aerial-sunny.jpg';
+import honeysuckleRoom from '../assets/photos/sark-honeysuckle-room.jpg';
+import milkyWayHenge from '../assets/photos/sark-milky-way-dark-sky.jpg';
+import venusPool from '../assets/photos/sark-venus-pool-wild-swimming.jpg';
+import farmhousePoppies from '../assets/photos/sark-retreat-farmhouse-poppies.jpg';
+import toastRack from '../assets/photos/sark-toast-rack-guests-arrival.jpg';
 
 const testimonials = [
   {
@@ -73,6 +80,14 @@ const circle = [
   { src: circleYachts, alt: 'Yachts at anchor in a turquoise bay on Sark, Channel Islands' },
   { src: circleCurry, alt: 'A vegetarian curry bowl at the retreat on Sark' },
   { src: circleCove, alt: 'A rocky turquoise cove on the coast of Sark, Channel Islands' },
+  { src: monicaCobra, alt: 'Monica in cobra pose in the yoga studio at the retreat on Sark' },
+  { src: laCoupeeSunny, alt: 'La Coupée and its turquoise bays from the air on Sark, Channel Islands' },
+  { src: honeysuckleRoom, alt: 'The Honeysuckle room at the retreat house on Sark' },
+  { src: milkyWayHenge, alt: 'The Milky Way over Sark Henge on the Dark Sky Island of Sark' },
+  { src: venusPool, alt: 'Wild swimming at the Venus Pool on Sark, Channel Islands' },
+  { src: farmhousePoppies, alt: 'Our historic farmhouse behind summer poppies on Sark' },
+  { src: toastRack, alt: 'Guests riding the tractor-drawn toast rack on Sark' },
+  { src: retreatHouse, alt: 'The retreat house and gardens from the air on Sark, Channel Islands' },
 ];
 ---
 
@@ -118,6 +133,31 @@ const circle = [
         A small group, twice a year, in a historic farmhouse by the sea. Daily yoga, coastal
         walks, nourishing food, and the kind of quiet most people haven't experienced in years.
       </p>
+    </div>
+  </section>
+
+  <section class="henge-band">
+    <Image
+      src={circleHenge}
+      alt="Sark Henge standing stones at golden hour above the sea on Sark, Channel Islands"
+      width={1510}
+      height={832}
+      class="henge-band-img"
+      loading="lazy"
+    />
+  </section>
+
+  <section class="section" style="text-align: center; padding-top: clamp(28px, 4vw, 48px);">
+    <div class="container">
+      <div class="circle-grid">
+        {
+          circle.map((c) => (
+            <a href="https://www.instagram.com/sarksoulretreats" rel="noopener">
+              <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
+            </a>
+          ))
+        }
+      </div>
     </div>
   </section>
 
@@ -183,10 +223,18 @@ const circle = [
     </p>
   </QRow>
 
-  <section class="values section cream">
+  <section class="values-photos">
+    <Image src={circleCove} alt="A rocky turquoise cove on the coast of Sark, Channel Islands" width={700} height={620} class="vp-img" loading="lazy" />
+    <Image src={circleMeadow} alt="A yoga pose in a wildflower meadow on Sark" width={700} height={620} class="vp-img" loading="lazy" />
+    <Image src={circleCurry} alt="A vegetarian curry bowl at the retreat on Sark" width={700} height={620} class="vp-img" loading="lazy" />
+    <Image src={monicaCobra} alt="Monica in cobra pose in the yoga studio at the retreat on Sark" width={700} height={620} class="vp-img" loading="lazy" />
+  </section>
+
+  <section class="values section on-dark">
+    <h2 class="values-title">Come join us</h2>
     <div class="container values-grid">
       <div>
-        <h3>A place to arrive</h3>
+        <h3>- A place to arrive -</h3>
         <p>
           Held within a historic farmhouse surrounded by stunning gardens, this is more than a
           beautiful setting, it is a place that naturally slows the body and quiets the mind.
@@ -194,7 +242,7 @@ const circle = [
         </p>
       </div>
       <div>
-        <h3>A yoga retreat in the Channel Islands</h3>
+        <h3>- A yoga retreat in the Channel Islands -</h3>
         <p>
           Sark sits a short ferry from Guernsey, half a day from London and a world away from
           everything else. Plenty of guests first meet the island on a day trip, then find
@@ -203,7 +251,7 @@ const circle = [
         </p>
       </div>
       <div>
-        <h3>Balancing practice &amp; ease</h3>
+        <h3>- Balancing practice &amp; ease -</h3>
         <p>
           Spacious days, time to rest, sea air, coastal walks, turquoise coves, daily swims,
           shared meals, with morning and evening Yoga framing the day. Life on Sark is simple
@@ -225,29 +273,26 @@ const circle = [
     <p style="font-size: 12px; letter-spacing: 2.5px; text-transform: uppercase;">Victor Hugo</p>
   </DarkStrip>
 
-  <QRow
-    question="Your home for the week"
-    eyebrow="A place to arrive"
-    image={retreatHouse}
-    imageAlt="Our historic farmhouse and its gardens from the air on Sark, Channel Islands"
-    shot="The retreat house"
-    caption="Our historic farmhouse and its gardens."
-    reverse
-  >
-    <p>
-      Your retreat house is one of Sark's most beautiful historic farmhouses. A small private
-      estate surrounded by gardens, woodland, and birdsong. It's intimate, warm, and deeply
-      peaceful, the perfect setting for a soulful retreat.
-    </p>
-    <p>
-      <a href="/retreats-on-sark">Find out more about our retreats</a>
-    </p>
-  </QRow>
+  <section class="house-band">
+    <Image
+      src={retreatHouse}
+      alt="Our historic farmhouse and its gardens from the air on Sark, Channel Islands"
+      width={1800}
+      height={700}
+      class="house-band-img"
+      loading="lazy"
+    />
+    <div class="container house-band-body">
+      <h2>Your home for the week</h2>
+      <p>Find out more about our retreats</p>
+      <a class="btn" href="/retreats-on-sark">See the retreat</a>
+    </div>
+  </section>
 
   <section class="section cream">
     <div class="container" style="text-align: center;">
-      <span class="eyebrow">What guests say</span>
-      <h2>In their own words</h2>
+      <h2>What guests say</h2>
+      <p class="testimonials-sub">In their own words</p>
       <div class="testimonials">
         {
           testimonials.map((t) => (
@@ -268,22 +313,6 @@ const circle = [
   />
 
   <GuidePanel />
-
-  <section class="section" style="text-align: center;">  <section class="section" style="text-align: center;">
-    <div class="container">
-      <span class="eyebrow">Join our circle</span>
-      <h2>Follow us @sarksoulretreats</h2>
-      <div class="circle-grid">
-        {
-          circle.map((c) => (
-            <a href="https://www.instagram.com/sarksoulretreats" rel="noopener">
-              <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
-            </a>
-          ))
-        }
-      </div>
-    </div>
-  </section>
 
   <CTABand />
 </BaseLayout>
@@ -385,12 +414,23 @@ const circle = [
     scrollbar-color: var(--cream-deep) transparent;
   }
 
-  @media (min-width: 768px) {
+  .testimonials-sub {
+    margin: -6px auto 0;
+    color: var(--sage-dark);
+    font-size: 15px;
+  }
+
+  @media (min-width: 1040px) {
     .testimonials {
-      grid-auto-columns: calc((100% - 40px) / 3);
+      grid-auto-flow: row;
+      grid-template-columns: repeat(5, 1fr);
+      grid-auto-columns: auto;
+      overflow-x: visible;
+      gap: 16px;
     }
   }
 
+  
   .testimonials blockquote {
     margin: 0;
     background: var(--paper);
@@ -428,12 +468,11 @@ const circle = [
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    margin-top: 36px;
   }
 
   @media (min-width: 700px) {
     .circle-grid {
-      grid-template-columns: repeat(6, 1fr);
+      grid-template-columns: repeat(5, 1fr);
     }
   }
 
@@ -452,5 +491,72 @@ const circle = [
 
   .circle-grid a:hover :global(.circle-img) {
     transform: scale(1.05);
+  }
+
+  .henge-band :global(.henge-band-img) {
+    width: 100%;
+    height: clamp(300px, 52vw, 620px);
+    object-fit: cover;
+    display: block;
+  }
+
+  .values-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 760px) {
+    .values-photos {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  .values-photos :global(.vp-img) {
+    width: 100%;
+    height: clamp(200px, 24vw, 320px);
+    object-fit: cover;
+    display: block;
+  }
+
+  .values.on-dark {
+    background: var(--teal);
+  }
+
+  .values-title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1.2em;
+  }
+
+  .values.on-dark h3 {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .values.on-dark p {
+    color: rgba(255, 255, 255, 0.92);
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .house-band :global(.house-band-img) {
+    width: 100%;
+    height: clamp(280px, 42vw, 560px);
+    object-fit: cover;
+    display: block;
+  }
+
+  .house-band-body {
+    padding-block: clamp(28px, 4vw, 48px);
+  }
+
+  .house-band-body h2 {
+    margin-bottom: 0.2em;
+  }
+
+  .house-band-body p {
+    color: var(--sage-dark);
+    margin-bottom: 1.4em;
   }
 </style>

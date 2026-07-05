@@ -3,13 +3,14 @@ title: Retreats & Booking
 metaTitle: Yoga Retreats on Sark Island | Dates, Rooms & Booking
 metaDescription: Discover our yoga and wellness retreats on Sark. Small group retreats for rest, movement and reset. 12 to 17 September 2026, early rate ends 19 July.
 slug: retreats-on-sark
-heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
-heroTitle: Yoga & Nature Island Retreat
-heroLine: Discover our yoga and wellness retreats on Sark. Small group retreats designed for rest, movement and reset.
-heroImage: ../../assets/photos/sark-retreat-house-gardens-aerial.jpg
-heroImageAlt: Aerial view of the walled gardens at the retreat house on Sark, Channel Islands
-heroShot: Booking page hero, retreat house or garden
+heroEyebrow: On the Isle of Sark · 12 to 17 September 2026
+heroTitle: Late Summer Retreat
+heroLine: With Monica Marini of YogaMorphic. Early booking rate ends 19 July, limited spaces available.
+heroImage: ../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg
+heroImageAlt: Yachts at anchor in a turquoise bay below the cliffs of Sark, Channel Islands
+heroShot: Booking page hero, turquoise bay
 retreatPage: true
+centerBody: true
 guideForm: true
 nadiaNote: I keep the group small on purpose. It is the difference between a holiday with yoga in it and something genuinely transformative.
 darkStrip:
@@ -240,12 +241,18 @@ travel:
       <a href="/dark-sky-retreat">dark sky</a>.</p>
 ---
 
-**Late Summer Retreat on the Isle of Sark, 12 to 17 September 2026, with Monica Marini of YogaMorphic.** Early booking rate ends 19 July, limited spaces available. May 2026 sold out. June 2027, [join the waitlist](/contact).
+## Yoga & Nature Island Retreat
+
+Discover our yoga and wellness retreats on Sark. Small group retreats designed for rest, movement and reset.
+
+**Sep 12 to 17, 2026. Early booking rate ends 19 July, [book now](/retreats-on-sark#rooms).** May 16 to 21, 2026, sold out. June 2027, [join the waitlist](/contact).
+
+All rooms are located within our beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
+
+![A lady meditating on the beach at sunset](../../assets/photos/sark-beach-meditation-sunset.jpg)
 
 ## Retreat & Rooms Investment
 
 All-inclusive 5-night retreat: accommodation, meals, yoga and activities. Prices are per person, exclusive of flights and transfers. Bookings are on a first come first served basis and are subject to our [Terms & Conditions](/terms-conditions). A £300 deposit per person secures your place; the balance is due 45 days before the immersion.
-
-All rooms are located within our beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
 To book, choose your room below and pay the £300 deposit. Each room and rate has its own reservation page, where you can complete your booking securely via PayPal or card payment.

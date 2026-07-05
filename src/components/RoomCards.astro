@@ -31,7 +31,7 @@ interface Props {
 const { rooms } = Astro.props;
 ---
 
-<section class="rooms container">
+<section class="rooms container" id="rooms">
   {
     rooms.map((room) => (
       <article class="room-card">
