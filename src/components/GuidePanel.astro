@@ -1,0 +1,112 @@
+---
+// The Getting to Sark guide panel: Milky Way photo beside Nadia's note and
+// the MailerLite signup, matching the live site's free guide treatment.
+// Used on the home page and on every page that advertises the guide.
+import { Image } from 'astro:assets';
+import MailerLiteForm from './MailerLiteForm.astro';
+import milkyWay from '../assets/photos/sark-milky-way-dark-sky.jpg';
+---
+
+<section class="guide-wrap">
+  <div class="guide-panel on-dark">
+    <div class="guide-media">
+      <Image
+        src={milkyWay}
+        alt="The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island"
+        width={980}
+        height={1354}
+        class="guide-img"
+        loading="lazy"
+      />
+    </div>
+    <div class="guide-content">
+      <span class="eyebrow gold">Free Guide</span>
+      <h2>Getting to Sark</h2>
+      <p>
+        Guests used to ask me the same things before they came, and I loved answering. So I
+        gathered it all into this little guide: the ferry, the famous luggage system, what the
+        first evening feels like.
+      </p>
+      <p class="guide-sig">Nadia, founder and host</p>
+      <MailerLiteForm slug="9SoA2F" cta="Send me the guide" />
+      <p class="guide-fine">No spam, just island news now and then. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<style>
+  .guide-wrap {
+    width: min(100% - 48px, 1040px);
+    margin-inline: auto;
+    padding-block: clamp(40px, 6vw, 72px);
+  }
+
+  .guide-panel {
+    display: grid;
+    grid-template-columns: 1fr;
+    background: var(--ink-soft);
+  }
+
+  @media (min-width: 800px) {
+    .guide-panel {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .guide-media {
+    min-height: 320px;
+  }
+
+  .guide-panel :global(.guide-img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center bottom;
+    display: block;
+  }
+
+  .guide-content {
+    padding: clamp(40px, 5vw, 72px) clamp(24px, 4vw, 64px);
+    text-align: left;
+    align-self: center;
+    max-width: 620px;
+  }
+
+  .guide-content .eyebrow {
+    font-size: 15px;
+    letter-spacing: 6px;
+  }
+
+  .guide-content h2 {
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 0.4em;
+  }
+
+  .guide-content p {
+    color: var(--cream);
+    margin-inline: 0;
+  }
+
+  .guide-sig {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--cream);
+    text-align: center;
+    max-width: none;
+    margin: 1.6em 0;
+  }
+
+  .guide-content :global(.ml-embedded) {
+    margin-inline: 0;
+  }
+
+  .guide-fine {
+    font-size: 13px;
+    color: var(--cream-deep);
+    margin-top: 14px;
+    text-align: center;
+    max-width: none;
+  }
+</style>

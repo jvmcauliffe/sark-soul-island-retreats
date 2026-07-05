@@ -12,6 +12,7 @@ import DarkStrip from '../components/DarkStrip.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import CTABand from '../components/CTABand.astro';
 import MailerLiteForm from '../components/MailerLiteForm.astro';
+import GuidePanel from '../components/GuidePanel.astro';
 import { Image } from 'astro:assets';
 import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
 import islandAerial from '../assets/photos/sark-island-aerial.jpg';
@@ -20,7 +21,6 @@ import nadiaStudio from '../assets/photos/sark-nadia-founder-host-studio.jpg';
 import retreatHouse from '../assets/photos/sark-retreat-house-aerial.jpg';
 import coastalWalk from '../assets/photos/sark-coastal-path-walk.jpg';
 import headlandView from '../assets/photos/sark-la-coupee-headland-view.jpg';
-import milkyWay from '../assets/photos/sark-milky-way-dark-sky.jpg';
 import circleArch from '../assets/photos/sark-wild-swim-rock-arch.jpg';
 import circleGoat from '../assets/photos/sark-goat-carved-stone.jpg';
 import circlePose from '../assets/photos/sark-yoga-childs-pose-class.jpg';
@@ -269,32 +269,9 @@ const circle = [
     quote="People arrive with their shoulders somewhere near their ears. By the second morning on Sark, they have let them down. That is the transformative part, and the island does most of it."
   />
 
-  <section class="guide-panel on-dark">
-    <div class="guide-media">
-      <Image
-        src={milkyWay}
-        alt="The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island"
-        width={980}
-        height={1354}
-        class="guide-img"
-        loading="lazy"
-      />
-    </div>
-    <div class="guide-content">
-      <span class="eyebrow gold">Free Guide</span>
-      <h2>Getting to Sark</h2>
-      <p>
-        Guests used to ask me the same things before they came, and I loved answering. So I
-        gathered it all into this little guide: the ferry, the famous luggage system, what the
-        first evening feels like.
-      </p>
-      <p class="guide-sig">Nadia, founder and host</p>
-      <MailerLiteForm slug="9SoA2F" cta="Send me the guide" />
-      <p class="guide-fine">No spam, just island news now and then. Unsubscribe anytime.</p>
-    </div>
-  </section>
+  <GuidePanel />
 
-  <section class="section" style="text-align: center;">
+  <section class="section" style="text-align: center;">  <section class="section" style="text-align: center;">
     <div class="container">
       <span class="eyebrow">Join our circle</span>
       <h2>Follow us @sarksoulretreats</h2>
@@ -447,75 +424,6 @@ const circle = [
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: var(--sage);
-  }
-
-  .guide-panel {
-    display: grid;
-    grid-template-columns: 1fr;
-    background: var(--ink-soft);
-  }
-
-  @media (min-width: 800px) {
-    .guide-panel {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  .guide-media {
-    min-height: 320px;
-  }
-
-  .guide-panel :global(.guide-img) {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center bottom;
-    display: block;
-  }
-
-  .guide-content {
-    padding: clamp(48px, 6vw, 96px) clamp(24px, 5vw, 80px);
-    text-align: left;
-    align-self: center;
-    max-width: 620px;
-  }
-
-  .guide-content .eyebrow {
-    font-size: 15px;
-    letter-spacing: 6px;
-  }
-
-  .guide-content h2 {
-    color: #fff;
-    letter-spacing: 2px;
-    margin-bottom: 0.4em;
-  }
-
-  .guide-content p {
-    color: var(--cream);
-    margin-inline: 0;
-  }
-
-  .guide-sig {
-    font-family: var(--font-display);
-    font-style: italic;
-    font-size: 19px;
-    color: var(--cream);
-    text-align: center;
-    max-width: none;
-    margin: 1.6em 0;
-  }
-
-  .guide-content :global(.ml-embedded) {
-    margin-inline: 0;
-  }
-
-  .guide-fine {
-    font-size: 13px;
-    color: var(--cream-deep);
-    margin-top: 14px;
-    text-align: center;
-    max-width: none;
   }
 
   .circle-grid {

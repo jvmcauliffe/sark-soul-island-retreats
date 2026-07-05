@@ -17,6 +17,7 @@ import RoomCards from '../components/RoomCards.astro';
 import FeatureRows from '../components/FeatureRows.astro';
 import ImageSlot from '../components/ImageSlot.astro';
 import RetreatIcon from '../components/RetreatIcon.astro';
+import GuidePanel from '../components/GuidePanel.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -213,20 +214,7 @@ const breadcrumbs =
 
   {!d.retreatPage && d.faqs.length > 0 && <FAQ items={d.faqs} />}
 
-  {
-    d.guideForm && (
-      <section class="section cream" style="text-align: center;">
-        <div class="narrow">
-          <span class="eyebrow">Free travel guide</span>
-          <h2>Get the Getting to Sark guide</h2>
-          <p style="margin-inline: auto;">
-            Ferry to farmhouse, everything you need for the journey over, straight to your inbox.
-          </p>
-          <MailerLiteForm slug="9SoA2F" cta="Send me the guide" />
-        </div>
-      </section>
-    )
-  }
+  {d.guideForm && <GuidePanel />}
 
   {
     d.retreatPage && (
