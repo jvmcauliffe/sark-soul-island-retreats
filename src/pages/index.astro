@@ -147,20 +147,6 @@ const circle = [
     />
   </section>
 
-  <section class="section" style="text-align: center; padding-top: clamp(28px, 4vw, 48px);">
-    <div class="container">
-      <div class="circle-grid">
-        {
-          circle.map((c) => (
-            <a href="https://www.instagram.com/sarksoulretreats" rel="noopener">
-              <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
-            </a>
-          ))
-        }
-      </div>
-    </div>
-  </section>
-
   <QRow
     question="The world's first Dark Sky Island"
     eyebrow="The setting"
@@ -286,6 +272,18 @@ const circle = [
       <h2>Your home for the week</h2>
       <p>Find out more about our retreats</p>
       <a class="btn" href="/retreats-on-sark">See the retreat</a>
+    </div>
+  </section>
+
+  <section class="section" style="text-align: center; padding-top: clamp(28px, 4vw, 48px);">
+    <div class="container">
+      <div class="circle-grid">
+        {
+          circle.map((c) => (
+            <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
+          ))
+        }
+      </div>
     </div>
   </section>
 
@@ -476,21 +474,12 @@ const circle = [
     }
   }
 
-  .circle-grid a {
-    display: block;
-    aspect-ratio: 1;
-    overflow: hidden;
-  }
-
   .circle-grid :global(.circle-img) {
+    display: block;
     width: 100%;
     height: 100%;
+    aspect-ratio: 1;
     object-fit: cover;
-    transition: transform 0.4s ease;
-  }
-
-  .circle-grid a:hover :global(.circle-img) {
-    transform: scale(1.05);
   }
 
   .henge-band :global(.henge-band-img) {
