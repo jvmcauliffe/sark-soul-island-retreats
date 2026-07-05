@@ -6,7 +6,8 @@ slug: sark-island-yoga-retreat-faq
 heroEyebrow: Good to know
 heroTitle: Retreat FAQ
 heroLine: Everything guests ask before booking, answered in one place.
-heroImageAlt: The tractor-drawn toast rack climbing from the harbour on Sark
+heroImage: ../../assets/photos/sark-welcome-tunnel-arrival.jpg
+heroImageAlt: Arriving through the Welcome to Sark tunnel from the harbour on Sark
 heroShot: FAQ hero, toast rack or harbour arrival
 retreatPage: false
 ---

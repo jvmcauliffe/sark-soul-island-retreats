@@ -6,7 +6,8 @@ slug: solo-retreat-women
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Solo Retreat for Women, on an Island Made for It
 heroLine: Most of our guests arrive alone. You will probably be in the majority.
-heroImageAlt: Guests walking a quiet car-free lane on Sark during a women's wellness retreat
+heroImage: ../../assets/photos/sark-coastal-path-walk.jpg
+heroImageAlt: Guests walking the coastal path above the sea on Sark, Channel Islands
 heroShot: Two guests walking a lane
 retreatPage: true
 nadiaNote: >-
@@ -50,7 +51,7 @@ The island is car-free for visitors, so there is no traffic to navigate and nowh
 
 None of this needs dramatising. It is just a very comfortable place to travel on your own, which is exactly why so many women do.
 
-<div class="photo-slot">Photo needed: guests walking a lane. Alt: guests walking a quiet car-free lane on Sark during a women's wellness retreat.</div>
+![A guest greeting one of Sark's goats on a quiet car-free lane on Sark, Channel Islands](../../assets/photos/sark-lane-goat-greeting.jpg)
 
 ## Alone, but never lonely
 
@@ -66,11 +67,11 @@ Guests who arrive alone tend to leave with friends they keep. The change in the 
 
 You stay at our historic farmhouse, a real home rather than a hotel, with a much-loved garden and corners to disappear into. Shared rooms make the retreat more affordable and are how many solo guests choose to come. A limited number of single rooms are available if you would rather have your own space.
 
-<div class="photo-slot">Photo needed: shared table. Alt: guests sharing a vegetarian dinner at a small group retreat on Sark, Channel Islands.</div>
+![The candlelit shared table at a small group retreat on Sark, Channel Islands](../../assets/photos/sark-candlelit-shared-table.jpg)
 
 ## The journey is simple
 
-Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of around 55 minutes. From the harbour, a tractor-drawn toast rack carries everyone up the hill and a horse and carriage brings you to the retreat house. Many guests travelling alone find others from the retreat on the same crossing. Our [Getting to Sark guide](/getting-to-sark) covers every practical detail, and we help you plan the journey when you book.
+Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of around 55 minutes. From the harbour, a tractor-drawn toast rack carries everyone up the hill and a horse and carriage brings you to the retreat house. Many guests travelling alone find others from the retreat on the same crossing. Our [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat) covers every practical detail, and we help you plan the journey when you book.
 
 ## Dates, price and what's included
 

@@ -6,6 +6,7 @@ slug: yoga-retreat-sark
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
+heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
 heroImageAlt: Small group yoga practice at a retreat on Sark, Channel Islands
 heroShot: Morning practice in the studio
 retreatPage: true
@@ -46,8 +47,6 @@ Our retreats bring ten to twelve guests to our historic farmhouse for five night
 
 [Reserve my place](/retreats-on-sark)
 
-<div class="photo-slot">Photo needed: morning practice. Alt: small group yoga practice at a retreat on Sark, Channel Islands.</div>
-
 ## Why a yoga retreat on Sark works
 
 Most retreats take place somewhere beautiful. Sark offers something rarer.
@@ -82,7 +81,7 @@ Guests stay together in our historic farmhouse, a real home rather than a hotel,
 
 Most guests fly into Guernsey, around 45 minutes from London, then take the passenger ferry to Sark, a crossing of around 55 minutes past the islands of Herm and Jethou. On arrival, a tractor-drawn "toast rack" carries you up Harbour Hill, and a horse and carriage brings you to the retreat house. By the time you arrive, the world you left already feels far away.
 
-Our full travel guide answers every practical question: [Getting to Sark guide](/getting-to-sark).
+Our full travel guide answers every practical question: [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat).
 
 <div class="photo-slot">Photo needed: the toast rack or harbour. Alt: arriving on car-free Sark by tractor-drawn toast rack from the harbour.</div>
 
@@ -94,4 +93,4 @@ Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single
 
 [Reserve my place](/retreats-on-sark)
 
-<div class="photo-slot">Photo needed: Bram's table. Alt: shared vegetarian dinner at a wellness retreat on Sark.</div>
+![A shared vegetarian dinner served in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)

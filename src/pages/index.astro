@@ -12,6 +12,8 @@ import NadiaNote from '../components/NadiaNote.astro';
 import CTABand from '../components/CTABand.astro';
 import MailerLiteForm from '../components/MailerLiteForm.astro';
 import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
+import carriageGuests from '../assets/photos/sark-horse-and-carriage-guests.jpg';
+import nadiaStudio from '../assets/photos/sark-nadia-founder-host-studio.jpg';
 ---
 
 <BaseLayout
@@ -31,7 +33,8 @@ import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
   <QRow
     question="What makes a retreat on Sark different?"
     eyebrow="Why Sark"
-    imageAlt="Horse and carriage on a quiet lane on Sark, Channel Islands"
+    image={carriageGuests}
+    imageAlt="Guests riding a horse and carriage on Sark, Channel Islands"
     shot="Horse and carriage on a lane"
     caption="Arrival by horse and carriage, the only way to the retreat house."
   >
@@ -49,7 +52,8 @@ import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
   <QRow
     question="Who will be looking after you?"
     eyebrow="Your hosts"
-    imageAlt="Nadia at the retreat house on Sark, Channel Islands"
+    image={nadiaStudio}
+    imageAlt="Nadia, founder and host, in the yoga studio at the retreat house on Sark"
     shot="Nadia at the retreat house"
     caption="Nadia, founder and host."
     reverse

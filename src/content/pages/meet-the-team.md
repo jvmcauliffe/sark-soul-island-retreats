@@ -6,12 +6,13 @@ slug: meet-the-team
 heroEyebrow: The people behind the retreat
 heroTitle: Meet the Team
 heroLine: Founded and hosted by Nadia. Yoga led by senior teacher Monica of YogaMorphic.
-heroImageAlt: Nadia and the team outside the retreat house on Sark
+heroImage: ../../assets/photos/sark-retreat-group-garden.jpg
+heroImageAlt: Guests and hosts together in the farmhouse garden on Sark, Channel Islands
 heroShot: Meet the Team hero, group photo at the retreat house
 retreatPage: false
 ---
 
-This page carries the Meet the Team copy migrated verbatim from the live site, it is the attribution source of truth. Holding version until John pastes the live copy. Slug to be verified against the live sitemap.
+This page carries the Meet the Team copy migrated verbatim from the live site, it is the attribution source of truth. Holding version until John pastes the live copy. Slug verified against the live sitemap.
 
 Nadia is the founder and host of Sark Soul Island Retreats. She created the retreats, hosts every one personally, and looks after each guest from ferry to farewell.
 

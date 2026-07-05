@@ -6,7 +6,8 @@ slug: burnout-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Retreat for Burnout, on the Quietest Island in Europe
 heroLine: Rest is not a gap in the programme here. It is the programme.
-heroImageAlt: Quiet coastal horizon from the cliff paths of Sark, a car-free island in the Channel Islands
+heroImage: ../../assets/photos/sark-wild-swimming-cove.jpg
+heroImageAlt: Wild swimming in a sheltered turquoise cove on Sark, Channel Islands
 heroShot: Empty cliff bench or coastal horizon
 retreatPage: true
 nadiaNote: >-
@@ -70,7 +71,7 @@ Nothing is compulsory. Rest is not a gap in the programme here. It is the progra
 
 One of the lonelier parts of burnout is how isolating it is. The retreat is small by design, ten to twelve guests in one historic farmhouse, and something happens around that shared table over five days. People arrive wound tight and guarded, and leave softer, lighter and connected. You are welcome to as much solitude as you need, but the company is there, and it helps more than people expect.
 
-<div class="photo-slot">Photo needed: farmhouse garden. Alt: the quiet garden of the retreat farmhouse on Sark.</div>
+![The garden and outdoor pool at the retreat house on Sark](../../assets/photos/sark-garden-pool.jpg)
 
 ## Dates, price and what's included
 

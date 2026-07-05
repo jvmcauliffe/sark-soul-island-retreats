@@ -6,8 +6,8 @@ slug: why-sark
 heroEyebrow: Isle of Sark · Channel Islands
 heroTitle: Why Sark?
 heroLine: A car-free island, an hour from Guernsey, where the night sky still belongs to everyone.
-heroImage: ../../assets/photos/sark-la-coupee-cliff-path.jpg
-heroImageAlt: The cliff path across La Coupée between Sark and Little Sark, Channel Islands
+heroImage: ../../assets/photos/sark-la-coupee-headland-view.jpg
+heroImageAlt: La Coupée and the headland coastline of Sark, Channel Islands
 heroShot: Why Sark hero, headland or cliff path
 retreatPage: false
 guideForm: true
@@ -16,6 +16,8 @@ guideForm: true
 This page carries the Why Sark copy migrated from the live site. Holding version until John pastes the live copy.
 
 Sark is car-free for visitors, reached by a roughly 55 minute ferry from Guernsey with [Sark Shipping](https://sarkshipping.gg). There is no street lighting anywhere on the island, and in 2011 Sark became the world's first Dark Sky Island.
+
+![Guests walking together on a coastal path on Sark, Channel Islands](../../assets/photos/sark-guests-walking-group.jpg)
 
 Explore the retreats built around the island: [the retreat and booking page](/retreats-on-sark), [our yoga retreat](/yoga-retreat-sark), [the digital detox retreat](/digital-detox-retreat), [the solo retreat for women](/solo-retreat-women), [the burnout retreat](/burnout-retreat) and [the dark sky retreat](/dark-sky-retreat).
 

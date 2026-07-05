@@ -1,10 +1,21 @@
 # Cloudflare Pages redirect map for the Wix cutover (launch, October 2026).
-# Slugs are kept identical to the live Wix site wherever a page already
-# exists, so most URLs need no redirect. Before launch: export the final
-# live sitemap from sarksoulretreats.com/sitemap.xml, reconcile every URL,
-# and complete this file with 301s, old slug to new, no chains.
 #
-# Format: /old-path  /new-path  301
+# Live sitemap verified against sarksoulretreats.com/pages-sitemap.xml on
+# 5 July 2026. These slugs match 1:1 and need no redirect:
+#   /  /retreats-on-sark  /why-sark  /the-practice  /our-story
+#   /meet-the-team  /sark-island-yoga-retreat-faq
+#   /visiting-sark-for-a-wellness-retreat  /journal  /contact
+#   /terms-conditions
 #
-# Known candidates (verify slugs against the live sitemap before enabling):
-# /home  /  301
+# At launch, re-export the final sitemap and reconcile again before enabling
+# the rules below (301s, old slug to new, no chains).
+#
+# /spring is indexed by Google (titled "SPRING | My Site 3") but absent from
+# the live sitemap. Redirect it at launch:
+# /spring  /retreats-on-sark  301
+#
+# The live site also has /blog alongside /journal, and the live /journal
+# page is titled "booking pages" in Wix. Reconcile /blog posts to /journal
+# slugs at launch:
+# /blog  /journal  301
+# /blog/*  /journal/:splat  301

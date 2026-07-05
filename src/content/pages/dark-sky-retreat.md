@@ -6,7 +6,8 @@ slug: dark-sky-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Retreat on the World's First Dark Sky Island
 heroLine: When the sun goes down here, the night does not dim. It deepens.
-heroImageAlt: The Milky Way over Sark, the world's first Dark Sky Island, Channel Islands
+heroImage: ../../assets/photos/sark-dark-sky-stargazing-firelight.jpg
+heroImageAlt: Guests stargazing by firelight under the dark night sky on Sark, the world's first Dark Sky Island
 heroShot: Milky Way over Sark, this shot must lead
 retreatPage: true
 darkStrip:

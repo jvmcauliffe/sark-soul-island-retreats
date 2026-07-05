@@ -6,12 +6,13 @@ slug: our-story
 heroEyebrow: Sark Soul Island Retreats
 heroTitle: Our Story
 heroLine: How Nadia found Sark, and why the island does half the work.
-heroImageAlt: Nadia walking a quiet lane near the retreat house on Sark
+heroImage: ../../assets/photos/sark-retreat-house-garden-path.jpg
+heroImageAlt: The garden path at our historic farmhouse on Sark, Channel Islands
 heroShot: Our Story hero, Nadia on the island
 retreatPage: false
 ---
 
-This page carries the Our Story copy migrated from the live site. Holding version until John pastes the live copy. Slug to be verified against the live sitemap. The opening quote is attributed to Nadia, founder and host.
+This page carries the Our Story copy migrated from the live site. Holding version until John pastes the live copy. Slug verified against the live sitemap. The opening quote is attributed to Nadia, founder and host.
 
 Sark Soul Island Retreats was founded by Nadia, who hosts every retreat personally at our historic farmhouse.
 

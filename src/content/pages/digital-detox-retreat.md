@@ -6,7 +6,8 @@ slug: digital-detox-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Digital Detox Retreat on the Isle of Sark
 heroLine: Not a rule about phones. An island that quietly removes every reason to look at one.
-heroImageAlt: A dark lane on Sark at dusk, the world's first Dark Sky Island, with no street lighting
+heroImage: ../../assets/photos/sark-horse-carriage-coastal-road.jpg
+heroImageAlt: A horse and carriage on the car-free coastal road on Sark, Channel Islands
 heroShot: Night sky or dusk lane
 retreatPage: true
 nadiaNote: >-

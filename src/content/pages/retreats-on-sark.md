@@ -6,7 +6,8 @@ slug: retreats-on-sark
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Reserve your place on Sark
 heroLine: Five nights at our historic farmhouse, one small group, every meal and every class included.
-heroImageAlt: The retreat house garden in September light on Sark, Channel Islands
+heroImage: ../../assets/photos/sark-retreat-house-aerial.jpg
+heroImageAlt: Aerial view of the retreat house and its gardens on Sark, Channel Islands
 heroShot: Booking page hero, retreat house or garden
 retreatPage: true
 nadiaNote: I keep the group small on purpose. It is the difference between a holiday with yoga in it and something genuinely transformative.
