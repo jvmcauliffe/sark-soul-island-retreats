@@ -12,6 +12,7 @@ import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import FAQ from '../components/FAQ.astro';
 import CTABand from '../components/CTABand.astro';
+import MailerLiteForm from '../components/MailerLiteForm.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -62,6 +63,21 @@ const breadcrumbs =
   <article class="prose section container">
     <Content />
   </article>
+
+  {
+    d.guideForm && (
+      <section class="section cream" style="text-align: center;">
+        <div class="narrow">
+          <span class="eyebrow">Free travel guide</span>
+          <h2>Get the Getting to Sark guide</h2>
+          <p style="margin-inline: auto;">
+            Ferry to farmhouse, everything you need for the journey over, straight to your inbox.
+          </p>
+          <MailerLiteForm slug="9SoA2F" />
+        </div>
+      </section>
+    )
+  }
 
   {
     d.retreatPage && (

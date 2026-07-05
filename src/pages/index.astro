@@ -10,6 +10,7 @@ import DarkStrip from '../components/DarkStrip.astro';
 import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import CTABand from '../components/CTABand.astro';
+import MailerLiteForm from '../components/MailerLiteForm.astro';
 import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
 ---
 
@@ -76,6 +77,17 @@ import laCoupee from '../assets/photos/sark-la-coupee-cliff-path.jpg';
   <NadiaNote
     quote="People arrive with their shoulders somewhere near their ears. By the second morning on Sark, they have let them down. That is the transformative part, and the island does most of it."
   />
+
+  <section class="section" style="text-align: center;">
+    <div class="narrow">
+      <span class="eyebrow">Free travel guide</span>
+      <h2>How do you actually get to Sark?</h2>
+      <p style="margin-inline: auto;">
+        Ferry to farmhouse, everything you need for the journey over, straight to your inbox.
+      </p>
+      <MailerLiteForm slug="9SoA2F" />
+    </div>
+  </section>
 
   <CTABand />
 </BaseLayout>

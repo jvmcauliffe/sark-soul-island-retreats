@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-la-coupee-cliff-path.jpg
 heroImageAlt: The cliff path across La Coupée between Sark and Little Sark, Channel Islands
 heroShot: Why Sark hero, headland or cliff path
 retreatPage: false
+guideForm: true
 ---
 
 This page carries the Why Sark copy migrated from the live site. Holding version until John pastes the live copy.
@@ -18,4 +19,4 @@ Sark is car-free for visitors, reached by a roughly 55 minute ferry from Guernse
 
 Explore the retreats built around the island: [the retreat and booking page](/retreats-on-sark), [our yoga retreat](/yoga-retreat-sark), [the digital detox retreat](/digital-detox-retreat), [the solo retreat for women](/solo-retreat-women), [the burnout retreat](/burnout-retreat) and [the dark sky retreat](/dark-sky-retreat).
 
-The MailerLite guide download form will be embedded here when John supplies the snippet.
+Planning the journey? The Getting to Sark guide is free to download just below.

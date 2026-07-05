@@ -1,0 +1,21 @@
+---
+// Official MailerLite embedded form placeholder. The universal loader script
+// lives once in Footer.astro; this component only renders the target div.
+// Form slugs live in the MailerLite account (2309024):
+//   9SoA2F  Getting to Sark Guide signup
+//   GIRqf4  Join the waitlist
+interface Props {
+  slug: string;
+}
+
+const { slug } = Astro.props;
+---
+
+<div class="ml-embedded" data-form={slug}></div>
+
+<style>
+  .ml-embedded {
+    max-width: 480px;
+    margin-inline: auto;
+  }
+</style>

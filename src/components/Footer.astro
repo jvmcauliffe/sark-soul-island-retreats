@@ -1,5 +1,9 @@
 ---
 // Footer: ink background, links row, NAP line, copyright, italic gold sign-off.
+// Carries the sitewide MailerLite waitlist embed and the single universal
+// loader script (async, non render-blocking, sanctioned by SPEC section 10).
+import MailerLiteForm from './MailerLiteForm.astro';
+
 const year = new Date().getFullYear();
 
 const columns = [
@@ -41,10 +45,8 @@ const columns = [
     <div class="footer-cta">
       <span class="eyebrow gold">Stay in touch</span>
       <h2>Join the waitlist for future retreats</h2>
-      <p>
-        Be the first to hear when new dates open.
-        <!-- MailerLite waitlist embed goes here when John supplies the snippet -->
-      </p>
+      <p>Be the first to hear when new dates open.</p>
+      <MailerLiteForm slug="GIRqf4" />
       <a class="btn" href="/retreats-on-sark">Reserve my place</a>
     </div>
 
@@ -74,6 +76,22 @@ const columns = [
     </div>
   </div>
 </footer>
+
+<script is:inline>
+  (function (w, d, e, u, f, l, n) {
+    w[f] =
+      w[f] ||
+      function () {
+        (w[f].q = w[f].q || []).push(arguments);
+      };
+    l = d.createElement(e);
+    l.async = 1;
+    l.src = u;
+    n = d.getElementsByTagName(e)[0];
+    n.parentNode.insertBefore(l, n);
+  })(window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+  ml('account', '2309024');
+</script>
 
 <style>
   .site-footer {
