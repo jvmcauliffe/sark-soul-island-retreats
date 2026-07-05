@@ -52,8 +52,8 @@ rooms:
         cta: Choose single room
         href: "/12-sept-sea-lavender-single"
     images:
-      - alt: The Sea Lavender bedroom at the retreat house on Sark
-        shot: Sea Lavender bedroom
+      - src: ../../assets/photos/sark-sea-lavender-bedroom.jpg
+        alt: The Sea Lavender bedroom at the retreat house on Sark
       - src: ../../assets/photos/sark-sea-lavender-room-seating.jpg
         alt: The dressing table and seating in the Sea Lavender room at the retreat house on Sark
       - src: ../../assets/photos/sark-sea-lavender-morning-coffee.jpg

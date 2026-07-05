@@ -6,8 +6,8 @@ slug: 12-sept-sea-lavender-single
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Sea Lavender, Single Room
 heroLine: September Retreat, Isle of Sark, 5 nights.
-heroImage: ../../assets/photos/sark-sea-lavender-room-seating.jpg
-heroImageAlt: The dressing table and seating in the Sea Lavender room at the retreat house on Sark
+heroImage: ../../assets/photos/sark-sea-lavender-bedroom.jpg
+heroImageAlt: The Sea Lavender bedroom at the retreat house on Sark
 heroShot: Sea Lavender room photograph
 retreatPage: false
 booking:
