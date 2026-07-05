@@ -1,6 +1,8 @@
 ---
 // Footer: ink background, links row, NAP line, copyright, italic gold sign off.
-// The MailerLite waitlist form slot is marked below, snippet arrives from John.
+// The waitlist CTA embeds the "Join the waitlist" MailerLite form site wide.
+
+import MailerLiteForm from './MailerLiteForm.astro';
 
 const columns = [
   {
@@ -35,9 +37,11 @@ const year = new Date().getFullYear();
     <div class="footer-cta">
       <span class="eyebrow on-dark">Stay close to the island</span>
       <h2>When we open new dates, hear it first</h2>
-      <!-- MailerLite waitlist form slot. Replace this placeholder with the
-           official MailerLite embedded form snippet when John supplies it. -->
-      <p class="form-placeholder">Waitlist form arrives here, MailerLite embed pending.</p>
+      <MailerLiteForm
+        formId="191499361450984838"
+        shareUrl="https://preview.mailerlite.io/forms/2309024/191499361450984838/share"
+        label="Join the waitlist"
+      />
     </div>
 
     <div class="footer-grid">
@@ -94,16 +98,6 @@ const year = new Date().getFullYear();
   .footer-cta h2 {
     color: var(--cream);
     margin-bottom: 1rem;
-  }
-
-  .form-placeholder {
-    display: inline-block;
-    border: 1px dashed var(--gold);
-    color: var(--gold);
-    font-size: 13px;
-    letter-spacing: 1px;
-    padding: 0.9rem 1.6rem;
-    margin: 0;
   }
 
   .footer-grid {

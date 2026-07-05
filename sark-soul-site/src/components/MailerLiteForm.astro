@@ -1,0 +1,75 @@
+---
+// Official MailerLite embedded form (spec section 10). The MailerLite
+// script is loaded lazily, only once a form slot scrolls within 600px of
+// the viewport, so first paint carries zero third party requests and the
+// JS budget is untouched until a visitor is actually near the form.
+// Account 2309024. Form IDs come from the MailerLite dashboard.
+
+interface Props {
+  formId: string;
+  shareUrl: string;
+  label: string;
+}
+
+const { formId, shareUrl, label } = Astro.props;
+---
+
+<div class="ml-form-slot">
+  <div class="ml-embedded" data-form={formId}>
+    <noscript>
+      <a href={shareUrl} rel="noopener">{label}</a>
+    </noscript>
+  </div>
+</div>
+
+<script>
+  const w = window as any;
+  if (!w.sarkMlLoader) {
+    w.sarkMlLoader = true;
+    w.ml =
+      w.ml ||
+      function (...args: unknown[]) {
+        (w.ml.q = w.ml.q || []).push(args);
+      };
+    w.ml('account', '2309024');
+
+    let loaded = false;
+    const load = () => {
+      if (loaded) return;
+      loaded = true;
+      const s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://assets.mailerlite.com/js/universal.js';
+      document.head.appendChild(s);
+    };
+
+    const slots = document.querySelectorAll('.ml-embedded');
+    if (slots.length) {
+      if ('IntersectionObserver' in window) {
+        const io = new IntersectionObserver(
+          (entries) => {
+            if (entries.some((entry) => entry.isIntersecting)) {
+              io.disconnect();
+              load();
+            }
+          },
+          { rootMargin: '600px 0px' }
+        );
+        slots.forEach((slot) => io.observe(slot));
+      } else {
+        load();
+      }
+    }
+  }
+</script>
+
+<style>
+  .ml-form-slot {
+    max-width: 460px;
+    margin-inline: auto;
+  }
+
+  .ml-form-slot noscript a {
+    color: var(--gold);
+  }
+</style>
