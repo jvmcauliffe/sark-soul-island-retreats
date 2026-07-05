@@ -29,6 +29,69 @@ const pages = defineCollection({
       .optional(),
     nadiaNote: z.string().optional(),
     faqs: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    // Structured booking-page sections, used by /retreats-on-sark. Room and
+    // feature copy lives here in frontmatter, never inside components.
+    rooms: z
+      .array(
+        z.object({
+          name: z.string(),
+          type: z.string(),
+          occupancy: z.string(),
+          description: z.string(),
+          rates: z.array(
+            z.object({
+              label: z.string(),
+              price: z.string(),
+              status: z.enum(['available', 'soldout']).default('available'),
+              note: z.string().optional(),
+              href: z.string().optional(),
+              cta: z.string().optional(),
+            })
+          ),
+          images: z
+            .array(
+              z.object({
+                src: image().optional(),
+                alt: z.string(),
+                shot: z.string().optional(),
+              })
+            )
+            .default([]),
+        })
+      )
+      .default([]),
+    includes: z
+      .object({
+        heading: z.string(),
+        items: z.array(z.string()),
+      })
+      .optional(),
+    addOns: z
+      .object({
+        heading: z.string(),
+        body: z.string(),
+        images: z.array(z.object({ src: image(), alt: z.string() })).default([]),
+      })
+      .optional(),
+    features: z
+      .array(
+        z.object({
+          heading: z.string(),
+          body: z.string(),
+          image: image().optional(),
+          alt: z.string().default(''),
+          shot: z.string().default(''),
+        })
+      )
+      .default([]),
+    travel: z
+      .array(
+        z.object({
+          heading: z.string(),
+          html: z.string(),
+        })
+      )
+      .default([]),
   }),
 });
 

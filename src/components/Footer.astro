@@ -49,7 +49,6 @@ const columns = [
     <p>Be the first to hear when new dates open.</p>
     <div class="footer-actions">
       <MailerLiteForm slug="GIRqf4" cta="Join the waitlist" />
-      <a class="btn ghost" href="/retreats-on-sark">Reserve my place</a>
     </div>
   </div>
 </section>
@@ -79,6 +78,29 @@ const columns = [
       </p>
       <p class="copyright">© {year} Sark Soul Island Retreats. All rights reserved.</p>
       <p class="signoff">Every season is a new adventure, Nadia 🌿 &amp; the team 🪷</p>
+      <a
+        class="instagram"
+        href="https://www.instagram.com/sarksoulretreats"
+        rel="noopener"
+        aria-label="Sark Soul Island Retreats on Instagram"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="22"
+          height="22"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="1.5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <rect x="2.5" y="2.5" width="19" height="19" rx="5.5"></rect>
+          <circle cx="12" cy="12" r="4.5"></circle>
+          <circle cx="17.3" cy="6.7" r="1.1" fill="currentColor" stroke="none"></circle>
+        </svg>
+      </a>
     </div>
   </div>
 </footer>
@@ -200,5 +222,16 @@ const columns = [
     font-size: 19px;
     color: var(--gold);
     margin-top: 16px;
+  }
+
+  .instagram {
+    display: inline-flex;
+    padding: 8px;
+    margin-top: 12px;
+    color: var(--cream);
+  }
+
+  .instagram:hover {
+    color: var(--gold);
   }
 </style>

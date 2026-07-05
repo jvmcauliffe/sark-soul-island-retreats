@@ -1,0 +1,39 @@
+---
+// Alternating photo and copy rows for the booking page house tour, mirroring
+// the live site: lounge, pools, gardens, food, bike, studio, carriage rides
+// and treatments. Copy arrives from page frontmatter, never hard-coded here.
+import QRow from './QRow.astro';
+import type { ImageMetadata } from 'astro';
+
+interface Feature {
+  heading: string;
+  body: string;
+  image?: ImageMetadata;
+  alt: string;
+  shot: string;
+}
+
+interface Props {
+  features: Feature[];
+  eyebrow?: string;
+}
+
+const { features, eyebrow = 'Your home for the week' } = Astro.props;
+---
+
+<section class="features">
+  {
+    features.map((f, i) => (
+      <QRow
+        question={f.heading}
+        eyebrow={i === 0 ? eyebrow : undefined}
+        image={f.image}
+        imageAlt={f.alt || f.heading}
+        shot={f.shot || f.heading}
+        reverse={i % 2 === 1}
+      >
+        <p>{f.body}</p>
+      </QRow>
+    ))
+  }
+</section>

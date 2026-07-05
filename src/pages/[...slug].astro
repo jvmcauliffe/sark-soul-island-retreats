@@ -13,6 +13,9 @@ import NadiaNote from '../components/NadiaNote.astro';
 import FAQ from '../components/FAQ.astro';
 import CTABand from '../components/CTABand.astro';
 import MailerLiteForm from '../components/MailerLiteForm.astro';
+import RoomCards from '../components/RoomCards.astro';
+import FeatureRows from '../components/FeatureRows.astro';
+import ImageSlot from '../components/ImageSlot.astro';
 
 export async function getStaticPaths() {
   const pages = await getCollection('pages');
@@ -64,6 +67,56 @@ const breadcrumbs =
     <Content />
   </article>
 
+  {d.rooms.length > 0 && <RoomCards rooms={d.rooms} />}
+
+  {
+    d.includes && (
+      <section class="section cream includes">
+        <div class="container">
+          <h2>{d.includes.heading}</h2>
+          <ul>
+            {d.includes.items.map((item) => (
+              <li>{item}</li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    )
+  }
+
+  {
+    d.addOns && (
+      <section class="section addons">
+        <div class="container">
+          <h2>{d.addOns.heading}</h2>
+          <p>{d.addOns.body}</p>
+          <div class="addon-photos">
+            {d.addOns.images.map((img) => (
+              <ImageSlot src={img.src} alt={img.alt} shot={img.alt} width={800} height={600} />
+            ))}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  {d.features.length > 0 && <FeatureRows features={d.features} />}
+
+  {
+    d.travel.length > 0 && (
+      <section class="section travel">
+        <div class="narrow">
+          {d.travel.map((t) => (
+            <>
+              <h2>{t.heading}</h2>
+              <div class="prose" set:html={t.html} />
+            </>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
   {!d.retreatPage && d.faqs.length > 0 && <FAQ items={d.faqs} />}
 
   {
@@ -101,3 +154,80 @@ const breadcrumbs =
     )
   }
 </BaseLayout>
+
+<style>
+  .includes {
+    text-align: center;
+  }
+
+  .includes ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 880px;
+    display: grid;
+    gap: 12px 40px;
+    text-align: left;
+  }
+
+  @media (min-width: 640px) {
+    .includes ul {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .includes li {
+    padding-left: 26px;
+    position: relative;
+  }
+
+  .includes li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.62em;
+    width: 12px;
+    height: 2px;
+    background: var(--gold);
+  }
+
+  .addons {
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .addons p {
+    margin-inline: auto;
+  }
+
+  .addon-photos {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px;
+    margin-top: 28px;
+  }
+
+  .addon-photos :global(picture) {
+    display: block;
+  }
+
+  .addon-photos :global(img),
+  .addon-photos :global(.image-slot) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+  }
+
+  .travel {
+    padding-top: 0;
+  }
+
+  .travel h2 {
+    margin-top: 1.4em;
+  }
+
+  .travel h2:first-child {
+    margin-top: 0;
+  }
+</style>
