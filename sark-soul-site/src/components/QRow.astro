@@ -1,0 +1,84 @@
+---
+// QRow: alternating two column rows, question led H2, photo with a caption
+// scrim. This is the site's rhythm. Set flip to alternate image side.
+
+import ImageSlot from './ImageSlot.astro';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  question: string;
+  flip?: boolean;
+  image?: ImageMetadata;
+  imageAlt?: string;
+  shot: string;
+  caption?: string;
+}
+
+const { question, flip = false, image, imageAlt = '', shot, caption } = Astro.props;
+---
+
+<section class:list={['qrow', 'section', { flip }]}>
+  <div class="container qrow-grid">
+    <div class="qrow-text">
+      <h2>{question}</h2>
+      <div class="qrow-body">
+        <slot />
+      </div>
+    </div>
+    <figure class="qrow-media">
+      <ImageSlot src={image} alt={imageAlt} shot={shot} sizes="(max-width: 860px) 100vw, 50vw" />
+      {caption && <figcaption class="qrow-caption">{caption}</figcaption>}
+    </figure>
+  </div>
+</section>
+
+<style>
+  .qrow-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(2.5rem, 6vw, 5rem);
+    align-items: center;
+  }
+
+  .flip .qrow-text {
+    order: 2;
+  }
+
+  .flip .qrow-media {
+    order: 1;
+  }
+
+  .qrow-media {
+    position: relative;
+    margin: 0;
+  }
+
+  .qrow-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2rem 1.2rem 0.9rem;
+    background: linear-gradient(to top, rgba(13, 22, 32, 0.72), rgba(13, 22, 32, 0));
+    color: var(--cream);
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 860px) {
+    .qrow-grid {
+      grid-template-columns: 1fr;
+    }
+
+    .flip .qrow-text,
+    .qrow-text {
+      order: 2;
+    }
+
+    .flip .qrow-media,
+    .qrow-media {
+      order: 1;
+    }
+  }
+</style>

@@ -1,0 +1,86 @@
+---
+// Home. This is the Phase 1 styled placeholder. The live Wix homepage copy
+// replaces the placeholder copy below when John pastes it (with the known
+// duplicate paragraph removed). Facts used here follow CLAUDE.md.
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AttributionStrip from '../components/AttributionStrip.astro';
+import QRow from '../components/QRow.astro';
+import DarkStrip from '../components/DarkStrip.astro';
+import PriceCards from '../components/PriceCards.astro';
+import NadiaNote from '../components/NadiaNote.astro';
+import CTABand from '../components/CTABand.astro';
+---
+
+<BaseLayout
+  title="Sark Soul Island Retreats · Yoga Retreats on the Isle of Sark"
+  description="Luxury small group yoga retreats on the Isle of Sark, the world's first Dark Sky Island. Founded and hosted by Nadia. September 2026 dates now open."
+  path="/"
+>
+  <Hero
+    eyebrow="Isle of Sark · Channel Islands"
+    title="A small island, a slower rhythm, a clearer sky"
+    line="Luxury small group yoga retreats on Sark, the world's first Dark Sky Island. Five nights, 12 to 17 September 2026."
+    shot="Clifftop coastal path at golden hour, Isle of Sark"
+  />
+  <AttributionStrip />
+
+  <QRow
+    question="Why hold a retreat on Sark?"
+    shot="Horse and carriage on a leafy Sark lane"
+    caption="The lanes of Sark, Channel Islands"
+  >
+    <p>
+      Sark is car free for visitors. You arrive by
+      <a href="https://sarkshipping.gg" rel="noopener">ferry from Guernsey</a>, around 55 minutes,
+      then a tractor drawn toast rack carries you up from the harbour and a horse and carriage
+      takes you on to the retreat house. By the time you unpack, the mainland feels very far away.
+    </p>
+    <p>
+      <a href="/why-sark">Discover why we chose Sark</a> or go straight to
+      <a href="/retreats-on-sark">the September retreat</a>.
+    </p>
+  </QRow>
+
+  <DarkStrip
+    eyebrow="The world's first Dark Sky Island"
+    title="What happens under a sky with no street lights?"
+  >
+    <p>
+      Sark has no street lighting, and in 2011 it became the world's first Dark Sky Island. After
+      evening practice we step outside, look up, and let the Milky Way do the talking. It is the
+      island's signature, and ours.
+    </p>
+    <p>
+      <a href="/dark-sky-retreat">Read about the Dark Sky retreat</a>
+    </p>
+  </DarkStrip>
+
+  <QRow
+    question="Who will be looking after you?"
+    flip
+    shot="Nadia welcoming guests at the retreat house, Sark"
+    caption="Founded and hosted by Nadia"
+  >
+    <p>
+      Sark Soul Island Retreats was founded by Nadia, who hosts every retreat herself at our
+      historic farmhouse. Daily yoga is led by senior teacher Monica of YogaMorphic. Small group,
+      slow food, long walks, deep rest.
+    </p>
+    <p>
+      <a href="/meet-the-team">Meet the team</a> or read <a href="/our-story">our story</a>.
+    </p>
+  </QRow>
+
+  <PriceCards />
+
+  <NadiaNote
+    quote="I wanted somewhere the modern world could not follow us. Sark is that somewhere, and sharing it is the most transformative thing I do."
+  />
+
+  <CTABand
+    title="Five nights on Sark this September"
+    line="12 to 17 September 2026. Early booking rates end 19 July 2026."
+  />
+</BaseLayout>

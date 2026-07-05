@@ -1,0 +1,49 @@
+---
+// DarkStrip: the dark sky section. Radial navy gradient, cream headings,
+// gold eyebrows. Every retreat page carries one. The brand's signature move.
+
+interface Props {
+  eyebrow: string;
+  title: string;
+}
+
+const { eyebrow, title } = Astro.props;
+---
+
+<section class="dark-strip section">
+  <div class="container-narrow strip-inner">
+    <span class="eyebrow on-dark">{eyebrow}</span>
+    <h2>{title}</h2>
+    <div class="strip-body">
+      <slot />
+    </div>
+  </div>
+</section>
+
+<style>
+  .dark-strip {
+    background: radial-gradient(ellipse at 50% 0%, #27384b 0%, #111b27 70%);
+    color: var(--cream);
+  }
+
+  .strip-inner {
+    text-align: center;
+  }
+
+  .dark-strip h2 {
+    color: var(--cream);
+  }
+
+  .strip-body {
+    color: var(--cream);
+    font-size: 17px;
+  }
+
+  .strip-body :global(a) {
+    color: var(--gold);
+  }
+
+  .strip-body :global(p:last-child) {
+    margin-bottom: 0;
+  }
+</style>

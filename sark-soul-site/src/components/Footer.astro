@@ -1,0 +1,208 @@
+---
+// Footer: ink background, links row, NAP line, copyright, italic gold sign off.
+// The MailerLite waitlist form slot is marked below, snippet arrives from John.
+
+const columns = [
+  {
+    heading: 'Retreats',
+    links: [
+      { label: 'Retreats & Booking', href: '/retreats-on-sark' },
+      { label: 'Yoga Retreat on Sark', href: '/yoga-retreat-sark' },
+      { label: 'Digital Detox Retreat', href: '/digital-detox-retreat' },
+      { label: 'Solo Retreat for Women', href: '/solo-retreat-women' },
+      { label: 'Burnout Recovery Retreat', href: '/burnout-retreat' },
+      { label: 'Dark Sky Retreat', href: '/dark-sky-retreat' },
+    ],
+  },
+  {
+    heading: 'The Island',
+    links: [
+      { label: 'Why Sark?', href: '/why-sark' },
+      { label: 'The Practice', href: '/the-practice' },
+      { label: 'Our Story', href: '/our-story' },
+      { label: 'Meet the Team', href: '/meet-the-team' },
+      { label: 'Retreat FAQ', href: '/sark-island-yoga-retreat-faq' },
+      { label: 'Journal', href: '/journal' },
+    ],
+  },
+];
+
+const year = new Date().getFullYear();
+---
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-cta">
+      <span class="eyebrow on-dark">Stay close to the island</span>
+      <h2>When we open new dates, hear it first</h2>
+      <!-- MailerLite waitlist form slot. Replace this placeholder with the
+           official MailerLite embedded form snippet when John supplies it. -->
+      <p class="form-placeholder">Waitlist form arrives here, MailerLite embed pending.</p>
+    </div>
+
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="brand-name">Sark Soul</span>
+        <span class="brand-sub">Island Retreats</span>
+        <p class="footer-blurb">
+          Small group retreats on the Isle of Sark, the world's first Dark Sky Island. A short
+          <a href="https://sarkshipping.gg" rel="noopener">ferry from Guernsey</a>, around 55
+          minutes, and a world away.
+        </p>
+      </div>
+      {
+        columns.map((col) => (
+          <nav aria-label={col.heading}>
+            <h3 class="footer-heading">{col.heading}</h3>
+            <ul>
+              {col.links.map((link) => (
+                <li>
+                  <a href={link.href}>{link.label}</a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        ))
+      }
+    </div>
+
+    <div class="footer-legal">
+      <p class="nap">
+        Sark Soul Island Retreats · Isle of Sark, Channel Islands · Founded &amp; hosted by Nadia
+      </p>
+      <p class="copyright">&copy; {year} Sark Soul Island Retreats. All rights reserved.</p>
+      <p class="signoff">Every season is a new adventure, Nadia 🌿 &amp; the team 🪷</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .site-footer {
+    background: var(--ink);
+    color: var(--cream);
+    padding-block: 4.5rem 2.5rem;
+    margin-top: var(--space-section);
+  }
+
+  .footer-cta {
+    text-align: center;
+    padding-bottom: 3.5rem;
+    border-bottom: 1px solid var(--ink-soft);
+    margin-bottom: 3.5rem;
+  }
+
+  .footer-cta h2 {
+    color: var(--cream);
+    margin-bottom: 1rem;
+  }
+
+  .form-placeholder {
+    display: inline-block;
+    border: 1px dashed var(--gold);
+    color: var(--gold);
+    font-size: 13px;
+    letter-spacing: 1px;
+    padding: 0.9rem 1.6rem;
+    margin: 0;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .brand-name {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--cream);
+  }
+
+  .brand-sub {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+  }
+
+  .footer-blurb {
+    font-size: 15px;
+    color: var(--cream-deep);
+    max-width: 34ch;
+  }
+
+  .footer-blurb a {
+    color: var(--gold);
+  }
+
+  .footer-heading {
+    font-family: var(--font-body);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.1rem;
+  }
+
+  .site-footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-footer li {
+    margin-bottom: 0.55rem;
+  }
+
+  .site-footer li a {
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .site-footer li a:hover {
+    color: var(--gold);
+  }
+
+  .footer-legal {
+    border-top: 1px solid var(--ink-soft);
+    padding-top: 2rem;
+    text-align: center;
+  }
+
+  .nap {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--cream-deep);
+    margin-bottom: 0.4rem;
+  }
+
+  .copyright {
+    font-size: 13px;
+    color: var(--cream-deep);
+    margin-bottom: 1.2rem;
+  }
+
+  .signoff {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 20px;
+    color: var(--gold);
+    margin: 0;
+  }
+
+  @media (max-width: 760px) {
+    .footer-grid {
+      grid-template-columns: 1fr;
+      gap: 2.2rem;
+    }
+  }
+</style>

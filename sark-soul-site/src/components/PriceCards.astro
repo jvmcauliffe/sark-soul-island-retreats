@@ -1,0 +1,136 @@
+---
+// PriceCards: three cards, the featured card gets a teal border.
+// Amounts in Cormorant 44px. Defaults are the September 2026 rates.
+// Each card links to the booking page. PayPal links are per room rate,
+// never one shared link across prices.
+
+interface Card {
+  name: string;
+  amount: string;
+  detail: string;
+  note?: string;
+  featured?: boolean;
+  href?: string;
+}
+
+interface Props {
+  heading?: string;
+  cards?: Card[];
+}
+
+const {
+  heading = 'Your place on the September retreat',
+  cards = [
+    {
+      name: 'Shared room · Early booking',
+      amount: '£1,495',
+      detail: 'Per person, shared twin room',
+      note: 'Early rate ends 19 July 2026',
+      featured: true,
+      href: '/retreats-on-sark',
+    },
+    {
+      name: 'Shared room · Standard',
+      amount: '£1,695',
+      detail: 'Per person, shared twin room',
+      href: '/retreats-on-sark',
+    },
+    {
+      name: 'Single room · Early booking',
+      amount: '£1,995',
+      detail: 'Your own room, early rate',
+      note: 'Early rate ends 19 July 2026',
+      href: '/retreats-on-sark',
+    },
+  ],
+} = Astro.props;
+---
+
+<section class="price-cards section">
+  <div class="container">
+    <span class="eyebrow">12 to 17 September 2026 · Isle of Sark</span>
+    <h2>{heading}</h2>
+    <div class="cards">
+      {
+        cards.map((card) => (
+          <article class:list={['card', { featured: card.featured }]}>
+            <h3 class="card-name">{card.name}</h3>
+            <p class="card-amount">{card.amount}</p>
+            <p class="card-detail">{card.detail}</p>
+            {card.note && <p class="card-note">{card.note}</p>}
+            <a class="btn" href={card.href ?? '/retreats-on-sark'}>
+              Reserve my place
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>
+
+<style>
+  .price-cards h2 {
+    margin-bottom: 2.2rem;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+  }
+
+  .card {
+    background: #fff;
+    border: 1px solid var(--cream-deep);
+    padding: 2.4rem 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+  }
+
+  .card.featured {
+    border: 2px solid var(--teal);
+  }
+
+  .card-name {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin: 0;
+  }
+
+  .card-amount {
+    font-family: var(--font-display);
+    font-size: 44px;
+    font-weight: 500;
+    color: var(--ink);
+    margin: 0.3rem 0 0;
+    line-height: 1;
+  }
+
+  .card-detail {
+    font-size: 15px;
+    margin: 0.4rem 0 0;
+  }
+
+  .card-note {
+    font-size: 13px;
+    color: var(--clay);
+    margin: 0;
+  }
+
+  .card .btn {
+    margin-top: 1.4rem;
+  }
+
+  @media (max-width: 860px) {
+    .cards {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

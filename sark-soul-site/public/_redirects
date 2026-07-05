@@ -1,0 +1,11 @@
+# Cloudflare Pages redirect map for the October 2026 cutover.
+# Completed at launch: freeze Wix, export the final live sitemap, reconcile
+# every URL, add 301s here, old slug to new, no chains.
+# Format: /old-path /new-path 301
+#
+# Known candidates, confirm against the final Wix sitemap before launch:
+# /the-practice slug to be verified
+# /our-story slug to be verified
+# /meet-the-team slug to be verified
+# Getting to Sark guide slug to be verified
+# Booking terms and contact slugs to be verified

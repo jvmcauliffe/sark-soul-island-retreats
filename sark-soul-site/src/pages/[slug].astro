@@ -1,0 +1,77 @@
+---
+// Renders every entry in the pages content collection at its slug.
+// The five intent pages land here when John drops their copy files into
+// src/content/pages. Retreat pages get the full battery: hero, attribution
+// strip, copy, DarkStrip, PriceCards, NadiaNote, FAQ, CTABand, Event schema.
+
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AttributionStrip from '../components/AttributionStrip.astro';
+import DarkStrip from '../components/DarkStrip.astro';
+import PriceCards from '../components/PriceCards.astro';
+import NadiaNote from '../components/NadiaNote.astro';
+import FAQ from '../components/FAQ.astro';
+import CTABand from '../components/CTABand.astro';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('pages');
+  return entries.map((entry) => ({
+    params: { slug: entry.id.replace(/\.md$/, '') },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+const path = `/${entry.id.replace(/\.md$/, '')}`;
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: data.title, path },
+];
+---
+
+<BaseLayout
+  title={data.metaTitle}
+  description={data.metaDescription}
+  path={path}
+  ogImage={data.ogImage}
+  breadcrumbs={breadcrumbs}
+  faqs={data.faqs.length > 0 ? data.faqs : undefined}
+  event={
+    data.isRetreatPage
+      ? {
+          name: `${data.title} · Sark Soul Island Retreats`,
+          description: data.metaDescription,
+          url: `https://sarksoulretreats.com${path}`,
+        }
+      : undefined
+  }
+>
+  <Hero eyebrow={data.eyebrow} title={data.title} line={data.heroLine} shot={data.heroShot} />
+  <AttributionStrip />
+
+  <article class="section">
+    <div class="container prose">
+      <Content />
+    </div>
+  </article>
+
+  {
+    data.darkStrip && (
+      <DarkStrip eyebrow={data.darkStrip.eyebrow} title={data.darkStrip.title}>
+        <p>{data.darkStrip.body}</p>
+      </DarkStrip>
+    )
+  }
+
+  {data.isRetreatPage && <PriceCards />}
+
+  {data.nadiaQuote && <NadiaNote quote={data.nadiaQuote} />}
+
+  {data.faqs.length > 0 && <FAQ items={data.faqs} />}
+
+  <CTABand title={data.ctaTitle} line={data.ctaLine} />
+</BaseLayout>

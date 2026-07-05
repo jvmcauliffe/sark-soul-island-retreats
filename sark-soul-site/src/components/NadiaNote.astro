@@ -1,0 +1,47 @@
+---
+// NadiaNote: cream strip, italic Cormorant quote, fixed attribution line.
+// The leaf is Nadia's alone.
+
+interface Props {
+  quote: string;
+}
+
+const { quote } = Astro.props;
+---
+
+<aside class="nadia-note section-cream">
+  <div class="container-narrow">
+    <blockquote>
+      <p class="note-quote">{quote}</p>
+      <footer class="note-attribution">Nadia · Founder &amp; Host · Sark Soul Island Retreats 🌿</footer>
+    </blockquote>
+  </div>
+</aside>
+
+<style>
+  .nadia-note {
+    padding-block: clamp(3rem, 6vw, 4.5rem);
+  }
+
+  blockquote {
+    margin: 0;
+    text-align: center;
+  }
+
+  .note-quote {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(22px, 3vw, 30px);
+    line-height: 1.4;
+    color: var(--ink);
+    margin-bottom: 1.2rem;
+  }
+
+  .note-attribution {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+  }
+</style>

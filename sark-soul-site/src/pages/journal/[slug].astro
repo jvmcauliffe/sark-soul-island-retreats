@@ -1,0 +1,81 @@
+---
+// Journal article page. Article schema with Nadia as default author.
+
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ImageSlot from '../../components/ImageSlot.astro';
+import CTABand from '../../components/CTABand.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('journal');
+  return posts.map((post) => ({
+    params: { slug: post.id.replace(/\.md$/, '') },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { data } = post;
+const { Content } = await render(post);
+const path = `/journal/${post.id.replace(/\.md$/, '')}`;
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Journal', path: '/journal' },
+  { name: data.title, path },
+];
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+
+<BaseLayout
+  title={`${data.title} · The Sark Journal`}
+  description={data.description}
+  path={path}
+  breadcrumbs={breadcrumbs}
+  article={{
+    headline: data.title,
+    description: data.description,
+    datePublished: data.date.toISOString().slice(0, 10),
+    author: data.author,
+    image: data.heroImage,
+  }}
+>
+  <article class="section">
+    <header class="container-narrow article-head">
+      <span class="eyebrow">The Journal</span>
+      <h1>{data.title}</h1>
+      <p class="article-meta">{formatDate(data.date)} · {data.author}</p>
+    </header>
+    <div class="container-narrow article-hero">
+      <ImageSlot shot={data.heroShot} sizes="(max-width: 800px) 100vw, 760px" loading="eager" />
+    </div>
+    <div class="container-narrow prose">
+      <Content />
+    </div>
+  </article>
+
+  <CTABand
+    title="Come and see it for yourself"
+    line="Five nights on Sark, 12 to 17 September 2026."
+  />
+</BaseLayout>
+
+<style>
+  .article-head {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+
+  .article-meta {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+  }
+
+  .article-hero {
+    margin-bottom: 2.5rem;
+  }
+</style>

@@ -1,0 +1,168 @@
+---
+// Styleguide for John's sign off. Renders every signature component with
+// sample data. Noindexed and excluded from the sitemap.
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/Hero.astro';
+import AttributionStrip from '../components/AttributionStrip.astro';
+import QRow from '../components/QRow.astro';
+import DarkStrip from '../components/DarkStrip.astro';
+import PriceCards from '../components/PriceCards.astro';
+import NadiaNote from '../components/NadiaNote.astro';
+import FAQ from '../components/FAQ.astro';
+import CTABand from '../components/CTABand.astro';
+
+const tokens = [
+  ['--ink', '#15212e'],
+  ['--ink-soft', '#243443'],
+  ['--sage', '#6f7d63'],
+  ['--sage-dark', '#566049'],
+  ['--cream', '#f6f1e7'],
+  ['--cream-deep', '#ece4d3'],
+  ['--clay', '#b07a4f'],
+  ['--gold', '#c2a35c'],
+  ['--charcoal', '#2c2c28'],
+  ['--paper', '#fbf8f1'],
+  ['--teal', '#4f9fb0'],
+  ['--teal-dark', '#3f8494'],
+];
+
+const sampleFaqs = [
+  {
+    q: 'How do I get to Sark?',
+    a: 'Fly or sail to Guernsey, then take the ferry with Sark Shipping, around 55 minutes. We meet you at the harbour and the tractor drawn toast rack carries you up the hill.',
+  },
+  {
+    q: 'Is Sark really car free?',
+    a: 'Yes, Sark is car free for visitors. You will see tractors working the island, and you will travel by foot, bicycle or horse and carriage.',
+  },
+  {
+    q: 'Will I have phone signal?',
+    a: 'Yes. There is mobile signal and wifi on Sark. Our digital detox is a choice we make together, an environmental reset rather than a forced blackout.',
+  },
+];
+---
+
+<BaseLayout
+  title="Styleguide · Sark Soul Island Retreats"
+  description="Internal component styleguide for the Sark Soul Island Retreats site rebuild. Every signature component rendered with sample content."
+  path="/styleguide"
+  noindex
+>
+  <div class="container guide-note">
+    <span class="eyebrow">Internal</span>
+    <h1>Styleguide</h1>
+    <p>
+      Every signature component with sample content, for sign off. This page is noindexed and
+      excluded from the sitemap.
+    </p>
+
+    <h2>Design tokens</h2>
+    <div class="swatches">
+      {
+        tokens.map(([name, hex]) => (
+          <div class="swatch">
+            <span class="chip" style={`background:${hex}`} />
+            <code>{name}</code>
+            <code>{hex}</code>
+          </div>
+        ))
+      }
+    </div>
+
+    <h2>Type</h2>
+    <p class="type-sample-h1">H1 · Cormorant Garamond 500</p>
+    <p class="type-sample-h2">H2 · Question led, Cormorant Garamond</p>
+    <span class="eyebrow">Eyebrow · Jost 11px letterspaced</span>
+    <p>Body · Jost 300 at 17px with a line height of 1.75. Editorial restraint, generous whitespace, no template smell.</p>
+    <p><a class="btn" href="/retreats-on-sark">Reserve my place</a> <a class="btn btn-ghost" href="/why-sark">Ghost button</a></p>
+  </div>
+
+  <h2 class="container section-label">Hero + attribution strip</h2>
+  <Hero
+    eyebrow="Component · Hero"
+    title="The H1 is real text, never baked in"
+    line="Full bleed photo, bottom weighted scrim, eyebrow, one line, teal CTA."
+    shot="Sample hero, clifftop at dusk, Sark"
+  />
+  <AttributionStrip />
+
+  <h2 class="container section-label">QRow</h2>
+  <QRow question="Is this the site's rhythm?" shot="Sample QRow photo, coastal path, Sark" caption="Caption scrim, uppercase">
+    <p>
+      Alternating two column rows with question led H2s. Text one side, photo with caption scrim
+      the other. Flip the next one.
+    </p>
+  </QRow>
+  <QRow question="And does it alternate?" flip shot="Sample flipped QRow photo, harbour, Sark" caption="Flipped variant">
+    <p>It does. The flip prop swaps the columns on desktop, photo stays first on mobile.</p>
+  </QRow>
+
+  <h2 class="container section-label">DarkStrip</h2>
+  <DarkStrip eyebrow="Gold eyebrow on dark" title="The brand's signature move">
+    <p>Radial navy gradient, cream headings, gold accents. Every retreat page carries one.</p>
+  </DarkStrip>
+
+  <h2 class="container section-label">PriceCards</h2>
+  <PriceCards />
+
+  <h2 class="container section-label">NadiaNote</h2>
+  <NadiaNote quote="A sample of the note. Italic Cormorant on a cream strip, with the fixed attribution below." />
+
+  <h2 class="container section-label">FAQ</h2>
+  <FAQ items={sampleFaqs} />
+
+  <h2 class="container section-label">CTABand</h2>
+  <CTABand title="The closing move on every page" line="Teal button, booking page link, no exceptions." />
+</BaseLayout>
+
+<style>
+  .guide-note {
+    padding-block: 3rem 1rem;
+  }
+
+  .section-label {
+    margin-top: 3.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px dashed var(--cream-deep);
+    font-size: 20px;
+    color: var(--sage-dark);
+  }
+
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .swatch {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    font-size: 12px;
+  }
+
+  .chip {
+    display: block;
+    height: 52px;
+    border: 1px solid var(--cream-deep);
+  }
+
+  .type-sample-h1 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(38px, 6vw, 68px);
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: 0.2em;
+  }
+
+  .type-sample-h2 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(26px, 3.4vw, 38px);
+    color: var(--ink);
+    line-height: 1.15;
+  }
+</style>

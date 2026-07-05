@@ -1,0 +1,140 @@
+---
+// Journal index. Newest first, editorial card layout. Renders an empty
+// state until articles arrive from the Story Bank pipeline.
+
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ImageSlot from '../../components/ImageSlot.astro';
+import CTABand from '../../components/CTABand.astro';
+
+const posts = (await getCollection('journal')).sort(
+  (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
+);
+
+const breadcrumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Journal', path: '/journal' },
+];
+
+const formatDate = (date: Date) =>
+  date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+---
+
+<BaseLayout
+  title="The Sark Journal · Sark Soul Island Retreats"
+  description="Stories from the Isle of Sark: dark skies, coastal walks, island history and slow living, written from the world's first Dark Sky Island."
+  path="/journal"
+  breadcrumbs={breadcrumbs}
+>
+  <section class="journal-head section">
+    <div class="container">
+      <span class="eyebrow">The Journal</span>
+      <h1>Notes from the island</h1>
+      <p class="journal-intro">
+        Dark skies, coastal paths, windmills and slow seasons. Stories from Sark, written by the
+        people who host you there.
+      </p>
+    </div>
+  </section>
+
+  {
+    posts.length === 0 ? (
+      <section class="container empty-state">
+        <p>First stories are on their way. While you wait, discover <a href="/why-sark">why we chose Sark</a> or browse <a href="/retreats-on-sark">our retreats</a>.</p>
+      </section>
+    ) : (
+      <section class="container post-grid">
+        {posts.map((post) => (
+          <article class="post-card">
+            <a href={`/journal/${post.id.replace(/\.md$/, '')}`} class="card-link">
+              <ImageSlot shot={post.data.heroShot} sizes="(max-width: 760px) 100vw, 33vw" />
+              <div class="card-body">
+                <p class="card-meta">
+                  {formatDate(post.data.date)} · {post.data.author}
+                </p>
+                <h2>{post.data.title}</h2>
+                <p class="card-desc">{post.data.description}</p>
+              </div>
+            </a>
+          </article>
+        ))}
+      </section>
+    )
+  }
+
+  <CTABand
+    title="Rather live the story than read it?"
+    line="Five nights on Sark, 12 to 17 September 2026. Small group, big skies."
+  />
+</BaseLayout>
+
+<style>
+  .journal-head {
+    padding-bottom: 2rem;
+  }
+
+  .journal-intro {
+    max-width: 52ch;
+    font-size: 18px;
+  }
+
+  .empty-state {
+    padding-block: 2rem 4rem;
+  }
+
+  .post-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding-bottom: var(--space-section);
+  }
+
+  .post-card {
+    background: #fff;
+    border: 1px solid var(--cream-deep);
+  }
+
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .card-body {
+    padding: 1.4rem 1.5rem 1.7rem;
+  }
+
+  .card-meta {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 0.5rem;
+  }
+
+  .post-card h2 {
+    font-size: 24px;
+    margin-bottom: 0.4rem;
+  }
+
+  .card-desc {
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .post-card:hover h2 {
+    color: var(--teal-dark);
+  }
+
+  @media (max-width: 980px) {
+    .post-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media (max-width: 660px) {
+    .post-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

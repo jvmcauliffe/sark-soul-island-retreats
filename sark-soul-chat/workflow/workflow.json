@@ -1,0 +1,125 @@
+{
+  "name": "Sark Soul AI Chat Concierge",
+  "nodes": [
+    {
+      "parameters": {
+        "public": true,
+        "mode": "webhook",
+        "options": {
+          "allowedOrigins": "https://www.sarksoulretreats.com,https://sarksoulretreats.com",
+          "loadPreviousSession": "memory",
+          "responseMode": "lastNode"
+        }
+      },
+      "id": "chat-trigger-node",
+      "name": "Chat Trigger",
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.1,
+      "position": [0, 0],
+      "webhookId": "REPLACED_ON_CREATE"
+    },
+    {
+      "parameters": {
+        "options": {
+          "systemMessage": "__SYSTEM_PROMPT__"
+        }
+      },
+      "id": "agent-node",
+      "name": "AI Agent",
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 1.7,
+      "position": [300, 0]
+    },
+    {
+      "parameters": {
+        "model": "claude-haiku-4-5-20251001",
+        "options": {
+          "maxTokensToSample": 600,
+          "temperature": 0.4
+        }
+      },
+      "id": "anthropic-model-node",
+      "name": "Anthropic Chat Model",
+      "type": "@n8n/n8n-nodes-langchain.lmChatAnthropic",
+      "typeVersion": 1.2,
+      "position": [180, 240]
+    },
+    {
+      "parameters": {
+        "sessionIdType": "fromInput",
+        "contextWindowLength": 10
+      },
+      "id": "memory-node",
+      "name": "Session Memory",
+      "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
+      "typeVersion": 1.3,
+      "position": [340, 240]
+    },
+    {
+      "parameters": {
+        "toolDescription": "Adds a visitor to the retreat waitlist. Use only after the visitor has given their email address and agreed to join the list.",
+        "method": "POST",
+        "url": "https://connect.mailerlite.com/api/subscribers",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "httpHeaderAuth",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            { "name": "Content-Type", "value": "application/json" }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "{\n  \"email\": \"{email}\",\n  \"groups\": [\"__MAILERLITE_GROUP_ID__\"]\n}",
+        "placeholderDefinitions": {
+          "values": [
+            {
+              "name": "email",
+              "description": "The visitor's email address exactly as they typed it",
+              "type": "string"
+            }
+          ]
+        }
+      },
+      "id": "waitlist-tool-node",
+      "name": "add_to_waitlist",
+      "type": "@n8n/n8n-nodes-langchain.toolHttpRequest",
+      "typeVersion": 1.1,
+      "position": [500, 240]
+    },
+    {
+      "parameters": {
+        "sendTo": "__NOTIFY_EMAIL__",
+        "subject": "={{ 'Website chat handoff: ' + $fromAI('summary', 'One line summary of what the visitor needs', 'string') }}",
+        "emailType": "text",
+        "message": "={{ 'Visitor email: ' + $fromAI('visitor_email', 'The visitor email address if given, otherwise the words not provided', 'string') + '\\n\\nWhat they need:\\n' + $fromAI('details', 'A short plain summary of the conversation and the request', 'string') }}",
+        "options": {}
+      },
+      "id": "notify-tool-node",
+      "name": "notify_team",
+      "type": "n8n-nodes-base.gmailTool",
+      "typeVersion": 2.1,
+      "position": [660, 240]
+    }
+  ],
+  "connections": {
+    "Chat Trigger": {
+      "main": [[{ "node": "AI Agent", "type": "main", "index": 0 }]]
+    },
+    "Anthropic Chat Model": {
+      "ai_languageModel": [[{ "node": "AI Agent", "type": "ai_languageModel", "index": 0 }]]
+    },
+    "Session Memory": {
+      "ai_memory": [[{ "node": "AI Agent", "type": "ai_memory", "index": 0 }]]
+    },
+    "add_to_waitlist": {
+      "ai_tool": [[{ "node": "AI Agent", "type": "ai_tool", "index": 0 }]]
+    },
+    "notify_team": {
+      "ai_tool": [[{ "node": "AI Agent", "type": "ai_tool", "index": 0 }]]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  }
+}

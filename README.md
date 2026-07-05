@@ -1,6 +1,19 @@
 # Sark Soul Island Retreats
 
-Design pack for the Sark Soul Island Retreats website — five retreat landing pages for the September 2026 retreat (12–17 September, Isle of Sark), designed as self-contained HTML mockups ready to rebuild in Wix.
+Umbrella repository for the Sark Soul Island Retreats web presence: the September 2026 retreat (12 to 17 September, Isle of Sark).
+
+## Repository layout
+
+| Directory | What it is |
+|---|---|
+| `sark-soul-site/` | The static Astro rebuild of sarksoulretreats.com (replaces Wix, launches October 2026). See its README and CLAUDE.md. |
+| `sark-soul-chat/` | The n8n AI chat concierge: workflow, system prompt, deploy script and embed snippet. |
+| `designs/` | The original five landing page design mockups (HTML, with toggleable Wix build notes). Copy source for the site's intent pages. |
+| `docs/` | Specs and working notes, including the static site spec, the chat concierge spec, and live-site capture notes. |
+
+## Design pack
+
+Five retreat landing pages designed as self-contained HTML mockups, now also implemented as content pages in `sark-soul-site/`.
 
 ## Pages
 

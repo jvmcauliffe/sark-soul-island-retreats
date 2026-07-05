@@ -1,0 +1,172 @@
+---
+// Sitewide JSON-LD graph. LocalBusiness with founder Nadia plus Person nodes
+// for Nadia (founder) and Monica (Senior Yoga Teacher). Schema level founder
+// attribution is a deliberate fix for a live AI Overview misattribution.
+// Optional per page nodes: BreadcrumbList, Event, FAQPage, Article.
+
+export interface Breadcrumb {
+  name: string;
+  path: string;
+}
+
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
+interface Props {
+  canonical: string;
+  breadcrumbs?: Breadcrumb[];
+  event?: {
+    name: string;
+    description: string;
+    url: string;
+  };
+  faqs?: FaqItem[];
+  article?: {
+    headline: string;
+    description: string;
+    datePublished: string;
+    author?: string;
+    image?: string;
+  };
+}
+
+const SITE = 'https://sarksoulretreats.com';
+const BUSINESS_ID = `${SITE}/#business`;
+const NADIA_ID = `${SITE}/#nadia`;
+const MONICA_ID = `${SITE}/#monica`;
+
+const { canonical, breadcrumbs, event, faqs, article } = Astro.props;
+
+const graph: Record<string, unknown>[] = [
+  {
+    '@type': 'LocalBusiness',
+    '@id': BUSINESS_ID,
+    name: 'Sark Soul Island Retreats',
+    url: SITE,
+    image: `${SITE}/og-default.jpg`,
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Isle of Sark',
+      addressRegion: 'Channel Islands',
+    },
+    areaServed: 'Isle of Sark, Channel Islands',
+    founder: { '@id': NADIA_ID },
+    employee: [{ '@id': NADIA_ID }, { '@id': MONICA_ID }],
+    sameAs: ['https://g.page/r/CdhrtAEddmE_EBM/review'],
+  },
+  {
+    '@type': 'Person',
+    '@id': NADIA_ID,
+    name: 'Nadia',
+    jobTitle: 'Founder & Host',
+    worksFor: { '@id': BUSINESS_ID },
+    description:
+      'Founder and host of Sark Soul Island Retreats on the Isle of Sark, Channel Islands.',
+  },
+  {
+    '@type': 'Person',
+    '@id': MONICA_ID,
+    name: 'Monica',
+    jobTitle: 'Senior Yoga Teacher',
+    worksFor: { '@id': BUSINESS_ID },
+    affiliation: 'YogaMorphic',
+  },
+];
+
+if (breadcrumbs && breadcrumbs.length > 0) {
+  graph.push({
+    '@type': 'BreadcrumbList',
+    itemListElement: breadcrumbs.map((crumb, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: crumb.name,
+      item: `${SITE}${crumb.path}`,
+    })),
+  });
+}
+
+if (event) {
+  graph.push({
+    '@type': 'Event',
+    name: event.name,
+    description: event.description,
+    url: event.url,
+    startDate: '2026-09-12',
+    endDate: '2026-09-17',
+    eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+    eventStatus: 'https://schema.org/EventScheduled',
+    location: {
+      '@type': 'Place',
+      name: 'Isle of Sark',
+      address: {
+        '@type': 'PostalAddress',
+        addressLocality: 'Isle of Sark',
+        addressRegion: 'Channel Islands',
+      },
+    },
+    organizer: { '@id': BUSINESS_ID },
+    performer: { '@id': MONICA_ID },
+    offers: [
+      {
+        '@type': 'Offer',
+        name: 'Shared room, early booking',
+        price: '1495',
+        priceCurrency: 'GBP',
+        validThrough: '2026-07-19',
+        availability: 'https://schema.org/InStock',
+        url: `${SITE}/retreats-on-sark`,
+      },
+      {
+        '@type': 'Offer',
+        name: 'Shared room, standard',
+        price: '1695',
+        priceCurrency: 'GBP',
+        availability: 'https://schema.org/InStock',
+        url: `${SITE}/retreats-on-sark`,
+      },
+      {
+        '@type': 'Offer',
+        name: 'Single room, early booking',
+        price: '1995',
+        priceCurrency: 'GBP',
+        validThrough: '2026-07-19',
+        availability: 'https://schema.org/InStock',
+        url: `${SITE}/retreats-on-sark`,
+      },
+    ],
+  });
+}
+
+if (faqs && faqs.length > 0) {
+  graph.push({
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  });
+}
+
+if (article) {
+  graph.push({
+    '@type': 'Article',
+    headline: article.headline,
+    description: article.description,
+    datePublished: article.datePublished,
+    mainEntityOfPage: canonical,
+    ...(article.image ? { image: article.image } : {}),
+    author:
+      !article.author || article.author === 'Nadia'
+        ? { '@id': NADIA_ID }
+        : { '@type': 'Person', name: article.author },
+    publisher: { '@id': BUSINESS_ID },
+  });
+}
+
+const jsonLd = JSON.stringify({ '@context': 'https://schema.org', '@graph': graph });
+---
+
+<script type="application/ld+json" set:html={jsonLd} />

@@ -1,0 +1,41 @@
+<!-- Sark Soul Island Retreats: AI chat widget
+     Wix: Settings > Custom Code > Add Custom Code > paste all of this,
+     apply to all pages, place in Body end.
+     October: same block goes into the Astro BaseLayout. -->
+
+<link href="https://cdn.jsdelivr.net/npm/@n8n/chat/dist/style.css" rel="stylesheet" />
+<script type="module">
+  import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
+  createChat({
+    webhookUrl: 'PASTE_CHAT_WEBHOOK_URL_HERE',
+    mode: 'window',
+    showWelcomeScreen: false,
+    initialMessages: [
+      'Hello, welcome to Sark Soul Island Retreats 🌿',
+      'Ask me anything about the September retreat, getting to Sark, or coming on your own.'
+    ],
+    i18n: {
+      en: {
+        title: 'Sark Soul Island Retreats',
+        subtitle: 'Ask us anything about the retreat',
+        inputPlaceholder: 'Type your question...',
+        getStarted: 'Start a conversation'
+      }
+    }
+  });
+</script>
+<style>
+  :root {
+    --chat--color-primary: #4f9fb0;
+    --chat--color-secondary: #15212e;
+    --chat--header--background: #15212e;
+    --chat--header--color: #f6f1e7;
+    --chat--message--user--background: #4f9fb0;
+    --chat--message--user--color: #ffffff;
+    --chat--message--bot--background: #f6f1e7;
+    --chat--message--bot--color: #2c2c28;
+    --chat--toggle--background: #4f9fb0;
+    --chat--toggle--hover--background: #3f8494;
+    --chat--font-family: 'Jost', sans-serif;
+  }
+</style>

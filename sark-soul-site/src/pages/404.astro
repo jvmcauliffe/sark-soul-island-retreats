@@ -1,0 +1,28 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CTABand from '../components/CTABand.astro';
+---
+
+<BaseLayout
+  title="Page not found · Sark Soul Island Retreats"
+  description="That page has wandered off along the cliff path. Find your way back to Sark Soul Island Retreats."
+  path="/404"
+  noindex
+>
+  <section class="section container-narrow lost">
+    <span class="eyebrow">404</span>
+    <h1>This path leads nowhere</h1>
+    <p>
+      Even on a small island it is possible to take a wrong turn. Head back to the
+      <a href="/">home page</a>, browse <a href="/retreats-on-sark">our retreats</a>, or discover
+      <a href="/why-sark">why Sark</a>.
+    </p>
+  </section>
+  <CTABand title="Looking for the September retreat?" />
+</BaseLayout>
+
+<style>
+  .lost {
+    text-align: center;
+  }
+</style>

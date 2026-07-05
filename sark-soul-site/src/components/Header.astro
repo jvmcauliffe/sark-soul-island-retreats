@@ -1,0 +1,263 @@
+---
+// Site header. Main nav matches the master header. The five intent pages
+// live inside the Our Retreats dropdown, never in the top level nav.
+// Mobile nav and dropdown are CSS only, zero client JavaScript.
+
+const nav = [
+  { label: 'Home', href: '/' },
+  { label: 'Our Retreats', href: '/retreats-on-sark', dropdown: true },
+  { label: 'Why Sark?', href: '/why-sark' },
+  { label: 'The Practice', href: '/the-practice' },
+  { label: 'Our Story', href: '/our-story' },
+  { label: 'Meet the Team', href: '/meet-the-team' },
+];
+
+const retreatLinks = [
+  { label: 'Retreats & Booking', href: '/retreats-on-sark' },
+  { label: 'Yoga Retreat on Sark', href: '/yoga-retreat-sark' },
+  { label: 'Digital Detox Retreat', href: '/digital-detox-retreat' },
+  { label: 'Solo Retreat for Women', href: '/solo-retreat-women' },
+  { label: 'Burnout Recovery Retreat', href: '/burnout-retreat' },
+  { label: 'Dark Sky Retreat', href: '/dark-sky-retreat' },
+];
+
+const current = Astro.url.pathname;
+---
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="/">
+      <span class="brand-name">Sark Soul</span>
+      <span class="brand-sub">Island Retreats</span>
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true">
+      <span></span><span></span><span></span>
+      <span class="visually-hidden">Open menu</span>
+    </label>
+
+    <nav aria-label="Main">
+      <ul class="nav-list">
+        {
+          nav.map((item) =>
+            item.dropdown ? (
+              <li class="has-dropdown">
+                <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+                  {item.label}
+                </a>
+                <ul class="dropdown">
+                  {retreatLinks.map((sub) => (
+                    <li>
+                      <a href={sub.href}>{sub.label}</a>
+                    </li>
+                  ))}
+                </ul>
+              </li>
+            ) : (
+              <li>
+                <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+                  {item.label}
+                </a>
+              </li>
+            )
+          )
+        }
+        <li class="nav-cta">
+          <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    background: var(--paper);
+    border-bottom: 1px solid var(--cream-deep);
+    position: relative;
+    z-index: 50;
+  }
+
+  .header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-block: 1.1rem;
+  }
+
+  .brand {
+    text-decoration: none;
+    line-height: 1.1;
+  }
+
+  .brand-name {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 26px;
+    font-weight: 600;
+    color: var(--ink);
+    letter-spacing: 0.5px;
+  }
+
+  .brand-sub {
+    display: block;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: var(--sage);
+  }
+
+  .nav-list {
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-list > li > a {
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--ink);
+    padding-block: 0.4rem;
+  }
+
+  .nav-list > li > a:hover,
+  .nav-list > li > a[aria-current='page'] {
+    color: var(--teal-dark);
+  }
+
+  .nav-cta .btn {
+    padding: 0.65rem 1.3rem;
+    font-size: 11px;
+  }
+
+  .has-dropdown {
+    position: relative;
+  }
+
+  .dropdown {
+    position: absolute;
+    top: 100%;
+    left: -1rem;
+    min-width: 240px;
+    background: var(--paper);
+    border: 1px solid var(--cream-deep);
+    box-shadow: 0 14px 30px rgba(21, 33, 46, 0.08);
+    list-style: none;
+    margin: 0;
+    padding: 0.6rem 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(6px);
+    transition:
+      opacity 0.18s ease,
+      transform 0.18s ease,
+      visibility 0.18s;
+  }
+
+  .has-dropdown:hover .dropdown,
+  .has-dropdown:focus-within .dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown a {
+    display: block;
+    padding: 0.5rem 1.2rem;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    color: var(--ink-soft);
+  }
+
+  .dropdown a:hover {
+    color: var(--teal-dark);
+    background: var(--cream);
+  }
+
+  .nav-toggle,
+  .nav-burger {
+    display: none;
+  }
+
+  @media (max-width: 900px) {
+    .nav-burger {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 0.5rem;
+    }
+
+    .nav-burger span:not(.visually-hidden) {
+      display: block;
+      width: 24px;
+      height: 1.5px;
+      background: var(--ink);
+      transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+
+    nav {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: var(--paper);
+      border-bottom: 1px solid var(--cream-deep);
+      display: none;
+    }
+
+    .nav-toggle:checked ~ nav {
+      display: block;
+    }
+
+    .nav-toggle:checked ~ .nav-burger span:nth-child(1) {
+      transform: translateY(6.5px) rotate(45deg);
+    }
+
+    .nav-toggle:checked ~ .nav-burger span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .nav-toggle:checked ~ .nav-burger span:nth-child(3) {
+      transform: translateY(-6.5px) rotate(-45deg);
+    }
+
+    .nav-list {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0;
+      padding: 0.8rem 1.25rem 1.4rem;
+    }
+
+    .nav-list > li > a {
+      display: block;
+      padding: 0.7rem 0;
+      border-bottom: 1px solid var(--cream-deep);
+    }
+
+    .dropdown {
+      position: static;
+      opacity: 1;
+      visibility: visible;
+      transform: none;
+      border: 0;
+      box-shadow: none;
+      background: var(--cream);
+      padding: 0.2rem 0;
+    }
+
+    .nav-cta {
+      margin-top: 1rem;
+    }
+  }
+</style>

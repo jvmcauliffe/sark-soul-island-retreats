@@ -1,0 +1,148 @@
+---
+// Base layout for every page. Handles fonts, meta, canonical, OG, JSON-LD,
+// header, footer and visible breadcrumbs. Copy never lives here.
+
+import '@fontsource/cormorant-garamond/400.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/600.css';
+import '@fontsource/cormorant-garamond/400-italic.css';
+import '@fontsource/jost/300.css';
+import '@fontsource/jost/400.css';
+import '@fontsource/jost/500.css';
+import jostBody from '@fontsource/jost/files/jost-latin-300-normal.woff2?url';
+import cormorantDisplay from '@fontsource/cormorant-garamond/files/cormorant-garamond-latin-500-normal.woff2?url';
+
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import Schema from '../components/Schema.astro';
+import type { Breadcrumb, FaqItem } from '../components/Schema.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  path: string;
+  ogImage?: string;
+  breadcrumbs?: Breadcrumb[];
+  noindex?: boolean;
+  event?: { name: string; description: string; url: string };
+  faqs?: FaqItem[];
+  article?: {
+    headline: string;
+    description: string;
+    datePublished: string;
+    author?: string;
+    image?: string;
+  };
+}
+
+const SITE = 'https://sarksoulretreats.com';
+const {
+  title,
+  description,
+  path,
+  ogImage = '/og-default.jpg',
+  breadcrumbs,
+  noindex = false,
+  event,
+  faqs,
+  article,
+} = Astro.props;
+
+const canonical = `${SITE}${path === '/' ? '' : path}`;
+const ogImageAbs = ogImage.startsWith('http') ? ogImage : `${SITE}${ogImage}`;
+---
+
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <link rel="preload" href={jostBody} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={cormorantDisplay} as="font" type="font/woff2" crossorigin />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Sark Soul Island Retreats" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImageAbs} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <Schema
+      canonical={canonical}
+      breadcrumbs={breadcrumbs}
+      event={event}
+      faqs={faqs}
+      article={article}
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <Header />
+    <main id="main">
+      {
+        breadcrumbs && breadcrumbs.length > 1 && (
+          <nav class="breadcrumbs container" aria-label="Breadcrumb">
+            <ol>
+              {breadcrumbs.map((crumb, i) => (
+                <li>
+                  {i < breadcrumbs.length - 1 ? (
+                    <a href={crumb.path}>{crumb.name}</a>
+                  ) : (
+                    <span aria-current="page">{crumb.name}</span>
+                  )}
+                </li>
+              ))}
+            </ol>
+          </nav>
+        )
+      }
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>
+
+<style>
+  .breadcrumbs {
+    padding-block: 0.9rem;
+  }
+
+  .breadcrumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .breadcrumbs li + li::before {
+    content: '·';
+    margin-right: 0.4rem;
+    color: var(--sage);
+  }
+
+  .breadcrumbs a {
+    color: var(--sage-dark);
+    text-decoration: none;
+  }
+
+  .breadcrumbs a:hover {
+    color: var(--teal-dark);
+  }
+
+  .breadcrumbs span {
+    color: var(--charcoal);
+  }
+</style>

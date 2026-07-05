@@ -1,0 +1,47 @@
+---
+// CTABand: closing call to action. The button is teal and links to the
+// booking page. Label default is the sitewide standard.
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  line?: string;
+  ctaLabel?: string;
+  ctaHref?: string;
+}
+
+const {
+  eyebrow = 'September 2026',
+  title,
+  line,
+  ctaLabel = 'Reserve my place',
+  ctaHref = '/retreats-on-sark',
+} = Astro.props;
+---
+
+<section class="cta-band section-cream">
+  <div class="container-narrow band-inner">
+    <span class="eyebrow">{eyebrow}</span>
+    <h2>{title}</h2>
+    {line && <p class="band-line">{line}</p>}
+    <a class="btn" href={ctaHref}>{ctaLabel}</a>
+  </div>
+</section>
+
+<style>
+  .cta-band {
+    padding-block: clamp(3.5rem, 7vw, 5.5rem);
+    border-top: 1px solid var(--cream-deep);
+    border-bottom: 1px solid var(--cream-deep);
+  }
+
+  .band-inner {
+    text-align: center;
+  }
+
+  .band-line {
+    max-width: 52ch;
+    margin-inline: auto;
+    margin-bottom: 1.8rem;
+  }
+</style>

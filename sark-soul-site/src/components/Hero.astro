@@ -1,0 +1,109 @@
+---
+// Hero: full bleed photo, bottom weighted gradient scrim, eyebrow, H1,
+// one line, teal CTA. The H1 is real text, never baked into the image.
+
+import ImageSlot from './ImageSlot.astro';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  eyebrow: string;
+  title: string;
+  line: string;
+  ctaLabel?: string;
+  ctaHref?: string;
+  image?: ImageMetadata;
+  imageAlt?: string;
+  shot: string;
+}
+
+const {
+  eyebrow,
+  title,
+  line,
+  ctaLabel = 'Reserve my place',
+  ctaHref = '/retreats-on-sark',
+  image,
+  imageAlt = '',
+  shot,
+} = Astro.props;
+---
+
+<section class="hero">
+  <div class="hero-media">
+    <ImageSlot
+      src={image}
+      alt={imageAlt}
+      shot={shot}
+      loading="eager"
+      sizes="100vw"
+      aspect="auto"
+      class="hero-img"
+    />
+  </div>
+  <div class="hero-scrim" aria-hidden="true"></div>
+  <div class="container hero-content">
+    <span class="eyebrow on-dark">{eyebrow}</span>
+    <h1>{title}</h1>
+    <p class="hero-line">{line}</p>
+    <a class="btn" href={ctaHref}>{ctaLabel}</a>
+  </div>
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: min(86svh, 780px);
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+    background: var(--ink);
+  }
+
+  .hero-media,
+  .hero-media :global(.hero-img),
+  .hero-media :global(picture),
+  .hero-media :global(img) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hero-media :global(.image-slot) {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+  }
+
+  .hero-scrim {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      to top,
+      rgba(13, 22, 32, 0.82) 0%,
+      rgba(13, 22, 32, 0.35) 45%,
+      rgba(13, 22, 32, 0.05) 75%
+    );
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    padding-block: clamp(3rem, 8vw, 5.5rem);
+    max-width: var(--container);
+  }
+
+  .hero h1 {
+    color: #fff;
+    max-width: 16ch;
+    margin-bottom: 0.4em;
+  }
+
+  .hero-line {
+    color: var(--cream);
+    font-size: clamp(17px, 2vw, 20px);
+    max-width: 46ch;
+    margin-bottom: 1.8rem;
+  }
+</style>
