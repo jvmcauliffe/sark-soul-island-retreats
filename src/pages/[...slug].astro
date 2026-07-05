@@ -76,21 +76,16 @@ const breadcrumbs =
   {
     d.booking && (
       <section class="section container booking">
-        <div class="booking-top">
-          {
-            d.booking.paypal ? (
-              <>
-                <a class="btn" href={d.booking.paypal}>Reserve my place</a>
-                {d.booking.note && <p class="booking-note">{d.booking.note}</p>}
-              </>
-            ) : (
+        {
+          !d.booking.paypal && (
+            <div class="booking-top">
               <p class="booking-soldout">
                 Sold out for September 2026. <a href="/contact">Join the waitlist</a> or
                 <a href="/retreats-on-sark"> choose another room</a>.
               </p>
-            )
-          }
-        </div>
+            </div>
+          )
+        }
 
         {
           d.booking.images.length > 0 && (
@@ -118,6 +113,12 @@ const breadcrumbs =
               <br />
               {d.booking.balance}
             </p>
+            {d.booking.paypal && (
+              <p class="booking-rate-cta">
+                <a class="btn" href={d.booking.paypal}>Reserve my place</a>
+                {d.booking.note && <span class="booking-note">{d.booking.note}</span>}
+              </p>
+            )}
             <p class="booking-terms">
               Bookings are subject to our <a href="/terms-conditions">Terms &amp; Conditions</a>.
             </p>
@@ -127,12 +128,8 @@ const breadcrumbs =
         {
           d.booking.paypal && (
             <div class="booking-final">
-              <h2>Reserve my place</h2>
-              <p>
-                You are one step away from securing your place. Complete your booking securely via
-                PayPal or card payment.
-              </p>
-              <a class="btn" href={d.booking.paypal}>Reserve my place</a>
+              <p class="booking-final-lead">You are one step away from securing your place</p>
+              <p>Complete your booking securely via PayPal or card payment.</p>
             </div>
           )
         }
@@ -346,12 +343,17 @@ const breadcrumbs =
   }
 
   .booking-note {
-    margin: 12px auto 0;
+    display: block;
+    margin-top: 10px;
     font-size: 13px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--clay);
+  }
+
+  .booking-rate-cta {
+    margin: 20px 0 16px;
   }
 
   .booking-soldout {
@@ -428,14 +430,18 @@ const breadcrumbs =
   }
 
   .booking-final {
-    background: var(--cream);
-    padding: clamp(32px, 5vw, 56px);
     max-width: 720px;
     margin: 0 auto 32px;
   }
 
   .booking-final p {
     margin-inline: auto;
+  }
+
+  .booking-final-lead {
+    font-weight: 500;
+    color: var(--ink);
+    margin-bottom: 4px;
   }
 
   .booking-back {
