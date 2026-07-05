@@ -1,6 +1,9 @@
 ---
 // Site-wide navigation, matches the master header. The five intent pages are
 // reached through the Retreats dropdown and internal links, not the main nav.
+import { Image } from 'astro:assets';
+import logoMark from '../assets/sark-soul-logo-mark.png';
+
 const nav = [
   { label: 'Home', href: '/' },
   { label: 'Our Retreats', href: '/retreats-on-sark', dropdown: true },
@@ -24,7 +27,10 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
 
 <header class="site-header">
   <div class="container header-inner">
-    <a class="wordmark" href="/">Sark Soul Island Retreats</a>
+    <a class="wordmark" href="/">
+      <Image src={logoMark} alt="" width={80} height={84} loading="eager" class="logo-mark" />
+      <span>Sark Soul Island Retreats</span>
+    </a>
     <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-hidden="true" />
     <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
       <span></span><span></span><span></span>
@@ -81,6 +87,9 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
   }
 
   .wordmark {
+    display: flex;
+    align-items: center;
+    gap: 12px;
     font-family: var(--font-display);
     font-size: 22px;
     font-weight: 600;
@@ -88,6 +97,11 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     color: var(--ink);
     text-decoration: none;
     white-space: nowrap;
+  }
+
+  .wordmark :global(.logo-mark) {
+    width: 40px;
+    height: 42px;
   }
 
   nav > ul {

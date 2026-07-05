@@ -36,7 +36,7 @@ for (const [route, html] of Object.entries(pages)) {
 }
 
 // 2. Internal links resolve; booking page has at least 10 inbound links.
-const existing = new Set([...Object.keys(pages), '/sitemap-index.xml', '/favicon.svg', '/robots.txt', '/404']);
+const existing = new Set([...Object.keys(pages), '/sitemap-index.xml', '/favicon.png', '/apple-touch-icon.png', '/robots.txt', '/404']);
 let bookingLinks = 0;
 for (const [route, html] of Object.entries(pages)) {
   for (const match of html.matchAll(/href="(\/[^"#]*)"/g)) {
