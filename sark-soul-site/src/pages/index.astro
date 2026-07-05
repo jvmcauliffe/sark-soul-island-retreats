@@ -1,7 +1,8 @@
 ---
-// Home. This is the Phase 1 styled placeholder. The live Wix homepage copy
-// replaces the placeholder copy below when John pastes it (with the known
-// duplicate paragraph removed). Facts used here follow CLAUDE.md.
+// Home. Copy migrated from the live Wix homepage (docs/live-copy/home.md)
+// with the known fixes applied: no duplicate paragraphs, internal links
+// corrected, founder section ahead of the practice section. Facts follow
+// CLAUDE.md.
 
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
@@ -12,67 +13,138 @@ import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import CTABand from '../components/CTABand.astro';
 import GuideSignup from '../components/GuideSignup.astro';
+import Testimonials from '../components/Testimonials.astro';
+
+const testimonials = [
+  {
+    quote:
+      'I just loved the whole experience. I was quite nervous about it all. Nadia met us as we got off the ferry. She could not have been more welcoming.',
+    name: 'Yvonne · May 2026',
+  },
+  {
+    quote:
+      'The experience surpassed my expectations. Everyone really cared that we were getting the best out of our time on Sark. I came away feeling restored.',
+    name: 'Anne · May 2026',
+  },
+  {
+    quote:
+      'From the first communication our host Nadia was kind, warm and welcoming. Monica is a wonderful yoga teacher. I would definitely recommend the retreat and look forward to returning.',
+    name: 'Amanda · May 2026',
+  },
+  {
+    quote:
+      'I thoroughly enjoyed this retreat. Sark is a special island. I loved the camaraderie of our small group. The grounds are beautiful, a warm and welcoming atmosphere.',
+    name: 'Maxine · May 2026',
+  },
+  {
+    quote:
+      'The food, and the chefs were fabulous. Everything was brilliantly organised. The location is stunning. Sark is such a beautiful place. I had the most wonderful time.',
+    name: 'Andrea · May 2026',
+  },
+];
 ---
 
 <BaseLayout
-  title="Sark Soul Island Retreats | Yoga Retreats on Sark"
-  description="Luxury small group yoga retreats on the Isle of Sark, the world's first Dark Sky Island. Founded and hosted by Nadia. September 2026 dates now open."
+  title="Yoga Retreat on Sark Island | Sark Soul Island Retreats"
+  description="Small-group yoga retreats on the car-free island of Sark. Daily yoga, vegetarian meals, wild swimming and stargazing on the world's first Dark Sky Island."
   path="/"
 >
   <Hero
     eyebrow="Isle of Sark · Channel Islands"
-    title="A small island, a slower rhythm, a clearer sky"
-    line="Luxury small group yoga retreats on Sark, the world's first Dark Sky Island. Five nights, 12 to 17 September 2026."
+    title="Yoga & Nature Retreats on Sark Island"
+    line="Intimate five-night retreats on the world's first Dark Sky Island, half a day from London, a world away from everything else."
     shot="Clifftop coastal path at golden hour, Isle of Sark"
   />
   <AttributionStrip />
 
   <QRow
-    question="Why hold a retreat on Sark?"
-    shot="Horse and carriage on a leafy Sark lane"
-    caption="The lanes of Sark, Channel Islands"
+    question="What is the setting?"
+    shot="The historic farmhouse and gardens, Sark"
+    caption="A historic farmhouse by the sea, Sark"
   >
     <p>
-      Sark is car free for visitors. You arrive by
-      <a href="https://sarkshipping.gg" rel="noopener">ferry from Guernsey</a>, around 55 minutes,
-      then a tractor drawn toast rack carries you up from the harbour and a horse and carriage
-      takes you on to the retreat house. By the time you unpack, the mainland feels very far away.
+      A small group, twice a year, in a historic farmhouse by the sea. Daily yoga, coastal walks,
+      nourishing food, and the kind of quiet most people haven't experienced in years. The
+      <a href="/retreats-on-sark">Late Summer Retreat</a> runs 12 to 17 September 2026, and 2027
+      dates are coming soon.
     </p>
     <p>
-      <a href="/why-sark">Discover why we chose Sark</a> or go straight to
-      <a href="/retreats-on-sark">the September retreat</a>.
+      Sark Soul Island Retreats hosts intimate yoga retreats on Sark Island in the Channel Islands.
+      Our small group immersions are designed for those seeking deep rest, reconnection and space
+      away from mainland pace. This yoga retreat welcomes both experienced practitioners and
+      curious newcomers.
     </p>
   </QRow>
 
   <DarkStrip
-    eyebrow="The world's first Dark Sky Island"
-    title="What happens under a sky with no street lights?"
+    eyebrow="The setting"
+    title="The world's first Dark Sky Island"
   >
     <p>
-      Sark has no street lighting, and in 2011 it became the world's first Dark Sky Island. After
-      evening practice we step outside, look up, and let the Milky Way do the talking. It is the
-      island's signature, and ours.
+      From the moment you step off the boat, distraction falls away. There are no cars, no
+      streetlights, no rush. Daily yoga, coastal walks and nourishing seasonal food support genuine
+      restoration, and when night falls, the world's first Dark Sky Island reveals its greatest
+      gift. <a href="/why-sark">Discover why we chose Sark</a>.
     </p>
-    <p>
-      <a href="/dark-sky-retreat">Read about the Dark Sky retreat</a>
-    </p>
+    <p class="hugo-quote">"There is no island in the world that I love more" · Victor Hugo</p>
   </DarkStrip>
 
   <QRow
-    question="Who will be looking after you?"
+    question="Who created these retreats?"
     flip
     shot="Nadia welcoming guests at the retreat house, Sark"
-    caption="Founded and hosted by Nadia"
+    caption="Created and hosted by Nadia"
   >
     <p>
-      Sark Soul Island Retreats was founded by Nadia, who hosts every retreat herself at our
-      historic farmhouse. Daily yoga is led by senior teacher Monica of YogaMorphic. Small group,
-      slow food, long walks, deep rest.
+      Sark Soul Island Retreats was founded by Nadia, who fell for the island's stillness and built
+      a retreat around it. She hosts every gathering personally, and she's who you'll be speaking
+      to from your first enquiry to your last morning.
     </p>
     <p>
-      <a href="/meet-the-team">Meet the team</a> or read <a href="/our-story">our story</a>.
+      <a href="/our-story">Read our story</a> or <a href="/meet-the-team">meet the team</a>.
     </p>
   </QRow>
+
+  <QRow
+    question="Who leads the practice?"
+    shot="Monica teaching in the private yoga studio, Sark"
+    caption="Yoga led by senior teacher Monica of YogaMorphic"
+  >
+    <p>
+      Each day opens and closes with yoga. Morning practice to wake the body gently, evening
+      practice to let the day settle. Monica Marini leads every session, drawing on around thirty
+      years of teaching. Her style is warm and unhurried, with room for both seasoned practitioners
+      and those returning to the mat after time away.
+    </p>
+    <p>
+      You will never be pushed to perform. Sessions are small by design, so the teaching meets you
+      where you are. Between practices, the days are yours: coastal walks, sea swims, quiet corners
+      for rest. <a href="/the-practice">More about the practice</a>.
+    </p>
+  </QRow>
+
+  <QRow
+    question="What is a week here really like?"
+    flip
+    shot="Shared table in the farmhouse garden, Sark"
+    caption="A place to arrive"
+  >
+    <p>
+      Held within a historic farmhouse surrounded by stunning gardens, this is more than a
+      beautiful setting, it is a place that naturally slows the body and quiets the mind. Spacious
+      days, time to rest, sea air, coastal walks, turquoise coves, daily swims, shared meals, with
+      morning and evening yoga framing the day.
+    </p>
+    <p>
+      Sark sits a short <a href="https://sarkshipping.gg" rel="noopener">ferry from Guernsey</a>,
+      around 55 minutes, half a day from London and a world away from everything else. Plenty of
+      guests first meet the island on a day trip, then find themselves wanting more than a few
+      hours. A week is how you really feel the place settle into you.
+      <a href="/retreats-on-sark">Discover our retreats</a>.
+    </p>
+  </QRow>
+
+  <Testimonials items={testimonials} />
 
   <PriceCards />
 
@@ -87,3 +159,13 @@ import GuideSignup from '../components/GuideSignup.astro';
     line="12 to 17 September 2026. Early booking rates end 19 July 2026."
   />
 </BaseLayout>
+
+<style>
+  .hugo-quote {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--gold);
+    margin-top: 1.4rem;
+  }
+</style>

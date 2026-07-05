@@ -8,19 +8,20 @@ import MailerLiteForm from './MailerLiteForm.astro';
 
 <section class="guide-signup">
   <div class="container">
-    <span class="eyebrow">Free island guide</span>
-    <h2>How do you actually get to Sark?</h2>
+    <span class="eyebrow">Free guide</span>
+    <h2>Getting to Sark</h2>
     <p>
-      Our Getting to Sark guide walks you through it: the
-      <a href="https://sarkshipping.gg" rel="noopener">ferry from Guernsey</a>, around 55 minutes,
-      the tractor drawn toast rack up from the harbour, and the horse and carriage on to the
-      retreat house. Leave your email and we will send it straight over.
+      Guests used to ask me the same things before they came, and I loved answering. So I gathered
+      it all into this little guide: the ferry, the famous luggage system, what the first evening
+      feels like.
     </p>
+    <p class="guide-attribution">Nadia, founder and host</p>
     <MailerLiteForm
       formId="191498830146962835"
       shareUrl="https://preview.mailerlite.io/forms/2309024/191498830146962835/share"
       label="Get the Getting to Sark guide"
     />
+    <p class="guide-smallprint">No spam, just island news now and then. Unsubscribe anytime.</p>
   </div>
 </section>
 
@@ -40,5 +41,21 @@ import MailerLiteForm from './MailerLiteForm.astro';
     max-width: 62ch;
     margin-inline: auto;
     margin-bottom: 1.8rem;
+  }
+
+  .guide-attribution {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 19px;
+    color: var(--sage-dark);
+    margin-top: -0.9rem;
+  }
+
+  .guide-smallprint {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: var(--sage-dark);
+    margin-top: 1.2rem;
+    margin-bottom: 0;
   }
 </style>

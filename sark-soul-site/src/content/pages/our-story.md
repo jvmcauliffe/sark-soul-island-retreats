@@ -1,16 +1,24 @@
 ---
 title: Our Story
 metaTitle: Our Story | Sark Soul Island Retreats
-metaDescription: How Sark Soul Island Retreats began. Founder Nadia's search for quiet led her to the Isle of Sark, and the retreats grew from that feeling.
-eyebrow: Founded and hosted by Nadia
-heroLine: The story begins with a search for somewhere the noise would stop.
-heroShot: Our Story hero, Nadia on the island, Sark
+metaDescription: How Sark Soul Island Retreats began, bringing yoga, deep rest and genuine connection to a historic farmhouse on the world's first Dark Sky Island.
+eyebrow: The people behind the retreats
+heroLine: Sark Soul Island Retreats was born from a deep love of yoga, nature, and the rare magic of this car-free island.
+heroShot: Nadia on the coastal path above the harbour, Sark
 isRetreatPage: false
-nadiaQuote: Before I ever thought about hosting retreats, I was searching for something myself. When I arrived on Sark, I finally understood what had been missing. It was the feeling of slowing down, of space, of finally hearing yourself think again. My hope is that other people can experience that same feeling too.
+nadiaQuote: From the first time I set foot on Sark, I knew this island held something different...
+ctaTitle: Be part of the story this September
+ctaLine: 12 to 17 September 2026. The early booking rate ends 19 July 2026.
 ---
 
-This page carries the Our Story copy migrated from the live site, with the opening quote attributed to Nadia. Holding version until the live copy is pasted in.
+## Where did Sark Soul Island Retreats begin?
 
-Sark Soul Island Retreats was founded by Nadia, who came to the island searching for quiet and found something worth sharing. The retreats grew from that feeling: small groups, one historic farmhouse, one shared table, and an island that does half the work.
+Sark Soul Island Retreats was born from a deep love of yoga, nature, and the rare magic of this car-free island.
 
-Meet the whole team on [Meet the Team](/meet-the-team), see [why Sark](/why-sark), or [reserve your place](/retreats-on-sark).
+Experiencing Sark's timeless beauty, the sound of the sea, the rhythm of horse-drawn carriages, and the starlit skies inspired a vision: to create a space where people could come together, belong, and reconnect with what truly matters.
+
+The retreats weave together daily yoga, nourishing food, and the wonder of Sark's wild landscape, from hidden coves and woodland paths to its world-renowned Dark Sky. Each gathering is about connection: to the island, to each other, and to ourselves.
+
+At its heart, Sark Soul Island Retreats is an invitation to slow down, breathe, and remember our place in the wider world. It is about belonging, shared experience, and the kind of community that lingers long after you have left the island.
+
+[Meet the team](/meet-the-team) who bring each retreat to life, discover [how the practice sits at the heart of every retreat](/the-practice), or see [dates, rooms and what's included](/retreats-on-sark).
