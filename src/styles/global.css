@@ -7,7 +7,8 @@
   --sage-dark: #566049;
   --cream: #f6f1e7;      /* warm section backgrounds */
   --cream-deep: #ece4d3; /* borders, dividers */
-  --clay: #b07a4f;       /* decorative accent only, never buttons */
+  --clay: #b07a4f;       /* earth accent: newsletter buttons and decoration */
+  --clay-dark: #9a6842;  /* earth button hover */
   --gold: #c2a35c;       /* accents on dark strips */
   --charcoal: #2c2c28;   /* body text */
   --paper: #fbf8f1;      /* page background */
@@ -130,6 +131,16 @@ img {
   color: #fff;
 }
 
+/* Earth variant: Join the waitlist and Send me the guide buttons only.
+   Booking and reserve CTAs stay teal. */
+.btn.earth {
+  background: var(--clay);
+}
+
+.btn.earth:hover {
+  background: var(--clay-dark);
+}
+
 .btn.ghost {
   background: transparent;
   color: var(--teal-dark);
@@ -195,10 +206,10 @@ img {
   color: var(--ink-soft);
 }
 
-/* MailerLite embedded forms: enforce the brand button, teal only, never clay */
+/* MailerLite embedded forms: waitlist and guide submits use the earth clay */
 .ml-embedded button,
 .ml-embedded .ml-form-embedSubmit button {
-  background: var(--teal) !important;
+  background: var(--clay) !important;
   color: #fff !important;
   font-family: var(--font-body) !important;
   letter-spacing: 2px !important;
@@ -208,7 +219,7 @@ img {
 }
 
 .ml-embedded button:hover {
-  background: var(--teal-dark) !important;
+  background: var(--clay-dark) !important;
 }
 
 /* In-copy photo placeholder, used inside markdown until John's photos arrive */
