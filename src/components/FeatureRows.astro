@@ -1,8 +1,8 @@
 ---
-// Alternating photo and copy rows for the booking page house tour, mirroring
-// the live site: lounge, pools, gardens, food, bike, studio, carriage rides
-// and treatments. Copy arrives from page frontmatter, never hard-coded here.
-import QRow from './QRow.astro';
+// House tour features as a two column grid, per John's chosen design:
+// photo on top, heading and a short line beneath. Copy arrives from page
+// frontmatter, never hard-coded here.
+import ImageSlot from './ImageSlot.astro';
 import type { ImageMetadata } from 'astro';
 
 interface Feature {
@@ -21,34 +21,73 @@ interface Props {
 const { features, eyebrow = 'Your home for the week' } = Astro.props;
 ---
 
-<section class="features">
-  {
-    features.map((f, i) => (
-      <QRow
-        question={f.heading}
-        eyebrow={i === 0 ? eyebrow : undefined}
-        image={f.image}
-        imageAlt={f.alt || f.heading}
-        shot={f.shot || f.heading}
-        reverse={i % 2 === 1}
-      >
-        <p>{f.body}</p>
-      </QRow>
-    ))
-  }
+<section class="features section">
+  <div class="container">
+    <span class="eyebrow features-eyebrow">{eyebrow}</span>
+    <div class="features-grid">
+      {
+        features.map((f) => (
+          <div class="feature">
+            <div class="feature-photo">
+              <ImageSlot
+                src={f.image}
+                alt={f.alt || f.heading}
+                shot={f.shot || f.heading}
+                width={880}
+                height={620}
+              />
+            </div>
+            <h3>{f.heading}</h3>
+            <p>{f.body}</p>
+          </div>
+        ))
+      }
+    </div>
+  </div>
 </section>
 
 <style>
-  /* Uniform photo size across the rows, whatever each shot's own ratio */
-  .features :global(.qrow-media picture) {
+  .features {
+    background: #fff;
+  }
+
+  .features-eyebrow {
+    text-align: center;
+  }
+
+  .features-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(36px, 5vw, 56px) clamp(24px, 3vw, 40px);
+    margin-top: 28px;
+  }
+
+  @media (min-width: 760px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .feature-photo :global(picture) {
     display: block;
   }
 
-  .features :global(.qrow-media img),
-  .features :global(.qrow-media .image-slot) {
+  .feature-photo :global(img),
+  .feature-photo :global(.image-slot) {
     width: 100%;
     height: auto;
     aspect-ratio: 4 / 3;
     object-fit: cover;
+  }
+
+  .feature h3 {
+    font-size: 24px;
+    margin: 18px 0 4px;
+  }
+
+  .feature p {
+    font-size: 15px;
+    margin: 0;
+    max-width: none;
   }
 </style>
