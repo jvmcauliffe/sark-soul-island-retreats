@@ -19,6 +19,7 @@ const pages = defineCollection({
     heroShot: z.string().default('Hero photograph for this page'),
     heroBanner: z.string().optional(),
     heroCentered: z.boolean().default(false),
+    heroCta: z.boolean().default(true),
     heroSub: z.string().optional(),
     heroNote: z.string().optional(),
     ogImage: z.string().optional(),

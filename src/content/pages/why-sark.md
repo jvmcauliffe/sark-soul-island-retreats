@@ -5,15 +5,16 @@ metaDescription: An honest, first-hand guide to five nights on a car-free island
 slug: why-sark
 heroEyebrow: A guide · Channel Islands
 heroTitle: What a Yoga Retreat on Sark Is Actually Like
-heroLine: An honest, first-hand guide to five nights on a car-free island that is half a day from London, but a world apart.
-heroImage: ../../assets/photos/sark-la-coupee-headland-view.jpg
-heroImageAlt: La Coupée and the headland coastline of Sark, Channel Islands
-heroShot: Why Sark hero, headland or cliff path
+heroLine: An honest, first-hand guide to five nights on a car-free island that is half a day from London, but a world apart, from the ferry over to the last morning you won't want to leave.
+heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
+heroImageAlt: The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island
+heroShot: Why Sark hero, night sky over Sark
+heroCta: false
 retreatPage: false
 guideForm: true
 ---
 
-Most people who come to Sark have never been before, and arrive with the same handful of questions. So here are the honest answers, from the people who live on the island.
+<p class="lede">Most people who come to Sark have never been before, and arrive with the same handful of questions. <em>So here are the honest answers,</em> from the people who live on the island.</p>
 
 ## The Magic of Sark
 

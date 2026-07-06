@@ -9,6 +9,7 @@ interface Props {
   title: string;
   brand?: boolean;
   centered?: boolean;
+  cta?: boolean;
   sub?: string;
   note?: string;
   line: string;
@@ -24,6 +25,7 @@ const {
   title,
   brand = false,
   centered = false,
+  cta = true,
   sub,
   note,
   line,
@@ -63,7 +65,7 @@ const {
     {sub && <p class="hero-sub">{sub}</p>}
     {line && <p class="hero-line">{line}</p>}
     {note && <p class="hero-note">{note}</p>}
-    <a class="btn" href={ctaHref}>{ctaLabel}</a>
+    {cta && <a class="btn" href={ctaHref}>{ctaLabel}</a>}
   </div>
 </section>
 

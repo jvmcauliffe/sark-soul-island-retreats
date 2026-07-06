@@ -255,6 +255,18 @@ img {
   margin: 2em 0;
 }
 
+/* Centered lede paragraph with the clay italic phrase, live site treatment */
+.prose .lede {
+  text-align: center;
+  font-size: clamp(18px, 2vw, 21px);
+  max-width: 58ch;
+  margin: 0 auto 1.8em;
+}
+
+.prose .lede em {
+  color: var(--clay);
+}
+
 /* Centered prose pages (booking page intro), live site treatment */
 .prose.centered {
   text-align: center;
