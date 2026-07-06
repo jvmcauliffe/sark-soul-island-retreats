@@ -56,14 +56,14 @@ const breadcrumbs =
   event={d.retreatPage}
   breadcrumbs={breadcrumbs}
 >
+  {(d.heroPlain || d.heroBannerTop) && d.heroBanner && (
+    <p class="hero-banner banner-top">{d.heroBanner}</p>
+  )}
   {
     d.heroPlain ? (
-      <>
-        {d.heroBanner && <p class="hero-banner banner-top">{d.heroBanner}</p>}
-        <header class="plain-hero">
-          <h1>{d.heroTitle ?? d.title}</h1>
-        </header>
-      </>
+      <header class="plain-hero">
+        <h1>{d.heroTitle ?? d.title}</h1>
+      </header>
     ) : (
       <>
         <Hero
@@ -81,7 +81,7 @@ const breadcrumbs =
           note={d.heroNote}
           ctaHref={d.booking?.paypal}
         />
-        {d.heroBanner && <p class="hero-banner">{d.heroBanner}</p>}
+        {d.heroBanner && !d.heroBannerTop && <p class="hero-banner">{d.heroBanner}</p>}
       </>
     )
   }
