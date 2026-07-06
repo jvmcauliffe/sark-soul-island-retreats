@@ -260,6 +260,69 @@ img {
   aspect-ratio: auto;
 }
 
+/* Question rows on the guide pages, per the live site design: photo beside
+   the copy, alternating sides, photo top aligned with the title. Photos keep
+   their natural frame so portrait shots stay small rather than growing. */
+.prose .qa {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px clamp(32px, 5vw, 68px);
+  align-items: start;
+  max-width: 1000px;
+  margin: clamp(48px, 7vw, 84px) auto;
+}
+
+.prose .qa .qa-media p {
+  margin: 0;
+  max-width: none;
+}
+
+.prose .qa .qa-media img {
+  width: 100%;
+  max-width: none;
+  aspect-ratio: auto;
+  max-height: 440px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.prose .qa .qa-text p {
+  max-width: none;
+}
+
+.prose .qa .qa-text p:has(> .eyebrow) {
+  margin: 0;
+}
+
+.prose .qa .qa-text h2 {
+  margin-top: 0.4em;
+  font-size: clamp(24px, 2.8vw, 34px);
+}
+
+.prose .qa .qa-text > :last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .prose .qa {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  }
+
+  /* Mirror the columns on reversed rows so the photo keeps its narrow
+     track when it moves to the right. */
+  .prose .qa.rev {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  }
+
+  .prose .qa.rev .qa-media {
+    order: 2;
+  }
+
+  .prose .qa.rev .qa-text {
+    order: 1;
+  }
+}
+
 /* Centered lede paragraph with the clay italic phrase, live site treatment */
 .prose .lede {
   text-align: center;
