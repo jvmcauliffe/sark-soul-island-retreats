@@ -6,9 +6,9 @@ slug: the-practice
 heroEyebrow: Daily yoga on Sark
 heroTitle: The Practice
 heroLine: Each day opens and closes with yoga. Morning to wake the body gently, evening to let the day settle.
-heroImage: ../../assets/photos/sark-monica-yogamorphic-studio.jpg
-heroImageAlt: Senior yoga teacher Monica of YogaMorphic in the studio on Sark
-heroShot: The Practice hero, yoga in the garden or studio
+heroImage: ../../assets/photos/sark-monica-boat-pose-studio.jpg
+heroImageAlt: Senior yoga teacher Monica of YogaMorphic practising boat pose in the studio
+heroShot: The Practice hero, Monica in boat pose
 retreatPage: false
 ---
 
@@ -54,6 +54,8 @@ We will also take inspiration from the four Dharmas, our soul's desires known as
 If you seek to experience life unfiltered, if you wish to practice anew, if you love to feel deeply, join us for an exploration of these living threads of wisdom that bring awareness to our interaction with the creative powers that make us who we are.
 
 ## Monica, lead yoga teacher
+
+![Senior yoga teacher Monica of YogaMorphic in the studio on Sark](../../assets/photos/sark-monica-yogamorphic-studio.jpg)
 
 Inquisitive, restless, permanently seeking and still learning not to take myself too seriously! After more than 30 years of Yoga, my practice has evolved to reflect new learnings and understanding. I've come to know that Yoga is experiential rather than performative and I take a multi-disciplinary approach to the practice, exploring traditional principles and combining them with my interests in science, quantum physics, buddhism, astrology, and functional anatomy.
 
