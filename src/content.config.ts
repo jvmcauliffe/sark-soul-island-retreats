@@ -17,6 +17,7 @@ const pages = defineCollection({
     heroImage: image().optional(),
     heroImageAlt: z.string().default('Coastal clifftop at golden hour on Sark, Channel Islands'),
     heroShot: z.string().default('Hero photograph for this page'),
+    heroBanner: z.string().optional(),
     ogImage: z.string().optional(),
     retreatPage: z.boolean().default(true),
     guideForm: z.boolean().default(false),
