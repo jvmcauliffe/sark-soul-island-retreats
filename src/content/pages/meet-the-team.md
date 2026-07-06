@@ -101,7 +101,7 @@ Ana's sessions explore the link between breath, cold, and the nervous system, aw
 </div>
 <div class="member-text">
 
-## Bram
+## Bram & Pip
 
 Chef Extraordinaire, Director of Laughter and excellent vibes.
 
