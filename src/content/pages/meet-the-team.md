@@ -18,7 +18,7 @@ Founder & Host of Sark Soul Island Retreats. Loved for the positive energy she b
 
 Nadia has lived and breathed yoga all her life, embracing yoga not only as a daily practice but as a way of life. A qualified massage therapist, she combines her passion for yoga, healing touch, and connection with nature to create truly transformative spaces for others.
 
-![Nadia, founder and host, in the yoga studio at the retreat house on Sark](../../assets/photos/sark-nadia-founder-host-studio.jpg)
+![Nadia, founder and host, arms open on the mat in the yoga studio at the retreat house on Sark](../../assets/photos/sark-nadia-open-arms-yoga-studio.jpg)
 
 Drawn to Sark by its peace, wild beauty, and slower way of living, Nadia found in the island a place that felt like home, with no cars, no light pollution, and a deep sense of stillness. She now shares this magical setting with others through retreats that honour yoga, community, and the healing power of nature.
 
