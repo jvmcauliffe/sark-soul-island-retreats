@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
 heroImageAlt: The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island, Channel Islands
 heroShot: Milky Way over Sark, this shot must lead
 retreatPage: true
+darkStripInline: true
 darkStrip:
   eyebrow: Since 2011
   heading: The world's first Dark Sky Island
@@ -45,15 +46,46 @@ On a clear evening the Milky Way is not a faint smudge but a textured band acros
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+<section class="dark-band on-dark">
+
+<span class="eyebrow gold">Since 2011</span>
+
+## The world's first Dark Sky Island
+
+Sark has no street lighting at all. In 2011 it became the first island in the world to earn Dark Sky status, and September's clear nights are among its best.
+
+</section>
+
+<section class="qa">
+<div class="qa-media">
 
 ![Guests stargazing by firelight under the dark night sky on Sark](../../assets/photos/sark-dark-sky-stargazing-firelight.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">After dark</span>
 
 ## How dark is dark?
 
 Genuinely dark. Locals will tell you stories of losing all sense of direction on lanes they have walked for years, the moment a torch fails. Guests walking back to the farmhouse after dinner carry lanterns, and a simple "evening" to a passing stranger stops being politeness and becomes navigation.
 
 That darkness is why September is such a good month for this retreat. The nights are properly long again, the air is often clear, and the island still holds its late summer warmth.
+
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Sark Henge under the Milky Way at night on Sark, the world's first Dark Sky Island](../../assets/photos/sark-henge-night-sky-stars.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Sleep</span>
 
 ## Darkness is a wellness feature
 
@@ -63,13 +95,37 @@ Research has shown that ordinary evening room light is enough to suppress melato
 
 It is also why the phone loses its grip so quickly on this island. Our [digital detox retreat](/digital-detox-retreat) page tells that story.
 
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![Sark Henge standing stones at dusk, a stargazing spot on the Dark Sky Island of Sark](../../assets/photos/sark-henge-standing-stones-dusk.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Sark Henge</span>
+
 ## Evenings under the sky
 
 Stargazing on the retreat is unhurried and unforced. Some evenings we walk out together after dinner to watch the sky from the lanes or the headlands. Sark even has its own ancient marker for it: a ring of standing stones known as Sark Henge, one of the finest spots on the island to watch the Milky Way rise.
 
 Other evenings, guests simply step into the farmhouse garden and look up. No equipment is needed, though binoculars reward the curious. In skies this dark, your own eyes are enough.
 
-![Sark Henge standing stones at dusk, a stargazing spot on the Dark Sky Island of Sark](../../assets/photos/sark-henge-standing-stones-dusk.jpg)
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Warrior pose on the clifftop above the sea on Sark, Channel Islands](../../assets/photos/sark-clifftop-yoga-warrior-pose.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The days</span>
 
 ## The rest of the retreat
 
@@ -77,8 +133,24 @@ The nights are the headline, but the days earn them. Morning yoga with Monica, t
 
 New to the island? Start with [Why Sark?](/why-sark) for the full picture of this extraordinary place.
 
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![The candlelit shared table at a small group retreat on Sark, Channel Islands](../../assets/photos/sark-candlelit-shared-table.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Dates & price</span>
+
 ## Dates, price and what's included
 
 **12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every evening under the darkest skies in the British Isles. Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
+</section>

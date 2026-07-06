@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-coastal-path-walk.jpg
 heroImageAlt: Guests walking the coastal path above the sea on Sark, Channel Islands
 heroShot: Two guests walking a lane
 retreatPage: true
+darkStripInline: true
 nadiaNote: >-
   I came to Sark searching for something myself. The island gave me space,
   freedom and the feeling of coming home to myself. Watching guests who
@@ -35,13 +36,33 @@ faqs:
       here. The retreat is an invitation, not a timetable.
 ---
 
-Most of our guests arrive alone. It is worth saying that first, because it is the question almost everyone asks and almost no retreat answers plainly.
+<p class="lede">Most of our guests arrive alone. <em>It is worth saying that first,</em> because it is the question almost everyone asks and almost no retreat answers plainly.</p>
 
 You will not be the only one. You will probably be in the majority. And with ten to twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+<section class="dark-band on-dark">
+
+<span class="eyebrow gold">After dark</span>
+
+## When the lights never come on, the sky does
+
+Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![A guest greeting one of Sark's goats on a quiet car-free lane on Sark, Channel Islands](../../assets/photos/sark-lane-goat-greeting.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Easy alone</span>
 
 ## Why solo travellers choose Sark
 
@@ -51,7 +72,18 @@ The island is car-free for visitors, so there is no traffic to navigate and nowh
 
 None of this needs dramatising. It is just a very comfortable place to travel on your own, which is exactly why so many women do.
 
-![A guest greeting one of Sark's goats on a quiet car-free lane on Sark, Channel Islands](../../assets/photos/sark-lane-goat-greeting.jpg)
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Guests together in the farmhouse garden on the last morning of a retreat on Sark](../../assets/photos/sark-retreat-group-garden.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Company and solitude</span>
 
 ## Alone, but never lonely
 
@@ -63,20 +95,58 @@ The middle of each day is yours. Swim, read in the garden, find a quiet cove, or
 
 Guests who arrive alone tend to leave with friends they keep. The change in the group between day one and day four is one of the quiet pleasures of hosting these weeks.
 
-![Guests together in the farmhouse garden on the last morning of a retreat on Sark](../../assets/photos/sark-retreat-group-garden.jpg)
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![The candlelit shared table at a small group retreat on Sark, Channel Islands](../../assets/photos/sark-candlelit-shared-table.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The retreat house</span>
 
 ## One house, one table
 
 You stay at our historic farmhouse, a real home rather than a hotel, with a much-loved garden and corners to disappear into. Shared rooms make the retreat more affordable and are how many solo guests choose to come. A limited number of single rooms are available if you would rather have your own space.
 
-![The candlelit shared table at a small group retreat on Sark, Channel Islands](../../assets/photos/sark-candlelit-shared-table.jpg)
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Yachts in the turquoise harbour bay on Sark, Channel Islands](../../assets/photos/sark-harbour-bay-yachts.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Getting there</span>
 
 ## The journey is simple
 
 Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of around 55 minutes. From the harbour, a tractor-drawn toast rack carries everyone up the hill and a horse and carriage brings you to the retreat house. Many guests travelling alone find others from the retreat on the same crossing. Our [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat) covers every practical detail, and we help you plan the journey when you book.
 
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![The path down to a turquoise bay beach on Sark, Channel Islands](../../assets/photos/sark-turquoise-bay-beach-path.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Dates & price</span>
+
 ## Dates, price and what's included
 
 **12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every activity included. Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
+</section>

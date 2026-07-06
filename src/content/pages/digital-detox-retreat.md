@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-horse-and-carriage-guests.jpg
 heroImageAlt: Guests riding a horse and carriage on car-free Sark, Channel Islands
 heroShot: Night sky or dusk lane
 retreatPage: true
+darkStripInline: true
 nadiaNote: >-
   I spent years wanting the noise of the world to go away. Sark was the place
   where it finally did. What makes this retreat special is not a rule about
@@ -36,7 +37,7 @@ faqs:
       by Tuesday.
 ---
 
-Let us be honest with you from the start, because most digital detox retreats are not.
+<p class="lede">Let us be honest with you from the start, <em>because most digital detox retreats are not.</em></p>
 
 Sark has wifi. Sark has mobile signal. Nobody will take your phone at the harbour.
 
@@ -44,7 +45,27 @@ And yet by the second day, most of our guests have stopped reaching for it. Not 
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+<section class="dark-band on-dark">
+
+<span class="eyebrow gold">After dark</span>
+
+## When the lights never come on, the sky does
+
+Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![Sark Henge standing stones at dusk, a stargazing spot on the Dark Sky Island of Sark](../../assets/photos/sark-henge-standing-stones-dusk.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The environment</span>
 
 ## Why willpower fails and environment works
 
@@ -54,7 +75,18 @@ Sark is engineered, by history and by accident, the other way.
 
 There are no cars for visitors here, so there is no traffic noise and no rush. There is no street lighting anywhere on the island, so when the sun goes down the night actually arrives, and your body notices. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that governs sleep. On Sark that disruption simply does not happen. Guests are often surprised by how deeply they sleep from the first night.
 
-<div class="photo-slot">Photo needed: dusk lane or night sky. Alt: a dark lane on Sark at dusk, the world's first Dark Sky Island, with no street lighting.</div>
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![A rocky cove with turquoise water below the cliffs on Sark, Channel Islands](../../assets/photos/sark-rocky-cove-turquoise.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The island</span>
 
 ## What replaces the phone
 
@@ -64,13 +96,37 @@ Mornings begin with yoga and breath work with Monica. The middle of the day is y
 
 And then there are the evenings. Sark was the world's first Dark Sky Island, and on a clear night the Milky Way is a textured band overhead. It turns out that when the sky looks like that, nobody is looking down at a phone. Read more on our [Dark Sky retreat](/dark-sky-retreat) page.
 
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![Aerial view of Sark bounded by sea in every direction, Channel Islands](../../assets/photos/sark-island-aerial.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Soft fascination</span>
+
 ## Attention is a resource, and Sark restores it
 
 Psychologists describe what nature does to a tired mind as soft fascination. Cliff horizons, moving water and birds overhead hold your attention gently, without demanding anything, and directed attention slowly recovers. Sark is bounded by sea in every direction, so that restoration is constant. It is not mystical. It is the mind being given fewer demands and better stimuli.
 
 If your exhaustion runs deeper than screen fatigue, our [burnout recovery retreat](/burnout-retreat) page speaks to that directly.
 
-<div class="photo-slot">Photo needed: guest reading in garden. Alt: guest reading in the farmhouse garden during a digital detox retreat on Sark.</div>
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![The garden path at the retreat house on Sark, Channel Islands](../../assets/photos/sark-retreat-house-garden-path.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The week</span>
 
 ## The shape of the week
 
@@ -78,4 +134,7 @@ Five nights at our historic farmhouse with ten to twelve guests. Daily yoga for 
 
 **12 to 17 September 2026.** Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995. Everything included.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
+</section>

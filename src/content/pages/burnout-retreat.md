@@ -10,6 +10,7 @@ heroImage: ../../assets/photos/sark-wild-swimming-cove.jpg
 heroImageAlt: Wild swimming in a sheltered turquoise cove on Sark, Channel Islands
 heroShot: Empty cliff bench or coastal horizon
 retreatPage: true
+darkStripInline: true
 nadiaNote: >-
   If you are feeling exhausted, overwhelmed or disconnected, I understand
   exactly how you feel, because I felt the same way. I spent years searching
@@ -45,7 +46,27 @@ Sark, we would gently argue, is the best place in Britain to do that.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+<section class="dark-band on-dark">
+
+<span class="eyebrow gold">After dark</span>
+
+## When the lights never come on, the sky does
+
+Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![The headland view over the sea from La Coupee on Sark, Channel Islands](../../assets/photos/sark-la-coupee-headland-view.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The environment</span>
 
 ## Why this island, for this problem
 
@@ -57,7 +78,18 @@ There are no cars for visitors, so the background hum most of us have stopped no
 
 Guests often tell us they feel their shoulders drop within the first day. The island does the work. You just have to arrive.
 
-<div class="photo-slot">Photo needed: coastal horizon. Alt: quiet coastal horizon from the cliff paths of Sark, a car-free island in the Channel Islands.</div>
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![A gentle yoga pose in a wildflower meadow on Sark, Channel Islands](../../assets/photos/sark-meadow-yoga-pose.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The week</span>
 
 ## A week with a light touch
 
@@ -67,11 +99,35 @@ Mornings begin with gentle yoga and breath work with Monica, taught for all leve
 
 Nothing is compulsory. Rest is not a gap in the programme here. It is the programme.
 
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![The garden and outdoor pool at the retreat house on Sark](../../assets/photos/sark-garden-pool.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Around the table</span>
+
 ## Rest needs company as much as quiet
 
 One of the lonelier parts of burnout is how isolating it is. The retreat is small by design, ten to twelve guests in one historic farmhouse, and something happens around that shared table over five days. People arrive wound tight and guarded, and leave softer, lighter and connected. You are welcome to as much solitude as you need, but the company is there, and it helps more than people expect.
 
-![The garden and outdoor pool at the retreat house on Sark](../../assets/photos/sark-garden-pool.jpg)
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Homemade jam at the retreat breakfast table on Sark](../../assets/photos/sark-homemade-jam-retreat-breakfast.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Dates & price</span>
 
 ## Dates, price and what's included
 
@@ -79,4 +135,7 @@ One of the lonelier parts of burnout is how isolating it is. The retreat is smal
 
 Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
+</section>
