@@ -10,7 +10,25 @@ heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
 heroImageAlt: The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island
 heroShot: Our Story hero, Nadia on the island
 retreatPage: false
-practiceBand: true
+joinBand:
+  eyebrow: Meet everyone
+  heading: The people who make it
+  cards:
+    - eyebrow: The team
+      heading: Meet the team
+      line: Nadia, Monica, Bram and the souls who bring each retreat to life.
+      label: Meet the team
+      href: /meet-the-team
+    - eyebrow: The practice
+      heading: The Yoga
+      line: How the practice sits at the heart of every retreat
+      label: The practice
+      href: /the-practice
+    - eyebrow: The retreat
+      heading: Retreats on Sark
+      line: Dates, Rooms and what's included
+      label: See dates
+      href: /retreats-on-sark
 nadiaNote: From the first time I set foot on Sark, I knew this island held something different...
 ---
 
