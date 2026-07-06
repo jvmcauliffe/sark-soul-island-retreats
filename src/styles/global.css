@@ -94,6 +94,12 @@ img {
 /* Site-wide early booking banner under the header */
 .promo-banner .promo-gold {
   color: var(--gold);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.promo-banner .promo-gold:hover {
+  color: #d9bd7f;
 }
 
 .promo-banner {
