@@ -6,10 +6,8 @@ slug: yoga-retreat-sark
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
-heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
-heroFocus: center 30%
-heroTall: true
-heroImageAlt: Small group yoga practice at a retreat on Sark, Channel Islands
+heroImage: ../../assets/photos/sark-yoga-childs-pose-class.jpg
+heroImageAlt: Guests resting in child's pose during a yoga class at the retreat on Sark
 heroShot: Morning practice in the studio
 retreatPage: true
 nadiaNote: >-
@@ -75,7 +73,7 @@ Read more about the island on our [Why Sark?](/why-sark) page.
 <section class="qa rev">
 <div class="qa-media">
 
-![Guests resting in child's pose during a yoga class at the retreat on Sark](../../assets/photos/sark-yoga-childs-pose-class.jpg)
+![Morning yoga practice in the studio at the retreat house on Sark](../../assets/photos/sark-morning-yoga-practice-studio.jpg)
 
 </div>
 <div class="qa-text">
