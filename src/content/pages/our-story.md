@@ -14,13 +14,14 @@ practiceBand: true
 nadiaNote: From the first time I set foot on Sark, I knew this island held something different...
 ---
 
-> "From the first time I set foot on Sark, I knew this island held something different..."
->
-> Nadia, Founder & Host 🌿
+<section class="story-split">
+<div class="story-text">
+
+<p class="story-quote">"From the first time I set foot on Sark, I knew this island held something different..."</p>
+
+<p class="story-sig">Nadia, Founder & Host 🌿</p>
 
 Sark Soul Island Retreats was born from a deep love of yoga, nature, and the rare magic of this car-free island.
-
-![Nadia, founder and host, looking out over the sea from the cliffs of Sark, Channel Islands](../../assets/photos/sark-nadia-looking-over-coast.jpg)
 
 Experiencing Sark's timeless beauty, the sound of the sea, the rhythm of horse-drawn carriages, and the starlit skies inspired a vision: to create a space where people could come together, belong, and reconnect with what truly matters.
 
@@ -28,4 +29,10 @@ The retreats weave together daily yoga, nourishing food, and the wonder of Sark'
 
 At its heart, Sark Soul Island Retreats is an invitation to slow down, breathe, and remember our place in the wider world. It is about belonging, shared experience, and the kind of community that lingers long after you have left the island.
 
-[Meet the team](/meet-the-team) who bring each retreat to life, learn about [the practice](/the-practice), or [see dates and reserve your place](/retreats-on-sark).
+</div>
+<div class="story-photo">
+
+![Nadia, founder and host, looking out over the sea from the cliffs of Sark, Channel Islands](../../assets/photos/sark-nadia-looking-over-coast.jpg)
+
+</div>
+</section>

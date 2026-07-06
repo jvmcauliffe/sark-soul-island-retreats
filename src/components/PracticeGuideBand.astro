@@ -103,9 +103,18 @@ const {
     }
   }
 
+  /* Flex column with the button pinned to the bottom, so the three card
+     buttons align regardless of how long each card's line runs. */
   .pg-card {
     background: rgba(255, 255, 255, 0.06);
     padding: clamp(24px, 3vw, 36px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pg-btn {
+    margin-top: auto;
   }
 
   .pg-eyebrow {
