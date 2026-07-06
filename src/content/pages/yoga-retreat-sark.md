@@ -7,7 +7,8 @@ heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
 heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
-heroFocus: center 22%
+heroFocus: center 30%
+heroTall: true
 heroImageAlt: Small group yoga practice at a retreat on Sark, Channel Islands
 heroShot: Morning practice in the studio
 retreatPage: true
@@ -38,7 +39,7 @@ faqs:
       for stargazing.
 ---
 
-There are places that invite you to pause. Sark is one of them.
+<p class="lede">There are places that invite you to pause. <em>Sark is one of them.</em></p>
 
 The island sits nine miles off Guernsey, reached only by boat. There are no cars for visitors, no traffic lights and no street lighting at all. Life here moves at the pace of the tide, the light and the lanes. It is the kind of quiet most people have not heard in years.
 
@@ -46,7 +47,17 @@ Our retreats bring ten to twelve guests to our historic farmhouse for five night
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+<section class="qa">
+<div class="qa-media">
+
+![Walking the coastal path above the cliffs on Sark, Channel Islands](../../assets/photos/sark-coastal-path-walk.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The island</span>
 
 ## Why a yoga retreat on Sark works
 
@@ -58,13 +69,37 @@ It is difficult to describe how quickly the nervous system settles when the back
 
 Read more about the island on our [Why Sark?](/why-sark) page.
 
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Guests resting in child's pose during a yoga class at the retreat on Sark](../../assets/photos/sark-yoga-childs-pose-class.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The practice</span>
+
 ## The practice, with Monica
 
 Your teacher for the week is Monica of YogaMorphic, a senior yoga teacher with some thirty years of experience. Monica describes the week as an immersion rather than a course, and she means it. Sessions build gently across the five days, morning and evening, moving between breath, movement and meditation.
 
 Every class is taught for mixed levels with options throughout. You do not need to be flexible. You do not need experience. Props, modifications and rest are always available, and nobody is behind.
 
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
 ![The cliff path across La Coupée between Sark and Little Sark, Channel Islands](../../assets/photos/sark-la-coupee-cliff-path.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The week</span>
 
 ## More than yoga
 
@@ -74,9 +109,35 @@ Morning yoga to begin the day with intention. Coastal walks along some of the mo
 
 Nothing is compulsory. The schedule is an invitation, not a timetable.
 
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![Our historic farmhouse behind summer poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">The retreat house</span>
+
 ## Where you stay
 
 Guests stay together in our historic farmhouse, a real home rather than a hotel, with a much-loved garden and quiet corners to disappear into. With only ten to twelve guests, the house becomes its own small community by the second day.
+
+</div>
+</section>
+
+<section class="qa">
+<div class="qa-media">
+
+![Arriving on car-free Sark by tractor-drawn toast rack from the harbour at dusk](../../assets/photos/sark-toast-rack-harbour-evening.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Arriving</span>
 
 ## Getting here is part of it
 
@@ -84,7 +145,18 @@ Most guests fly into Guernsey, around 45 minutes from London, then take the pass
 
 Our full travel guide answers every practical question: [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat).
 
-![Arriving on car-free Sark by tractor-drawn toast rack from the harbour at dusk](../../assets/photos/sark-toast-rack-harbour-evening.jpg)
+</div>
+</section>
+
+<section class="qa rev">
+<div class="qa-media">
+
+![A shared vegetarian dinner served in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
+
+</div>
+<div class="qa-text">
+
+<span class="eyebrow">Dates & price</span>
 
 ## Dates, price and what's included
 
@@ -92,6 +164,7 @@ Our full travel guide answers every practical question: [Getting to Sark guide](
 
 Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-[Reserve my place](/retreats-on-sark)
+<a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
-![A shared vegetarian dinner served in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
+</div>
+</section>
