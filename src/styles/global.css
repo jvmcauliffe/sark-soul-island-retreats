@@ -260,6 +260,13 @@ img {
   aspect-ratio: auto;
 }
 
+/* Team portraits share one 4:5 frame, biased toward faces */
+.prose .team-photo img {
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 30%;
+}
+
 /* Question rows on the guide pages, per the live site design: photo beside
    the copy, alternating sides, photo top aligned with the title. Photos keep
    their natural frame so portrait shots stay small rather than growing. */

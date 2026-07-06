@@ -19,6 +19,7 @@ interface Props {
   imageAlt: string;
   shot: string;
   focus?: string;
+  tall?: boolean;
 }
 
 const {
@@ -36,10 +37,11 @@ const {
   imageAlt,
   shot,
   focus,
+  tall = false,
 } = Astro.props;
 ---
 
-<section class="hero on-dark">
+<section class:list={['hero', 'on-dark', { 'hero-tall': tall }]}>
   {
     image ? (
       <Picture
@@ -76,6 +78,11 @@ const {
   .hero {
     position: relative;
     min-height: min(82vh, 720px);
+  }
+
+  /* Taller variant for portrait hero photos that need more of the frame */
+  .hero.hero-tall {
+    min-height: min(96vh, 960px);
     display: flex;
     align-items: flex-end;
     overflow: hidden;
