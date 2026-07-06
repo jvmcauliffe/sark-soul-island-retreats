@@ -6,10 +6,13 @@ slug: yoga-retreat-sark
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
-heroImage: ../../assets/photos/sark-yoga-childs-pose-class.jpg
-heroImageAlt: Guests resting in child's pose during a yoga class at the retreat on Sark
+heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
+heroFocus: center 30%
+heroTall: true
+heroImageAlt: Small group yoga practice at a retreat on Sark, Channel Islands
 heroShot: Morning practice in the studio
 retreatPage: true
+darkStripInline: true
 nadiaNote: >-
   Before I ever thought about hosting retreats, I was searching for something
   myself. When I arrived on Sark, I finally understood what had been missing.
@@ -47,6 +50,16 @@ Our retreats bring ten to twelve guests to our historic farmhouse for five night
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
+<section class="dark-band on-dark">
+
+<span class="eyebrow gold">After dark</span>
+
+## When the lights never come on, the sky does
+
+Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+
+</section>
+
 <section class="qa">
 <div class="qa-media">
 
@@ -73,7 +86,7 @@ Read more about the island on our [Why Sark?](/why-sark) page.
 <section class="qa rev">
 <div class="qa-media">
 
-![Morning yoga practice in the studio at the retreat house on Sark](../../assets/photos/sark-morning-yoga-practice-studio.jpg)
+![Guests resting in child's pose during a yoga class at the retreat on Sark](../../assets/photos/sark-yoga-childs-pose-class.jpg)
 
 </div>
 <div class="qa-text">
@@ -147,7 +160,7 @@ Our full travel guide answers every practical question: [Getting to Sark guide](
 </section>
 
 <section class="qa rev">
-<div class="qa-media">
+<div class="qa-media top">
 
 ![A shared vegetarian dinner served in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
 

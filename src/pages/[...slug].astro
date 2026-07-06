@@ -268,7 +268,7 @@ const breadcrumbs =
   {
     d.retreatPage && (
       <>
-        {!d.addOns && (
+        {!d.addOns && !d.darkStripInline && (
           <DarkStrip
             eyebrow={d.darkStrip?.eyebrow ?? 'After dark'}
             heading={d.darkStrip?.heading ?? 'When the lights never come on, the sky does'}

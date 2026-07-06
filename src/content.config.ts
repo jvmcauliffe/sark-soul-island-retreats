@@ -21,6 +21,7 @@ const pages = defineCollection({
     heroFocus: z.string().optional(),
     heroTall: z.boolean().default(false),
     heroPlain: z.boolean().default(false),
+    darkStripInline: z.boolean().default(false),
     heroBannerTop: z.boolean().default(false),
     heroCentered: z.boolean().default(false),
     heroCta: z.boolean().default(true),

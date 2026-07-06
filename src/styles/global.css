@@ -636,6 +636,33 @@ img {
   }
 }
 
+/* Inline dark-sky band inside prose, mirroring the DarkStrip component */
+.prose .dark-band {
+  background: radial-gradient(ellipse at 50% 0%, #27384b 0%, #111b27 75%);
+  text-align: center;
+  max-width: none;
+  margin: clamp(48px, 7vw, 84px) calc(50% - 50vw);
+  padding: clamp(64px, 10vw, 120px) max(24px, calc(50vw - 380px));
+}
+
+.prose .dark-band h2 {
+  color: var(--cream);
+  margin: 0.2em 0 0.8em;
+}
+
+.prose .dark-band p {
+  color: var(--cream);
+  margin-inline: auto;
+  font-size: 17.5px;
+  font-weight: 300;
+  max-width: 62ch;
+}
+
+/* Keep the top of the frame when the subject stands at the top */
+.prose .qa .qa-media.top img {
+  object-position: center top;
+}
+
 /* The dark sky question sits on a full-width navy band, per the live site.
    The band bleeds to the viewport edges while its content stays aligned
    with the other rows. */

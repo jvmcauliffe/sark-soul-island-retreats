@@ -74,7 +74,7 @@ With no cars and no traffic, every breath feels lighter. Surrounded by sea air, 
 </section>
 
 <section class="qa">
-<div class="qa-media">
+<div class="qa-media top">
 
 ![A shared vegetarian feast in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
 
