@@ -90,6 +90,8 @@ const breadcrumbs =
           )
         }
 
+        {d.booking.intro && <p class="booking-intro">{d.booking.intro}</p>}
+
         {
           d.booking.images.length > 0 && (
             <div class="booking-photos">
@@ -369,6 +371,11 @@ const breadcrumbs =
   .booking-soldout {
     margin-inline: auto;
     font-size: 18px;
+  }
+
+  .booking-intro {
+    max-width: 56ch;
+    margin: 0 auto 40px;
   }
 
   .booking-photos {

@@ -11,6 +11,8 @@ heroImageAlt: The Wild Thyme double bedroom at the retreat house on Sark
 heroShot: Wild Thyme room photograph
 retreatPage: false
 booking:
+  intro: >-
+    Elegant and serene, our ensuite rooms offer a soothing space after each day's practice. Every detail has been designed for comfort, so you can breathe, reflect, and simply be.
   rateLine: "Exclusive Early Booking Rate: £1,995"
   paypal: https://www.paypal.com/ncp/payment/A482BPHGYSNZE
   includes:

@@ -11,6 +11,8 @@ heroImageAlt: The Sea Lavender bedroom at the retreat house on Sark
 heroShot: Sea Lavender room photograph
 retreatPage: false
 booking:
+  intro: >-
+    Spacious and comfortable, this ensuite room is a sanctuary for slowing down. Thoughtfully arranged to support rest and reflection.
   rateLine: "Exclusive Early Booking Rate: £1,995"
   paypal: https://www.paypal.com/ncp/payment/MCSTQLRYGRTGY
   includes:

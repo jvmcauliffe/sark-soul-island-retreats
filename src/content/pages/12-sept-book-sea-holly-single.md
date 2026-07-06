@@ -11,6 +11,8 @@ heroImageAlt: The Sea Holly bedroom at the retreat house on Sark
 heroShot: Sea Holly room photograph
 retreatPage: false
 booking:
+  intro: >-
+    Warm and understated, this ensuite room offers a soothing space after each day's practice. Soft tones create an atmosphere of peace, ease and grounding.
   rateLine: "Exclusive Early Booking Rate: £1,995"
   paypal: https://www.paypal.com/ncp/payment/KDWDKNN6NSKGQ
   includes:

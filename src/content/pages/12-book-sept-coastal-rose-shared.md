@@ -11,6 +11,8 @@ heroImageAlt: The Coastal Rose twin bedroom at the retreat house on Sark
 heroShot: Coastal Rose room photograph
 retreatPage: false
 booking:
+  intro: >-
+    Light filled and restful, this ensuite room blends simple elegance with natural textures. A peaceful space designed for deep rest, quiet mornings and gentle evenings.
   rateLine: "Exclusive Early Booking Rate: £1,495"
   paypal: https://www.paypal.com/ncp/payment/D7W6GJZAYXQSC
   note: 1 space left

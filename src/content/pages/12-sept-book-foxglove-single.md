@@ -11,6 +11,8 @@ heroImageAlt: The Foxglove single bedroom at the retreat house on Sark
 heroShot: Foxglove room photograph
 retreatPage: false
 booking:
+  intro: >-
+    A serene sanctuary designed for one, this charming en-suite room invites deep rest and a restful space. Perfect for those welcoming additional privacy within the rhythm of retreat life.
   rateLine: "Exclusive Early Booking Rate: £1,995"
   paypal: https://www.paypal.com/ncp/payment/QSU7ADFNXK7E6
   includes:

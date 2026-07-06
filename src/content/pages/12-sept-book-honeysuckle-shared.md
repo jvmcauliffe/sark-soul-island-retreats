@@ -11,6 +11,8 @@ heroImageAlt: The Honeysuckle room with original stonework at the retreat house 
 heroShot: Honeysuckle room photograph
 retreatPage: false
 booking:
+  intro: >-
+    A spacious luxurious en-suite with king or twin beds and beautiful original stonework. Full of the warmth and character of our private historic farmhouse.
   rateLine: "Exclusive Early Booking Rate: £1,495"
   includes:
     - Your place on the retreat

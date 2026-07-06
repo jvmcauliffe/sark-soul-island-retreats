@@ -98,6 +98,7 @@ const pages = defineCollection({
     // reservation pages. No paypal link means the rate is sold out.
     booking: z
       .object({
+        intro: z.string().optional(),
         rateLine: z.string(),
         deposit: z.string().default('Deposit due: £300'),
         balance: z.string().default('Balance due 45 days before arrival'),

@@ -1,8 +1,8 @@
 ---
-// Room cards for the booking page, mirroring the live site: name, room type,
-// a price line per rate with its own reservation button (one link per room
-// and rate, never shared across prices), sold out states, the room copy and
-// a three photo strip. All copy arrives from page frontmatter.
+// "Choose your room" card grid for the booking page, per John's chosen
+// design comp: photo, room name, type, price and a see-room link per rate.
+// One reservation route per room and rate, never shared across prices.
+// All copy arrives from page frontmatter.
 import ImageSlot from './ImageSlot.astro';
 import type { ImageMetadata } from 'astro';
 
@@ -29,182 +29,195 @@ interface Props {
 }
 
 const { rooms } = Astro.props;
+
+const short = (rate: Rate) =>
+  `${rate.price.replace(' per person', '')} / ${rate.label.toLowerCase()} pp`;
 ---
 
-<section class="rooms container" id="rooms">
-  {
-    rooms.map((room) => (
-      <article class="room-card">
-        <header class="room-head">
-          <h3 class="room-name">&lsquo;{room.name}&rsquo;</h3>
-          <p class="room-type">{room.type}</p>
-          <p class="room-occupancy">{room.occupancy}</p>
-        </header>
+<section class="rooms-section" id="rooms">
+  <div class="container">
+    <span class="eyebrow">All-inclusive &middot; From &pound;1,495 pp</span>
+    <h2>Choose your room</h2>
 
-        <div class="room-rates">
-          {room.rates.map((rate) => (
-            <div class:list={['rate', { soldout: rate.status === 'soldout' }]}>
-              <p class="rate-price">
-                <span class="rate-label">{rate.label}</span>
-                {rate.price}
-              </p>
-              {rate.status === 'soldout' ? (
-                <span class="rate-soldout">Sold out</span>
-              ) : (
-                <a class="btn" href={rate.href}>
-                  {rate.cta ?? 'Reserve my place'}
-                </a>
-              )}
-              {rate.note && <p class="rate-note">{rate.note}</p>}
-            </div>
-          ))}
-        </div>
-
-        <p class="room-desc">{room.description}</p>
-        <p class="room-dates">
-          12 to 17 September 2026 &middot; <a href="/contact">June 2027, join the waitlist</a>
-        </p>
-
-        {room.images.length > 0 && (
-          <div class="room-photos">
-            {room.images.map((img) => (
-              <ImageSlot src={img.src} alt={img.alt} shot={img.shot ?? img.alt} width={800} height={560} />
-            ))}
-          </div>
-        )}
-      </article>
-    ))
-  }
+    <div class="rooms-grid">
+      {
+        rooms.map((room) => {
+          const available = room.rates.filter((r) => r.status !== 'soldout');
+          const primary = available[0] ?? room.rates[0];
+          const soldOut = available.length === 0;
+          return (
+            <article class:list={['room-card', { soldout: soldOut }]}>
+              <div class="room-photo">
+                <ImageSlot
+                  src={room.images[0]?.src}
+                  alt={room.images[0]?.alt ?? `The ${room.name} room at the retreat house on Sark`}
+                  shot={room.images[0]?.shot ?? `${room.name} room`}
+                  width={700}
+                  height={470}
+                />
+              </div>
+              <div class="room-body">
+                <h3>{room.name}</h3>
+                <p class="room-type">{room.type}</p>
+                <p class="room-price">
+                  {soldOut ? (
+                    <span class="price-main">{short(room.rates[0])}</span>
+                  ) : (
+                    <>
+                      <span class="price-main">{short(primary)}</span>
+                      {available[1] && <span class="price-alt">{short(available[1])}</span>}
+                    </>
+                  )}
+                </p>
+                <p class="room-links">
+                  {soldOut ? (
+                    <span class="room-soldout">Sold out</span>
+                  ) : (
+                    available.map((rate) => (
+                      <a class="room-link" href={rate.href}>
+                        {available.length > 1 ? `${rate.label} room` : 'See room'} &rarr;
+                      </a>
+                    ))
+                  )}
+                </p>
+                {!soldOut && room.rates.some((r) => r.status === 'soldout') && (
+                  <p class="room-note muted">Single occupancy sold out</p>
+                )}
+                {primary?.note && !soldOut && <p class="room-note">{primary.note}</p>}
+              </div>
+            </article>
+          );
+        })
+      }
+    </div>
+  </div>
 </section>
 
 <style>
-  .rooms {
-    display: grid;
-    gap: clamp(48px, 7vw, 80px);
+  .rooms-section {
     padding-bottom: var(--space-section);
-  }
-
-  .room-card {
-    border-top: 1px solid var(--cream-deep);
-    padding-top: clamp(40px, 6vw, 64px);
     text-align: center;
   }
 
-  .room-name {
-    font-size: clamp(28px, 3.6vw, 40px);
-    margin-bottom: 4px;
-  }
-
-  .room-type {
-    font-size: 12px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--sage-dark);
-    margin: 0 auto 2px;
-  }
-
-  .room-occupancy {
-    font-size: 13px;
-    color: var(--sage);
-    margin: 0 auto 24px;
-  }
-
-  .room-rates {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 28px 56px;
-    margin-bottom: 26px;
-  }
-
-  .rate {
+  .rooms-grid {
     display: grid;
-    justify-items: center;
-    gap: 10px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-top: 36px;
+    text-align: left;
   }
 
-  .rate-price {
-    margin: 0;
-    font-family: var(--font-display);
-    font-size: 22px;
-    color: var(--ink);
+  @media (min-width: 640px) {
+    .rooms-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
   }
 
-  .rate-label {
+  @media (min-width: 1000px) {
+    .rooms-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .room-card {
+    background: #fff;
+    border: 1px solid var(--cream-deep);
+  }
+
+  .room-card.soldout {
+    opacity: 0.75;
+  }
+
+  .room-photo :global(picture) {
     display: block;
-    font-family: var(--font-body);
-    font-size: 11px;
-    font-weight: 500;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    color: var(--sage);
+  }
+
+  .room-photo :global(img),
+  .room-photo :global(.image-slot) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
+  .room-body {
+    padding: 22px 24px 26px;
+  }
+
+  .room-body h3 {
+    font-size: 26px;
     margin-bottom: 2px;
   }
 
-  .rate.soldout .rate-price {
-    color: var(--sage);
+  .room-type {
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--sage-dark);
+    margin-bottom: 18px;
   }
 
-  .rate-soldout {
+  .room-price {
+    margin-bottom: 18px;
+    display: grid;
+    gap: 2px;
+  }
+
+  .price-main {
+    font-family: var(--font-display);
+    font-size: 24px;
+    color: var(--clay);
+  }
+
+  .price-alt {
+    font-family: var(--font-display);
+    font-size: 17px;
+    color: var(--sage-dark);
+  }
+
+  .room-links {
+    margin: 0;
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+  }
+
+  .room-link {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--clay-dark);
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+
+  .room-link:hover {
+    color: var(--clay);
+  }
+
+  .room-soldout {
     display: inline-block;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 2px;
     text-transform: uppercase;
     color: var(--sage-dark);
     border: 1px solid var(--cream-deep);
-    padding: 14px 30px;
+    padding: 10px 18px;
   }
 
-  .rate-note {
-    margin: 0;
-    font-size: 13px;
+  .room-note {
+    margin: 12px 0 0;
+    font-size: 12px;
     font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--clay);
   }
 
-  .room-desc {
-    max-width: 56ch;
-    margin-inline: auto;
-  }
-
-  .room-dates {
-    font-size: 14px;
-    color: var(--sage-dark);
-    margin: 0 auto 26px;
-  }
-
-  .room-photos {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 10px;
-  }
-
-  /* Uniform photo tiles regardless of each shot's intrinsic aspect ratio */
-  .room-photos :global(picture) {
-    display: block;
-  }
-
-  .room-photos :global(img),
-  .room-photos :global(.image-slot) {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 10 / 7;
-    object-fit: cover;
-  }
-
-  /* Small tiles: keep the placeholder caption from stretching the cell */
-  .room-photos :global(.placeholder) {
-    padding: 8px;
-    overflow: hidden;
-  }
-
-  .room-photos :global(.shot-label) {
-    font-size: 9px;
-    letter-spacing: 0.5px;
-    padding: 3px 6px;
+  .room-note.muted {
+    color: var(--sage);
   }
 </style>
