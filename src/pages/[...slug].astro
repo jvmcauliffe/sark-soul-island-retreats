@@ -135,6 +135,9 @@ const breadcrumbs =
             <div class="booking-final">
               <p class="booking-final-lead">You are one step away from securing your place</p>
               <p>Complete your booking securely via PayPal or card payment.</p>
+              <p class="booking-final-cta">
+                <a class="btn" href={d.booking.paypal}>Reserve my place</a>
+              </p>
             </div>
           )
         }
@@ -467,6 +470,10 @@ const breadcrumbs =
     font-weight: 500;
     color: var(--ink);
     margin-bottom: 4px;
+  }
+
+  .booking-final-cta {
+    margin-top: 22px;
   }
 
   .booking-back {
