@@ -247,6 +247,24 @@ const circle = [
     </div>
   </section>
 
+  <section class="section cream">
+    <div class="container" style="text-align: center;">
+      <h2>What guests say</h2>
+      <p class="testimonials-sub">In their own words</p>
+      <div class="testimonials">
+        {
+          testimonials.map((t) => (
+            <blockquote>
+              <span class="stars" aria-label="Five stars">★★★★★</span>
+              <p>"{t.quote}"</p>
+              <cite>{t.name}</cite>
+            </blockquote>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
   <DarkStrip eyebrow="After dark" heading="No street lighting. The first Dark Sky Island on Earth.">
     <p>
       When night falls, the world's first Dark Sky Island reveals its greatest gift. A guided
@@ -287,23 +305,6 @@ const circle = [
     </div>
   </section>
 
-  <section class="section cream">
-    <div class="container" style="text-align: center;">
-      <h2>What guests say</h2>
-      <p class="testimonials-sub">In their own words</p>
-      <div class="testimonials">
-        {
-          testimonials.map((t) => (
-            <blockquote>
-              <span class="stars" aria-label="Five stars">★★★★★</span>
-              <p>"{t.quote}"</p>
-              <cite>{t.name}</cite>
-            </blockquote>
-          ))
-        }
-      </div>
-    </div>
-  </section>
 
 
 
