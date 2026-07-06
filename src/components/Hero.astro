@@ -8,6 +8,9 @@ interface Props {
   eyebrow: string;
   title: string;
   brand?: boolean;
+  centered?: boolean;
+  sub?: string;
+  note?: string;
   line: string;
   ctaLabel?: string;
   ctaHref?: string;
@@ -20,6 +23,9 @@ const {
   eyebrow,
   title,
   brand = false,
+  centered = false,
+  sub,
+  note,
   line,
   ctaLabel = 'Reserve my place',
   ctaHref = '/retreats-on-sark',
@@ -50,11 +56,13 @@ const {
     )
   }
   <div class="scrim" aria-hidden="true"></div>
-  <div class="hero-content container">
-    <span class="eyebrow gold">{eyebrow}</span>
+  <div class:list={['hero-content', 'container', { centered }]}>
+    {eyebrow && <span class="eyebrow gold">{eyebrow}</span>}
     {brand && <p class="brand-display" aria-hidden="true">Sark Soul Island Retreats</p>}
     <h1 class:list={{ 'with-brand': brand }}>{title}</h1>
-    <p>{line}</p>
+    {sub && <p class="hero-sub">{sub}</p>}
+    {line && <p class="hero-line">{line}</p>}
+    {note && <p class="hero-note">{note}</p>}
     <a class="btn" href={ctaHref}>{ctaLabel}</a>
   </div>
 </section>
@@ -137,5 +145,44 @@ const {
     font-size: 19px;
     max-width: 46ch;
     margin-bottom: 1.8em;
+  }
+
+  /* Centered white hero, live site treatment */
+  .hero-content.centered {
+    text-align: center;
+    align-self: center;
+    padding-block: clamp(72px, 12vw, 150px);
+  }
+
+  .hero-content.centered h1 {
+    max-width: none;
+    margin-inline: auto;
+    font-size: clamp(42px, 6.6vw, 74px);
+  }
+
+  .hero-content.centered .hero-sub {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 2.6vw, 30px);
+    color: #fff;
+    max-width: none;
+    margin: 0 auto 1.4em;
+  }
+
+  .hero-content.centered .hero-line {
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    max-width: none;
+    margin: 0 auto 0.9em;
+    color: #fff;
+  }
+
+  .hero-content.centered .hero-note {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 19px;
+    max-width: none;
+    margin: 0 auto 1.6em;
+    color: #fff;
   }
 </style>
