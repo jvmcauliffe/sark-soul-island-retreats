@@ -219,18 +219,14 @@ const breadcrumbs =
   {d.features.length > 0 && <FeatureRows features={d.features} />}
 
   {
-    d.travel.length > 0 && (
-      <section class="section travel">
+    d.travel.map((t) => (
+      <section class:list={['section', 'travel', { 'travel-teal': t.teal }]}>
         <div class="narrow">
-          {d.travel.map((t) => (
-            <>
-              <h2>{t.heading}</h2>
-              <div class="prose" set:html={t.html} />
-            </>
-          ))}
+          <h2>{t.heading}</h2>
+          <div class="prose" set:html={t.html} />
         </div>
       </section>
-    )
+    ))
   }
 
   {!d.retreatPage && d.faqs.length > 0 && <FAQ items={d.faqs} />}
@@ -502,14 +498,28 @@ const breadcrumbs =
   }
 
   .travel {
-    padding-top: 0;
+    padding-block: clamp(48px, 7vw, 80px);
   }
 
   .travel h2 {
-    margin-top: 1.4em;
+    margin-top: 0;
   }
 
-  .travel h2:first-child {
-    margin-top: 0;
+  .travel-teal {
+    background: var(--teal);
+    text-align: center;
+  }
+
+  .travel-teal h2 {
+    color: #fff;
+  }
+
+  .travel-teal :global(p) {
+    color: rgba(255, 255, 255, 0.95);
+    margin-inline: auto;
+  }
+
+  .travel-teal :global(a) {
+    color: #fff;
   }
 </style>

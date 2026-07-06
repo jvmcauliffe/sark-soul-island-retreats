@@ -92,6 +92,7 @@ const pages = defineCollection({
         z.object({
           heading: z.string(),
           html: z.string(),
+          teal: z.boolean().default(false),
         })
       )
       .default([]),

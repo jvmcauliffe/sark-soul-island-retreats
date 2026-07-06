@@ -216,6 +216,7 @@ features:
     alt: A relaxing massage treatment at the retreat house on Sark
 travel:
   - heading: Booking & travel, how it works
+    teal: true
     html: >-
       <p>Most guests reserve their place first and organise travel with our
       support. Once your place is held, we will guide you through ferry timing,
