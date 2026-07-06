@@ -636,6 +636,22 @@ img {
   }
 }
 
+/* Centered intro block on the retreat intent pages */
+.prose .centered-block {
+  text-align: center;
+}
+
+.prose .centered-block p {
+  margin-inline: auto;
+}
+
+/* Closing CTA button centered beneath its section */
+.prose .cta-center {
+  text-align: center;
+  max-width: none;
+  margin: calc(0px - clamp(12px, 3vw, 40px)) 0 0;
+}
+
 /* Inline dark-sky band inside prose, mirroring the DarkStrip component */
 .prose .dark-band {
   background: radial-gradient(ellipse at 50% 0%, #27384b 0%, #111b27 75%);

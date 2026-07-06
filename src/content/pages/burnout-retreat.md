@@ -38,6 +38,8 @@ faqs:
       different person.
 ---
 
+<div class="centered-block">
+
 If you are reading this page, you probably do not need burnout explained to you. The exhaustion that sleep does not fix. The feeling of being permanently switched on and completely empty at the same time.
 
 What you need is somewhere the demands actually stop. Not a spa timetable. Not another set of obligations dressed as self-care. Just the conditions in which a tired system can finally stand down.
@@ -47,6 +49,8 @@ Sark, we would gently argue, is the best place in Britain to do that.
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
 
 <section class="dark-band on-dark">
 
@@ -135,7 +139,7 @@ One of the lonelier parts of burnout is how isolating it is. The retreat is smal
 
 Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-<a class="btn" href="/retreats-on-sark">Reserve my place</a>
-
 </div>
 </section>
+
+<p class="cta-center"><a class="btn" href="/retreats-on-sark">Reserve my place</a></p>

@@ -36,6 +36,8 @@ faqs:
       here. The retreat is an invitation, not a timetable.
 ---
 
+<div class="centered-block">
+
 <p class="lede">Most of our guests arrive alone. <em>It is worth saying that first,</em> because it is the question almost everyone asks and almost no retreat answers plainly.</p>
 
 You will not be the only one. You will probably be in the majority. And with ten to twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
@@ -43,6 +45,8 @@ You will not be the only one. You will probably be in the majority. And with ten
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
 
 <section class="dark-band on-dark">
 
@@ -146,7 +150,7 @@ Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of ar
 
 **12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every activity included. Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-<a class="btn" href="/retreats-on-sark">Reserve my place</a>
-
 </div>
 </section>
+
+<p class="cta-center"><a class="btn" href="/retreats-on-sark">Reserve my place</a></p>

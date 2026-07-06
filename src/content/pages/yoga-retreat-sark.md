@@ -41,6 +41,8 @@ faqs:
       for stargazing.
 ---
 
+<div class="centered-block">
+
 <p class="lede">There are places that invite you to pause. <em>Sark is one of them.</em></p>
 
 The island sits nine miles off Guernsey, reached only by boat. There are no cars for visitors, no traffic lights and no street lighting at all. Life here moves at the pace of the tide, the light and the lanes. It is the kind of quiet most people have not heard in years.
@@ -50,6 +52,8 @@ Our retreats bring ten to twelve guests to our historic farmhouse for five night
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
+
+</div>
 
 <section class="dark-band on-dark">
 
@@ -176,7 +180,7 @@ Our full travel guide answers every practical question: [Getting to Sark guide](
 
 Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
 
-<a class="btn" href="/retreats-on-sark">Reserve my place</a>
-
 </div>
 </section>
+
+<p class="cta-center"><a class="btn" href="/retreats-on-sark">Reserve my place</a></p>
