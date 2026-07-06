@@ -329,7 +329,7 @@ img {
 }
 
 .prose .qa.dark .qa-media img {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
 }
 
 @media (min-width: 768px) {
