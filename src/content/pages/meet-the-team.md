@@ -6,8 +6,10 @@ slug: meet-the-team
 heroEyebrow: The people behind the retreat
 heroTitle: Meet the team
 heroLine: Nadia, Monica, Bram and the souls who bring each retreat to life.
-heroImageAlt: The Sark Soul Island Retreats team at the retreat house on Sark
-heroShot: Meet the Team hero, team photo at the retreat house
+heroImage: ../../assets/photos/sark-goat-carved-stone.jpg
+heroImageAlt: A young Sark goat in front of the carved stone on Sark, Channel Islands
+heroShot: Meet the Team hero, Sark goat at the carved stone
+heroFocus: center 72%
 retreatPage: false
 practiceBand: true
 ---
@@ -18,7 +20,11 @@ Founder & Host of Sark Soul Island Retreats. Loved for the positive energy she b
 
 Nadia has lived and breathed yoga all her life, embracing yoga not only as a daily practice but as a way of life. A qualified massage therapist, she combines her passion for yoga, healing touch, and connection with nature to create truly transformative spaces for others.
 
+<div class="natural">
+
 ![Nadia, founder and host, arms open on the mat in the yoga studio at the retreat house on Sark](../../assets/photos/sark-nadia-open-arms-yoga-studio.jpg)
+
+</div>
 
 Drawn to Sark by its peace, wild beauty, and slower way of living, Nadia found in the island a place that felt like home, with no cars, no light pollution, and a deep sense of stillness. She now shares this magical setting with others through retreats that honour yoga, community, and the healing power of nature.
 
@@ -28,7 +34,11 @@ Senior Yoga Teacher. Wisdom facilitator.
 
 Monica is a highly respected yoga teacher, accredited by both the British Wheel of Yoga and Yoga Alliance. With decades of experience, she brings a senior level of teaching that blends strength, grace, and therapeutic depth.
 
+<div class="natural">
+
 ![Senior yoga teacher Monica of YogaMorphic in the studio on Sark](../../assets/photos/sark-monica-yogamorphic-studio.jpg)
+
+</div>
 
 Her classes draw inspiration from Hatha and Tantra traditions, combining asana, pranayama, and meditation to create a practice that is grounding, energising, and deeply nourishing. With a thoughtful and intuitive approach, Monica guides each retreat guest safely through sequences that balance the body and calm the mind, leaving space for true transformation.
 
@@ -36,7 +46,11 @@ Her classes draw inspiration from Hatha and Tantra traditions, combining asana, 
 
 Reiki Practitioner, Yoga Teacher, Professional Artist.
 
+<div class="natural">
+
 ![Louise, Reiki practitioner, yoga teacher and artist, on the rocks by the sea on Sark](../../assets/photos/sark-louise-reiki-artist.jpg)
+
+</div>
 
 Louise was attuned as a Reiki practitioner over 16 years ago and has also trained in four levels of Pranic Healing by Master Choa Kok Sui. Sensitive to energy and fascinated by its power as a healing tool, she intuitively combines Reiki and Pranic Healing techniques in her sessions, which restore equilibrium.
 
@@ -46,7 +60,11 @@ Also a professional artist, Louise works with a deep sense of the light and ener
 
 Breath Coach, Cold Immersion, Certified Lifeguard & Yoga Instructor.
 
+<div class="natural">
+
 ![Ana guiding a cold immersion ice bath session at the retreat on Sark](../../assets/photos/sark-ana-cold-immersion.jpg)
+
+</div>
 
 Radiating warmth and calm strength, Ana's gentle presence and joyful energy make every experience grounding and uplifting. As well as being a practiced yoga instructor and Breath Coach, Ana also offers guests the opportunity to be guided through ice bath experiences rooted in modern neuroscience and the body's natural ability to heal.
 
@@ -56,7 +74,11 @@ Ana's sessions explore the link between breath, cold, and the nervous system, aw
 
 Chef Extraordinaire, Director of Laughter and excellent vibes.
 
+<div class="natural">
+
 ![Bram, retreat chef at Sark Soul Island Retreats on Sark](../../assets/photos/sark-bram-retreat-chef.jpg)
+
+</div>
 
 Bram is one of our retreat chefs with years of professional kitchen experience and a passion for good, honest food. He focuses on seasonal ingredients, simple flavourful cooking and a deep love of food as nourishment for body and soul.
 
@@ -66,7 +88,11 @@ He co-runs a freelance catering company on Sark with his good friend and fellow 
 
 Qualified Massage Therapist and Psychotherapist. Wonderful Soul.
 
+<div class="natural">
+
 ![Julienne, massage therapist and psychotherapist, on Sark](../../assets/photos/sark-julienne-massage-therapist.jpg)
+
+</div>
 
 Julienne is both a qualified massage therapist and psychotherapist, with decades of experience helping people find healing and balance. Her holistic approach recognises the deep connection between body and mind, that one cannot be healed without the other.
 
@@ -74,7 +100,11 @@ With an open spirit, love of nature, and a genuine warmth for all people, Julien
 
 ## Helen & Alex
 
+<div class="natural">
+
 ![Helen and Alex in the kitchen of the retreat house on Sark](../../assets/photos/sark-helen-alex-retreat-house.jpg)
+
+</div>
 
 Our retreat home is lovingly run by Helen and Alex, who have lived on Sark for over 25 years. As the owners of this historic guesthouse, they take pride in offering a warm Sark welcome to all who stay.
 
