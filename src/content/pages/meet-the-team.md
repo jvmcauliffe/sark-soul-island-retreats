@@ -6,10 +6,10 @@ slug: meet-the-team
 heroEyebrow: The people behind the retreat
 heroTitle: Meet the team
 heroLine: Nadia, Monica, Bram and the souls who bring each retreat to life.
-heroImage: ../../assets/photos/sark-goat-carved-stone-wide.jpg
+heroImage: ../../assets/photos/sark-goat-carved-stone.jpg
 heroImageAlt: A young Sark goat in front of the carved stone on Sark, Channel Islands
 heroShot: Meet the Team hero, Sark goat at the carved stone
-heroFocus: center 70%
+heroFocus: center 80%
 heroTall: true
 heroBannerTop: true
 heroBanner: Early booking rate ends 19 July - limited places available
