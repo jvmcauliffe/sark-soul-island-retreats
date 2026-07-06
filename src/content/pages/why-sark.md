@@ -34,7 +34,11 @@ With no cars and no traffic, every breath feels lighter. Surrounded by sea air, 
 
 ## Can I come on my own?
 
+<div class="natural">
+
 ![A shared vegetarian feast in the dining barn at the retreat on Sark](../../assets/photos/sark-dining-barn-vegetarian-feast.jpg)
+
+</div>
 
 Most of our guests do. With only ten to twelve people in one house, no-one stays a stranger past the first evening. You'll share the table, the walks, the morning practice, and people who arrived alone tend to leave with friends they keep.
 

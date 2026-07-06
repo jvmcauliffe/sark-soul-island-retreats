@@ -255,6 +255,11 @@ img {
   margin: 2em 0;
 }
 
+/* Opt out of the uniform crop for photos that need their full frame */
+.prose .natural img {
+  aspect-ratio: auto;
+}
+
 /* Centered lede paragraph with the clay italic phrase, live site treatment */
 .prose .lede {
   text-align: center;
