@@ -26,6 +26,23 @@ const pages = defineCollection({
     retreatPage: z.boolean().default(true),
     guideForm: z.boolean().default(false),
     practiceBand: z.boolean().default(false),
+    // Cross-link band rendered after the guide panel with page-supplied
+    // copy, like the "Come join us" band on Why Sark.
+    joinBand: z
+      .object({
+        eyebrow: z.string(),
+        heading: z.string(),
+        cards: z.array(
+          z.object({
+            eyebrow: z.string(),
+            heading: z.string(),
+            line: z.string(),
+            label: z.string(),
+            href: z.string(),
+          })
+        ),
+      })
+      .optional(),
     centerBody: z.boolean().default(false),
     darkStrip: z
       .object({

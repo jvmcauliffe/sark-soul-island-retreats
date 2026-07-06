@@ -304,6 +304,34 @@ img {
   margin-bottom: 0;
 }
 
+/* The dark sky question sits on a full-width navy band, per the live site.
+   The band bleeds to the viewport edges while its content stays aligned
+   with the other rows. */
+.prose .qa.dark {
+  background: var(--ink);
+  max-width: none;
+  margin-inline: calc(50% - 50vw);
+  padding-block: clamp(40px, 6vw, 72px);
+  padding-inline: max(24px, calc(50vw - 540px));
+}
+
+.prose .qa.dark .qa-text,
+.prose .qa.dark .qa-text h2 {
+  color: var(--cream);
+}
+
+.prose .qa.dark a {
+  color: var(--cream);
+}
+
+.prose .qa.dark a:hover {
+  color: #fff;
+}
+
+.prose .qa.dark .qa-media img {
+  aspect-ratio: 4 / 5;
+}
+
 @media (min-width: 768px) {
   .prose .qa {
     grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);

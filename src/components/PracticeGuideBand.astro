@@ -1,7 +1,24 @@
 ---
 // The "Your Yoga guide for the week" navy band from the live site: three
-// cross link cards to The Practice, Why Sark and the booking page.
-const cards = [
+// cross link cards to The Practice, Why Sark and the booking page. Pages can
+// pass their own copy (via joinBand frontmatter) to reuse the band with
+// different cards, like the "Come join us" band on Why Sark.
+interface Card {
+  eyebrow: string;
+  heading: string;
+  line: string;
+  label: string;
+  href: string;
+}
+
+interface Props {
+  eyebrow?: string;
+  heading?: string;
+  cards?: Card[];
+  separated?: boolean;
+}
+
+const defaultCards: Card[] = [
   {
     eyebrow: 'The practice',
     heading: 'The Yoga',
@@ -24,12 +41,19 @@ const cards = [
     href: '/retreats-on-sark',
   },
 ];
+
+const {
+  eyebrow = 'Learn about the practice',
+  heading = 'Your Yoga guide for the week',
+  cards = defaultCards,
+  separated = false,
+} = Astro.props;
 ---
 
-<section class="pg-band on-dark">
+<section class:list={['pg-band', 'on-dark', { separated }]}>
   <div class="container">
-    <span class="eyebrow gold">Learn about the practice</span>
-    <h2>Your Yoga guide for the week</h2>
+    <span class="eyebrow gold">{eyebrow}</span>
+    <h2>{heading}</h2>
     <div class="pg-cards">
       {
         cards.map((c) => (
@@ -52,6 +76,12 @@ const cards = [
     background: var(--ink-soft);
     padding-block: clamp(56px, 8vw, 90px);
     text-align: center;
+  }
+
+  /* When the band follows another dark strip, keep a cream gap between
+     them so the page colours alternate. */
+  .pg-band.separated {
+    margin-top: var(--space-section);
   }
 
   .pg-band h2 {

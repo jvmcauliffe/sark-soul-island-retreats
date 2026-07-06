@@ -12,6 +12,25 @@ heroShot: Why Sark hero, night sky over Sark
 heroCta: false
 retreatPage: false
 guideForm: true
+joinBand:
+  eyebrow: See September dates
+  heading: Come join us
+  cards:
+    - eyebrow: The retreat
+      heading: Retreats on Sark
+      line: Dates, Rooms and what's included
+      label: See dates
+      href: /retreats-on-sark
+    - eyebrow: The practice
+      heading: The Yoga
+      line: How the practice sits at the heart of every retreat
+      label: The practice
+      href: /the-practice
+    - eyebrow: The team
+      heading: Meet the team
+      line: Nadia, Monica, Bram & the souls who bring each retreat to life.
+      label: Meet the team
+      href: /meet-the-team
 ---
 
 <p class="lede">Most people who come to Sark have never been before, and arrive with the same handful of questions. <em>So here are the honest answers,</em> from the people who live on the island.</p>
@@ -149,7 +168,7 @@ By the time you arrive at the accommodation, something has already shifted. You'
 </div>
 </section>
 
-<section class="qa rev">
+<section class="qa rev dark on-dark">
 <div class="qa-media">
 
 ![Sark Henge under the Milky Way at night on Sark, the world's first Dark Sky Island](../../assets/photos/sark-henge-night-sky-stars.jpg)

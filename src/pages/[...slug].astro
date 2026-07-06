@@ -240,6 +240,17 @@ const breadcrumbs =
   {d.guideForm && <GuidePanel />}
 
   {
+    d.joinBand && (
+      <PracticeGuideBand
+        eyebrow={d.joinBand.eyebrow}
+        heading={d.joinBand.heading}
+        cards={d.joinBand.cards}
+        separated
+      />
+    )
+  }
+
+  {
     d.retreatPage && (
       <>
         {!d.addOns && (
