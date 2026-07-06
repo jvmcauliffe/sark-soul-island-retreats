@@ -7,6 +7,7 @@ heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
 heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
+heroFocus: center 22%
 heroImageAlt: Small group yoga practice at a retreat on Sark, Channel Islands
 heroShot: Morning practice in the studio
 retreatPage: true
