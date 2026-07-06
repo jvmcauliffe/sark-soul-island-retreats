@@ -50,7 +50,7 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/copy-of-12-sept-sea-lavender-single-1"
+        href: "/12-sept-sea-lavender-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
