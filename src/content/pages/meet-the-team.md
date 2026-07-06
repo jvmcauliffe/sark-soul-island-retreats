@@ -6,14 +6,19 @@ slug: meet-the-team
 heroEyebrow: The people behind the retreat
 heroTitle: Meet the team
 heroLine: Nadia, Monica, Bram and the souls who bring each retreat to life.
-heroImage: ../../assets/photos/sark-goat-carved-stone.jpg
-heroImageAlt: A young Sark goat in front of the carved stone on Sark, Channel Islands
-heroShot: Meet the Team hero, Sark goat at the carved stone
-heroFocus: center 80%
-heroTall: true
+heroPlain: true
+heroBanner: Early booking rate ends 19 July - limited places available
 retreatPage: false
 practiceBand: true
 ---
+
+<section class="member">
+<div class="member-photo">
+
+![Nadia, founder and host, arms open on the mat in the yoga studio at the retreat house on Sark](../../assets/photos/sark-nadia-open-arms-yoga-studio.jpg)
+
+</div>
+<div class="member-text">
 
 ## Nadia
 
@@ -21,13 +26,18 @@ Founder & Host of Sark Soul Island Retreats. Loved for the positive energy she b
 
 Nadia has lived and breathed yoga all her life, embracing yoga not only as a daily practice but as a way of life. A qualified massage therapist, she combines her passion for yoga, healing touch, and connection with nature to create truly transformative spaces for others.
 
-<div class="team-photo">
-
-![Nadia, founder and host, arms open on the mat in the yoga studio at the retreat house on Sark](../../assets/photos/sark-nadia-open-arms-yoga-studio.jpg)
+Drawn to Sark by its peace, wild beauty, and slower way of living, Nadia found in the island a place that felt like home, with no cars, no light pollution, and a deep sense of stillness. She now shares this magical setting with others through retreats that honour yoga, community, and the healing power of nature.
 
 </div>
+</section>
 
-Drawn to Sark by its peace, wild beauty, and slower way of living, Nadia found in the island a place that felt like home, with no cars, no light pollution, and a deep sense of stillness. She now shares this magical setting with others through retreats that honour yoga, community, and the healing power of nature.
+<section class="member">
+<div class="member-photo">
+
+![Senior yoga teacher Monica of YogaMorphic in the studio on Sark](../../assets/photos/sark-monica-yogamorphic-studio.jpg)
+
+</div>
+<div class="member-text">
 
 ## Monica
 
@@ -35,81 +45,103 @@ Senior Yoga Teacher. Wisdom facilitator.
 
 Monica is a highly respected yoga teacher, accredited by both the British Wheel of Yoga and Yoga Alliance. With decades of experience, she brings a senior level of teaching that blends strength, grace, and therapeutic depth.
 
-<div class="team-photo">
-
-![Senior yoga teacher Monica of YogaMorphic in the studio on Sark](../../assets/photos/sark-monica-yogamorphic-studio.jpg)
+Her classes draw inspiration from Hatha and Tantra traditions, combining asana, pranayama, and meditation to create a practice that is grounding, energising, and deeply nourishing. With a thoughtful and intuitive approach, Monica guides each retreat guest safely through sequences that balance the body and calm the mind, leaving space for true transformation.
 
 </div>
+</section>
 
-Her classes draw inspiration from Hatha and Tantra traditions, combining asana, pranayama, and meditation to create a practice that is grounding, energising, and deeply nourishing. With a thoughtful and intuitive approach, Monica guides each retreat guest safely through sequences that balance the body and calm the mind, leaving space for true transformation.
+<section class="member">
+<div class="member-photo">
+
+![Louise, Reiki practitioner, yoga teacher and artist, on the rocks by the sea on Sark](../../assets/photos/sark-louise-reiki-artist.jpg)
+
+</div>
+<div class="member-text">
 
 ## Louise
 
 Reiki Practitioner, Yoga Teacher, Professional Artist.
 
-<div class="team-photo">
-
-![Louise, Reiki practitioner, yoga teacher and artist, on the rocks by the sea on Sark](../../assets/photos/sark-louise-reiki-artist.jpg)
-
-</div>
-
 Louise was attuned as a Reiki practitioner over 16 years ago and has also trained in four levels of Pranic Healing by Master Choa Kok Sui. Sensitive to energy and fascinated by its power as a healing tool, she intuitively combines Reiki and Pranic Healing techniques in her sessions, which restore equilibrium.
 
 Also a professional artist, Louise works with a deep sense of the light and energy of her subjects. She offers Reiki sessions as an optional add-on during the retreat. Based on Sark with her family since 2021, she embodies a lifestyle rooted in art, yoga, and connection to nature.
+
+</div>
+</section>
+
+<section class="member">
+<div class="member-photo">
+
+![Ana guiding a cold immersion ice bath session at the retreat on Sark](../../assets/photos/sark-ana-cold-immersion.jpg)
+
+</div>
+<div class="member-text">
 
 ## Ana
 
 Breath Coach, Cold Immersion, Certified Lifeguard & Yoga Instructor.
 
-<div class="team-photo">
-
-![Ana guiding a cold immersion ice bath session at the retreat on Sark](../../assets/photos/sark-ana-cold-immersion.jpg)
-
-</div>
-
 Radiating warmth and calm strength, Ana's gentle presence and joyful energy make every experience grounding and uplifting. As well as being a practiced yoga instructor and Breath Coach, Ana also offers guests the opportunity to be guided through ice bath experiences rooted in modern neuroscience and the body's natural ability to heal.
 
 Ana's sessions explore the link between breath, cold, and the nervous system, awakening resilience, balance, and a profound sense of inner calm.
+
+</div>
+</section>
+
+<section class="member">
+<div class="member-photo">
+
+![Bram, retreat chef at Sark Soul Island Retreats on Sark](../../assets/photos/sark-bram-retreat-chef.jpg)
+
+</div>
+<div class="member-text">
 
 ## Bram
 
 Chef Extraordinaire, Director of Laughter and excellent vibes.
 
-<div class="team-photo">
-
-![Bram, retreat chef at Sark Soul Island Retreats on Sark](../../assets/photos/sark-bram-retreat-chef.jpg)
-
-</div>
-
 Bram is one of our retreat chefs with years of professional kitchen experience and a passion for good, honest food. He focuses on seasonal ingredients, simple flavourful cooking and a deep love of food as nourishment for body and soul.
 
 He co-runs a freelance catering company on Sark with his good friend and fellow chef, Pip. Together they will be preparing fresh nourishing vegetarian meals that are both wholesome and indulgent, to support daily yoga practice, served in a relaxed welcoming atmosphere, making each meal an experience in itself.
+
+</div>
+</section>
+
+<section class="member">
+<div class="member-photo">
+
+![Julienne, massage therapist and psychotherapist, on Sark](../../assets/photos/sark-julienne-massage-therapist.jpg)
+
+</div>
+<div class="member-text">
 
 ## Julienne
 
 Qualified Massage Therapist and Psychotherapist. Wonderful Soul.
 
-<div class="team-photo">
-
-![Julienne, massage therapist and psychotherapist, on Sark](../../assets/photos/sark-julienne-massage-therapist.jpg)
-
-</div>
-
 Julienne is both a qualified massage therapist and psychotherapist, with decades of experience helping people find healing and balance. Her holistic approach recognises the deep connection between body and mind, that one cannot be healed without the other.
 
 With an open spirit, love of nature, and a genuine warmth for all people, Julienne brings a healing presence that goes far beyond technique. Her sessions are deeply restorative, helping to release tension while supporting emotional and mental wellbeing.
 
-## Helen & Alex
+</div>
+</section>
 
-<div class="team-photo">
+<section class="member">
+<div class="member-photo">
 
 ![Helen and Alex in the kitchen of the retreat house on Sark](../../assets/photos/sark-helen-alex-retreat-house.jpg)
 
 </div>
+<div class="member-text">
+
+## Helen & Alex
 
 Our retreat home is lovingly run by Helen and Alex, who have lived on Sark for over 25 years. As the owners of this historic guesthouse, they take pride in offering a warm Sark welcome to all who stay.
 
 Helen and Alex provide our daily breakfasts and ensure that everything in the accommodation runs smoothly, so you can simply relax and enjoy the retreat experience. Their knowledge of the island and long connection to Sark make them an integral part of the atmosphere.
+
+</div>
+</section>
 
 ## Sark Island
 

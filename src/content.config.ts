@@ -20,6 +20,7 @@ const pages = defineCollection({
     heroBanner: z.string().optional(),
     heroFocus: z.string().optional(),
     heroTall: z.boolean().default(false),
+    heroPlain: z.boolean().default(false),
     heroCentered: z.boolean().default(false),
     heroCta: z.boolean().default(true),
     heroSub: z.string().optional(),

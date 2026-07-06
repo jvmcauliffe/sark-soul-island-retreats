@@ -260,11 +260,53 @@ img {
   aspect-ratio: auto;
 }
 
-/* Team portraits share one 4:5 frame, biased toward faces */
-.prose .team-photo img {
-  aspect-ratio: 4 / 5;
+/* Team member cards: cream two-tone panels, photo beside the copy */
+.prose .member {
+  background: var(--cream);
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px clamp(28px, 4vw, 56px);
+  align-items: center;
+  max-width: 1040px;
+  padding: clamp(28px, 4vw, 52px);
+  margin: clamp(24px, 3vw, 40px) auto;
+}
+
+.prose .member .member-photo {
+  margin: 0;
+}
+
+.prose .member .member-photo p {
+  margin: 0;
+  max-width: none;
+}
+
+.prose .member .member-photo img {
+  width: 100%;
+  max-width: none;
+  aspect-ratio: 10 / 9;
   object-fit: cover;
   object-position: center 30%;
+  margin: 0;
+}
+
+.prose .member .member-text h2 {
+  margin: 0 0 0.4em;
+}
+
+.prose .member .member-text p {
+  font-size: 15px;
+  max-width: none;
+}
+
+.prose .member .member-text > :last-child {
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .prose .member {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  }
 }
 
 /* Question rows on the guide pages, per the live site design: photo beside
