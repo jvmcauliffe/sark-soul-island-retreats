@@ -9,6 +9,7 @@ heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
 heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
 heroFocus: center 30%
 heroTall: true
+heroCentered: true
 heroImageAlt: Small group yoga practice at a retreat on Sark, Channel Islands
 heroShot: Morning practice in the studio
 retreatPage: true
