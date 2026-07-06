@@ -69,8 +69,11 @@ if (retreatPages.length === 0) failures.push('no pages carry Event schema');
 for (const [route, html] of retreatPages) {
   if (!html.includes('"validThrough":"2026-07-19"')) failures.push(`${route}: early rate validThrough missing`);
   if (!html.includes('dark-strip')) failures.push(`${route}: DarkStrip missing`);
-  if (!(html.includes('£1,495') && html.includes('£1,695') && html.includes('£1,995'))) {
-    failures.push(`${route}: PriceCards amounts missing`);
+  // The booking page shows the live per-room rates in the room grid; the
+  // standard £1,695 rate is carried by the intent pages' PriceCards.
+  const needsStandardRate = !html.includes('rooms-grid');
+  if (!(html.includes('£1,495') && html.includes('£1,995') && (!needsStandardRate || html.includes('£1,695')))) {
+    failures.push(`${route}: price amounts missing`);
   }
   if (!html.includes('\u{1F33F}')) failures.push(`${route}: NadiaNote leaf missing`);
   if (!html.includes('Reserve my place')) failures.push(`${route}: CTA missing`);

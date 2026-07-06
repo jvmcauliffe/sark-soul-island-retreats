@@ -249,7 +249,7 @@ const breadcrumbs =
             </p>
           </DarkStrip>
         )}
-        <PriceCards />
+        {d.rooms.length === 0 && <PriceCards />}
         <NadiaNote quote={d.nadiaNote ?? defaultNote} />
         {d.faqs.length > 0 && <FAQ items={d.faqs} />}
         <CTABand />
