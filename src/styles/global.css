@@ -277,18 +277,14 @@ img {
   max-width: none;
 }
 
+/* Every row photo shares the same 4:3 frame so section blocks stay a
+   consistent height and the spacing between sections reads evenly. */
 .prose .qa .qa-media img {
   width: 100%;
   max-width: none;
-  aspect-ratio: auto;
-  max-height: 540px;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
   margin: 0;
-}
-
-/* Portrait photos that should show as a landscape crop in their row */
-.prose .qa .qa-media.landscape img {
-  aspect-ratio: 4 / 3;
 }
 
 .prose .qa .qa-text p {

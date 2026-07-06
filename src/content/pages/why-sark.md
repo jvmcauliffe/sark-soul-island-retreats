@@ -17,7 +17,7 @@ guideForm: true
 <p class="lede">Most people who come to Sark have never been before, and arrive with the same handful of questions. <em>So here are the honest answers,</em> from the people who live on the island.</p>
 
 <section class="qa">
-<div class="qa-media landscape">
+<div class="qa-media">
 
 ![La Coupee, the narrow causeway between Sark and Little Sark, Channel Islands](../../assets/photos/sark-la-coupee-aerial-sunny.jpg)
 
@@ -38,7 +38,7 @@ We are constantly inspired by the generations who have called Sark home before u
 </section>
 
 <section class="qa rev">
-<div class="qa-media landscape">
+<div class="qa-media">
 
 ![Morning yoga practice in the private studio at the retreat house on Sark](../../assets/photos/sark-morning-yoga-practice-studio.jpg)
 
