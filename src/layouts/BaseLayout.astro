@@ -117,23 +117,6 @@ const breadcrumbSchema =
   <body>
     <a class="visually-hidden" href="#main">Skip to content</a>
     <Header />
-    {
-      breadcrumbs.length > 0 && (
-        <nav class="breadcrumbs container" aria-label="Breadcrumb">
-          <ol>
-            {breadcrumbs.map((c, i) => (
-              <li>
-                {i === breadcrumbs.length - 1 ? (
-                  <span aria-current="page">{c.label}</span>
-                ) : (
-                  <a href={c.href}>{c.label}</a>
-                )}
-              </li>
-            ))}
-          </ol>
-        </nav>
-      )
-    }
     <main id="main">
       <slot />
     </main>

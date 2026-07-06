@@ -389,38 +389,6 @@ img {
   margin-top: 1.2em;
 }
 
-/* Breadcrumbs */
-.breadcrumbs {
-  font-size: 12px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  padding: 18px 0 0;
-}
-
-.breadcrumbs ol {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin: 0;
-  padding: 0;
-}
-
-.breadcrumbs li + li::before {
-  content: '/';
-  margin-right: 6px;
-  color: var(--sage);
-}
-
-.breadcrumbs a {
-  color: var(--sage-dark);
-  text-decoration: none;
-}
-
-.breadcrumbs a:hover {
-  color: var(--teal-dark);
-}
-
 .breadcrumbs [aria-current='page'] {
   color: var(--charcoal);
 }
