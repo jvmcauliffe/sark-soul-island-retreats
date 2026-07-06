@@ -6,8 +6,8 @@ slug: our-story
 heroEyebrow: Sark Soul Island Retreats
 heroTitle: Our Story
 heroLine: Born from a deep love of yoga, nature, and the rare magic of this car-free island.
-heroImage: ../../assets/photos/sark-retreat-house-aerial.jpg
-heroImageAlt: Our historic farmhouse and its gardens from the air on Sark, Channel Islands
+heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
+heroImageAlt: The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island
 heroShot: Our Story hero, Nadia on the island
 retreatPage: false
 practiceBand: true

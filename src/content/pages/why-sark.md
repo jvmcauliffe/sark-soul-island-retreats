@@ -6,8 +6,8 @@ slug: why-sark
 heroEyebrow: A guide · Channel Islands
 heroTitle: What a Yoga Retreat on Sark Is Actually Like
 heroLine: An honest, first-hand guide to five nights on a car-free island that is half a day from London, but a world apart, from the ferry over to the last morning you won't want to leave.
-heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
-heroImageAlt: The Milky Way over Sark Henge on Sark, the world's first Dark Sky Island
+heroImage: ../../assets/photos/sark-retreat-house-aerial.jpg
+heroImageAlt: Our historic farmhouse and its gardens from the air on Sark, Channel Islands
 heroShot: Why Sark hero, night sky over Sark
 heroCta: false
 retreatPage: false
