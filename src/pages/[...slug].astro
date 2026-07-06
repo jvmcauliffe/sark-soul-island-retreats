@@ -1,14 +1,13 @@
 ---
 // Dynamic route for content-collection pages. Dropping one of John's copy
 // files into src/content/pages/ makes it appear at its slug with the full
-// retreat-page battery: attribution strip, DarkStrip, PriceCards, NadiaNote,
+// retreat-page battery: attribution strip, DarkStrip, NadiaNote,
 // FAQ and closing CTABand.
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Hero from '../components/Hero.astro';
 import AttributionStrip from '../components/AttributionStrip.astro';
 import DarkStrip from '../components/DarkStrip.astro';
-import PriceCards from '../components/PriceCards.astro';
 import NadiaNote from '../components/NadiaNote.astro';
 import FAQ from '../components/FAQ.astro';
 import CTABand from '../components/CTABand.astro';
@@ -279,7 +278,6 @@ const breadcrumbs =
             </p>
           </DarkStrip>
         )}
-        {d.rooms.length === 0 && <PriceCards />}
         <NadiaNote quote={d.nadiaNote ?? defaultNote} />
         {d.faqs.length > 0 && <FAQ items={d.faqs} />}
         <CTABand />
