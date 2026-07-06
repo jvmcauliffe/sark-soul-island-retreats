@@ -268,7 +268,7 @@ img {
   grid-template-columns: 1fr;
   gap: 20px clamp(32px, 5vw, 68px);
   align-items: start;
-  max-width: 1000px;
+  max-width: 1080px;
   margin: clamp(48px, 7vw, 84px) auto;
 }
 
@@ -281,7 +281,7 @@ img {
   width: 100%;
   max-width: none;
   aspect-ratio: auto;
-  max-height: 440px;
+  max-height: 540px;
   object-fit: cover;
   margin: 0;
 }
@@ -305,13 +305,13 @@ img {
 
 @media (min-width: 768px) {
   .prose .qa {
-    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
 
-  /* Mirror the columns on reversed rows so the photo keeps its narrow
-     track when it moves to the right. */
+  /* Mirror the columns on reversed rows so the photo keeps its track
+     when it moves to the right. */
   .prose .qa.rev {
-    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   }
 
   .prose .qa.rev .qa-media {
@@ -320,6 +320,11 @@ img {
 
   .prose .qa.rev .qa-text {
     order: 1;
+  }
+
+  /* The photo top aligns with the title, not the eyebrow above it. */
+  .prose .qa .qa-media {
+    margin-top: 32px;
   }
 }
 
