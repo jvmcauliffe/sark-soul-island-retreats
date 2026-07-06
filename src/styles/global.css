@@ -91,6 +91,24 @@ img {
   display: block;
 }
 
+/* Site-wide early booking banner under the header */
+.promo-banner .promo-gold {
+  color: var(--gold);
+}
+
+.promo-banner {
+  background: var(--ink);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 24px;
+  margin: 0;
+  max-width: none;
+}
+
 /* Eyebrow labels: Jost 11px, uppercase, letter-spacing 3px */
 .eyebrow {
   display: block;

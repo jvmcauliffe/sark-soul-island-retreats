@@ -11,8 +11,6 @@ heroImageAlt: A young Sark goat in front of the carved stone on Sark, Channel Is
 heroShot: Meet the Team hero, Sark goat at the carved stone
 heroFocus: center 80%
 heroTall: true
-heroBannerTop: true
-heroBanner: Early booking rate ends 19 July - limited places available
 retreatPage: false
 practiceBand: true
 ---
@@ -148,6 +146,14 @@ Helen and Alex provide our daily breakfasts and ensure that everything in the ac
 </div>
 </section>
 
+<section class="member">
+<div class="member-photo">
+
+![Aerial view of the whole of Sark island surrounded by the sea, Channel Islands](../../assets/photos/sark-island-aerial.jpg)
+
+</div>
+<div class="member-text">
+
 ## Sark Island
 
 Our most important team member is the island itself.
@@ -155,5 +161,8 @@ Our most important team member is the island itself.
 And all the wonderful souls who call Sark home. We are very grateful to you for sharing this piece of paradise with us all.
 
 Check the [Sark Tourism official site](https://www.sark.co.uk) for more.
+
+</div>
+</section>
 
 Learn about [the practice](/the-practice), read [why Sark](/why-sark), or [see dates and reserve your place](/retreats-on-sark).

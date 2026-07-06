@@ -9,7 +9,6 @@ heroCentered: true
 heroSub: on the Isle of Sark
 heroLine: 12 to 17 September, 2026
 heroNote: with Monica Marini of YogaMorphic
-heroBanner: Early booking rate ends 19 July - limited spaces available
 heroImage: ../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg
 heroImageAlt: Yachts at anchor in a turquoise bay below the cliffs of Sark, Channel Islands
 heroShot: Booking page hero, turquoise bay
