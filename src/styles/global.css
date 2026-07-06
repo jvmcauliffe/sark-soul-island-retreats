@@ -286,6 +286,11 @@ img {
   margin: 0;
 }
 
+/* Portrait photos that should show as a landscape crop in their row */
+.prose .qa .qa-media.landscape img {
+  aspect-ratio: 4 / 3;
+}
+
 .prose .qa .qa-text p {
   max-width: none;
 }
