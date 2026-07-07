@@ -182,6 +182,12 @@ By the time you arrive at the accommodation, something has already shifted. You'
 
 When night falls on Sark, the sky transforms into a breathtaking theatre of stars. Recognised as the world's first Dark Sky Island, Sark offers unparalleled stargazing. With no streetlights and no cars, the night deepens. Beneath the Milky Way, connection deepens, with the cosmos, with nature, and with one another.
 
+Sark earned that title in January 2011, when the International Dark-Sky Association named it the first Dark Sky Island in the world. The designation recognised what islanders had always known: with no public lighting anywhere on the island, almost no light spills upward to blot out the starlight. The darkest skies run from September to April, best in the two hours after sunset, which is exactly when our September retreat wanders out after dinner, to the lanes, the headlands, or the ring of standing stones at Sark Henge. Many guests see the Milky Way properly for the first time in their lives here.
+
+The darkness reaches further than stargazing. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that tells the body night has begun, and most of us live inside that disruption permanently. On Sark it simply does not happen. When the sun sets the island goes truly dark, the body gets the signal it has been waiting for, and guests are often surprised by how deeply they sleep from the very first night.
+
+The island holds quieter wonders for daylight too. At L'Éperquerie, the wild common at Sark's northern tip, a granite boulder carries Tibetan carvings, an unexpected meeting of island stone and Himalayan script, and the goats like to pose in front of it. It says something true about Sark: people have always come here to feel closer to the sky.
+
 There's signal here, and there's wifi. You simply stop reaching for your phone, because there's something better to look at. Our [Dark Sky retreat](/dark-sky-retreat) is built around exactly this.
 
 </div>
