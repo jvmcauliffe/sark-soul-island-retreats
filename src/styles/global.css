@@ -691,7 +691,8 @@ img {
 }
 
 .prose .qa.dark .qa-text,
-.prose .qa.dark .qa-text h2 {
+.prose .qa.dark .qa-text h2,
+.prose .qa.dark .qa-text h3 {
   color: var(--cream);
 }
 
