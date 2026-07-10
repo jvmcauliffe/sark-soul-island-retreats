@@ -61,7 +61,7 @@ Our retreats bring ten to twelve guests to our historic farmhouse for five night
 
 ## When the lights never come on, the sky does
 
-Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+With zero light pollution, you will see more stars here than you have ever seen in your life. In 2011 Sark became the world’s first Dark Sky Island, protected by the simplest choice of all: no street lights to dim the night. On clear September evenings the Milky Way arrives without being asked.
 
 </section>
 
@@ -82,6 +82,8 @@ Most retreats take place somewhere beautiful. Sark offers something rarer.
 This is one of the last places in Europe where daily life remains genuinely uncomplicated. People walk, cycle or travel by horse and carriage. The loudest thing you will hear on most afternoons is the sea. At night the island becomes one of the darkest inhabited places in the world, which is why Sark was named the world's first Dark Sky Island.
 
 It is difficult to describe how quickly the nervous system settles when the background noise of ordinary life simply is not there. Guests often tell us they feel lighter within a day of arriving. The island does half the work of the retreat before the first class begins.
+
+And the connection runs deeper than scenery. Yoga and meditation ask for nature, calm and purity, and Sark offers all three: crystal clear seas, dolphins passing most days, star-filled nights with zero light pollution, and a pace of life that feels like going back in time. Practising twice daily among like-minded souls on an island like this is not just good for the body. It is the ultimate place for a yoga retreat, for mind and soul too.
 
 Read more about the island on our [Why Sark?](/why-sark) page.
 

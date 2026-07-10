@@ -58,7 +58,7 @@ Sark, we would gently argue, is the best place in Britain to do that.
 
 ## When the lights never come on, the sky does
 
-Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+With zero light pollution, you will see more stars here than you have ever seen in your life. In 2011 Sark became the world’s first Dark Sky Island, protected by the simplest choice of all: no street lights to dim the night. On clear September evenings the Milky Way arrives without being asked.
 
 </section>
 
@@ -78,7 +78,7 @@ Burnout is partly a problem of environment. Modern life keeps the body in low-gr
 
 Sark removes those conditions almost entirely, and it does so without you having to try.
 
-There are no cars for visitors, so the background hum most of us have stopped noticing is simply absent. There is no street lighting, so evenings darken the way your body expects them to, and sleep tends to follow the way it was always meant to. The island is bounded by sea in every direction, and the horizon becomes a constant, calming anchor. Psychologists call the effect of landscapes like this soft fascination: attention held gently by cliffs, water and birds, asking nothing back, while the overworked, directed part of the mind quietly recovers.
+There are no cars for visitors, so the background hum most of us have stopped noticing is simply absent. Evenings darken the way your body expects them to, because no street lighting means no light pollution, and sleep tends to follow the way it was always meant to. The island is bounded by sea in every direction, and the horizon becomes a constant, calming anchor. Psychologists call the effect of landscapes like this soft fascination: attention held gently by cliffs, water and birds, asking nothing back, while the overworked, directed part of the mind quietly recovers.
 
 Guests often tell us they feel their shoulders drop within the first day. The island does the work. You just have to arrive.
 

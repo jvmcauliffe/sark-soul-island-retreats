@@ -19,7 +19,7 @@ nadiaNote: I keep the group small on purpose. It is the difference between a hol
 darkStrip:
   eyebrow: After dark
   heading: September nights under the first Dark Sky Island
-  body: Sark has no street lighting, and in 2011 it became the world's first Dark Sky Island. A guided night-sky session at the Sark Observatory is part of your week, and clear September evenings end with the Milky Way overhead.
+  body: With zero light pollution, Sark's night skies hold more stars than most guests have ever seen. In 2011 it became the world's first Dark Sky Island. A guided night-sky session at the Sark Observatory is part of your week, and clear September evenings end with the Milky Way overhead.
 faqs: []
 rooms:
   - name: Wild Thyme

@@ -70,6 +70,8 @@ We are constantly inspired by the generations who have called Sark home before u
 
 With no cars and no traffic, every breath feels lighter. Surrounded by sea air, nourished by local food and held by the island's stillness, the practice deepens almost on its own.
 
+Yoga and meditation ask for nature, calm and purity, and Sark offers all three in a way almost nowhere else can. Crystal clear seas to swim in, dolphins passing most days, star-filled nights with zero light pollution, and the freedom of moving by foot, bicycle or horse and carriage. To practise twice daily among like-minded souls, on an island this magical, is a connection between place and practice that stays with you. It is the ultimate setting for a yoga retreat, for body, mind and soul.
+
 </div>
 </section>
 

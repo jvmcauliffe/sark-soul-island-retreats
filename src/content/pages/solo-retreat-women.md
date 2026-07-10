@@ -54,7 +54,7 @@ You will not be the only one. You will probably be in the majority. And with ten
 
 ## When the lights never come on, the sky does
 
-Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+With zero light pollution, you will see more stars here than you have ever seen in your life. In 2011 Sark became the world’s first Dark Sky Island, protected by the simplest choice of all: no street lights to dim the night. On clear September evenings the Milky Way arrives without being asked.
 
 </section>
 

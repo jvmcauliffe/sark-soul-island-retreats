@@ -57,7 +57,7 @@ And yet by the second day, most of our guests have stopped reaching for it. Not 
 
 ## When the lights never come on, the sky does
 
-Sark has no street lighting, and in 2011 it became the world’s first Dark Sky Island. On clear September nights the Milky Way arrives without being asked.
+With zero light pollution, you will see more stars here than you have ever seen in your life. In 2011 Sark became the world’s first Dark Sky Island, protected by the simplest choice of all: no street lights to dim the night. On clear September evenings the Milky Way arrives without being asked.
 
 </section>
 
@@ -77,7 +77,7 @@ If switching off were a matter of discipline, you would have done it already. Th
 
 Sark is engineered, by history and by accident, the other way.
 
-There are no cars for visitors here, so there is no traffic noise and no rush. There is no street lighting anywhere on the island, so when the sun goes down the night actually arrives, and your body notices. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that governs sleep. On Sark that disruption simply does not happen. Guests are often surprised by how deeply they sleep from the first night.
+There are no cars for visitors here, so there is no traffic noise and no rush. With nothing polluting the night sky, when the sun goes down the night actually arrives, and your body notices. There is no street lighting anywhere on the island. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that governs sleep. On Sark that disruption simply does not happen. Guests are often surprised by how deeply they sleep from the first night.
 
 </div>
 </section>

@@ -23,8 +23,9 @@ faqs:
       offers peace and uninterrupted night skies.
   - q: Is it really that dark at night?
     a: >-
-      Yes. Sark was the world's first designated Dark Sky Island, and with no
-      street lighting the night skies are extraordinary. One evening of your
+      Yes. The night skies are extraordinary, with zero light pollution and
+      more stars than most guests have ever seen. Sark was the world's first
+      designated Dark Sky Island, protected by having no street lighting. One evening of your
       retreat is given over to a guided session at the Sark Observatory, and
       on a clear night the Milky Way is plainly visible. It's one of the
       things guests remember most about their stay.
