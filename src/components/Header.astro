@@ -65,7 +65,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     </nav>
 
     <a class="brand" href="/" aria-label="Sark Soul Island Retreats, home">
-      <Image src={logo} alt="Sark Soul Island Retreats" width={140} height={163} loading="eager" class="brand-logo" />
+      <Image src={logo} alt="Sark Soul Island Retreats" width={140} height={163} loading="eager" fetchpriority="low" class="brand-logo" />
     </a>
 
     <nav class="nav-right" aria-label="More">

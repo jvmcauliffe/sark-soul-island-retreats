@@ -1,7 +1,7 @@
 ---
 title: Retreats & Booking
-metaTitle: Yoga Retreats on Sark Island | Dates, Rooms & Booking
-metaDescription: Discover our yoga and wellness retreats on Sark. Small group retreats for rest, movement and reset. 12 to 17 September 2026, early rate ends 19 July.
+metaTitle: Intimate Sark Yoga Retreat, September 2026 | Booking
+metaDescription: An intimate, small-group yoga retreat on Sark, 12 to 17 September 2026. Rest and reset on the world's first Dark Sky Island. Early rate ends 19 July.
 slug: retreats-on-sark
 heroEyebrow: ''
 heroTitle: Late Summer Retreat
