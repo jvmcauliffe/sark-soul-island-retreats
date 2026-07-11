@@ -133,7 +133,7 @@ Other evenings, guests simply step into the farmhouse garden and look up. No equ
 
 ## The rest of the retreat
 
-The nights are the headline, but the days earn them. Morning yoga with Monica, taught for all levels. Cliff walks above coves and tidal pools. Bram's vegetarian cooking around one shared table. Free afternoons to swim, read or wander. Ten to twelve guests, five nights, one historic farmhouse.
+The nights are the headline, but the days earn them. Morning yoga with Monica, taught for all levels. Cliff walks above coves and tidal pools. Bram's vegetarian cooking around one shared table. Free afternoons to swim, read or wander. No more than twelve guests, five nights, one historic farmhouse.
 
 New to the island? Start with [Why Sark?](/why-sark) for the full picture of this extraordinary place.
 

@@ -1,14 +1,17 @@
 ---
-// Site-wide navigation, styled after the live site's master header: centred
-// small caps links with the full logo lockup closing the row. The five
-// intent pages are reached through the Retreats dropdown and internal links.
+// Site-wide navigation with the logo centred, per Nadia: small caps links
+// split either side of the full logo lockup. The five intent pages are
+// reached through the Retreats dropdown and internal links.
 import { Image } from 'astro:assets';
 import logo from '../assets/sark-soul-island-retreats-logo.png';
 
-const nav = [
+const navLeft = [
   { label: 'Home', href: '/' },
   { label: 'Our Retreats', href: '/retreats-on-sark', dropdown: true },
   { label: 'Why Sark?', href: '/why-sark' },
+];
+
+const navRight = [
   { label: 'The Practice', href: '/the-practice' },
   { label: 'Our Story', href: '/our-story' },
 ];
@@ -31,10 +34,11 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
       <span></span><span></span><span></span>
     </label>
-    <nav aria-label="Main">
+
+    <nav class="nav-left" aria-label="Main">
       <ul>
         {
-          nav.map((item) =>
+          navLeft.map((item) =>
             item.dropdown ? (
               <li class="has-dropdown">
                 <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
@@ -59,9 +63,24 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
         }
       </ul>
     </nav>
+
     <a class="brand" href="/" aria-label="Sark Soul Island Retreats, home">
       <Image src={logo} alt="Sark Soul Island Retreats" width={140} height={163} loading="eager" class="brand-logo" />
     </a>
+
+    <nav class="nav-right" aria-label="More">
+      <ul>
+        {
+          navRight.map((item) => (
+            <li>
+              <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+                {item.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
   </div>
 </header>
 
@@ -74,9 +93,9 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
   }
 
   .header-inner {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     align-items: center;
-    justify-content: center;
     gap: 34px;
     padding-block: 14px;
   }
@@ -90,6 +109,14 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     padding: 0;
   }
 
+  .nav-left > ul {
+    justify-content: flex-end;
+  }
+
+  .nav-right > ul {
+    justify-content: flex-start;
+  }
+
   nav a {
     font-family: var(--font-display);
     font-variant: small-caps;
@@ -98,6 +125,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     letter-spacing: 1.2px;
     color: var(--ink-soft);
     text-decoration: none;
+    white-space: nowrap;
   }
 
   nav a:hover {
@@ -113,6 +141,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
   .brand {
     display: block;
     line-height: 0;
+    justify-self: center;
   }
 
   .brand :global(.brand-logo) {
@@ -136,6 +165,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     padding: 10px 0;
     min-width: 230px;
     box-shadow: 0 12px 30px rgba(21, 33, 46, 0.08);
+    z-index: 60;
   }
 
   .has-dropdown:hover .dropdown,
@@ -151,6 +181,7 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
     letter-spacing: 0.3px;
     font-size: 14px;
     font-weight: 400;
+    white-space: nowrap;
   }
 
   .nav-toggle,
@@ -160,7 +191,9 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
 
   @media (max-width: 900px) {
     .header-inner {
+      display: flex;
       justify-content: space-between;
+      align-items: center;
       flex-wrap: wrap;
     }
 
@@ -188,21 +221,29 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
       height: 66px;
     }
 
-    nav {
+    .nav-left,
+    .nav-right {
       display: none;
       width: 100%;
       order: 3;
     }
 
-    .nav-toggle:checked ~ nav {
+    .nav-toggle:checked ~ .nav-left,
+    .nav-toggle:checked ~ .nav-right {
       display: block;
     }
 
-    nav > ul {
+    .nav-right {
+      order: 4;
+    }
+
+    .nav-left > ul,
+    .nav-right > ul {
       flex-direction: column;
       align-items: flex-start;
+      justify-content: flex-start;
       gap: 16px;
-      padding-block: 12px 20px;
+      padding-block: 12px 4px;
     }
 
     .dropdown {

@@ -107,7 +107,7 @@ faqs:
       your Sark wellness retreat experience.
   - q: How many participants per retreat?
     a: >-
-      Each Sark Island yoga retreat is limited to a maximum of 11 guests. We
+      Each Sark Island yoga retreat is limited to no more than twelve guests. We
       keep the group intentionally small to ensure intimacy, personal
       attention and a calm atmosphere. Small group size is central to the
       depth of this Channel Islands wellness retreat.

@@ -87,7 +87,7 @@ Yoga and meditation ask for nature, calm and purity, and Sark offers all three i
 
 ## Can I come on my own?
 
-Most of our guests do. With only ten to twelve people in one house, no-one stays a stranger past the first evening. You'll share the table, the walks, the morning practice, and people who arrived alone tend to leave with friends they keep.
+Most of our guests do. With no more than twelve people in one house, no-one stays a stranger past the first evening. You'll share the table, the walks, the morning practice, and people who arrived alone tend to leave with friends they keep.
 
 You don't need to bring anyone. You just need to come. Our [solo retreat page](/solo-retreat-women) says more.
 
@@ -125,7 +125,7 @@ When guests arrive in Guernsey, they often have time to explore St Peter Port be
 
 ## What is the boat journey like?
 
-Most travel websites will tell you which plane, ferry or bus to take, but they don't tell you what it actually feels like. There's no airport on Sark, so the only way to get to it is by boat. The ferry crossing is about fifty minutes, past the Islands of Herm and Jethou. On our last retreat, guests spotted dolphins off the bow.
+Most travel websites will tell you which plane, ferry or bus to take, but they don't tell you what it actually feels like. There's no airport on Sark, so the only way to get to it is by boat. The ferry crossing is around 55 minutes, past the Islands of Herm and Jethou. On our last retreat, guests spotted dolphins off the bow.
 
 The ferry crossing is where the retreat really begins. As the boat pulls away from Guernsey, people start to visibly relax and you can see the shoulders dropping. The further away the mainland gets, the lighter everything feels. There is a sense of leaving the busy world behind. As Sark comes into view, excitement starts to build. Guests see the lighthouse, the cliffs and the beautiful turquoise water around the island.
 
@@ -258,7 +258,7 @@ Our Chefs, Bram and Pip, cook vegetarian, generous and seasonal, from what the i
 
 ## Where do guests stay?
 
-Home for the week is a historic farmhouse with a much-loved garden, a real home rather than a hotel. With only ten to twelve guests, the shared rooms fill with easy conversation, while quiet corners wait for the moments you would rather be alone.
+Home for the week is a historic farmhouse with a much-loved garden, a real home rather than a hotel. With no more than twelve guests, the shared rooms fill with easy conversation, while quiet corners wait for the moments you would rather be alone.
 
 </div>
 </section>

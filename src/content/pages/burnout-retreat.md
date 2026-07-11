@@ -118,7 +118,7 @@ Nothing is compulsory. Rest is not a gap in the programme here. It is the progra
 
 ## Rest needs company as much as quiet
 
-One of the lonelier parts of burnout is how isolating it is. The retreat is small by design, ten to twelve guests in one historic farmhouse, and something happens around that shared table over five days. People arrive wound tight and guarded, and leave softer, lighter and connected. You are welcome to as much solitude as you need, but the company is there, and it helps more than people expect.
+One of the lonelier parts of burnout is how isolating it is. The retreat is small by design, no more than twelve guests in one historic farmhouse, and something happens around that shared table over five days. People arrive wound tight and guarded, and leave softer, lighter and connected. You are welcome to as much solitude as you need, but the company is there, and it helps more than people expect.
 
 </div>
 </section>

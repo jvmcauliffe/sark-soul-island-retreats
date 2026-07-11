@@ -134,7 +134,7 @@ If your exhaustion runs deeper than screen fatigue, our [burnout recovery retrea
 
 ## The shape of the week
 
-Five nights at our historic farmhouse with ten to twelve guests. Daily yoga for all levels, guided coastal walks, all meals included, and generous free time. Nothing is compulsory and nobody polices your phone. By day three, most guests have simply forgotten where they left it.
+Five nights at our historic farmhouse with no more than twelve guests. Daily yoga for all levels, guided coastal walks, all meals included, and generous free time. Nothing is compulsory and nobody polices your phone. By day three, most guests have simply forgotten where they left it.
 
 **12 to 17 September 2026.** Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995. Everything included.
 

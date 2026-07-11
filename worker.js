@@ -7,9 +7,9 @@
 const CHAT_SYSTEM = `You are the visitor assistant on the Sark Soul Island Retreats website. Answer warmly, plainly and honestly, in Nadia's team voice, in two to four short sentences. Use only the facts below, never your general knowledge. If a question goes beyond these facts, or asks about room availability, discounts, refunds, or anything personal or medical, do not guess: say you will pass it to Nadia and give the email info@sarksoulretreats.com.
 
 FACTS
-The retreat: 12 to 17 September 2026, five nights on the Isle of Sark, Channel Islands. A small group of ten to twelve guests. The retreat welcomes everyone; most guests are women travelling solo, and men are equally welcome, alone or as couples. Price: shared room 1,495 pounds at the early booking rate which ends 19 July 2026, then 1,695 pounds. Single room early booking 1,995 pounds. Included: your room, all meals, daily yoga, guided walks and every activity. Booking page: https://www.sarksoulretreats.com/retreats-on-sark
+The retreat: 12 to 17 September 2026, five nights on the Isle of Sark, Channel Islands. A small group of no more than twelve guests. The retreat welcomes everyone; most guests are women travelling solo, and men are equally welcome, alone or as couples. Price: shared room 1,495 pounds at the early booking rate which ends 19 July 2026, then 1,695 pounds. Single room early booking 1,995 pounds. Included: your room, all meals, daily yoga, guided walks and every activity. Booking page: https://www.sarksoulretreats.com/retreats-on-sark
 People: Nadia is the founder and host. Monica, a senior yoga teacher with thirty years of teaching, leads morning and evening practice for every level of experience. Bram and Pip cook vegetarian, generous and seasonal meals, eaten together around one long table. Dietary needs are looked after with advance notice.
-Getting there: fly to Guernsey, about an hour from London and under an hour from Gatwick, then the passenger ferry from St Peter Port to Sark with Isle of Sark Shipping, roughly 40 to 55 minutes depending on the sailing, timetable at https://www.sarkshipping.gg. Luggage is transported for you from the harbour to the retreat house. Arrival on Sark is by tractor-drawn toast rack up Harbour Hill, then horse and carriage to the retreat house.
+Getting there: fly to Guernsey, about an hour from London and under an hour from Gatwick, then the passenger ferry from St Peter Port to Sark with Isle of Sark Shipping, around 55 minutes, timetable at https://www.sarkshipping.gg. Luggage is transported for you from the harbour to the retreat house. Arrival on Sark is by tractor-drawn toast rack up Harbour Hill, then horse and carriage to the retreat house.
 The island: car-free for visitors, though tractors exist. No street lighting anywhere, and in 2011 Sark became the world's first Dark Sky Island. You will see more stars than you have ever seen. There is wifi and mobile signal on Sark; the digital detox is environmental, never enforced. Crystal clear seas for wild swimming, and dolphins pass most days. Bike hire is about 19.50 pounds a day.
 The stay: guests stay at the retreat house, a historic farmhouse with a much-loved garden. Shared rooms keep the price down and single rooms are available.
 
@@ -38,17 +38,17 @@ const CANNED = [
     // "where is Sark" is not swallowed by anything travel related.
     keys: ['where is sark', 'where is the island', 'where exactly', 'what is sark', 'about sark', 'how big', 'what country', 'near france', 'channel island', 'located', 'location', 'whereabouts'],
     answer:
-      "Sark is a small, car-free island in the Channel Islands, off the coast of Normandy and part of the Bailiwick of Guernsey. It is reached only by boat, a 40 to 55 minute ferry from Guernsey, and it was the world's first Dark Sky Island. About three miles long, with no cars for visitors and no street lighting, it is a genuinely rare place for a retreat.",
+      "Sark is a small, car-free island in the Channel Islands, off the coast of Normandy and part of the Bailiwick of Guernsey. It is reached only by boat, a ferry of around 55 minutes from Guernsey, and it was the world's first Dark Sky Island. About three miles long, with no cars for visitors and no street lighting, it is a genuinely rare place for a retreat.",
   },
   {
     keys: ['get to sark', 'get there', 'getting there', 'travel to', 'ferry', 'flight', 'fly', 'guernsey', 'how do i get', 'airport', 'journey'],
     answer:
-      "You fly to Guernsey, about an hour from London, then take the passenger ferry from St Peter Port to Sark, roughly 40 to 55 minutes. Your luggage is carried for you from the harbour to the retreat house, and you arrive by the tractor-drawn toast rack and then a horse and carriage. Ferry timetable is at https://www.sarkshipping.gg, and we help you plan the connections when you book.",
+      "You fly to Guernsey, about an hour from London, then take the passenger ferry from St Peter Port to Sark, around 55 minutes. Your luggage is carried for you from the harbour to the retreat house, and you arrive by the tractor-drawn toast rack and then a horse and carriage. Ferry timetable is at https://www.sarkshipping.gg, and we help you plan the connections when you book.",
   },
   {
     keys: ['alone', 'solo', 'on my own', 'by myself', 'single person', 'women only', 'woman', 'men welcome', 'is it just women'],
     answer:
-      "More than okay. Most of our guests arrive alone, so you will be in good company, and men are equally welcome, alone or as couples. With a small group of ten to twelve sharing one house, one table and one morning practice, no one stays a stranger past the first evening.",
+      "More than okay. Most of our guests arrive alone, so you will be in good company, and men are equally welcome, alone or as couples. With a small group of no more than twelve sharing one house, one table and one morning practice, no one stays a stranger past the first evening.",
   },
   {
     keys: ['food', 'eat', 'meal', 'vegetarian', 'vegan', 'diet', 'allerg', 'dinner', 'breakfast', 'menu'],

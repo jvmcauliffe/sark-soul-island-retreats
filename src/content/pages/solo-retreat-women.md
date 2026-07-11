@@ -46,7 +46,7 @@ faqs:
 
 <p class="lede">Most of our guests arrive alone. <em>You will not be the only one.</em></p>
 
-With ten to twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
+With no more than twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
