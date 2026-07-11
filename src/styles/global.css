@@ -796,3 +796,25 @@ img {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Floating WhatsApp chat link. Pure anchor, zero JS, teal per the button rule. */
+.chat-btn {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(15, 34, 40, 0.28);
+}
+
+.chat-btn:hover,
+.chat-btn:focus-visible {
+  background: var(--teal-dark);
+  color: #fff;
+}
