@@ -17,10 +17,16 @@ nadiaNote: >-
   arrived alone open up over five days, and leave with people they now call
   friends, is my favourite part of every retreat.
 faqs:
+  - q: Is the retreat women only?
+    a: >-
+      No. Everyone is welcome. Most of our guests happen to be women
+      travelling solo, which is why this page exists, but men join us too,
+      alone and as couples, and the retreat is the same warm small group for
+      everyone.
   - q: Will I be the only person on my own?
     a: >-
       Almost certainly not. Solo guests are the majority on most of our
-      retreats.
+      retreats, women and men both.
   - q: Is Sark safe for a woman travelling alone?
     a: >-
       Sark is a small, close community with no cars and quiet lanes, and

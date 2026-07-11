@@ -70,6 +70,11 @@ faqs:
       with another solo guest, though this can't be guaranteed. Our small
       group yoga retreat format makes Sark ideal for solo travellers seeking
       connection without overwhelm.
+  - q: Is the retreat women only?
+    a: >-
+      No. Everyone is welcome. Most of our guests happen to be women
+      travelling solo, but men join us too, alone and as couples, and the
+      retreat is the same warm small group for everyone.
   - q: Do I need to bring a yoga mat?
     a: Mats and props are provided, but you are welcome to bring your own.
   - q: What should I pack?
