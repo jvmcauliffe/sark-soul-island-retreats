@@ -13,7 +13,7 @@ retreatPage: true
 darkStripInline: true
 nadiaNote: >-
   I spent years wanting the noise of the world to go away. Sark was the place
-  where it finally did. What makes this retreat special is not a rule about
+  where it finally did. What makes the retreat special is not a rule about
   phones. It is the feeling people have when they arrive, of slowing down, of
   space, of finally hearing yourself think again.
 faqs:
@@ -44,8 +44,6 @@ faqs:
 Sark has wifi. Sark has mobile signal. Nobody will take your phone at the harbour.
 
 And yet by the second day, most of our guests have stopped reaching for it. Not because they cannot, but because the island quietly removes every reason to. That is the difference between a rule and an environment, and it is why a digital detox on Sark actually holds.
-
-One thing worth saying plainly: this is not a separate event. We host one retreat this September, our Late Summer Retreat, and the digital detox is a thread that runs right through it, whether you plan it or not.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 

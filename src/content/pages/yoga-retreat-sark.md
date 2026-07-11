@@ -49,8 +49,6 @@ The island sits nine miles off Guernsey, reached only by boat. There are no cars
 
 Our retreats bring ten to twelve guests to our historic farmhouse for five nights of yoga, coastal walking, shared meals and genuine rest. Whether you practise every week or have never stepped onto a mat, you will be welcomed exactly as you are.
 
-To be clear, this is the retreat itself: our one Late Summer Retreat, 12 to 17 September 2026. Our pages on the digital detox, solo travel, burnout and the dark skies all describe threads of this same week, not separate events.
-
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>

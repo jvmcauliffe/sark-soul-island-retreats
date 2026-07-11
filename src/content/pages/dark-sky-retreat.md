@@ -44,9 +44,7 @@ faqs:
 
 In 2011, Sark became the first island in the world to be designated a Dark Sky Island. It was not an achievement so much as a recognition of what the island had never lost: a night sky with zero light pollution, where the stars are simply out of this world. There is no street lighting here and there are no cars for visitors, so when the sun goes down, the night does not dim. It deepens.
 
-On a clear evening the Milky Way is not a faint smudge but a textured band across the whole sky. Most of our guests have never seen it before. Watching them look up on the first clear night is one of the great pleasures of hosting this retreat.
-
-These nights belong to our one retreat this September, the Late Summer Retreat. There is no separate stargazing event to book; every guest gets this sky.
+On a clear evening the Milky Way is not a faint smudge but a textured band across the whole sky. Most of our guests have never seen it before. Watching them look up on the first clear night is one of the great pleasures of hosting the retreat.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 

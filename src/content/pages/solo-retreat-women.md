@@ -42,8 +42,6 @@ faqs:
 
 You will not be the only one. You will probably be in the majority. And with ten to twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
 
-This is our one Late Summer Retreat this September, seen through the eyes of the guests who arrive alone, because they are usually the majority.
-
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>

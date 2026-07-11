@@ -46,8 +46,6 @@ What you need is somewhere the demands actually stop. Not a spa timetable. Not a
 
 Sark, we would gently argue, is the best place in Britain to do that.
 
-And to be clear, this is not a separate programme. We host one retreat this September, our Late Summer Retreat, and the rest you are reading about here sits at the heart of that week.
-
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
@@ -99,7 +97,7 @@ Guests often tell us they feel their shoulders drop within the first day. The is
 
 ## A week with a light touch
 
-A retreat for exhausted people should not be strenuous, and this one is not.
+A retreat for exhausted people should not be strenuous, and ours is not.
 
 Mornings begin with gentle yoga and breath work with Monica, taught for all levels and adaptable to however you arrive. Afternoons are unscheduled: walk the cliffs, swim, sleep, read in the farmhouse garden, or genuinely do nothing. Evenings bring a long shared dinner cooked by Bram, and skies dark enough to show the Milky Way.
 
