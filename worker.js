@@ -33,6 +33,13 @@ const CANNED = [
       BOOKING,
   },
   {
+    // Group size is a locked fact and should answer, not hand off. Sits before
+    // the location entry so "how big is the group" is not read as island size.
+    keys: ['how many guests', 'how many people', 'how many of us', 'how many on the retreat', 'group size', 'how big is the group', 'number of guests', 'number of people', 'how many join', 'size of the group'],
+    answer:
+      "The retreat is deliberately small, a group of no more than twelve, so it stays intimate. Everyone shares one house, one table and one morning practice, which is a large part of what makes the week what it is.",
+  },
+  {
     // "Where is Sark" and "what is Sark" are common first questions and must
     // answer from the facts, not hand off. Sits before the journey entry so
     // "where is Sark" is not swallowed by anything travel related.
