@@ -27,13 +27,13 @@ const BOOKING = 'https://www.sarksoulretreats.com/retreats-on-sark';
 // any of its keywords; order matters, first match wins.
 const CANNED = [
   {
-    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates', 'september'],
+    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates'],
     answer:
       "The next retreat is 12 to 17 September 2026, five nights on the Isle of Sark. A shared room is 1,495 pounds at the early booking rate, which ends 19 July, then 1,695 pounds. A single room is 1,995 pounds early. That covers your room, all meals, daily yoga and every activity. You can reserve your place here: " +
       BOOKING,
   },
   {
-    keys: ['get to sark', 'get there', 'getting there', 'travel', 'ferry', 'flight', 'fly', 'guernsey', 'how do i get', 'airport', 'journey'],
+    keys: ['get to sark', 'get there', 'getting there', 'travel to', 'ferry', 'flight', 'fly', 'guernsey', 'how do i get', 'airport', 'journey'],
     answer:
       "You fly to Guernsey, about an hour from London, then take the passenger ferry from St Peter Port to Sark, roughly 40 to 55 minutes. Your luggage is carried for you from the harbour to the retreat house, and you arrive by the tractor-drawn toast rack and then a horse and carriage. Ferry timetable is at https://www.sarkshipping.gg, and we help you plan the connections when you book.",
   },
@@ -71,7 +71,54 @@ const CANNED = [
   {
     keys: ['car', 'drive', 'vehicle', 'bike', 'bicycle', 'cycle', 'get around'],
     answer:
-      "Sark is car-free for visitors, so bicycles are the natural way to explore, and electric bikes make the hills easy at around 19.50 pounds a day. There are tractors and horse-drawn carriages, but no cars to navigate.",
+      "Sark is car-free for visitors, so bicycles are the natural way to explore, and electric bikes make the hills easy at around 19.50 pounds a day, which we help arrange before you arrive. There are tractors and horse-drawn carriages, but no cars to navigate.",
+  },
+  {
+    // Treatments must sit before the "included" entry so "is breathwork
+    // included" lands here and is correctly framed as a paid add-on.
+    keys: ['treatment', 'massage', 'reiki', 'breathwork', 'spa', 'therapy', 'therapist'],
+    answer:
+      "Massage, Reiki and breathwork are available with our Soul team as optional add-ons at an additional cost, so you can shape your own week. Just let us know in advance and we will arrange it.",
+  },
+  {
+    keys: ['included', 'include', 'included in the price', 'what do i get', 'covered', 'extra cost', 'hidden'],
+    answer:
+      "Your place covers everything that matters: your room, all meals, daily yoga with Monica, guided walks and every activity. The only extras are optional, bike hire at around 19.50 pounds a day and treatments with the Soul team. Full details are on the " +
+      "booking page: " + BOOKING,
+  },
+  {
+    keys: ['book', 'booking', 'reserve', 'deposit', 'pay', 'payment', 'secure my place', 'how do i join'],
+    answer:
+      "You can reserve your place on the booking page, where each room and rate has its own option: " +
+      BOOKING +
+      ". Nadia handles every booking personally, so if you would rather talk it through first, just say and she will be in touch.",
+  },
+  {
+    keys: ['luggage', 'suitcase', 'bags', 'baggage', 'carry my'],
+    answer:
+      "Sark has a lovely luggage system. You collect your ferry tickets and bag labels at Sark Shipping in Guernsey, leave your cases in the holding area, and they are carried to the retreat house and waiting for you when you arrive. You explore with your hands free.",
+  },
+  {
+    keys: ['weather', 'rain', 'raining', 'cold', 'warm', 'temperature', 'climate', 'sunny', 'wet', 'what to pack', 'pack'],
+    answer:
+      "September on Sark is one of the loveliest times to come: mild days, long light evenings and the clearest of the year's dark skies. Bring layers and a light waterproof for the headlands, and swimwear for the sea. Whatever the weather, the island is beautiful and the days flow around it.",
+  },
+  {
+    keys: ['typical day', 'schedule', 'itinerary', 'daily', 'routine', 'agenda', 'day look', 'day like', 'plan'],
+    answer:
+      "The day begins with yoga and a wholesome breakfast. After that the island is yours: swim in a turquoise cove, walk the clifftops, cycle the lanes, or simply rest in the garden. As evening gathers we return to the mat, then everyone eats together. Nothing is compulsory.",
+  },
+  {
+    // Fitness and accessibility often carry a personal layer, so this answer
+    // is honest and points to a person for anything specific.
+    keys: ['fit', 'fitness', 'hill', 'hilly', 'walk', 'walking', 'accessib', 'mobility', 'wheelchair', 'steep', 'physical', 'knees'],
+    answer:
+      "You take everything at your own pace. Sark is beautiful but not flat, so there is walking and there are hills, though electric bikes make them easy and a quiet afternoon off is completely understood. If you would like to talk through anything specific, email info@sarksoulretreats.com and Nadia will help you plan.",
+  },
+  {
+    keys: ['insurance', 'cancel', 'cancellation', 'refund', 'terms'],
+    answer:
+      "We strongly recommend travel insurance for every guest. For cancellation terms and anything about changes to your booking, email info@sarksoulretreats.com and Nadia's team will talk you through it.",
   },
 ];
 
