@@ -1,21 +1,14 @@
-# Cloudflare Pages redirect map for the Wix cutover (launch, October 2026).
-#
-# Live sitemap verified against sarksoulretreats.com/pages-sitemap.xml on
-# 5 July 2026. These slugs match 1:1 and need no redirect:
+# Redirect map for the Wix cutover. Slugs verified against the live sitemap:
+# these match 1:1 and need no redirect:
 #   /  /retreats-on-sark  /why-sark  /the-practice  /our-story
 #   /meet-the-team  /sark-island-yoga-retreat-faq
 #   /visiting-sark-for-a-wellness-retreat  /journal  /contact
-#   /terms-conditions
+#   /terms-conditions  and the nine room booking pages
 #
-# At launch, re-export the final sitemap and reconcile again before enabling
-# the rules below (301s, old slug to new, no chains).
-#
-# /spring is indexed by Google (titled "SPRING | My Site 3") but absent from
-# the live sitemap. Redirect it at launch:
-# /spring  /retreats-on-sark  301
-#
-# The live site also has /blog alongside /journal, and the live /journal
-# page is titled "booking pages" in Wix. Reconcile /blog posts to /journal
-# slugs at launch:
-# /blog  /journal  301
-# /blog/*  /journal/:splat  301
+# Legacy Wix URLs with crawl history. Wix's own redirects die at cutover,
+# so they are recreated here.
+/spring  /retreats-on-sark  301
+/autumn  /retreats-on-sark  301
+/blog  /journal  301
+/blog/*  /journal/:splat  301
+/copy-of-12-sept-sea-lavender-single-1  /12-sept-sea-lavender-shared  301
