@@ -45,6 +45,8 @@ Sark has wifi. Sark has mobile signal. Nobody will take your phone at the harbou
 
 And yet by the second day, most of our guests have stopped reaching for it. Not because they cannot, but because the island quietly removes every reason to. That is the difference between a rule and an environment, and it is why a digital detox on Sark actually holds.
 
+One thing worth saying plainly: this is not a separate event. We host one retreat this September, our Late Summer Retreat, and the digital detox is a thread that runs right through it, whether you plan it or not.
+
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>

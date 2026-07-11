@@ -46,6 +46,8 @@ What you need is somewhere the demands actually stop. Not a spa timetable. Not a
 
 Sark, we would gently argue, is the best place in Britain to do that.
 
+And to be clear, this is not a separate programme. We host one retreat this September, our Late Summer Retreat, and the rest you are reading about here sits at the heart of that week.
+
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>

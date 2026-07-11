@@ -46,6 +46,8 @@ In 2011, Sark became the first island in the world to be designated a Dark Sky I
 
 On a clear evening the Milky Way is not a faint smudge but a textured band across the whole sky. Most of our guests have never seen it before. Watching them look up on the first clear night is one of the great pleasures of hosting this retreat.
 
+These nights belong to our one retreat this September, the Late Summer Retreat. There is no separate stargazing event to book; every guest gets this sky.
+
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>

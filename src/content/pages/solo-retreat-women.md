@@ -21,6 +21,10 @@ faqs:
     a: >-
       Almost certainly not. Solo guests are the majority on most of our
       retreats.
+  - q: Is the retreat women only?
+    a: >-
+      No. Most of our solo travellers are women, but men are warmly welcome
+      and join every retreat.
   - q: Is Sark safe for a woman travelling alone?
     a: >-
       Sark is a small, close community with no cars and quiet lanes, and
@@ -41,6 +45,8 @@ faqs:
 <p class="lede">Most of our guests arrive alone. <em>It is worth saying that first,</em> because it is the question almost everyone asks and almost no retreat answers plainly.</p>
 
 You will not be the only one. You will probably be in the majority. And with ten to twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
+
+This is our one Late Summer Retreat this September, seen through the eyes of the guests who arrive alone, because they are usually the majority. And it is not only women: men join too, travelling solo for the same reasons, and the mix is part of what makes the table interesting.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
 
