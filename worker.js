@@ -33,6 +33,14 @@ const CANNED = [
       BOOKING,
   },
   {
+    // "Where is Sark" and "what is Sark" are common first questions and must
+    // answer from the facts, not hand off. Sits before the journey entry so
+    // "where is Sark" is not swallowed by anything travel related.
+    keys: ['where is sark', 'where is the island', 'where exactly', 'what is sark', 'about sark', 'how big', 'what country', 'near france', 'channel island', 'located', 'location', 'whereabouts'],
+    answer:
+      "Sark is a small, car-free island in the Channel Islands, off the coast of Normandy and part of the Bailiwick of Guernsey. It is reached only by boat, a 40 to 55 minute ferry from Guernsey, and it was the world's first Dark Sky Island. About three miles long, with no cars for visitors and no street lighting, it is a genuinely rare place for a retreat.",
+  },
+  {
     keys: ['get to sark', 'get there', 'getting there', 'travel to', 'ferry', 'flight', 'fly', 'guernsey', 'how do i get', 'airport', 'journey'],
     answer:
       "You fly to Guernsey, about an hour from London, then take the passenger ferry from St Peter Port to Sark, roughly 40 to 55 minutes. Your luggage is carried for you from the harbour to the retreat house, and you arrive by the tractor-drawn toast rack and then a horse and carriage. Ferry timetable is at https://www.sarkshipping.gg, and we help you plan the connections when you book.",
