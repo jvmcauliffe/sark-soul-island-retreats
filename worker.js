@@ -17,7 +17,72 @@ RULES
 Never use em dashes or en dashes, use commas or full stops. Never name the house, it is only "the retreat house" or "our historic farmhouse". Never call Monica a founder. Never shorten the business name Sark Soul Island Retreats. Never claim there are no vehicles or no signal. Never promise dolphin sightings, they pass most days. Never state room availability. When the question relates to booking, dates or price, end with the booking link. Do not use emoji.`;
 
 const CHAT_FALLBACK =
-  "I cannot answer right this moment, but Nadia's team can. Email info@sarksoulretreats.com and they will come back to you quickly.";
+  "That one is best answered by a person. Email info@sarksoulretreats.com and Nadia's team will come straight back to you.";
+
+const BOOKING = 'https://www.sarksoulretreats.com/retreats-on-sark';
+
+// Deterministic answers from the fixed facts. This runs first and needs no
+// API key, so the highest intent questions (dates, price, journey) always
+// answer, even when the model layer is absent or down. Each entry matches on
+// any of its keywords; order matters, first match wins.
+const CANNED = [
+  {
+    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates', 'september'],
+    answer:
+      "The next retreat is 12 to 17 September 2026, five nights on the Isle of Sark. A shared room is 1,495 pounds at the early booking rate, which ends 19 July, then 1,695 pounds. A single room is 1,995 pounds early. That covers your room, all meals, daily yoga and every activity. You can reserve your place here: " +
+      BOOKING,
+  },
+  {
+    keys: ['get to sark', 'get there', 'getting there', 'travel', 'ferry', 'flight', 'fly', 'guernsey', 'how do i get', 'airport', 'journey'],
+    answer:
+      "You fly to Guernsey, about an hour from London, then take the passenger ferry from St Peter Port to Sark, roughly 40 to 55 minutes. Your luggage is carried for you from the harbour to the retreat house, and you arrive by the tractor-drawn toast rack and then a horse and carriage. Ferry timetable is at https://www.sarkshipping.gg, and we help you plan the connections when you book.",
+  },
+  {
+    keys: ['alone', 'solo', 'on my own', 'by myself', 'single person', 'women only', 'woman', 'men welcome', 'is it just women'],
+    answer:
+      "More than okay. Most of our guests arrive alone, so you will be in good company, and men are equally welcome, alone or as couples. With a small group of ten to twelve sharing one house, one table and one morning practice, no one stays a stranger past the first evening.",
+  },
+  {
+    keys: ['food', 'eat', 'meal', 'vegetarian', 'vegan', 'diet', 'allerg', 'dinner', 'breakfast', 'menu'],
+    answer:
+      "All meals are included and vegetarian, cooked by Bram and Pip from generous, seasonal produce, and eaten together around one long table. Dietary needs are looked after, just tell us in advance.",
+  },
+  {
+    keys: ['yoga', 'practice', 'monica', 'teacher', 'experience', 'beginner', 'level', 'class'],
+    answer:
+      "Yoga is led by Monica, a senior teacher with thirty years of experience, morning and evening, for every level. No experience is needed, the practice adapts to you. You can read more about the retreat here: " +
+      BOOKING,
+  },
+  {
+    keys: ['dark', 'stars', 'star', 'milky way', 'stargazing', 'night', 'light pollution'],
+    answer:
+      "You will see more stars here than you have ever seen in your life. Sark has no street lighting anywhere, and in 2011 it became the world's first Dark Sky Island. On a clear September night the Milky Way arrives without being asked.",
+  },
+  {
+    keys: ['room', 'stay', 'accommodation', 'house', 'sleep', 'bed', 'share'],
+    answer:
+      "You stay at our historic farmhouse, a real home rather than a hotel, with a much-loved garden. Shared rooms keep the price down and are how many solo guests come, and a limited number of single rooms are available.",
+  },
+  {
+    keys: ['wifi', 'signal', 'phone', 'internet', 'detox', 'reception', 'connected'],
+    answer:
+      "There is wifi and mobile signal on Sark, so you can stay reachable if you need to be. The sense of switching off comes from the island itself, the quiet and the dark skies, rather than from being cut off.",
+  },
+  {
+    keys: ['car', 'drive', 'vehicle', 'bike', 'bicycle', 'cycle', 'get around'],
+    answer:
+      "Sark is car-free for visitors, so bicycles are the natural way to explore, and electric bikes make the hills easy at around 19.50 pounds a day. There are tractors and horse-drawn carriages, but no cars to navigate.",
+  },
+];
+
+function cannedAnswer(question) {
+  const q = ' ' + question.toLowerCase().replace(/[^a-z0-9£ ]+/g, ' ') + ' ';
+  for (const entry of CANNED) {
+    // Word boundary match so "eat" does not fire inside "weather", etc.
+    if (entry.keys.some((k) => q.includes(' ' + k + ' ') || q.includes(' ' + k))) return entry.answer;
+  }
+  return null;
+}
 
 async function handleChat(request, env, ctx) {
   let body;
@@ -38,46 +103,55 @@ async function handleChat(request, env, ctx) {
   const question = messages[messages.length - 1].content;
   const page = typeof body.page === 'string' ? body.page.slice(0, 200) : '';
 
-  if (!env.ANTHROPIC_API_KEY) {
-    console.log(JSON.stringify({ kind: 'chat', page, question, reply: 'fallback-no-key' }));
-    return json({ reply: CHAT_FALLBACK });
+  // 1. Deterministic layer. Answers the core questions from the fixed facts
+  // with no external dependency, so the chat always works.
+  let reply = cannedAnswer(question);
+  let source = reply ? 'canned' : 'fallback';
+
+  // 2. Model layer, optional. Only for questions the canned layer did not
+  // catch, and only if a key is configured. Any failure keeps the fallback.
+  if (!reply && env.ANTHROPIC_API_KEY) {
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method: 'POST',
+        headers: {
+          'content-type': 'application/json',
+          'x-api-key': env.ANTHROPIC_API_KEY,
+          'anthropic-version': '2023-06-01',
+        },
+        body: JSON.stringify({
+          model: 'claude-sonnet-5',
+          max_tokens: 350,
+          system: CHAT_SYSTEM,
+          messages,
+        }),
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const text = (data.content || [])
+          .filter((c) => c.type === 'text')
+          .map((c) => c.text)
+          .join('')
+          .trim();
+        if (text) {
+          reply = text;
+          source = 'model';
+        }
+      } else {
+        console.error('chat model error, status', res.status);
+      }
+    } catch (err) {
+      console.error('chat model error', err);
+    }
   }
 
-  let reply = CHAT_FALLBACK;
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'content-type': 'application/json',
-        'x-api-key': env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-5',
-        max_tokens: 350,
-        system: CHAT_SYSTEM,
-        messages,
-      }),
-    });
-    if (res.ok) {
-      const data = await res.json();
-      const text = (data.content || [])
-        .filter((c) => c.type === 'text')
-        .map((c) => c.text)
-        .join('')
-        .trim();
-      if (text) reply = text;
-    } else {
-      console.log(JSON.stringify({ kind: 'chat-error', status: res.status }));
-    }
-  } catch (err) {
-    console.log(JSON.stringify({ kind: 'chat-error', message: String(err) }));
-  }
+  // 3. Email fallback, last resort only.
+  if (!reply) reply = CHAT_FALLBACK;
 
   // Question collection. Workers Logs keeps these queryable in the dashboard,
   // and every exchange is forwarded to n8n once CHAT_WEBHOOK_URL is set, so
   // John routes them from there (sheet, digest, MailerLite).
-  console.log(JSON.stringify({ kind: 'chat', page, question, reply }));
+  console.log(JSON.stringify({ kind: 'chat', page, question, reply, source }));
   if (env.CHAT_WEBHOOK_URL && ctx) {
     ctx.waitUntil(
       fetch(env.CHAT_WEBHOOK_URL, {
