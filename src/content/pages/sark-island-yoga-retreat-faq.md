@@ -12,6 +12,13 @@ heroShot: FAQ hero, toast rack or harbour arrival
 retreatPage: false
 practiceBand: true
 faqs:
+  - q: When is the next retreat and what does it cost?
+    a: >-
+      The next retreat runs 12 to 17 September 2026, five nights. The shared
+      room early booking rate is £1,495 until 19 July 2026, then £1,695, and a
+      single room at the early rate is £1,995. All meals, daily yoga, guided
+      walks and activities are included. Full details are on our
+      [retreats page](/retreats-on-sark).
   - q: What makes Sark different from other UK yoga retreats?
     a: >-
       Sark is a car-free island in the Channel Islands with designated Dark
