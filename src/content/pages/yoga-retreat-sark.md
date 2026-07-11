@@ -32,7 +32,7 @@ faqs:
       more.
   - q: How do I get to Sark?
     a: >-
-      Fly or sail to Guernsey, then take the ferry to Sark, around 55 minutes.
+      Fly or sail to Guernsey, then take the ferry to Sark, 35 to 55 minutes.
       We send full travel details when you book and help you plan the journey.
   - q: What is the weather like in September?
     a: >-
@@ -159,7 +159,7 @@ Guests stay together in our historic farmhouse, a real home rather than a hotel,
 
 ## Getting here is part of it
 
-Most guests fly into Guernsey, around 45 minutes from London, then take the passenger ferry to Sark, a crossing of around 55 minutes past the islands of Herm and Jethou. On arrival, a tractor-drawn "toast rack" carries you up Harbour Hill, and a horse and carriage brings you to the retreat house. By the time you arrive, the world you left already feels far away.
+Most guests fly into Guernsey, around 45 minutes from London, then take the passenger ferry to Sark, a crossing of 35 to 55 minutes past the islands of Herm and Jethou. On arrival, a tractor-drawn "toast rack" carries you up Harbour Hill, and a horse and carriage brings you to the retreat house. By the time you arrive, the world you left already feels far away.
 
 Our full travel guide answers every practical question: [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat).
 

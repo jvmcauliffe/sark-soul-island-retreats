@@ -125,7 +125,7 @@ When guests arrive in Guernsey, they often have time to explore St Peter Port be
 
 ## What is the boat journey like?
 
-Most travel websites will tell you which plane, ferry or bus to take, but they don't tell you what it actually feels like. There's no airport on Sark, so the only way to get to it is by boat. The ferry crossing is around 55 minutes, past the Islands of Herm and Jethou. On our last retreat, guests spotted dolphins off the bow.
+Most travel websites will tell you which plane, ferry or bus to take, but they don't tell you what it actually feels like. There's no airport on Sark, so the only way to get to it is by boat. The ferry crossing is 35 to 55 minutes, past the Islands of Herm and Jethou. On our last retreat, guests spotted dolphins off the bow.
 
 The ferry crossing is where the retreat really begins. As the boat pulls away from Guernsey, people start to visibly relax and you can see the shoulders dropping. The further away the mainland gets, the lighter everything feels. There is a sense of leaving the busy world behind. As Sark comes into view, excitement starts to build. Guests see the lighthouse, the cliffs and the beautiful turquoise water around the island.
 
