@@ -21,7 +21,7 @@ interface Props {
 
 const { canonical, event = false, article } = Astro.props;
 
-const site = 'https://sarksoulretreats.com';
+const site = 'https://www.sarksoulretreats.com';
 
 const nadia = {
   '@type': 'Person',
@@ -65,6 +65,9 @@ const eventNode = event
   ? {
       '@type': 'Event',
       name: 'Sark Soul Island Retreats, Late Summer Retreat 2026',
+      description:
+        'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga with senior teacher Monica, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
+      image: [`${site}/og-default.jpg`],
       startDate: '2026-09-12',
       endDate: '2026-09-17',
       eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',

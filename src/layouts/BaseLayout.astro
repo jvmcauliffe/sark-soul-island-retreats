@@ -47,7 +47,7 @@ const {
   article,
 } = Astro.props;
 
-const site = 'https://sarksoulretreats.com';
+const site = 'https://www.sarksoulretreats.com';
 const canonical = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', site).href;
 const ogImageUrl = new URL(ogImage, site).href;
 

@@ -55,7 +55,7 @@ for (const [route, html] of Object.entries(pages)) {
   if (!html.includes('Founded &amp; hosted by Nadia')) {
     failures.push(`${route}: attribution strip or footer NAP missing`);
   }
-  if (!html.includes('"founder":{"@id":"https://sarksoulretreats.com/#nadia"}')) {
+  if (!html.includes('"founder":{"@id":"https://www.sarksoulretreats.com/#nadia"}')) {
     failures.push(`${route}: founder schema missing`);
   }
   if (!html.includes('"jobTitle":"Senior Yoga Teacher"')) {
