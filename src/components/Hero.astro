@@ -197,4 +197,37 @@ const {
     margin: 0 auto 1.6em;
     color: #fff;
   }
+
+  /* Centered brand hero (home page): the brand name is the large headline,
+     then a small strap, then a graceful tagline, then the button, all centred.
+     Scoped with :has so the centred heroes on the yoga and retreats pages are
+     unaffected. The brand-name font-size needs this specificity to beat the
+     generic `.hero p` rule. */
+  .hero-content.centered:has(.brand-display) {
+    padding-block: clamp(48px, 7vw, 96px);
+  }
+
+  .hero-content.centered .brand-display {
+    font-size: clamp(42px, 6.6vw, 76px);
+    line-height: 1.05;
+    max-width: 13ch;
+    margin: 0 auto 0.3em;
+  }
+
+  .hero-content.centered:has(.brand-display) h1.with-brand {
+    font-size: clamp(13px, 1.55vw, 17px);
+    letter-spacing: 2.5px;
+    margin: 0 auto 1.3em;
+  }
+
+  .hero-content.centered:has(.brand-display) .hero-line {
+    font-family: var(--font-display);
+    font-weight: 400;
+    font-size: clamp(17px, 2vw, 23px);
+    letter-spacing: 0.3px;
+    line-height: 1.45;
+    max-width: 34ch;
+    margin: 0 auto 1.6em;
+    color: #fff;
+  }
 </style>
