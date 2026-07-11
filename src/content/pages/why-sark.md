@@ -106,7 +106,7 @@ You don't need to bring anyone. You just need to come. Our [solo retreat page](/
 
 ## How do you get to Sark?
 
-Sark is closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the pleasant passenger ferry from St Peter Port with [Sark Shipping](https://sarkshipping.gg). We help guests choose flights that connect comfortably with the Sark ferry and advise them on timings.
+Sark is closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the pleasant passenger ferry from St Peter Port with [Sark Shipping](https://sarkshipping.gg). We help guests choose flights that connect comfortably with the Sark ferry and advise them on timings. For the short leg from Guernsey Airport to the harbour, a pre-booked car that tracks your flight takes the worry out of the connection, and we use [Taxi2Where](https://www.taxi2where.com).
 
 When guests arrive in Guernsey, they often have time to explore St Peter Port before the ferry leaves. It's a lovely way to begin the retreat. They can wander around the harbour, explore the cobbled streets, have lunch and start slowing down before heading to Sark.
 

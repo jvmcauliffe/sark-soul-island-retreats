@@ -94,7 +94,7 @@ Sark supports wellness because it reduces the conditions that keep people in low
 
 ## Getting to Sark without stress
 
-Closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the little passenger ferry from St Peter Port. The crossing is 35 to 55 minutes, past Herm and Jethou, often with dolphins off the bow.
+Closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the little passenger ferry from St Peter Port. The crossing is 35 to 55 minutes, past Herm and Jethou, often with dolphins off the bow. For the airport to harbour leg in Guernsey, a pre-booked car with [Taxi2Where](https://www.taxi2where.com) tracks your flight and takes the stress out of the connection.
 
 There's no airport on Sark and no bridge, and that's the first thing that tells you this will be different. It can be breezy. The boat is small and honest. But you can leave London in the morning and be watching the sun set over the sea by evening.
 
@@ -161,7 +161,7 @@ The sea is one of Sark's strongest wellbeing levers, but it should be approached
 
 You should treat swimming as conditional, because tide, wind and sea state can change the experience completely, and conditions on a cliff island are not predictable in the way a sheltered mainland beach can be. You should also treat cliffs as real. Respect the notices at the harbours and headlands, and do not sit beneath the cliffs.
 
-This is not here to scare you. It is here because credible guides tell the truth, and truth protects people. The Blue Mind concept captures why time near water can feel regulating, even when you simply sit, watch and listen.
+This is not here to scare you. It is here because credible guides tell the truth, and truth protects people. The Blue Mind concept captures why time near water can feel regulating, even when you simply sit, watch and listen. Much of Sark's finest coast, the great sea caves and hidden coves, can only be reached from the water, and a round-island trip with [Sark Boat Trips](https://www.sarkboattrips.com) is an easy, gentle way to see it.
 
 </div>
 </section>
