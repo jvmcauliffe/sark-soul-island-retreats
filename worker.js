@@ -27,7 +27,7 @@ const BOOKING = 'https://www.sarksoulretreats.com/retreats-on-sark';
 // any of its keywords; order matters, first match wins.
 const CANNED = [
   {
-    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates'],
+    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates', 'how long', 'how many nights', 'duration', 'how many days'],
     answer:
       "The next retreat is 12 to 17 September 2026, five nights on the Isle of Sark. A shared room is 1,495 pounds at the early booking rate, which ends 19 July, then 1,695 pounds. A single room is 1,995 pounds early. That covers your room, all meals, daily yoga and every activity. You can reserve your place here: " +
       BOOKING,
@@ -62,7 +62,7 @@ const CANNED = [
       BOOKING,
   },
   {
-    keys: ['dark', 'stars', 'star', 'milky way', 'stargazing', 'night', 'light pollution'],
+    keys: ['dark sky', 'dark at night', 'stars', 'star', 'milky way', 'stargazing', 'night sky', 'light pollution', 'observatory'],
     answer:
       "You will see more stars here than you have ever seen in your life. Sark has no street lighting anywhere, and in 2011 it became the world's first Dark Sky Island. On a clear September night the Milky Way arrives without being asked.",
   },
