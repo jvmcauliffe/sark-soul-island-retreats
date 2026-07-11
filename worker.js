@@ -130,7 +130,15 @@ const CANNED = [
   },
 ];
 
+// Bare conversational follow-ups get a menu of what the assistant can answer,
+// not a handoff. Anchored to the whole message so "tell me more about food"
+// still routes to food.
+const FOLLOWUP = /^\s*(what else|tell me more|tell me anything else|more|anything else|go on|what can you (tell me|answer|do|help with)|what do you know|help)\s*[?!.]*\s*$/i;
+const MORE_MENU =
+  "Plenty. Ask me about dates and prices, rooms, what is included, the food, treatments, getting here and the famous luggage system, a typical day, the yoga and who it suits, the dark skies, the weather in September, or coming alone. Anything personal goes straight to Nadia.";
+
 function cannedAnswer(question) {
+  if (FOLLOWUP.test(question)) return MORE_MENU;
   const q = ' ' + question.toLowerCase().replace(/[^a-z0-9£ ]+/g, ' ') + ' ';
   for (const entry of CANNED) {
     // Word boundary match so "eat" does not fire inside "weather", etc.
