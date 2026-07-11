@@ -6,6 +6,9 @@
   "name": "sark-soul-island-retreats",
   "compatibility_date": "2026-07-05",
   "main": "worker.js",
+  "observability": {
+    "enabled": true
+  },
   "assets": {
     "directory": "./dist",
     "not_found_handling": "404-page",

@@ -122,17 +122,105 @@ const breadcrumbSchema =
       <slot />
     </main>
     <Footer />
-    {/* Same-tab navigation and the api.whatsapp.com host are deliberate: the
-        wa.me redirect hop plus target=_blank breaks the app handoff on iOS
-        Safari and in-app browsers, bouncing between tab and app. */}
-    <a
-      class="chat-btn"
-      href="https://api.whatsapp.com/send?phone=447444133015&text=Hello%20Nadia%2C%20I%27m%20interested%20in%20the%20September%20retreat"
-      aria-label="Chat with us on WhatsApp"
-    >
-      <svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true">
-        <path d="M12 2a9.94 9.94 0 0 0-8.59 15L2 22l5.15-1.35A10 10 0 1 0 12 2Zm0 18.13a8.1 8.1 0 0 1-4.13-1.13l-.3-.18-3.06.8.82-2.98-.2-.3A8.13 8.13 0 1 1 12 20.13Zm4.46-6.08c-.24-.12-1.44-.71-1.66-.79s-.39-.12-.55.12-.63.79-.77.95-.28.18-.53.06a6.65 6.65 0 0 1-1.95-1.2 7.3 7.3 0 0 1-1.35-1.68c-.14-.24 0-.37.11-.5s.24-.28.37-.42a1.68 1.68 0 0 0 .24-.41.45.45 0 0 0 0-.43c-.06-.12-.55-1.32-.75-1.81s-.4-.41-.55-.42h-.47a.9.9 0 0 0-.65.3 2.73 2.73 0 0 0-.85 2 4.74 4.74 0 0 0 1 2.52 10.88 10.88 0 0 0 4.16 3.68 14 14 0 0 0 1.39.51 3.35 3.35 0 0 0 1.53.1 2.5 2.5 0 0 0 1.64-1.16 2 2 0 0 0 .14-1.16c-.06-.1-.22-.16-.46-.28Z" />
-      </svg>
-    </a>
+    {/* Answer panel. The button opens a native details panel; the inline
+        script below is the whole client, kept well inside the 15KB budget. */}
+    <details class="chat" id="sark-chat">
+      <summary class="chat-btn" aria-label="Ask a question about the retreat">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.8-.8L3 20l1-4.1a8.3 8.3 0 0 1-1-4A8.4 8.4 0 0 1 12 3.5a8.4 8.4 0 0 1 9 8Z" />
+          <path d="M8 10.5h8M8 13.5h5" />
+        </svg>
+      </summary>
+      <div class="chat-panel">
+        <div class="chat-head">
+          <strong>Ask us anything</strong>
+          <span>Instant answers about the September retreat. Anything personal goes to Nadia.</span>
+        </div>
+        <div class="chat-log" id="chat-log" aria-live="polite">
+          <p class="msg bot">Hello, and welcome to Sark Soul Island Retreats. Ask me anything about the September retreat, the island, or the journey over.</p>
+        </div>
+        <div class="chat-starters" id="chat-starters">
+          <button type="button">When is the retreat and what does it cost?</button>
+          <button type="button">How do I get to Sark?</button>
+          <button type="button">I'd be coming alone, is that okay?</button>
+          <button type="button">What's the food like?</button>
+        </div>
+        <form class="chat-form" id="chat-form">
+          <input id="chat-input" type="text" maxlength="600" placeholder="Type your question" aria-label="Your question" autocomplete="off" required />
+          <button class="chat-send" type="submit">Send</button>
+        </form>
+      </div>
+    </details>
+    <script is:inline>
+      (function () {
+        var log = document.getElementById('chat-log');
+        var form = document.getElementById('chat-form');
+        var input = document.getElementById('chat-input');
+        var starters = document.getElementById('chat-starters');
+        var root = document.getElementById('sark-chat');
+        var messages = [];
+        var busy = false;
+
+        function esc(s) {
+          return s.replace(/[&<>"]/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
+          });
+        }
+        function linkify(s) {
+          return s
+            .replace(/https:\/\/[^\s)]+/g, function (u) {
+              var clean = u.replace(/[.,]$/, '');
+              return '<a href="' + clean + '">' + clean.replace(/^https:\/\/(www\.)?/, '') + '</a>';
+            })
+            .replace(/(^|\s)(\/retreats-on-sark)/g, '$1<a href="/retreats-on-sark">the booking page</a>');
+        }
+        function add(role, text) {
+          var p = document.createElement('p');
+          p.className = 'msg ' + role;
+          p.innerHTML = linkify(esc(text));
+          log.appendChild(p);
+          log.scrollTop = log.scrollHeight;
+          return p;
+        }
+        function send(q) {
+          if (busy || !q) return;
+          busy = true;
+          starters.hidden = true;
+          messages.push({ role: 'user', content: q });
+          add('user', q);
+          var wait = add('bot', '. . .');
+          fetch('/api/chat', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ messages: messages, page: location.pathname }),
+          })
+            .then(function (r) { return r.json(); })
+            .then(function (d) {
+              var reply = d.reply || 'Something went astray. Email info@sarksoulretreats.com and we will reply quickly.';
+              messages.push({ role: 'assistant', content: reply });
+              wait.innerHTML = linkify(esc(reply));
+            })
+            .catch(function () {
+              wait.textContent = 'Something went astray. Email info@sarksoulretreats.com and we will reply quickly.';
+            })
+            .finally(function () {
+              busy = false;
+              log.scrollTop = log.scrollHeight;
+            });
+        }
+        form.addEventListener('submit', function (e) {
+          e.preventDefault();
+          var q = input.value.trim();
+          input.value = '';
+          send(q);
+        });
+        starters.addEventListener('click', function (e) {
+          if (e.target.tagName === 'BUTTON') send(e.target.textContent);
+        });
+        root.addEventListener('toggle', function () {
+          if (root.open) input.focus();
+        });
+      })();
+    </script>
   </body>
 </html>
