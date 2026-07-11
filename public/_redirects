@@ -1,3 +1,7 @@
+# Chat runs on the Cloudflare Worker; proxy /api to it so the panel works
+# same-origin from whichever static host serves the site (Netlify honours this).
+/api/*  https://sark-soul-island-retreats.jvmcauliffe.workers.dev/api/:splat  200
+
 # Redirect map for the Wix cutover. Slugs verified against the live sitemap:
 # these match 1:1 and need no redirect:
 #   /  /retreats-on-sark  /why-sark  /the-practice  /our-story
