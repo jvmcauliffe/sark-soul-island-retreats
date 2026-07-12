@@ -3,12 +3,13 @@ title: Why Sark?
 metaTitle: Why Sark Island Is Perfect for a Yoga Retreat
 metaDescription: An honest, first-hand guide to five nights on a car-free island, an hour from the UK, a world apart. From the ferry over to the last morning.
 slug: why-sark
-heroEyebrow: A guide · Channel Islands
-heroTitle: What a Yoga Retreat on Sark Is Actually Like
-heroLine: An honest, first-hand guide to five nights on a car-free island that is an hour from the UK, but a world apart, from the ferry over to the last morning you won't want to leave.
-heroImage: ../../assets/photos/sark-retreat-house-aerial.jpg
-heroImageAlt: Our historic farmhouse and its gardens from the air on Sark, Channel Islands
-heroShot: Why Sark hero, night sky over Sark
+heroEyebrow: Isle of Sark · Channel Islands
+heroTitle: Why Sark?
+heroLine: ''
+heroCentered: true
+heroImage: ../../assets/photos/sark-turquoise-bay-beach-path.jpg
+heroImageAlt: A grassy path down to a turquoise bay on Sark, Channel Islands
+heroShot: Why Sark hero, turquoise bay and beach
 heroCta: false
 retreatPage: false
 guideForm: true
