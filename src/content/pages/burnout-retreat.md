@@ -80,7 +80,7 @@ Sark removes those conditions almost entirely, and it does so without you having
 
 There are no cars for visitors, so the background hum most of us have stopped noticing is simply absent. Evenings darken the way your body expects them to, because no street lighting means no light pollution, and sleep tends to follow the way it was always meant to. The island is bounded by sea in every direction, and the horizon becomes a constant, calming anchor. Psychologists call the effect of landscapes like this soft fascination: attention held gently by cliffs, water and birds, asking nothing back, while the overworked, directed part of the mind quietly recovers.
 
-Guests often tell us they feel their shoulders drop within the first day. The island does the work. You just have to arrive.
+Guests often tell us they feel their shoulders drop within the first day. The island sets the stage, and the retreat does the rest: the practice, the food, the care around you. You just have to arrive.
 
 </div>
 </section>

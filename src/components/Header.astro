@@ -16,13 +16,15 @@ const navRight = [
   { label: 'Our Story', href: '/our-story' },
 ];
 
+// Facets of the one September retreat, not separate retreats. Labels must
+// read that way, per Nadia; the pages themselves are search doorways.
 const retreats = [
   { label: 'Retreats & Booking', href: '/retreats-on-sark' },
-  { label: 'Yoga Retreat on Sark', href: '/yoga-retreat-sark' },
-  { label: 'Digital Detox Retreat', href: '/digital-detox-retreat' },
-  { label: 'Solo Retreat for Women', href: '/solo-retreat-women' },
-  { label: 'Burnout Retreat', href: '/burnout-retreat' },
-  { label: 'Dark Sky Retreat', href: '/dark-sky-retreat' },
+  { label: 'The Yoga', href: '/yoga-retreat-sark' },
+  { label: 'A Digital Detox', href: '/digital-detox-retreat' },
+  { label: 'Travelling Solo', href: '/solo-retreat-women' },
+  { label: 'Rest & Recovery', href: '/burnout-retreat' },
+  { label: 'The Dark Skies', href: '/dark-sky-retreat' },
 ];
 
 const current = Astro.url.pathname.replace(/\/$/, '') || '/';
