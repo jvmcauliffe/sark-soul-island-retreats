@@ -1,14 +1,12 @@
-// LEGACY, not on the live path. The site now runs on Netlify and the chat is
-// served by netlify/functions/chat.mjs at /api/chat. This Cloudflare Worker is
-// kept only so the existing Cloudflare build has something to deploy; nothing
-// on the live site points to it. Edit the Netlify function, not this file.
+// Visitor chat endpoint, served same origin at /api/chat by Netlify.
+// This replaces the Cloudflare Worker version so the chat deploys in lockstep
+// with the rest of the site from main, with no second host to keep in sync.
 //
-// Serves the static build via the assets binding, plus the chat endpoint.
-// The noindex header applies only on the workers.dev staging hostname, so the
-// preview can never be indexed while production stays fully indexable.
+// The deterministic layer runs first and needs no API key, so the highest
+// intent questions always answer. The model layer is optional and only runs
+// when ANTHROPIC_API_KEY is set in the Netlify build environment. Keep the
+// facts and rules below in step with CLAUDE.md; they must not drift.
 
-// Locked facts block. The model answers only from this; anything beyond it is
-// handed to Nadia's inbox. Guardrails mirror CLAUDE.md and must not drift.
 const CHAT_SYSTEM = `You are the visitor assistant on the Sark Soul Island Retreats website. Answer warmly, plainly and honestly, in Nadia's team voice, in two to four short sentences. Use only the facts below, never your general knowledge. If a question goes beyond these facts, or asks about room availability, discounts, refunds, or anything personal or medical, do not guess: say you will pass it to Nadia and give the email info@sarksoulretreats.com.
 
 FACTS
@@ -159,7 +157,18 @@ function cannedAnswer(question) {
   return null;
 }
 
-async function handleChat(request, env, ctx) {
+function json(obj, status = 200) {
+  return new Response(JSON.stringify(obj), {
+    status,
+    headers: { 'content-type': 'application/json' },
+  });
+}
+
+export default async (request) => {
+  if (request.method !== 'POST') return json({ error: 'method not allowed' }, 405);
+
+  const env = process.env;
+
   let body;
   try {
     body = await request.json();
@@ -223,45 +232,20 @@ async function handleChat(request, env, ctx) {
   // 3. Email fallback, last resort only.
   if (!reply) reply = CHAT_FALLBACK;
 
-  // Question collection. Workers Logs keeps these queryable in the dashboard,
-  // and every exchange is forwarded to n8n once CHAT_WEBHOOK_URL is set, so
-  // John routes them from there (sheet, digest, MailerLite).
+  // Question collection. Netlify function logs keep these queryable, and every
+  // exchange is forwarded to n8n once CHAT_WEBHOOK_URL is set, so John routes
+  // them from there (sheet, digest, MailerLite).
   console.log(JSON.stringify({ kind: 'chat', page, question, reply, source }));
-  if (env.CHAT_WEBHOOK_URL && ctx) {
-    ctx.waitUntil(
-      fetch(env.CHAT_WEBHOOK_URL, {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ asked_at: new Date().toISOString(), page, question, reply }),
-      }).catch((err) => console.log(JSON.stringify({ kind: 'chat-webhook-error', message: String(err) })))
-    );
+  if (env.CHAT_WEBHOOK_URL) {
+    // Fire and forget. A logging failure must never break the reply.
+    fetch(env.CHAT_WEBHOOK_URL, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ asked_at: new Date().toISOString(), page, question, reply }),
+    }).catch((err) => console.log(JSON.stringify({ kind: 'chat-webhook-error', message: String(err) })));
   }
 
   return json({ reply });
-}
-
-function json(obj, status = 200) {
-  return new Response(JSON.stringify(obj), {
-    status,
-    headers: { 'content-type': 'application/json' },
-  });
-}
-
-export default {
-  async fetch(request, env, ctx) {
-    const url = new URL(request.url);
-
-    if (url.pathname === '/api/chat') {
-      if (request.method !== 'POST') return json({ error: 'method not allowed' }, 405);
-      return handleChat(request, env, ctx);
-    }
-
-    const response = await env.ASSETS.fetch(request);
-    if (url.hostname.endsWith('.workers.dev')) {
-      const staged = new Response(response.body, response);
-      staged.headers.set('X-Robots-Tag', 'noindex');
-      return staged;
-    }
-    return response;
-  },
 };
+
+export const config = { path: '/api/chat' };

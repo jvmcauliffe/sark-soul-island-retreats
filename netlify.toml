@@ -1,10 +1,13 @@
 # Static hosting on Netlify. The site is served from Wix DNS by pointing the
 # apex A record and the www CNAME at Netlify, without moving nameservers.
-# The chat endpoint stays on the Cloudflare Worker and is proxied via
-# public/_redirects (/api/* -> the worker), so it works same-origin.
+# The chat endpoint is a Netlify Function (netlify/functions/chat.mjs) served
+# same-origin at /api/chat, so it deploys with the site from main.
 [build]
   command = "npm run build"
   publish = "dist"
 
 [build.environment]
   NODE_VERSION = "20"
+
+[functions]
+  directory = "netlify/functions"

@@ -1,6 +1,6 @@
-# Chat runs on the Cloudflare Worker; proxy /api to it so the panel works
-# same-origin from whichever static host serves the site (Netlify honours this).
-/api/*  https://sark-soul-island-retreats.jvmcauliffe.workers.dev/api/:splat  200
+# Chat runs as a Netlify Function at /api/chat, routed by the function's own
+# config.path, so it is same-origin with the static site and deploys with it.
+# No proxy line is needed here for it.
 
 # Redirect map for the Wix cutover. Slugs verified against the live sitemap:
 # these match 1:1 and need no redirect:
