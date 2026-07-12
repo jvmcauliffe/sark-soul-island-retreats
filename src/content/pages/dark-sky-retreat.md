@@ -46,7 +46,7 @@ In 2011, Sark became the first island in the world to be designated a Dark Sky I
 
 On a clear evening the Milky Way is not a faint smudge but a textured band across the whole sky. Most of our guests have never seen it before. Watching them look up on the first clear night is one of the great pleasures of hosting the retreat.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
+**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -152,7 +152,7 @@ New to the island? Start with [Why Sark?](/why-sark) for the full picture of thi
 
 ## Dates, price and what's included
 
-**12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every evening under the darkest skies in the British Isles. Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
+**12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every evening under the darkest skies in the British Isles. Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>
