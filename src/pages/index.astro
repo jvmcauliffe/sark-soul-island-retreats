@@ -359,6 +359,14 @@ const circle = [
     aspect-ratio: 16 / 9;
   }
 
+  /* A little more photo on phones, where the card is the full viewport
+     width and 16/9 leaves it shallow. */
+  @media (max-width: 699px) {
+    .retreat-card {
+      aspect-ratio: 4 / 3;
+    }
+  }
+
   .retreat-card :global(.retreat-card-img) {
     position: absolute;
     inset: 0;
@@ -386,15 +394,18 @@ const circle = [
   }
 
   .retreat-card-body {
+    /* Bottom weighted, per Nadia: the title and button sit low over the
+       darkest part of the scrim, so the middle of the photo, the bay and
+       the beach, stays in view. */
     position: absolute;
     inset: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     text-align: center;
     gap: 4px;
-    padding: 20px;
+    padding: 20px 20px 22px;
   }
 
   .retreat-card-body h2 {
