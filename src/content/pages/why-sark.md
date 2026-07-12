@@ -224,7 +224,7 @@ Sark operates its own unique luggage system. Guests can collect their ferry tick
 
 ## Do I need to be good at Yoga?
 
-Our sessions suit every level. Monica, who has taught for thirty years, meets you where you are. Come as you are; the practice adapts to you. Mornings wake the body gently, evenings let the day settle, and the island sets the pace in between. Most guests leave feeling lighter, steadier, more themselves. Read more about [the practice](/the-practice) or our [yoga retreat on Sark](/yoga-retreat-sark).
+Our sessions suit every level. Monica, who has taught for over twenty years, meets you where you are. Come as you are; the practice adapts to you. Mornings wake the body gently, evenings let the day settle, and the island sets the pace in between. Most guests leave feeling lighter, steadier, more themselves. Read more about [the practice](/the-practice) or our [yoga retreat on Sark](/yoga-retreat-sark).
 
 </div>
 </section>

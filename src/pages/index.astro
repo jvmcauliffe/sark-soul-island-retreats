@@ -104,6 +104,7 @@ const circle = [
     image={laCoupee}
     imageAlt="The cliff path across La Coupée between Sark and Little Sark, Channel Islands"
     shot="Hero, clifftop or coastal golden hour, landscape"
+    focusMobile="62% 45%"
   />
   <AttributionStrip />
 
@@ -131,8 +132,9 @@ const circle = [
   <section class="section" style="text-align: center; padding-top: 0;">
     <div class="narrow">
       <p style="margin-inline: auto;">
-        A small group, twice a year, in a historic farmhouse by the sea. Daily yoga, coastal
-        walks, nourishing food, and the kind of quiet most people haven't experienced in years.
+        A small group, twice a year, in a historic farmhouse by the sea. Twice daily yoga,
+        coastal walks, nourishing food, and the kind of quiet most people haven't experienced
+        in years.
       </p>
     </div>
   </section>
@@ -165,8 +167,9 @@ const circle = [
     <p>
       From the moment you step off the boat, distraction falls away. Crystal clear seas where
       dolphins pass most days, quiet lanes travelled on foot, by bicycle or by horse and
-      carriage, and a pace of life that feels like going back in time. Daily yoga, coastal
-      walks and nourishing seasonal food support genuine restoration, and when night falls,
+      carriage, and a pace of life that feels like going back in time. Twice daily yoga,
+      coastal walks, wild swimming and nourishing seasonal food support genuine restoration,
+      and when night falls,
       the world's first Dark Sky Island reveals more stars than you have ever seen.
       <a href="/why-sark">Why Sark?</a>
     </p>
@@ -182,7 +185,7 @@ const circle = [
     reverse
   >
     <p>
-      Every retreat is led by Monica, who has taught yoga for some thirty years. Accredited by
+      Every retreat is led by Monica, who has taught yoga for over twenty years. Accredited by
       the British Wheel of Yoga and Yoga Alliance, her teaching is intuitive and grounded:
       depth without performance, challenge without pressure. She meets you where you are.
     </p>
@@ -366,9 +369,16 @@ const circle = [
   }
 
   .retreat-card-scrim {
+    /* Deep enough in the middle that "Late Summer Retreat" reads over a
+       bright sky and sea, per Nadia's UAT. */
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(17, 27, 39, 0.72), rgba(17, 27, 39, 0.15) 60%);
+    background: linear-gradient(
+      to top,
+      rgba(17, 27, 39, 0.72),
+      rgba(17, 27, 39, 0.34) 55%,
+      rgba(17, 27, 39, 0.14)
+    );
   }
 
   .retreat-card-body {
@@ -386,11 +396,22 @@ const circle = [
   .retreat-card-body h2 {
     color: #fff;
     margin: 0;
+    text-shadow: 0 2px 18px rgba(17, 27, 39, 0.6), 0 1px 3px rgba(17, 27, 39, 0.45);
   }
 
   .retreat-card-body p {
     color: var(--cream);
     margin: 0 0 14px;
+    text-shadow: 0 1px 12px rgba(17, 27, 39, 0.55);
+  }
+
+  /* A quieter button on the cards so the photo stays the hero. Still teal
+     per the guardrail; the soft shadow lifts it off the sea behind it. */
+  .retreat-card-body .btn {
+    padding: 10px 22px;
+    font-size: 12px;
+    letter-spacing: 1.3px;
+    box-shadow: 0 3px 14px rgba(17, 27, 39, 0.3);
   }
 
   .values-grid {

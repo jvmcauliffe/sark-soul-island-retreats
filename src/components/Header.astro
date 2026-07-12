@@ -197,6 +197,14 @@ const current = Astro.url.pathname.replace(/\/$/, '') || '/';
       flex-wrap: wrap;
     }
 
+    /* Invisible spacer the same width as the hamburger, so the logo sits
+       dead centre between them, per Nadia's UAT: central on mobile too. */
+    .header-inner::after {
+      content: '';
+      width: 24px;
+      order: 2;
+    }
+
     .nav-toggle-label {
       display: flex;
       flex-direction: column;

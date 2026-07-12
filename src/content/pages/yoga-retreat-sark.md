@@ -102,7 +102,7 @@ Read more about the island on our [Why Sark?](/why-sark) page.
 
 ## The practice, with Monica
 
-Your teacher for the week is Monica of YogaMorphic, a senior yoga teacher with some thirty years of experience. Monica describes the week as an immersion rather than a course, and she means it. Sessions build gently across the five days, morning and evening, moving between breath, movement and meditation.
+Your teacher for the week is Monica of YogaMorphic, a senior yoga teacher with over twenty years of experience. Monica describes the week as an immersion rather than a course, and she means it. Sessions build gently across the five days, morning and evening, moving between breath, movement and meditation.
 
 Every class is taught for mixed levels with options throughout. You do not need to be flexible. You do not need experience. Props, modifications and rest are always available, and nobody is behind.
 

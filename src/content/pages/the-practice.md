@@ -35,7 +35,7 @@ joinBand:
 
 ## Your Instructor for the week:
 
-Each day opens and closes with yoga. Morning practice to wake the body gently, evening practice to let the day settle. Monica Marini leads every session, drawing on around thirty years of teaching. Her style is warm and unhurried, with room for both seasoned practitioners and those returning to the mat after time away.
+Each day opens and closes with yoga. Morning practice to wake the body gently, evening practice to let the day settle. Monica Marini leads every session, drawing on over twenty years of teaching. Her style is warm and unhurried, with room for both seasoned practitioners and those returning to the mat after time away.
 
 You will never be pushed to perform. Sessions are small by design, so the teaching meets you where you are. Through years of study with international teachers and her own dedicated practice, Monica has learned to make space for creativity, integration, and the quiet joy of inner freedom. Between practices, the days are yours: coastal walks, sea swims, quiet corners for rest. The rhythm is simple, and that simplicity is the point.
 

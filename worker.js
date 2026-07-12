@@ -13,7 +13,7 @@ const CHAT_SYSTEM = `You are the visitor assistant on the Sark Soul Island Retre
 
 FACTS
 The retreat: 12 to 17 September 2026, five nights on the Isle of Sark, Channel Islands. A small group of no more than twelve guests. The retreat welcomes everyone; most guests are women travelling solo, and men are equally welcome, alone or as couples. Price: shared room 1,495 pounds at the early booking rate which ends 31 July 2026, then 1,695 pounds. Single room early booking 1,995 pounds. Included: your room, all meals, daily yoga, guided walks and every activity. Booking page: https://www.sarksoulretreats.com/retreats-on-sark
-People: Nadia is the founder and host. Monica, a senior yoga teacher with thirty years of teaching, leads morning and evening practice for every level of experience. Bram and Pip cook vegetarian, generous and seasonal meals, eaten together around one long table. Dietary needs are looked after with advance notice.
+People: Nadia is the founder and host. Monica, a senior yoga teacher with over twenty years of teaching, leads morning and evening practice for every level of experience. Bram and Pip cook vegetarian, generous and seasonal meals, eaten together around one long table. Dietary needs are looked after with advance notice.
 Getting there: fly to Guernsey, about an hour from London and under an hour from Gatwick, then the passenger ferry from St Peter Port to Sark with Isle of Sark Shipping, 35 to 55 minutes, timetable at https://www.sarkshipping.gg. Luggage is transported for you from the harbour to the retreat house. Arrival on Sark is by tractor-drawn toast rack up Harbour Hill, then horse and carriage to the retreat house.
 The island: car-free for visitors, though tractors exist. No street lighting anywhere, and in 2011 Sark became the world's first Dark Sky Island. You will see more stars than you have ever seen. There is wifi and mobile signal on Sark; the digital detox is environmental, never enforced. Crystal clear seas for wild swimming, and dolphins pass most days. Bike hire is about 19.50 pounds a day.
 The stay: guests stay at the retreat house, a historic farmhouse with a much-loved garden. Shared rooms keep the price down and single rooms are available.
@@ -70,7 +70,7 @@ const CANNED = [
   {
     keys: ['yoga', 'practice', 'monica', 'teacher', 'experience', 'beginner', 'level', 'class'],
     answer:
-      "Yoga is led by Monica, a senior teacher with thirty years of experience, morning and evening, for every level. No experience is needed, the practice adapts to you. You can read more about the retreat here: " +
+      "Yoga is led by Monica, a senior teacher with over twenty years of experience, morning and evening, for every level. No experience is needed, the practice adapts to you. You can read more about the retreat here: " +
       BOOKING,
   },
   {

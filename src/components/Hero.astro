@@ -19,6 +19,7 @@ interface Props {
   imageAlt: string;
   shot: string;
   focus?: string;
+  focusMobile?: string;
   tall?: boolean;
 }
 
@@ -37,8 +38,18 @@ const {
   imageAlt,
   shot,
   focus,
+  focusMobile,
   tall = false,
 } = Astro.props;
+
+// Crop control travels as CSS custom properties rather than a hard inline
+// object-position, so the mobile crop can differ from desktop. Landscape
+// photos lose their edges on a tall phone crop; focusMobile picks which
+// part of the frame survives.
+const focusStyle =
+  [focus ? `--focus: ${focus}` : '', focusMobile ? `--focus-mobile: ${focusMobile}` : '']
+    .filter(Boolean)
+    .join('; ') || undefined;
 ---
 
 <section class:list={['hero', 'on-dark', { 'hero-tall': tall }]}>
@@ -54,7 +65,7 @@ const {
         loading="eager"
         fetchpriority="high"
         class="hero-image"
-        style={focus ? `object-position: ${focus}` : undefined}
+        style={focusStyle}
       />
     ) : (
       <div class="hero-image hero-placeholder" role="img" aria-label={imageAlt}>
@@ -94,6 +105,7 @@ const {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    object-position: var(--focus, 50% 50%);
   }
 
   .hero-placeholder {
@@ -139,6 +151,9 @@ const {
     color: #fff;
     max-width: 12ch;
     margin: 0 0 0.2em;
+    /* Per Nadia's UAT: the brand name must stand out from the photo, not
+       sink into it. Soft wide shadow plus a tight one for edge definition. */
+    text-shadow: 0 2px 26px rgba(17, 27, 39, 0.6), 0 1px 4px rgba(17, 27, 39, 0.45);
   }
 
   .hero h1.with-brand {
@@ -150,6 +165,7 @@ const {
     color: var(--cream);
     max-width: none;
     margin-bottom: 0.6em;
+    text-shadow: 0 1px 14px rgba(17, 27, 39, 0.55);
   }
 
   .hero p {
@@ -229,5 +245,24 @@ const {
     max-width: 34ch;
     margin: 0 auto 1.6em;
     color: #fff;
+    text-shadow: 0 1px 12px rgba(17, 27, 39, 0.5);
+  }
+
+  /* Mobile, per Nadia's UAT walkthrough. A tall phone crop of a landscape
+     hero keeps only the middle of the photo, losing the sea and the beach
+     at the edges. Shorten the brand hero so more of the frame survives,
+     and let pages steer the phone crop with focusMobile. */
+  @media (max-width: 700px) {
+    .hero-image {
+      object-position: var(--focus-mobile, var(--focus, 50% 50%));
+    }
+
+    .hero:has(.brand-display) {
+      min-height: min(58vh, 520px);
+    }
+
+    .hero-content.centered .brand-display {
+      font-size: clamp(46px, 12vw, 76px);
+    }
   }
 </style>
