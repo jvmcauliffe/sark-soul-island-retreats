@@ -67,7 +67,7 @@ for (const [route, html] of Object.entries(pages)) {
 const retreatPages = Object.entries(pages).filter(([, html]) => html.includes('"@type":"Event"'));
 if (retreatPages.length === 0) failures.push('no pages carry Event schema');
 for (const [route, html] of retreatPages) {
-  if (!html.includes('"validThrough":"2026-07-19"')) failures.push(`${route}: early rate validThrough missing`);
+  if (!html.includes('"validThrough":"2026-07-31"')) failures.push(`${route}: early rate validThrough missing`);
   if (!html.includes('dark-strip')) failures.push(`${route}: DarkStrip missing`);
   // The booking page shows the live per-room rates in the room grid; the
   // standard £1,695 rate is carried by the intent pages' PriceCards.

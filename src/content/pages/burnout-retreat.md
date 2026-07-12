@@ -46,7 +46,7 @@ What you need is somewhere the demands actually stop. Not a spa timetable. Not a
 
 Sark, we would gently argue, is the best place in Britain to do that.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
+**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -137,7 +137,7 @@ One of the lonelier parts of burnout is how isolating it is. The retreat is smal
 
 **12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every activity included. No decisions to make once you are here, which for most of our guests is part of the relief.
 
-Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
+Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>

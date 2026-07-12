@@ -49,7 +49,7 @@ The island sits nine miles off Guernsey, reached only by boat. There are no cars
 
 Our retreats bring no more than twelve guests to our historic farmhouse for five nights of yoga, coastal walking, shared meals and genuine rest. Whether you practise every week or have never stepped onto a mat, you will be welcomed exactly as you are.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 19 July.
+**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -180,7 +180,7 @@ Our full travel guide answers every practical question: [Getting to Sark guide](
 
 **12 to 17 September 2026.** Five nights. Your place includes accommodation at the retreat house, all meals, daily yoga with Monica, guided walks and every retreat activity. No hidden extras once you are here.
 
-Shared room, early booking: **£1,495** until 19 July 2026, then £1,695. Single room, early booking: £1,995.
+Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>
