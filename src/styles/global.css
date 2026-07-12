@@ -653,6 +653,14 @@ img {
 }
 
 /* Inline dark-sky band inside prose, mirroring the DarkStrip component */
+/* Small terms-style print for booking mechanics, per Nadia: the rules
+   matter but should read like conditions, not headline copy. */
+.prose .fine-print {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--sage-dark);
+}
+
 .prose .dark-band {
   background: radial-gradient(ellipse at 50% 0%, #27384b 0%, #111b27 75%);
   text-align: center;

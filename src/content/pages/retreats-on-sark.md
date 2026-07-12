@@ -15,7 +15,7 @@ heroShot: Booking page hero, turquoise bay
 retreatPage: true
 centerBody: true
 guideForm: true
-nadiaNote: I keep the group small on purpose. It is the difference between a holiday with yoga in it and something genuinely transformative.
+nadiaNote: Places are intentionally limited. With no more than twelve guests, one table and one teacher, the week has room to give every person the care they came for.
 darkStrip:
   eyebrow: After dark
   heading: September nights under the first Dark Sky Island
@@ -137,37 +137,40 @@ rooms:
       - src: ../../assets/photos/sark-breakfast-croissant.jpg
         alt: A croissant breakfast at the retreat house on Sark
 includes:
+  # Ordered by what matters most to guests, per Nadia: the yoga, the nights,
+  # the food, then the facilities and activities, with rest and support last.
   heading: "What's Included:"
   items:
     - icon: yoga
       text: Yoga, Pranayama and Meditation twice daily
-    - icon: stars
-      text: A guided night-sky session at Sark Observatory
-    - icon: moon
-      text: Time to rest and relax
-    - icon: carriage
-      text: Horse-drawn carriage to your accommodation
     - icon: house
       text: Five nights luxury farmhouse accommodation
-    - icon: path
-      text: "All activities: guided walks, turquoise coves, swimming"
     - icon: cutlery
       text: Nutritious vegetarian meals from our private chef
-    - icon: ferry
-      text: Sark ferry coordination
     - icon: pool
       text: Pools and wellness facilities, plus private yoga studio, gardens and quiet spaces
+    - icon: path
+      text: "All activities: guided walks, turquoise coves, swimming"
+    - icon: stars
+      text: A guided night-sky session at Sark Observatory
+    - icon: carriage
+      text: Horse-drawn carriage to your accommodation
+    - icon: ferry
+      text: Sark ferry coordination
+    - icon: moon
+      text: Time to rest and relax
     - icon: heart
       text: Dedicated retreat support
 addOns:
   heading: "Retreat Add-ons:"
+  note: On our last retreat, the full body massage was the treat guests talked about most. Add-ons are booked separately, and we arrange everything before you arrive.
   items:
     - icon: massage
-      text: Massage Therapy, available as additional treatment
+      text: Full Body Massage, the guest favourite (additional cost)
     - icon: reiki
-      text: Reiki, available as additional treatment
+      text: Reiki (additional cost)
     - icon: snowflake
-      text: Guided Breathwork and Cold Immersion, available as additional treatment
+      text: Guided Breathwork and Cold Immersion (additional cost)
   images:
     - src: ../../assets/photos/sark-massage-therapy-treatment.jpg
       alt: Relaxing massage treatment at the wellness retreat on Sark
@@ -205,7 +208,7 @@ features:
     image: ../../assets/photos/sark-bike-la-coupee-coastal-view.jpg
     alt: A bicycle at La Coupee above turquoise bays on Sark, Channel Islands
   - heading: Private Yoga Studio
-    body: A newly created private yoga studio designed specifically for this retreat.
+    body: A newly created private yoga studio, ours to use throughout the week.
     image: ../../assets/photos/sark-private-yoga-studio-garden.jpg
     alt: The newly created private yoga studio in the gardens of the retreat house on Sark
   - heading: Carriage Rides
@@ -225,24 +228,29 @@ travel:
       booking and any questions, so you don't need to have everything figured
       out before committing. A deposit holds your place, the rest unfolds with
       guidance.</p>
+      <p>Prefer to talk it through with a person first?
+      <a href="https://wa.me/447444133015?text=Hello%20Nadia%2C%20I%27m%20interested%20in%20the%20September%20retreat">Message
+      Nadia on WhatsApp</a> and she will reply herself.</p>
   - heading: Getting to Sark
     html: >-
       <p>Reaching Sark is part of the retreat experience, a jewel reached only
       by boat. From Guernsey, the crossing with
-      <a href="https://sarkshipping.gg">Sark Shipping</a> takes around 55
-      minutes, gently easing you from everyday pace into island life. Please
-      note that the last ferry to Sark departs at 4pm. Full travel guidance
-      will be shared with all confirmed guests, and our
+      <a href="https://sarkshipping.gg">Sark Shipping</a> takes about 45
+      minutes, gently easing you from everyday pace into island life. Full
+      travel guidance, including recommended sailings, will be shared with all
+      confirmed guests, and our
       <a href="/visiting-sark-for-a-wellness-retreat">travel guide</a> answers
       every practical question.</p>
       <p>Questions before choosing a room? See the
-      <a href="/sark-island-yoga-retreat-faq">retreat FAQ</a> or write to Nadia
-      at info@sarksoulretreats.com. Explore the retreats:
-      <a href="/yoga-retreat-sark">yoga</a>,
-      <a href="/digital-detox-retreat">digital detox</a>,
-      <a href="/solo-retreat-women">solo for women</a>,
-      <a href="/burnout-retreat">burnout</a> and
-      <a href="/dark-sky-retreat">dark sky</a>.</p>
+      <a href="/sark-island-yoga-retreat-faq">retreat FAQ</a>, write to Nadia
+      at info@sarksoulretreats.com, or
+      <a href="https://wa.me/447444133015?text=Hello%20Nadia%2C%20I%20have%20a%20question%20about%20the%20September%20retreat">message
+      her on WhatsApp</a>. Explore the retreat experience:
+      <a href="/yoga-retreat-sark">the yoga</a>,
+      <a href="/digital-detox-retreat">a digital detox</a>,
+      <a href="/solo-retreat-women">travelling solo</a>,
+      <a href="/burnout-retreat">rest and recovery</a> and
+      <a href="/dark-sky-retreat">the dark skies</a>.</p>
 ---
 
 ## Yoga & Nature Island Retreat
@@ -257,6 +265,6 @@ All rooms are located within our beautifully historic farmhouse surrounded by aw
 
 ## Retreat & Rooms Investment
 
-All-inclusive 5-night retreat: accommodation, meals, yoga and activities. Prices are per person, exclusive of flights and transfers. Bookings are on a first come first served basis and are subject to our [Terms & Conditions](/terms-conditions). A £300 deposit per person secures your place; the balance is due 45 days before the immersion.
+All-inclusive 5-night retreat: accommodation, meals, yoga and activities. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place via PayPal or card payment.
 
-To book, choose your room below and pay the £300 deposit. Each room and rate has its own reservation page, where you can complete your booking securely via PayPal or card payment.
+<p class="fine-print">Prices are per person, exclusive of flights and transfers. Bookings are on a first come first served basis and are subject to our <a href="/terms-conditions">Terms &amp; Conditions</a>. The balance is due 45 days before the immersion.</p>

@@ -56,7 +56,7 @@ faqs:
   - q: How do I get to Sark Island?
     a: >-
       Guests typically travel to Guernsey by flight or ferry from the UK,
-      then take the connecting ferry to Sark, 35 to 55 minutes. The journey
+      then take the connecting ferry to Sark, about 45 minutes. The journey
       is straightforward and well signposted. Once on Sark, there are no
       cars, which is part of the island's charm and stillness. Full travel
       guidance is provided after booking.
@@ -132,7 +132,7 @@ Here you'll find answers to some of the most common questions about our retreat.
 
 **Step 1: Travel to Guernsey.** Guernsey is the main gateway to Sark. There are direct flights to Guernsey from the UK and Europe including Aurigny, British Airways and Loganair. You may also choose to travel via ferry from the UK or France if you prefer a sea crossing. Many guests travelling to our Sark Island yoga retreat come via London to Guernsey.
 
-**Step 2: Ferry from Guernsey to Sark.** From Guernsey, a passenger ferry with [Sark Shipping](https://sarkshipping.gg) takes you across to Sark. The crossing takes 35 to 55 minutes, passing islands on the horizon. The ferry crossing creates a natural transition from mainland pace to island rhythm before your wellness retreat even begins. Ferry times vary by day, and we will share recommended sailings once bookings are confirmed.
+**Step 2: Ferry from Guernsey to Sark.** From Guernsey, a passenger ferry with [Sark Shipping](https://sarkshipping.gg) takes you across to Sark. The crossing takes about 45 minutes, passing islands on the horizon. The ferry crossing creates a natural transition from mainland pace to island rhythm before your wellness retreat even begins. Ferry times vary by day, and we will share recommended sailings once bookings are confirmed.
 
 **Arrival on Sark.** Sark is car-free. On arrival, your luggage is taken care of, and you travel up from the harbour by the island's tractor-drawn toast rack, then on to the farmhouse by horse and carriage. This fun and unique arrival sets the tone for the days ahead. Our [travel guide](/visiting-sark-for-a-wellness-retreat) covers every detail.
 

@@ -127,9 +127,12 @@ const focusStyle =
   }
 
   .scrim {
+    /* Lighter than it was: Nadia read the old bottom half as a dark filter
+       over the photo. The text shadows carry legibility now, so the photo
+       keeps its true colour. */
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(17, 27, 39, 0.82) 0%, rgba(17, 27, 39, 0.35) 40%, rgba(17, 27, 39, 0.05) 75%);
+    background: linear-gradient(to top, rgba(17, 27, 39, 0.62) 0%, rgba(17, 27, 39, 0.24) 42%, rgba(17, 27, 39, 0.03) 75%);
   }
 
   .hero-content {
@@ -141,6 +144,7 @@ const focusStyle =
     color: #fff;
     max-width: 15ch;
     margin-bottom: 0.35em;
+    text-shadow: 0 2px 22px rgba(17, 27, 39, 0.55), 0 1px 3px rgba(17, 27, 39, 0.4);
   }
 
   .brand-display {
@@ -173,6 +177,7 @@ const focusStyle =
     font-size: 19px;
     max-width: 46ch;
     margin-bottom: 1.8em;
+    text-shadow: 0 1px 12px rgba(17, 27, 39, 0.5);
   }
 
   /* Centered white hero, live site treatment */

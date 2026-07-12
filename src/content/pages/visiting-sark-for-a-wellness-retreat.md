@@ -19,7 +19,7 @@ faqs:
   - q: How do you get to Sark?
     a: >-
       Fly or sail to Guernsey, then take the passenger ferry from St Peter
-      Port, 35 to 55 minutes across the water. There is no airport on Sark.
+      Port, about 45 minutes across the water. There is no airport on Sark.
   - q: Is Sark part of the UK?
     a: >-
       No. Sark is part of the Bailiwick of Guernsey, a Crown Dependency with
@@ -94,7 +94,7 @@ Sark supports wellness because it reduces the conditions that keep people in low
 
 ## Getting to Sark without stress
 
-Closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the little passenger ferry from St Peter Port. The crossing is 35 to 55 minutes, past Herm and Jethou, often with dolphins off the bow. For the airport to harbour leg in Guernsey, a pre-booked car with [Taxi2Where](https://www.taxi2where.com) tracks your flight and takes the stress out of the connection.
+Closer than most people expect. It's a short flight from London or a regional airport to Guernsey, under an hour from Gatwick, and then the little passenger ferry from St Peter Port. The crossing is about 45 minutes, past Herm and Jethou, often with dolphins off the bow. For the airport to harbour leg in Guernsey, a pre-booked car with [Taxi2Where](https://www.taxi2where.com) tracks your flight and takes the stress out of the connection.
 
 There's no airport on Sark and no bridge, and that's the first thing that tells you this will be different. It can be breezy. The boat is small and honest. But you can leave London in the morning and be watching the sun set over the sea by evening.
 

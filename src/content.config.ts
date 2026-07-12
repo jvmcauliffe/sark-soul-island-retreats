@@ -98,6 +98,7 @@ const pages = defineCollection({
     addOns: z
       .object({
         heading: z.string(),
+        note: z.string().optional(),
         items: z.array(z.object({ icon: z.string().default(''), text: z.string() })),
         images: z.array(z.object({ src: image(), alt: z.string() })).default([]),
       })

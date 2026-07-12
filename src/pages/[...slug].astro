@@ -203,6 +203,7 @@ const breadcrumbs =
             ))}
           </div>
           <h2>{d.addOns.heading}</h2>
+          {d.addOns.note && <p class="addon-note">{d.addOns.note}</p>}
           <ul class="addon-items">
             {d.addOns.items.map((item) => (
               <li>
@@ -362,6 +363,15 @@ const breadcrumbs =
 
   .addons h2 {
     margin-top: 1.6em;
+  }
+
+  .addon-note {
+    max-width: 56ch;
+    margin: -6px auto 30px;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 18px;
+    color: var(--sage-dark);
   }
 
   .addon-items {
