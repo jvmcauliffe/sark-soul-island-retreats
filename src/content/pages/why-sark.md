@@ -1,7 +1,7 @@
 ---
 title: Why Sark?
 metaTitle: Why Sark Island Is Perfect for a Yoga Retreat
-metaDescription: An honest, first-hand guide to five nights on a car-free island, an hour from the UK, a world apart. From the ferry over to the last morning.
+metaDescription: An honest, first-hand guide to five nights on a car-free island, an hour from the UK and Europe, a world apart. From the ferry over to the last morning.
 slug: why-sark
 heroEyebrow: Isle of Sark · Channel Islands
 heroTitle: Why Sark?
