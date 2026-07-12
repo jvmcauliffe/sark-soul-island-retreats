@@ -51,7 +51,12 @@ const business = {
     addressLocality: 'Isle of Sark',
     addressRegion: 'Channel Islands',
   },
-  sameAs: ['https://g.page/r/CdhrtAEddmE_EBM/review'],
+  // Entity links: tie the brand to its official profiles so Google's
+  // knowledge panel consolidates around this business, not lookalikes.
+  sameAs: [
+    'https://g.page/r/CdhrtAEddmE_EBM/review',
+    'https://www.instagram.com/sarksoulretreats',
+  ],
   founder: { '@id': `${site}/#nadia` },
   employee: [{ '@id': `${site}/#nadia` }, { '@id': `${site}/#monica` }],
 };
