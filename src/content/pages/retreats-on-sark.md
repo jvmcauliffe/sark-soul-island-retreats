@@ -110,6 +110,7 @@ rooms:
       - label: Shared
         price: £1,495 per person
         status: soldout
+        href: "/12-sept-book-honeysuckle-shared"
       - label: Single
         price: £1,995 per person
         status: soldout

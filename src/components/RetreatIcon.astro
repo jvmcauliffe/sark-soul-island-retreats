@@ -24,6 +24,25 @@ const files: Record<string, string> = {
   reiki: 'reiki',
   snowflake: 'cold-immersion',
 };
+
+// Short literal alts. Empty alt is the purist treatment for decorative
+// icons, but audit tools count empty as missing; a brief label costs
+// nothing and keeps the crawl report clean.
+const labels: Record<string, string> = {
+  yoga: 'Yoga icon',
+  stars: 'Night sky icon',
+  moon: 'Rest icon',
+  carriage: 'Horse and carriage icon',
+  house: 'Farmhouse icon',
+  path: 'Activities icon',
+  cutlery: 'Meals icon',
+  ferry: 'Ferry icon',
+  pool: 'Sea pools icon',
+  heart: 'Support icon',
+  massage: 'Massage icon',
+  reiki: 'Reiki icon',
+  snowflake: 'Cold immersion icon',
+};
 ---
 
-<img src={`/icons/${files[name] ?? name}.svg`} alt="" width="44" height="44" loading="lazy" />
+<img src={`/icons/${files[name] ?? name}.svg`} alt={labels[name] ?? ''} width="44" height="44" loading="lazy" />
