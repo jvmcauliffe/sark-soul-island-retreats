@@ -48,7 +48,9 @@ const {
 } = Astro.props;
 
 const site = 'https://www.sarksoulretreats.com';
-const canonical = new URL(Astro.url.pathname.replace(/\/$/, '') || '/', site).href;
+// Strip the .html the file build format adds and any trailing slash, so the
+// canonical is the clean extensionless URL Netlify actually serves.
+const canonical = new URL(Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/', site).href;
 const ogImageUrl = new URL(ogImage, site).href;
 
 const breadcrumbSchema =

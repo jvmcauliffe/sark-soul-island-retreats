@@ -16,5 +16,10 @@ export default defineConfig({
   },
   build: {
     inlineStylesheets: 'auto',
+    // Emit /why-sark.html rather than /why-sark/index.html. Netlify serves
+    // the .html file at the extensionless URL directly, so the canonical,
+    // sitemap and internal links (all trailing-slash-free) get a 200 with
+    // no 301 hop. Before this, every internal click redirected.
+    format: 'file',
   },
 });

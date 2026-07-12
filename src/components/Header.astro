@@ -27,7 +27,7 @@ const retreats = [
   { label: 'The Dark Skies', href: '/dark-sky-retreat' },
 ];
 
-const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+const current = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || '/';
 ---
 
 <header class="site-header">
