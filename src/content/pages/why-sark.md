@@ -189,7 +189,7 @@ Sark earned that title in January 2011, when the International Dark-Sky Associat
 
 The darkness reaches further than stargazing. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that tells the body night has begun, and most of us live inside that disruption permanently. On Sark it simply does not happen. When the sun sets the island goes truly dark, the body gets the signal it has been waiting for, and guests are often surprised by how deeply they sleep from the very first night.
 
-The island holds quieter wonders for daylight too. At L'Éperquerie, the wild common at Sark's northern tip, a granite boulder carries Tibetan carvings, an unexpected meeting of island stone and Himalayan script, and the goats like to pose in front of it. It says something true about Sark: people have always come here to feel closer to the sky.
+The island holds quieter wonders for daylight too. At L'Éperquerie, the wild common at Sark's northern tip, a granite boulder carries Tibetan carvings, an unexpected meeting of island stone and Himalayan script, and the goats like to pose in front of it. It says something true about Sark: people have always come here to feel closer to nature.
 
 There's signal here, and there's wifi. You simply stop reaching for your phone, because there's something better to look at. Our [Dark Sky retreat](/dark-sky-retreat) is built around exactly this.
 
