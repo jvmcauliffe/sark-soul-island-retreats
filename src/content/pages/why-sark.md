@@ -145,7 +145,7 @@ The ferry crossing is where the retreat really begins. As the boat pulls away fr
 
 ## What happens when you step off the boat?
 
-You walk through a tunnel cut into the rock where guests are met by our team and then taken up Harbour Hill on the famous Sark 'Toast Rack', the tractor-pulled trailer that meets every ferry. The toast rack gets its name because everyone sits in rows facing each other, rather like slices of bread in a toaster.
+First, your luggage is taken care of. It comes off the boat without you lifting a finger and is transported straight to your accommodation, so you step ashore with your hands free. You then walk through a tunnel cut into the rock, where guests are met by our team and taken up Harbour Hill on the famous Sark 'Toast Rack', the tractor-pulled trailer that meets every ferry. The toast rack gets its name because everyone sits in rows facing each other, rather like slices of bread in a toaster.
 
 For many people this is their first truly memorable Sark moment. It's bumpy, fun and usually involves a lot of laughter. I can remember being told "Hold on to your boobs, it's a bumpy ride."
 
@@ -185,7 +185,7 @@ By the time you arrive at the accommodation, something has already shifted. You'
 
 When night falls on Sark, the sky transforms into a breathtaking theatre of stars. Recognised as the world's first Dark Sky Island, Sark offers unparalleled stargazing. With no streetlights and no cars, the night deepens. Beneath the Milky Way, connection deepens, with the cosmos, with nature, and with one another.
 
-Sark earned that title in January 2011, when the International Dark-Sky Association named it the first Dark Sky Island in the world. The designation recognised what islanders had always known: with no public lighting anywhere on the island, almost no light spills upward to blot out the starlight. The darkest skies run from September to April, best in the two hours after sunset, which is exactly when our September retreat wanders out after dinner, to the lanes, the headlands, or the ring of standing stones at Sark Henge. Many guests see the Milky Way properly for the first time in their lives here.
+Sark earned that title in January 2011, when the International Dark-Sky Association named it the first Dark Sky Island in the world. The designation recognised what islanders had always known: with no public lighting anywhere on the island, almost no light spills upward to blot out the starlight. The skies are at their best in the hours after sunset, which is exactly when our retreats wander out after dinner, to the lanes, the headlands, or the ring of standing stones at Sark Henge. Many guests see the Milky Way properly for the first time in their lives here.
 
 The darkness reaches further than stargazing. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that tells the body night has begun, and most of us live inside that disruption permanently. On Sark it simply does not happen. When the sun sets the island goes truly dark, the body gets the signal it has been waiting for, and guests are often surprised by how deeply they sleep from the very first night.
 
