@@ -88,7 +88,7 @@ Once you've booked, the logistics become ours and the planning stops being yours
 
 Most guests fly into Guernsey in the morning, take an early-afternoon boat, and are settled into the house by late afternoon, in time to unpack, breathe, and gather for the first evening together.
 
-![Our historic farmhouse behind a field of poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
+![The historic farmhouse behind a field of poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
 
 Our next retreat runs 12 to 17 September 2026. Five nights, a small group of no more than twelve. Places are limited, and the early booking rate ends 31 July.
 

@@ -105,7 +105,7 @@ rooms:
   - name: Honeysuckle
     type: King or twin room en suite
     occupancy: Shared room or single occupancy
-    description: A spacious luxurious en-suite with king or twin beds and beautiful original stonework. Full of the warmth and character of our private historic farmhouse.
+    description: A spacious luxurious en-suite with king or twin beds and beautiful original stonework. Full of the warmth and character of the historic farmhouse.
     rates:
       - label: Shared
         price: £1,495 per person
@@ -260,7 +260,7 @@ Discover our yoga and wellness retreats on Sark. Small group retreats designed f
 
 **Sep 12 to 17, 2026. Early booking rate ends 31 July, [book now](/retreats-on-sark#rooms).** May 16 to 21, 2026, sold out. June 2027, [join the waitlist](/contact).
 
-All rooms are located within our beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
+All rooms are located within a beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
 > "I thoroughly enjoyed all aspects of the retreat. Everything that was organised was brilliantly communicated. The detail of everything from the property, the studio, decoration of the barn and the menus was meticulous."
 >

@@ -47,7 +47,7 @@ faqs:
 
 The island sits nine miles off Guernsey, reached only by boat. There are no cars for visitors, no traffic lights and no street lighting at all. Life here moves at the pace of the tide, the light and the lanes. It is the kind of quiet most people have not heard in years.
 
-Our retreats bring no more than twelve guests to our historic farmhouse for five nights of yoga, coastal walking, shared meals and genuine rest. Whether you practise every week or have never stepped onto a mat, you will be welcomed exactly as you are.
+Our retreats bring no more than twelve guests to a historic farmhouse for five nights of yoga, coastal walking, shared meals and genuine rest. Whether you practise every week or have never stepped onto a mat, you will be welcomed exactly as you are.
 
 **Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
 
@@ -143,7 +143,7 @@ Nothing is compulsory. The schedule is an invitation, not a timetable.
 <section class="qa rev">
 <div class="qa-media">
 
-![Our historic farmhouse behind summer poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
+![The historic farmhouse behind summer poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
 
 </div>
 <div class="qa-text">
@@ -152,7 +152,7 @@ Nothing is compulsory. The schedule is an invitation, not a timetable.
 
 ## Where you stay
 
-Guests stay together in our historic farmhouse, a real home rather than a hotel, with a much-loved garden and quiet corners to disappear into. With no more than twelve guests, the house becomes its own small community by the second day.
+Guests stay together in the retreat house, a historic farmhouse and a real home rather than a hotel, with a much-loved garden and quiet corners to disappear into. With no more than twelve guests, the house becomes its own small community by the second day.
 
 </div>
 </section>

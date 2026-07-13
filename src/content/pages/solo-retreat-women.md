@@ -130,7 +130,7 @@ Two of [our May guests](/journal/your-first-yoga-retreat) said it better than we
 
 ## One house, one table
 
-You stay at our historic farmhouse, a real home rather than a hotel, with a much-loved garden and corners to disappear into. Shared rooms make the retreat more affordable and are how many solo guests choose to come. A limited number of single rooms are available if you would rather have your own space.
+You stay at the retreat house, a historic farmhouse and a real home rather than a hotel, with a much-loved garden and corners to disappear into. Shared rooms make the retreat more affordable and are how many solo guests choose to come. A limited number of single rooms are available if you would rather have your own space.
 
 </div>
 </section>

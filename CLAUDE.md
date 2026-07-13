@@ -19,7 +19,7 @@ These are hard rules for every session working in this repository. Violating any
 - "No street lighting" is true and powers the Dark Sky story.
 - Sark was the world's first Dark Sky Island (2011).
 - Arrival is two steps: tractor-drawn toast rack from the harbour, then horse and carriage to the retreat house.
-- The house is only ever "the retreat house" or "our historic farmhouse". Never publish its name.
+- The house is only ever "the retreat house" or "a/the historic farmhouse", never "our" (it is not ours), and never its name.
 - Pricing: £1,495 early shared (ends 31 July 2026), £1,695 standard shared, £1,995 single early. £1,495 is correct, not an error.
 - Season wording ("Late Summer Retreat") is fine, never flag it.
 - Retreat dates: 12 to 17 September 2026.
