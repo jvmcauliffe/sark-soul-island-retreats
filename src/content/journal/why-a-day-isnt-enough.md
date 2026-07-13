@@ -14,23 +14,27 @@ tags:
 >
 > La Trobe, 1914
 
-Most people give Sark an afternoon. They walk a lane, photograph the cliffs, and catch the last boat back having missed the island entirely.
+Many people think they can give Sark an afternoon. They walk a lane, photograph the cliffs, and catch the last boat back with the nagging feeling they have missed most of the island entirely.
 
-Don't rush [the crossing](/journal/the-crossing). Leave a generous margin at St Peter Port rather than sprinting for the quay. [The boat](https://sarkshipping.gg) connects with flights but won't wait for them, and arriving unhurried is half the point.
+Sark is a glorious day trip from Guernsey, but one day simply does not do it justice.
 
-Pack soft, and light. No cars and a tractor for the hill make hard suitcases a nuisance; a holdall or rucksack is far easier. You'll need less than you think. The island runs on layers, good shoes and a free evening.
+It seems a tiny island, barely three miles long and a mile and a half wide, yet it hides an enchanting coastline of over forty miles, riddled with caves, arches and coves that take years to know.
 
-Let it set the pace. Distance here is measured in time, not miles, and nothing can be hurried. Most people stop trying within an hour or two, usually without noticing.
+Distance here is measured in time, not miles, and nothing is hurried. The island sets the pace, and you will quickly find yourself benefiting from the experience of island time. It begins on [the boat journey](/journal/the-crossing). It's impossible not to look up and take in the natural beauty around you.
+
+Within an hour or two you will stop checking that phone so much, usually without noticing.
+
+Pack soft, and light. You'll need less than you think. The island runs on layers, good shoes and a free evening.
 
 ![Spring wildflowers along the coastal path on Sark, Channel Islands](../../assets/photos/sark-coastal-path-walk.jpg)
 
-*Spring on the coast path, the island rewards those who stay.*
+*Spring on the coast path, the island rewards those who stay to explore.*
 
 ## The harbour, the climb, and the carters
 
-You don't land at the village. You land at the foot of a cliff.
+You don't land at the village. You land at the foot of a cliff. Sark is in effect one high plateau ringed by them, and its summit at Le Moulin is the highest point in the whole Bailiwick of Guernsey.
 
-Maseline is the working harbour, usable at any tide. Creux, around the headland, is the older one, a small walled cove the islanders cut in the 1580s, kept now for the days the wind shuts Maseline. From either, the only way is up: twenty minutes on foot through a wooded valley, or the tractor-drawn bus everyone calls the toast rack.
+Maseline is the working harbour, usable at any tide. Creux, around the headland, is the older one, a small walled cove the islanders cut in the 1580s, kept now for the rare days the wind shuts Maseline. From either, the only way is up: twenty minutes on foot through a wooded valley, or the tractor-drawn bus everyone calls the toast rack.
 
 ![A rocky cove with turquoise water on Sark, Channel Islands](../../assets/photos/sark-rocky-cove-turquoise.jpg)
 
@@ -46,13 +50,13 @@ Leave it to the carters. You won't carry your bags up. Label them, leave them on
 >
 > La Trobe, 1914
 
-Much of Sark's coast has no path. The great sea caves, the arches, the caverns at the waterline: you reach them only from the water. In [the La Trobes' day](/journal/the-crossing) the trip round the island meant a rowing boat, two boatmen and most of a day. Now it is a little over two hours with the Guille family, who have run these waters for generations, leaving from Creux twice a day in season. Their wooden boat the Non Pareil was lost not long ago, much mourned; the trip runs today aboard the Dorado, rebuilt for the purpose in 2024.
+Much of Sark's coast has no path. The great sea caves, the arches, the caverns at the waterline: you reach them only from the water. In [the La Trobes' day](/journal/the-crossing) the trip round the island meant a rowing boat, two boatmen and most of a day. Now it is a little over two hours with the Guille family, who have run these waters for generations, leaving from Creux twice a day in season. The trip runs today aboard the Dorado, rebuilt for the purpose in 2024.
 
 ![Yachts anchored beneath the cliffs in a turquoise bay on Sark](../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg)
 
 *The coast that has no path, reached only from the sea.*
 
-It is also the gentler way to see the coast if scrambling isn't for you, and in season the wildlife comes with it: puffins, guillemots, dolphins, seals, the occasional basking shark. The tide does the rest. With a ten-metre range, no two trips are alike; some days you slip into the caves, others you nearly touch the offshore rocks, and on the lowest tides the boatmen show you ground that lies underwater the rest of the month.
+It is also the gentler way to see the coast, and in season the wildlife comes with it: puffins, guillemots, dolphins, seals, the occasional basking shark. The tide does the rest. With a ten-metre range, no two trips are alike; some days you slip into the caves, others you nearly touch the offshore rocks, and on the lowest tides Morgan will show you ground that lies underwater the rest of the month.
 
 By the water. Round-island trips and private charters: [Sark Boat Trips](https://www.sarkboattrips.com). For a group, a charter to L'Etac's seabird colonies, an evening run, or a quiet bay with paddleboards and lunch can be arranged direct.
 
@@ -62,23 +66,23 @@ By the water. Round-island trips and private charters: [Sark Boat Trips](https:/
 
 *The Milky Way over Sark, the world's first Dark Sky Island.*
 
-Sark was the world's first [Dark Sky Island](/dark-sky-retreat), named in 2011. With no street lighting, the nights are genuinely black, and the stars are the kind most people have never seen: the Milky Way edge to edge, the lights of half a dozen lighthouses ranged across the sea.
+Sark was the world's first [Dark Sky Island](/dark-sky-retreat), named in 2011. With no street lighting contributing to the light pollution that obscures so much of our world, the nights are genuinely black. Here the stars are the kind most people have never seen: the Milky Way edge to edge, echoed by the glimmer of half a dozen lighthouses ranged across the sea.
 
-Look up on a clear night and you are seeing roughly what the brothers saw, and what the people who raised [the island's standing stones](/journal/a-very-short-history-of-sark) saw four thousand years before them. Very little has come between.
+Look up on a clear night and you are standing before the same awe-inducing expanse that the builders of [the island's standing stones](/journal/a-very-short-history-of-sark) knew over four thousand years ago. Almost nothing has come between you and them, and the sense of time travel, of witnessing something far greater than yourself, is unforgettable.
 
 ## Worth packing
 
-- Layers, it's cooler by the sea
+- Layers for the night sky
 - Proper walking shoes
 - A waterproof or windproof
-- A torch for the lanes at night
+- A torch
 - Swimwear, for the brave
 - A refillable water bottle
 - Any medication you need
 
 ## Arriving for your retreat
 
-The logistics become ours. Once you've booked, the planning stops being yours. We send a simple arrival note: which sailing to aim for, where we'll meet you, how your bags reach the house. From the moment you step off the boat, the logistics are ours.
+Once you've booked, the logistics become ours and the planning stops being yours. We send a simple arrival note: which sailing to aim for, where we'll meet you, how your bags reach the house. From the moment you step off the boat, your focus is free for what you came for.
 
 Most guests fly into Guernsey in the morning, take an early-afternoon boat, and are settled into the house by late afternoon, in time to unpack, breathe, and gather for the first evening together.
 
