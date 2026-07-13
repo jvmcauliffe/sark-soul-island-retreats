@@ -145,15 +145,19 @@ const pages = defineCollection({
 // Journal: articles arrive over time from the Story Bank pipeline.
 const journal = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/journal' }),
-  schema: z.object({
-    title: z.string(),
-    description: z.string().max(155),
-    date: z.coerce.date(),
-    author: z.string().default('Nadia'),
-    heroImageAlt: z.string().optional(),
-    heroShot: z.string().optional(),
-    tags: z.array(z.string()).default([]),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      subtitle: z.string().optional(),
+      description: z.string().max(155),
+      date: z.coerce.date(),
+      author: z.string().default('Nadia'),
+      authorRole: z.string().optional(),
+      heroImage: image().optional(),
+      heroImageAlt: z.string().optional(),
+      heroShot: z.string().optional(),
+      tags: z.array(z.string()).default([]),
+    }),
 });
 
 export const collections = { pages, journal };

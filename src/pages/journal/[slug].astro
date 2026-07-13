@@ -1,6 +1,7 @@
 ---
 // Journal article route with Article schema, Nadia as author by default.
 import { getCollection, render } from 'astro:content';
+import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import NadiaNote from '../../components/NadiaNote.astro';
 import CTABand from '../../components/CTABand.astro';
@@ -19,6 +20,8 @@ const d = post.data;
 
 const formatDate = (date: Date) =>
   date.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+const byline = d.authorRole ? `${d.author}, ${d.authorRole}` : d.author;
 ---
 
 <BaseLayout
@@ -39,23 +42,51 @@ const formatDate = (date: Date) =>
   <article class="narrow section">
     <span class="eyebrow">The Sark Journal</span>
     <h1>{d.title}</h1>
-    <p class="meta">{formatDate(d.date)} · {d.author}</p>
+    {d.subtitle && <p class="subtitle">{d.subtitle}</p>}
+    <p class="meta">{formatDate(d.date)} · {byline}</p>
+    {
+      d.heroImage && (
+        <Image
+          src={d.heroImage}
+          alt={d.heroImageAlt ?? `${d.title}, Sark`}
+          widths={[480, 760, 1200]}
+          sizes="(max-width: 800px) 100vw, 760px"
+          class="hero-photo"
+          loading="eager"
+          fetchpriority="high"
+        />
+      )
+    }
     <div class="prose">
       <Content />
     </div>
     <p class="back"><a href="/journal">All journal stories</a> · <a href="/retreats-on-sark">Retreat dates and booking</a></p>
   </article>
-  {d.author === 'Nadia' && <NadiaNote quote="Every story here started as something a guest asked me on a walk. Keep asking." />}
+  {d.author.startsWith('Nadia') && <NadiaNote quote="Every story here started as something a guest asked me on a walk. Keep asking." />}
   <CTABand />
 </BaseLayout>
 
 <style>
+  .subtitle {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 22px;
+    color: var(--ink-soft);
+    margin: -0.4em 0 1em;
+  }
+
   .meta {
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 2.5px;
     text-transform: uppercase;
     color: var(--sage);
+    margin-bottom: 2.5em;
+  }
+
+  article :global(.hero-photo) {
+    width: 100%;
+    height: auto;
     margin-bottom: 2.5em;
   }
 
