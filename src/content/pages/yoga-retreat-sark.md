@@ -106,7 +106,7 @@ Your teacher for the week is Monica of YogaMorphic, a senior yoga teacher with o
 
 Every class is taught for mixed levels with options throughout. You do not need to be flexible. You do not need experience. Props, modifications and rest are always available, and nobody is behind.
 
-Our May guests, in their own words:
+Our May guests, [in their own words](/journal/your-first-yoga-retreat):
 
 > "I was a bit concerned I wouldn't be able to do lots of yoga as I was concerned about my knee and hip, but the pace has been perfect for me."
 >

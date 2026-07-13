@@ -278,7 +278,7 @@ Home for the week is a historic farmhouse with a much-loved garden, a real home 
 
 Your investment covers everything that matters: your room, the wellness facilities, all our chefs' fabulous meals, twice daily yoga with Monica, guided tours of the island, and of course the island itself. Nadia hosts the whole week personally, and massage and other treatments can be added whenever you need them.
 
-Every experience is personal. Many guests tell us they leave with better sleep, a slower pulse, and the feeling of rejuvenation that comes with escaping the 'treadmill' of modern life. We hope to have the opportunity to share this beautiful Island with you too. [See September dates and reserve your place](/retreats-on-sark), or explore the [digital detox](/digital-detox-retreat) and [burnout](/burnout-retreat) retreats.
+Every experience is personal. Nadia's own answer to why Sark is in her Journal piece, [Coming to Sark](/journal/coming-to-sark). Many guests tell us they leave with better sleep, a slower pulse, and the feeling of rejuvenation that comes with escaping the 'treadmill' of modern life. We hope to have the opportunity to share this beautiful Island with you too. [See September dates and reserve your place](/retreats-on-sark), or explore the [digital detox](/digital-detox-retreat) and [burnout](/burnout-retreat) retreats.
 
 </div>
 </section>

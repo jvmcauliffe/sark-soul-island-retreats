@@ -105,7 +105,7 @@ The middle of each day is yours. Swim, read in the garden, find a quiet cove, or
 
 Guests who arrive alone tend to leave with friends they keep. The change in the group between day one and day four is one of the quiet pleasures of hosting these weeks.
 
-Two of our May guests said it better than we can. One arrived nervous, one recharges with time to herself, and both left glad:
+Two of [our May guests](/journal/your-first-yoga-retreat) said it better than we can. One arrived nervous, one recharges with time to herself, and both left glad:
 
 > "I was quite nervous about coming on my own and sharing a room. I have thoroughly enjoyed it, including the yoga."
 >
