@@ -1,10 +1,10 @@
 ---
-title: Solo Retreat for Women
-metaTitle: Solo Retreat for Women | Sark Soul Island Retreats
+title: Travelling Solo
+metaTitle: Solo Yoga Retreat UK | Sark Soul Island Retreats
 metaDescription: A yoga and wellness retreat where most guests arrive alone. Small group, one shared house, car-free island. Come on your own, leave with friends.
 slug: solo-retreat-women
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
-heroTitle: A Solo Retreat for Women, on an Island Made for It
+heroTitle: A Solo Retreat, on an Island Made for It
 heroLine: Most of our guests arrive alone. You will probably be in the majority.
 heroImage: ../../assets/photos/sark-coastal-path-walk.jpg
 heroImageAlt: Guests walking the coastal path above the sea on Sark, Channel Islands
@@ -80,7 +80,7 @@ Some places are simply easy to be alone in, and Sark is one of them.
 
 The island is car-free for visitors, so there is no traffic to navigate and nowhere feels hurried. The lanes are quiet, the distances are small and everything on the island is reachable on foot or by bicycle. It is a small community where people greet each other on the paths. On an island with no street lighting, a friendly "evening" on a dark lane is simply how Sark works.
 
-None of this needs dramatising. It is just a very comfortable place to travel on your own, which is exactly why so many women do.
+None of this needs dramatising. It is just a very comfortable place to travel on your own, which is exactly why so many of our guests, most of them women, do.
 
 </div>
 </section>
@@ -105,7 +105,7 @@ The middle of each day is yours. Swim, read in the garden, find a quiet cove, or
 
 Guests who arrive alone tend to leave with friends they keep. The change in the group between day one and day four is one of the quiet pleasures of hosting these weeks.
 
-Two of our May guests said it better than we can. One arrived nervous, one guards her own space, and both left glad:
+Two of our May guests said it better than we can. One arrived nervous, one recharges with time to herself, and both left glad:
 
 > "I was quite nervous about coming on my own and sharing a room. I have thoroughly enjoyed it, including the yoga."
 >
