@@ -105,6 +105,16 @@ The middle of each day is yours. Swim, read in the garden, find a quiet cove, or
 
 Guests who arrive alone tend to leave with friends they keep. The change in the group between day one and day four is one of the quiet pleasures of hosting these weeks.
 
+Two of our May guests said it better than we can. One arrived nervous, one guards her own space, and both left glad:
+
+> "I was quite nervous about coming on my own and sharing a room. I have thoroughly enjoyed it, including the yoga."
+>
+> Yvonne, May 2026
+
+> "I'm not a joiner, so I wanted more time on my own. But being clear that is an option is important as not everyone will say they don't want to go on the activities. I absolutely loved it all though and it was a joy to be here."
+>
+> Amanda, May 2026
+
 </div>
 </section>
 

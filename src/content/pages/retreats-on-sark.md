@@ -262,6 +262,10 @@ Discover our yoga and wellness retreats on Sark. Small group retreats designed f
 
 All rooms are located within our beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
+> "I thoroughly enjoyed all aspects of the retreat. Everything that was organised was brilliantly communicated. The detail of everything from the property, the studio, decoration of the barn and the menus was meticulous."
+>
+> Andrea, May 2026
+
 ![A lady meditating on the beach at sunset](../../assets/photos/sark-beach-meditation-sunset.jpg)
 
 ## Retreat & Rooms Investment

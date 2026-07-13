@@ -100,6 +100,10 @@ Mornings begin with yoga and breath work with Monica. The middle of the day is y
 
 And then there are the evenings. Sark was the world's first Dark Sky Island, and on a clear night the Milky Way is a textured band overhead. It turns out that when the sky looks like that, nobody is looking down at a phone. Read more on our [Dark Sky retreat](/dark-sky-retreat) page.
 
+> "Sark is a very special place. I will definitely be coming back. My only regret is I didn't have more time to appreciate it and savour it."
+>
+> Amanda, May 2026
+
 </div>
 </section>
 

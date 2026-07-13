@@ -103,6 +103,14 @@ Mornings begin with gentle yoga and breath work with Monica, taught for all leve
 
 Nothing is compulsory. Rest is not a gap in the programme here. It is the programme.
 
+> "We felt supported as individuals, not just as part of the group."
+>
+> A May 2026 guest, from her handwritten reflection
+
+> "The practice was hugely helpful in managing some of the postural issues that I experience. The support from you both was fabulous individually, and to the group as a whole."
+>
+> Andrea, May 2026
+
 </div>
 </section>
 

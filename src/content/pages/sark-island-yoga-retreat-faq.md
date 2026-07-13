@@ -60,7 +60,9 @@ faqs:
       rather than performance. Monica's teaching is supportive, inclusive,
       and adaptable, whether you're new to the practice or have been on the
       mat for years. This UK island yoga retreat focuses on depth and
-      awareness rather than intensity.
+      awareness rather than intensity. As Amanda, a May 2026 guest, put it:
+      "I have never been on a yoga retreat so I had very few expectations. I
+      have thoroughly enjoyed it. I would definitely come again."
   - q: How do I get to Sark Island?
     a: >-
       Guests typically travel to Guernsey by flight or ferry from the UK,
@@ -80,11 +82,12 @@ faqs:
       the week's schedule, four days is typically all you'd need.
   - q: Can I come solo?
     a: >-
-      Absolutely. Many guests come alone and often leave with lifelong
-      friends. If you'd like to share a room, we'll do our best to match you
-      with another solo guest, though this can't be guaranteed. Our small
-      group yoga retreat format makes Sark ideal for solo travellers seeking
-      connection without overwhelm.
+      Absolutely. Most of our guests come alone and often leave with
+      lifelong friends. If you'd like to share a room, we'll do our best to
+      match you with another solo guest, though this can't be guaranteed.
+      Yvonne, who joined us in May 2026, said: "I was quite nervous about
+      coming on my own and sharing a room. I have thoroughly enjoyed it,
+      including the yoga."
   - q: Is the retreat women only?
     a: >-
       No. Everyone is welcome. Most of our guests happen to be women
