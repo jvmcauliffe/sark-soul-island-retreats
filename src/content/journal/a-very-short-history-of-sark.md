@@ -1,7 +1,7 @@
 ---
 title: A very short history of Sark
 description: Saint Magloire, pirates, four hundred French soldiers and the forty families of 1565. How a four-mile island keeps an Elizabethan settlement alive today.
-date: 2026-07-13T09:00:00Z
+date: 2026-06-22T09:00:00Z
 author: The team
 heroImage: ../../assets/photos/sark-henge-standing-stones-dusk.jpg
 heroImageAlt: Standing stones at dusk on Sark, Channel Islands

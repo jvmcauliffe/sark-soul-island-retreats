@@ -2,7 +2,7 @@
 title: Coming to Sark
 subtitle: In Nadia's words
 description: Why come to Sark? Our founder Nadia on wildflower slopes, forty miles of coastline, wild swimming and the island that cures the deeper kind of tired.
-date: 2026-07-13T12:00:00Z
+date: 2026-07-13T09:00:00Z
 author: Nadia Carr
 authorRole: Founder and Host
 heroImage: ../../assets/photos/sark-turquoise-bay-beach-path.jpg

@@ -1,7 +1,7 @@
 ---
 title: The crossing
 description: There is no airport. Everyone who has ever come to Sark has come by sea. The crossing from Guernsey, the first sight of the island and the climb ashore.
-date: 2026-07-13T11:00:00Z
+date: 2026-06-15T09:00:00Z
 author: Nadia
 heroImage: ../../assets/photos/sark-ferry-boat-crossing.jpg
 heroImageAlt: The ferry crossing the water from Guernsey to Sark, Channel Islands

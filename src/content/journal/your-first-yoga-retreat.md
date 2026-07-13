@@ -2,7 +2,7 @@
 title: Your first yoga retreat
 subtitle: From first-timers, in their own words
 description: Never been on a yoga retreat? Neither had half our May guests. Their words on nerves, knees, coming alone and why they are already planning to return.
-date: 2026-07-13T11:30:00Z
+date: 2026-07-06T09:00:00Z
 author: Nadia
 heroImage: ../../assets/photos/sark-yoga-childs-pose-class.jpg
 heroImageAlt: A mixed-level yoga class resting in child's pose at the retreat on Sark
