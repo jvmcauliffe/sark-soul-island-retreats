@@ -29,7 +29,7 @@ joinBand:
       href: /the-practice
     - eyebrow: The team
       heading: Meet the team
-      line: Nadia, Monica, Bram & the souls who bring each retreat to life.
+      line: Nadia, Monica, our chefs & the souls who bring each retreat to life.
       label: Meet the team
       href: /meet-the-team
 ---
@@ -242,7 +242,7 @@ Our sessions suit every level. Monica, who has taught for over twenty years, mee
 
 ## What's the food like?
 
-Our Chefs, Bram and Pip, cook vegetarian, generous and seasonal, from what the island offers. Everyone eats together, family-style, around one long table. Meals are unhurried and there is always enough. Dietary needs are looked after; just tell us in advance.
+Our chefs cook vegetarian, generous and seasonal, from what the island offers. Everyone eats together, family-style, around one long table. Meals are unhurried and there is always enough. Dietary needs are looked after; just tell us in advance.
 
 </div>
 </section>
@@ -276,7 +276,7 @@ Home for the week is a historic farmhouse with a much-loved garden, a real home 
 
 ## What can I expect from the week?
 
-Your investment covers everything that matters: your room, the wellness facilities, all Bram and Pip's fabulous meals, daily yoga with Monica, and of course the island itself.
+Your investment covers everything that matters: your room, the wellness facilities, all our chefs' fabulous meals, twice daily yoga with Monica, guided tours of the island, and of course the island itself. Nadia hosts the whole week personally, and massage and other treatments can be added whenever you need them.
 
 Every experience is personal. Many guests tell us they leave with better sleep, a slower pulse, and the feeling of rejuvenation that comes with escaping the 'treadmill' of modern life. We hope to have the opportunity to share this beautiful Island with you too. [See September dates and reserve your place](/retreats-on-sark), or explore the [digital detox](/digital-detox-retreat) and [burnout](/burnout-retreat) retreats.
 

@@ -7,3 +7,9 @@
 
 /icons/*
   Cache-Control: public, max-age=86400
+
+# The guide PDF is the email-capture reward. Keep it out of search results
+# so the public Journal articles built from the same material get the
+# ranking credit, and the PDF stays a reason to hand over an email.
+/guides/*
+  X-Robots-Tag: noindex
