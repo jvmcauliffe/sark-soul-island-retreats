@@ -9,19 +9,21 @@ tags:
   - getting here
 ---
 
-Getting to Sark takes effort. There is no airport. With the exception of royalty and seabirds, every single person who has ever come to Sark has come by sea. I love that. It's true going back centuries, and it's true today, and you become part of it the moment you step onto the boat.
-
-When the Latrobe's Guide was first published the journey from Guernsey to London took almost ten hours longer than it does today. [The passage from Guernsey to Sark](https://sarkshipping.gg) however still takes about as long as it did a hundred years ago at about forty five minutes, and the moment you leave, the mainland and your 'to-do list' lets go of you. The modern world has spent a century engineering friction out of travel. Sark gives it back as a gift.
-
-None of this feeling of returning to old ways is enforced. Sark has wifi, there is phone signal, the modern world is entirely available here. The island simply has a way of reordering what matters, until a day or two you find yourself looking up more, reaching for your phone less, and taking in your surroundings.
-
 Most guides to Sark repeat three facts. There are no cars. The cliffs are dramatic. The night sky is dark.
 
 These things are true, but they do not begin to explain what makes Sark special, or why a few days here resets you deeper than a week at a conventional destination.
 
+Getting to Sark asks a little more of you than most places, and that is precisely its gift. This is slow travel in its purest form, a gentle going back to basics, and it begins the moment you set out.
+
+There is no airport on Sark. I read somewhere that with the exception of royalty and seabirds, every single person who has ever come to Sark has come by sea. I love that line. It's true going back centuries, and it's true today, and you become part of it the moment you step onto the boat.
+
 A century ago, two brothers from Lancashire wrote a guide to this island, and in doing so set a bar that all others have subsequently struggled to reach. Geoffrey and Leslie La Trobe Foster spent three summers on Sark, from 1911 to 1913; they were fifteen and nineteen on that first visit. They published their guide in 1914, and within months went from this account of a carefree island to the trenches of the First World War.
 
-Few have described Sark better since, save perhaps their own descendants, who brought the guide back into print. We recommend it without reservation.
+Few have described Sark better since, save perhaps their own descendants, who [brought the guide back into print](https://latrobe161667694.wordpress.com/the-story-of-the-guide/). We recommend it without reservation.
+
+When the Latrobe's Guide was first published, the journey from Guernsey to London took almost ten hours longer than it does today. [The passage from Guernsey to Sark](https://sarkshipping.gg) however still takes about as long as it did a hundred years ago (at about forty five minutes), and the moment you leave, the mainland and your 'to-do list' lets go of you. The modern world has spent a century engineering friction out of travel. Sark gives it back as a gift.
+
+None of this feeling of returning to old ways is enforced. The modern world is entirely available here, Sark has wifi, there is phone signal. The island simply has a way of reordering what matters, until a day or two you find yourself looking up more, taking in your surroundings, and reaching for your phone less.
 
 > "Once a visit has been paid to Sark, the visitor always longs to repeat.. the happy weeks.. in the Pearl of Islands."
 >
