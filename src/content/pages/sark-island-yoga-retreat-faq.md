@@ -19,6 +19,14 @@ faqs:
       single room at the early rate is £1,995. All meals, daily yoga, guided
       walks and activities are included. Full details are on our
       [retreats page](/retreats-on-sark).
+  - q: Are yoga retreats worth it?
+    a: >-
+      An honest answer: it depends on the retreat. A good one gives you
+      structure, teaching and rest you would not manage on your own, and the
+      effect should last weeks, not days. Ours is built so the place does
+      half the work: real darkness for deep sleep, sea air, no traffic,
+      twice daily yoga and every meal cooked for you. You arrive tired and
+      leave different.
   - q: What makes Sark different from other UK yoga retreats?
     a: >-
       Sark is a car-free island in the Channel Islands with designated Dark

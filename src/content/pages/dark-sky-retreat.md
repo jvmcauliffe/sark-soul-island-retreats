@@ -1,6 +1,6 @@
 ---
 title: Dark Sky Retreat
-metaTitle: Dark Sky Island Retreat, Sark | Sark Soul Island Retreats
+metaTitle: Stargazing & Dark Sky Retreat UK | Sark Soul Island Retreats
 metaDescription: Stay on the world's first Dark Sky Island. Zero light pollution, the Milky Way overhead, ancient stones and deep sleep. A stargazing retreat on Sark.
 slug: dark-sky-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
@@ -29,6 +29,12 @@ faqs:
     a: >-
       No. The skies are dark enough that the naked eye sees more here than a
       telescope shows in most of Britain. Bring binoculars if you have them.
+  - q: Is this a stargazing retreat?
+    a: >-
+      Stargazing is woven through the week rather than being the whole of it.
+      One evening is spent at the Sark Observatory, and every clear night
+      ends under the sky of the world's first Dark Sky Island. The days
+      belong to yoga, the coast and the sea.
   - q: What if it's cloudy?
     a: >-
       Weather is weather, but across five nights in September the odds of
