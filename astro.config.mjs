@@ -1,10 +1,16 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
+import rehypeExternalLinks from 'rehype-external-links';
 
 export default defineConfig({
   site: 'https://www.sarksoulretreats.com',
   output: 'static',
   trailingSlash: 'never',
+  markdown: {
+    // External links open in a new tab so readers never leave the site,
+    // per John. Internal links are untouched.
+    rehypePlugins: [[rehypeExternalLinks, { target: '_blank', rel: ['noopener'] }]],
+  },
   integrations: [
     sitemap({
       filter: (page) => !page.includes('/styleguide'),
