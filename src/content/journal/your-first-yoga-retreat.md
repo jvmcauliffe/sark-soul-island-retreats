@@ -17,25 +17,25 @@ Half the people who wrote to us after our May retreat told us the same thing: th
 
 > "I have never been on a yoga retreat so I had very few expectations. I have thoroughly enjoyed it. The location and the accommodation are wonderful and really add to the whole experience. I would definitely come again."
 >
-> Amanda, May 2026
+> A May 2026 guest
 
 > "First time ever and felt marvellous."
 >
-> A May guest, by text message, the week after
+> A May 2026 guest, by text message, the week after
 
 > "A fabulous experience in every sense. First time ever on a retreat and extremely welcoming."
 >
-> A May guest, from her handwritten reflection
+> A May 2026 guest, from her handwritten reflection
 
 There is no experience bar to clear. Every class Monica teaches is built for mixed levels, with options and variations throughout, so a first-timer and a twenty-year practitioner share the same room and each has a full practice.
 
 ## "I was worried about my body"
 
-The quiet fear underneath most first bookings is not the yoga, it is the knee, the hip, the back, the flexibility that never arrived. Amanda came with exactly that worry:
+The quiet fear underneath most first bookings is not the yoga, it is the knee, the hip, the back, the flexibility that never arrived. One May guest came with exactly that worry:
 
 > "I was a bit concerned I wouldn't be able to do lots of yoga as I was concerned about my knee and hip, but the pace has been perfect for me."
 >
-> Amanda, May 2026
+> A May 2026 guest
 
 Props, modifications and rest are always available, and nobody is behind. The mornings wake the body gently and the evening practice is restorative, which regularly turns out to be the part people fall in love with.
 
@@ -43,7 +43,7 @@ Props, modifications and rest are always available, and nobody is behind. The mo
 
 > "I was quite nervous about coming on my own and sharing a room. I have thoroughly enjoyed it, including the yoga."
 >
-> Yvonne, May 2026
+> A May 2026 guest
 
 Most of our guests arrive alone. With no more than twelve of us sharing one house and one table, no one stays a stranger past the first evening. And if you are the sort who guards your own space, that is understood too; everything outside the practices is optional, and needing an afternoon to yourself is never questioned. There is more on this on our [travelling solo](/solo-retreat-women) page.
 
@@ -51,7 +51,7 @@ Most of our guests arrive alone. With no more than twelve of us sharing one hous
 
 > "We felt supported as individuals, not just as part of the group."
 >
-> A May guest, from her handwritten reflection
+> A May 2026 guest, from her handwritten reflection
 
 That sentence is the whole aim of the week, and the reason the groups stay small.
 
