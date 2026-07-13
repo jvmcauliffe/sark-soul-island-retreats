@@ -1,6 +1,7 @@
 ---
 title: Why a day isn't enough
-description: Most visitors give Sark an afternoon and miss it entirely. The harbour, the carters, the coast by boat, the darkest sky in Europe and how to stay.
+metaTitle: Sark Day Trip? Why a Day Isn't Enough
+description: "Is Sark worth visiting? Absolutely, but a day trip misses it. Things to do on Sark: the harbour, the coast by boat, the darkest sky and how to stay."
 date: 2026-06-29T09:00:00Z
 author: Nadia
 heroImage: ../../assets/photos/sark-la-coupee-cliff-path.jpg
@@ -8,6 +9,7 @@ heroImageAlt: The cliff path across La Coupee on Sark, Channel Islands
 tags:
   - getting here
   - island life
+  - things to do
 ---
 
 > "To know Sark thoroughly would take a lifetime of holidays."

@@ -1,12 +1,14 @@
 ---
 title: A very short history of Sark
-description: Saint Magloire, pirates, four hundred French soldiers and the forty families of 1565. How a four-mile island keeps an Elizabethan settlement alive today.
+metaTitle: "Sark History: The Last Feudal Island"
+description: "The history of Sark: Saint Magloire, pirates, the forty families of 1565 and how Europe's last feudal constitution survived into the present day."
 date: 2026-06-22T09:00:00Z
 author: The team
 heroImage: ../../assets/photos/sark-henge-standing-stones-dusk.jpg
 heroImageAlt: Standing stones at dusk on Sark, Channel Islands
 tags:
   - history
+  - feudal Sark
 ---
 
 Sark (Sercq in French, Cerq in the old Norman tongue) sits in the south-western Channel, a small island off the Normandy coast and part of the Bailiwick of Guernsey. For somewhere barely four miles long, it has an improbably long memory.

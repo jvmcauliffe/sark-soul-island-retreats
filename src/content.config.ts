@@ -148,6 +148,8 @@ const journal = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
+      // Search-facing title tag; the visible headline stays `title`.
+      metaTitle: z.string().optional(),
       subtitle: z.string().optional(),
       description: z.string().max(155),
       date: z.coerce.date(),

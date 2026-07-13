@@ -25,7 +25,7 @@ const byline = d.authorRole ? `${d.author}, ${d.authorRole}` : d.author;
 ---
 
 <BaseLayout
-  title={`${d.title} · The Sark Journal`}
+  title={`${d.metaTitle ?? d.title} · The Sark Journal`}
   description={d.description}
   article={{
     headline: d.title,

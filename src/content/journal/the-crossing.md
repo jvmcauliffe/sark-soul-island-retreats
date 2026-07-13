@@ -1,12 +1,14 @@
 ---
 title: The crossing
-description: There is no airport. Everyone who has ever come to Sark has come by sea. The crossing from Guernsey, the first sight of the island and the climb ashore.
+metaTitle: "How to Get to Sark: The Crossing"
+description: There is no airport on Sark. Everyone arrives by sea. The ferry crossing from Guernsey, the first sight of the island, the toast rack and the climb ashore.
 date: 2026-06-15T09:00:00Z
 author: Nadia
 heroImage: ../../assets/photos/sark-ferry-boat-crossing.jpg
 heroImageAlt: The ferry crossing the water from Guernsey to Sark, Channel Islands
 tags:
   - getting here
+  - the ferry
 ---
 
 Most guides to Sark repeat three facts. There are no cars. The cliffs are dramatic. The night sky is dark.
