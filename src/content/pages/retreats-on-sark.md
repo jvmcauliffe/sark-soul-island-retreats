@@ -143,25 +143,25 @@ includes:
   heading: "What's Included:"
   items:
     - icon: yoga
-      text: Yoga, Pranayama and Meditation twice daily
+      text: "Your mornings and evenings: yoga, pranayama and meditation, twice daily"
     - icon: house
-      text: Five nights luxury farmhouse accommodation
+      text: Your room for five nights in a luxury historic farmhouse
     - icon: cutlery
-      text: Nutritious vegetarian meals from our private chef
+      text: Your seat at the table, nutritious vegetarian meals from our private chef
     - icon: pool
-      text: Pools and wellness facilities, plus private yoga studio, gardens and quiet spaces
+      text: Your pools, private yoga studio, gardens and quiet corners
     - icon: path
-      text: "All activities: guided walks, turquoise coves, swimming"
+      text: "Your afternoons: guided walks, turquoise coves and wild swims"
     - icon: stars
-      text: A guided night-sky session at Sark Observatory
+      text: Your night at the Sark Observatory under the first Dark Sky Island
     - icon: carriage
-      text: Horse-drawn carriage to your accommodation
+      text: Your horse-drawn carriage from the harbour
     - icon: ferry
-      text: Sark ferry coordination
+      text: Your Sark ferry, coordinated for you
     - icon: moon
-      text: Time to rest and relax
+      text: Time to rest, with nothing compulsory
     - icon: heart
-      text: Dedicated retreat support
+      text: Dedicated retreat support all week
 addOns:
   heading: "Retreat Add-ons:"
   note: On our last retreat, the full body massage was the treat guests talked about most. Add-ons are booked separately, and we arrange everything before you arrive.
