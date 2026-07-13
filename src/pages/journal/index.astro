@@ -7,6 +7,7 @@ import { Image } from 'astro:assets';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ImageSlot from '../../components/ImageSlot.astro';
 import CTABand from '../../components/CTABand.astro';
+import journalPhoto from '../../assets/photos/sark-retreat-welcome-journal-gifts.jpg';
 
 const posts = (await getCollection('journal')).sort(
   (a, b) => b.data.date.valueOf() - a.data.date.valueOf()
@@ -25,12 +26,24 @@ const formatDate = (d: Date) =>
   ]}
 >
   <div class="container section">
-    <span class="eyebrow">From the island</span>
-    <h1>The Sark Journal</h1>
-    <p>
-      Stories from the island: its dark skies, its coastal paths, its history, and life at
-      our historic farmhouse.
-    </p>
+    <div class="journal-head">
+      <div class="journal-head-text">
+        <span class="eyebrow">From the island</span>
+        <h1>The Sark Journal</h1>
+        <p>
+          Stories from the island: its dark skies, its coastal paths, its history, and life at
+          our historic farmhouse.
+        </p>
+      </div>
+      <Image
+        src={journalPhoto}
+        alt="The Sark Soul journal and welcome gifts waiting for a guest at the retreat on Sark"
+        width={640}
+        height={427}
+        class="journal-head-photo"
+        loading="eager"
+      />
+    </div>
 
     {
       posts.length === 0 ? (
@@ -80,6 +93,27 @@ const formatDate = (d: Date) =>
 </BaseLayout>
 
 <style>
+  .journal-head {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .journal-head {
+      grid-template-columns: 1.2fr 1fr;
+      gap: 48px;
+    }
+  }
+
+  .journal-head :global(.journal-head-photo) {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 3 / 2;
+    object-fit: cover;
+  }
+
   .empty {
     background: var(--cream);
     border: 1px solid var(--cream-deep);

@@ -16,7 +16,7 @@ tags:
 
 Most people give Sark an afternoon. They walk a lane, photograph the cliffs, and catch the last boat back having missed the island entirely.
 
-Don't rush [the crossing](https://sarkshipping.gg). Leave a generous margin at St Peter Port rather than sprinting for the quay. The boat connects with flights but won't wait for them, and arriving unhurried is half the point.
+Don't rush [the crossing](/journal/the-crossing). Leave a generous margin at St Peter Port rather than sprinting for the quay. [The boat](https://sarkshipping.gg) connects with flights but won't wait for them, and arriving unhurried is half the point.
 
 Pack soft, and light. No cars and a tractor for the hill make hard suitcases a nuisance; a holdall or rucksack is far easier. You'll need less than you think. The island runs on layers, good shoes and a free evening.
 
@@ -46,7 +46,7 @@ Leave it to the carters. You won't carry your bags up. Label them, leave them on
 >
 > La Trobe, 1914
 
-Much of Sark's coast has no path. The great sea caves, the arches, the caverns at the waterline: you reach them only from the water. In the La Trobes' day the trip round the island meant a rowing boat, two boatmen and most of a day. Now it is a little over two hours with the Guille family, who have run these waters for generations, leaving from Creux twice a day in season. Their wooden boat the Non Pareil was lost not long ago, much mourned; the trip runs today aboard the Dorado, rebuilt for the purpose in 2024.
+Much of Sark's coast has no path. The great sea caves, the arches, the caverns at the waterline: you reach them only from the water. In [the La Trobes' day](/journal/the-crossing) the trip round the island meant a rowing boat, two boatmen and most of a day. Now it is a little over two hours with the Guille family, who have run these waters for generations, leaving from Creux twice a day in season. Their wooden boat the Non Pareil was lost not long ago, much mourned; the trip runs today aboard the Dorado, rebuilt for the purpose in 2024.
 
 ![Yachts anchored beneath the cliffs in a turquoise bay on Sark](../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg)
 
@@ -62,9 +62,9 @@ By the water. Round-island trips and private charters: [Sark Boat Trips](https:/
 
 *The Milky Way over Sark, the world's first Dark Sky Island.*
 
-Sark was the world's first Dark Sky Island, named in 2011. With no street lighting, the nights are genuinely black, and the stars are the kind most people have never seen: the Milky Way edge to edge, the lights of half a dozen lighthouses ranged across the sea.
+Sark was the world's first [Dark Sky Island](/dark-sky-retreat), named in 2011. With no street lighting, the nights are genuinely black, and the stars are the kind most people have never seen: the Milky Way edge to edge, the lights of half a dozen lighthouses ranged across the sea.
 
-Look up on a clear night and you are seeing roughly what the brothers saw, and what the people who raised the island's standing stones saw four thousand years before them. Very little has come between.
+Look up on a clear night and you are seeing roughly what the brothers saw, and what the people who raised [the island's standing stones](/journal/a-very-short-history-of-sark) saw four thousand years before them. Very little has come between.
 
 ## Worth packing
 

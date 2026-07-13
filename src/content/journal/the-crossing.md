@@ -47,6 +47,6 @@ The bit that always makes people smile is how you get up there. For most of the 
 
 By the time you come out at the top by the Bel Air Inn and the crossroads, on the plateau, something in your shoulders has already started to drop.
 
-That's really the whole of it. You can spend a lifetime of holidays here and not know the place completely. I've stopped trying to describe it to people.
+That's really the whole of it. You can spend [a lifetime of holidays](/journal/why-a-day-isnt-enough) here and not know the place completely. I've stopped trying to describe it to people.
 
 Seeing is believing. [Come to Sark and see](/retreats-on-sark).

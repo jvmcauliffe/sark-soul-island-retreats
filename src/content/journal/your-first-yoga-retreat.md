@@ -21,7 +21,7 @@ Half the guests on our May retreat were doing this for the first time. A first r
 
 > "A fabulous experience in every sense. First time ever on a retreat and extremely welcoming."
 
-There is no experience bar to clear. Every class Monica teaches is built for mixed levels, with options and variations throughout. Our first-timers and our twenty-year practitioners shared the same room, and each told us they had a full practice.
+There is no experience bar to clear. Every class [Monica](/the-practice) teaches is built for mixed levels, with options and variations throughout. Our first-timers and our twenty-year practitioners shared the same room, and each told us they had a full practice.
 
 ## "I was worried about my body"
 
