@@ -178,7 +178,7 @@ Sark was the world's first Dark Sky Island, named in 2011. With no street lighti
 
 ### How dark does Sark get?
 
-Pitch black enough to end up in a hedge facing the wrong direction. While cycling home after dark, my bike light died mid-route, in the middle of a lane I thought I knew well. Immediately I lost all sense of direction and had no idea where the road was. I called out. My companion, on doubling back, and finding me by voice, shone her light to reveal the full picture: I was in a hedge, on the far side of the road and facing in the wrong direction.
+Pitch black enough to end up in a hedge facing the wrong direction. While cycling home after dark, my bike light died mid-route, in the middle of a lane I thought I knew well. Immediately I lost all sense of direction and had no idea where the road was. I called out. My companion, on doubling back, and finding me by voice, shone her light to reveal the full picture: I was before a hedge, on the far side of the path and facing in the wrong direction.
 
 ### Expect a better night's sleep
 
@@ -222,14 +222,13 @@ The whole story is in [A very short history of Sark](/journal/a-very-short-histo
 
 ## What most visitors get wrong
 
-Most people give Sark an afternoon. They walk a lane, photograph the cliffs, and catch the last boat back having missed the island entirely. A few things worth knowing before you come.
+Most people give Sark an afternoon. They walk a lane, photograph the cliffs, and catch the last boat back having missed the island entirely. A day trip to Sark is wonderful, but it is hard to do the island justice in a single day. A few things worth knowing before you come.
 
 - Hire a bike with a light.
-- Small does not mean flat.
-- Wear proper footwear. With uneven lanes and coastal paths, your feet will thank you later.
-- Dress with layers.
-- Be nice to the bar ladies in the Mermaid. She may also be a Government minister and ambulance driver.
-- Don't judge a book by its cover. That scruffy gardener might be a billionaire.
+- Wear proper footwear. Small does not mean flat, and your feet will thank you later.
+- Dress with layers for long evenings taking in the night sky.
+- People on a small island wear multiple hats. Be nice to the bar ladies. They may also be a Government minister or ambulance driver.
+- Don't be too quick to judge a book by its cover. That scruffy gardener could be a billionaire. This is an island without much need for airs and graces.
 - There is wifi and phone signal. By your second day you will simply reach for your phone less, and that is the true gift of the place.
 
 The full argument, with the harbour, the carters and the coast by boat, is in [Why a day isn't enough](/journal/why-a-day-isnt-enough).
@@ -259,7 +258,7 @@ Summer suits people who want long evenings and expansiveness. The shoulder seaso
 <section class="qa rev">
 <div class="qa-media">
 
-![The tractor-drawn toast rack climbing Harbour Hill on Sark](../../assets/photos/sark-toast-rack-tractor-harbour-hill.jpg)
+![The toast rack waiting at the harbour in the evening light on Sark](../../assets/photos/sark-toast-rack-harbour-evening.jpg)
 
 </div>
 <div class="qa-text">
@@ -289,7 +288,7 @@ On a retreat, all of this planning becomes ours. We send an arrival note with wh
 
 ## Optional upgrades
 
-The retreat is all inclusive: yoga, meals, guided walks, wild swims and the observatory night. A small menu of extras can be added during the week, at additional cost, booked at the house. Massage is the guest favourite, and there is Reiki, cold immersion with Ana, and private yoga sessions with Monica.
+The retreat is all inclusive: yoga, meals, guided walks, wild swims and the observatory night. A small menu of extras can be added during the week, at additional cost, booked at the house. Therapeutic massage is the guest favourite, and there is Reiki and cold immersion with Ana.
 
 The full list is on the [booking page](/retreats-on-sark).
 
