@@ -35,14 +35,17 @@ const formatDate = (d: Date) =>
           our historic farmhouse.
         </p>
       </div>
-      <Image
-        src={journalPhoto}
-        alt="The Sark Soul journal and welcome gifts waiting for a guest at the retreat on Sark"
-        width={640}
-        height={427}
-        class="journal-head-photo"
-        loading="eager"
-      />
+      <figure class="journal-head-figure">
+        <Image
+          src={journalPhoto}
+          alt="The Sark Soul journal and welcome gifts waiting for a guest at the retreat on Sark"
+          width={640}
+          height={427}
+          class="journal-head-photo"
+          loading="eager"
+        />
+        <figcaption>The journal every guest finds waiting on arrival.</figcaption>
+      </figure>
     </div>
 
     {
@@ -107,11 +110,23 @@ const formatDate = (d: Date) =>
     }
   }
 
+  .journal-head-figure {
+    margin: 0;
+  }
+
   .journal-head :global(.journal-head-photo) {
     width: 100%;
     height: auto;
     aspect-ratio: 3 / 2;
     object-fit: cover;
+  }
+
+  .journal-head-figure figcaption {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--ink-soft);
+    margin-top: 10px;
   }
 
   .empty {
