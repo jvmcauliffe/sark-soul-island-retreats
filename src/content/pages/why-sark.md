@@ -60,7 +60,7 @@ We are constantly inspired by the generations who have called Sark home before u
 <section class="qa rev">
 <div class="qa-media">
 
-![Morning yoga practice in the private studio at the retreat house on Sark](../../assets/photos/sark-morning-yoga-class-studio.jpg)
+![Morning yoga practice in the private studio at the retreat house on Sark](../../assets/photos/sark-morning-yoga-practice-studio.jpg)
 
 </div>
 <div class="qa-text">
