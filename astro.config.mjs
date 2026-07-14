@@ -13,7 +13,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
-      filter: (page) => !page.includes('/styleguide'),
+      filter: (page) => !page.includes('/styleguide') && !page.includes('/guide-thanks'),
     }),
   ],
   image: {

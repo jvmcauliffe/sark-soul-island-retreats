@@ -13,3 +13,8 @@
 # ranking credit, and the PDF stays a reason to hand over an email.
 /guides/*
   X-Robots-Tag: noindex
+
+# The guide thank-you page exists as a conversion signal for Google Ads,
+# not as a landing page, so it stays out of search results too.
+/guide-thanks
+  X-Robots-Tag: noindex
