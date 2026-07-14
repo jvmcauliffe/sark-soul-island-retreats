@@ -47,6 +47,20 @@ const columns = [
 ];
 ---
 
+{/* Clay planning band, per John, 14 July 2026: a quiet signpost above the
+    footer to the Visiting Sark hub and the free guide. Clay as a wash with
+    text links, not buttons, so the teal button rule holds. */}
+<section class="plan-band">
+  <div class="container">
+    <p>
+      <span class="plan-q">Planning a visit?</span>
+      Read <a href="/visiting-sark-for-a-wellness-retreat">Visiting Sark</a>, everything about
+      the island in one place, or have the free
+      <a href="/free-guide">Getting to Sark</a> guide sent to your inbox.
+    </p>
+  </div>
+</section>
+
 <section class="footer-cta">
   <div class="container">
     <span class="eyebrow">Stay in touch</span>
@@ -132,6 +146,37 @@ const columns = [
     color: var(--cream);
     padding-block: clamp(56px, 8vw, 96px) 40px;
     margin-top: 0;
+  }
+
+  .plan-band {
+    background: rgba(176, 122, 79, 0.13);
+    border-top: 1px solid rgba(176, 122, 79, 0.22);
+    text-align: center;
+    padding-block: 18px;
+  }
+
+  .plan-band p {
+    max-width: none;
+    margin: 0;
+    font-size: 15px;
+    color: var(--ink-soft);
+  }
+
+  .plan-q {
+    font-weight: 500;
+    color: var(--clay-dark);
+    letter-spacing: 0.3px;
+    margin-right: 4px;
+  }
+
+  .plan-band a {
+    color: var(--clay-dark);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  .plan-band a:hover {
+    color: var(--ink);
   }
 
   .footer-cta {
