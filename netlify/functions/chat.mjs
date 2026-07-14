@@ -6,6 +6,12 @@
 // intent questions always answer. The model layer is optional and only runs
 // when ANTHROPIC_API_KEY is set in the Netlify build environment. Keep the
 // facts and rules below in step with CLAUDE.md; they must not drift.
+//
+// Every exchange is stored permanently in Netlify Blobs at the moment it is
+// asked, so nothing depends on the 24 hour function log window or on any
+// external service. The token protected /api/chat-export endpoint reads them
+// back. Storage failures are swallowed so they can never break a reply.
+import { getStore } from '@netlify/blobs';
 
 const CHAT_SYSTEM = `You are the visitor assistant on the Sark Soul Island Retreats website. Answer warmly, plainly and honestly, in Nadia's team voice, in two to four short sentences. Use only the facts below, never your general knowledge. If a question goes beyond these facts, or asks about room availability, discounts, refunds, or anything personal or medical, do not guess: say you will pass it to Nadia and give the email info@sarksoulretreats.com.
 
@@ -232,16 +238,30 @@ export default async (request) => {
   // 3. Email fallback, last resort only.
   if (!reply) reply = CHAT_FALLBACK;
 
-  // Question collection. Netlify function logs keep these queryable, and every
-  // exchange is forwarded to n8n once CHAT_WEBHOOK_URL is set, so John routes
-  // them from there (sheet, digest, MailerLite).
+  // Question collection. Three layers, each independent of the others.
+  const asked_at = new Date().toISOString();
+
+  // 1. Function log line, queryable live but only kept for 24 hours.
   console.log(JSON.stringify({ kind: 'chat', page, question, reply, source }));
+
+  // 2. Durable store. One blob per exchange, keyed by day then timestamp so
+  // the export endpoint can list a whole day by prefix. This is the record of
+  // truth; it persists indefinitely and needs no external service.
+  try {
+    const store = getStore('chat-questions');
+    const key = asked_at.slice(0, 10) + '/' + asked_at + '-' + Math.random().toString(36).slice(2, 8);
+    await store.setJSON(key, { asked_at, page, question, reply, source });
+  } catch (err) {
+    console.log(JSON.stringify({ kind: 'chat-store-error', message: String(err) }));
+  }
+
+  // 3. Optional webhook to n8n, only when CHAT_WEBHOOK_URL is set. Fire and
+  // forget, so a delivery failure never breaks the reply.
   if (env.CHAT_WEBHOOK_URL) {
-    // Fire and forget. A logging failure must never break the reply.
     fetch(env.CHAT_WEBHOOK_URL, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ asked_at: new Date().toISOString(), page, question, reply }),
+      body: JSON.stringify({ asked_at, page, question, reply }),
     }).catch((err) => console.log(JSON.stringify({ kind: 'chat-webhook-error', message: String(err) })));
   }
 
