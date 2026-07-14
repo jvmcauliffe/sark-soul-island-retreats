@@ -94,22 +94,33 @@ const breadcrumbSchema =
     <Schema canonical={canonical} event={event} article={article} />
     {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
     {
-      /* GA4 ships only when PUBLIC_GA4_ID is set in the build environment.
-         Lightweight direct gtag include per SPEC section 10, loaded async. */
-      import.meta.env.PUBLIC_GA4_ID && (
+      /* Google tags ship only when their IDs are set in the build
+         environment: PUBLIC_GA4_ID for GA4 (G-...), PUBLIC_GADS_ID for the
+         Google Ads conversion tag (AW-...). One gtag loader serves both.
+         With neither set, zero analytics JS is emitted. */
+      (import.meta.env.PUBLIC_GA4_ID || import.meta.env.PUBLIC_GADS_ID) && (
         <>
           <script
             is:inline
             async
-            src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA4_ID}`}
+            src={`https://www.googletagmanager.com/gtag/js?id=${
+              import.meta.env.PUBLIC_GA4_ID || import.meta.env.PUBLIC_GADS_ID
+            }`}
           />
-          <script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GA4_ID }}>
+          <script
+            is:inline
+            define:vars={{
+              gaId: import.meta.env.PUBLIC_GA4_ID,
+              adsId: import.meta.env.PUBLIC_GADS_ID,
+            }}
+          >
             window.dataLayer = window.dataLayer || [];
             function gtag() {
               dataLayer.push(arguments);
             }
             gtag('js', new Date());
-            gtag('config', gaId);
+            if (gaId) gtag('config', gaId);
+            if (adsId) gtag('config', adsId);
           </script>
         </>
       )
