@@ -13,7 +13,7 @@ These are hard rules for every session working in this repository. Violating any
 
 ## Facts about Sark, non-negotiable
 
-- Ferry from Guernsey: about 45 minutes. Link ferry mentions to sarkshipping.gg. Never publish a specific last-ferry time, sailings change by season.
+- Ferry from Guernsey: about 45 minutes. Link ferry mentions to sarkshipping.gg, except on conversion landing pages (/free-guide), which carry no external links, per John, 14 July 2026. Never publish a specific last-ferry time, sailings change by season.
 - Car-free for visitors, but tractors exist. Never claim "no vehicles".
 - There IS mobile signal and wifi on Sark. The digital detox is environmental, never "no signal".
 - "No street lighting" is true and powers the Dark Sky story.
