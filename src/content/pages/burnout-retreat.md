@@ -1,7 +1,7 @@
 ---
 title: Burnout Retreat
 metaTitle: Burnout Retreat UK | Sark Soul Island Retreats
-metaDescription: A retreat for burnout and exhaustion on the quiet, car-free Isle of Sark. Rest, yoga, sea air and dark-sky sleep. Five nights, small group, September 2026.
+metaDescription: A retreat for burnout and exhaustion on the quiet, car-free Isle of Sark. Rest and rejuvenation, gentle yoga, sea air and dark-sky sleep. September 2026.
 slug: burnout-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Retreat for Burnout, on the Quietest Island in Europe
@@ -80,7 +80,7 @@ Sark removes those conditions almost entirely, and it does so without you having
 
 There are no cars for visitors, so the background hum most of us have stopped noticing is simply absent. Evenings darken the way your body expects them to, because no street lighting means no light pollution, and sleep tends to follow the way it was always meant to. The island is bounded by sea in every direction, and the horizon becomes a constant, calming anchor. Psychologists call the effect of landscapes like this soft fascination: attention held gently by cliffs, water and birds, asking nothing back, while the overworked, directed part of the mind quietly recovers.
 
-Guests often tell us they feel their shoulders drop within the first day. The island sets the stage, and the retreat does the rest: the practice, the food, the care around you. You just have to arrive.
+Guests often tell us they feel their shoulders drop within the first day. That is what a genuine nervous system reset feels like from the inside. Not a technique or a protocol, just the moment the body registers that vigilance is no longer required. The island sets the stage, and the retreat does the rest: the practice, the food, the care around you. You just have to arrive.
 
 </div>
 </section>

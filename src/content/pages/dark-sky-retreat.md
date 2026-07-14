@@ -1,7 +1,7 @@
 ---
 title: Dark Sky Retreat
 metaTitle: Stargazing, Dark Sky Retreat UK | Sark Soul Island Retreats
-metaDescription: Stay on the world's first Dark Sky Island. Zero light pollution, the Milky Way overhead, ancient stones and deep sleep. A stargazing retreat on Sark.
+metaDescription: Stay on the world's first Dark Sky Island. Zero light pollution, the Milky Way overhead, deep sleep. A stargazing retreat on Sark, Channel Islands.
 slug: dark-sky-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Retreat on the World's First Dark Sky Island
@@ -44,6 +44,12 @@ faqs:
     a: >-
       Late summer and autumn evenings are ideal, which is exactly when the
       September retreat runs.
+  - q: Where is the best stargazing in the Channel Islands?
+    a: >-
+      Sark. It is the only Dark Sky Island in the Channel Islands, and was
+      the first in the world, so a stargazing retreat here starts with an
+      advantage no other island in the Bailiwick can offer: no street
+      lighting at all.
 ---
 
 <div class="centered-block">
@@ -101,7 +107,7 @@ That darkness is why September is such a good month for this retreat. The nights
 
 This is the part most stargazing pages miss. A truly dark night is not just beautiful. It is restorative.
 
-Research has shown that ordinary evening room light is enough to suppress melatonin, the hormone that tells the body it is time to sleep. Most of us live inside that disruption permanently. On Sark it simply does not happen. When the sun sets, the island goes dark, the body gets the signal it has been waiting for, and sleep, combined with sea air and days spent walking, arrives the way it was always meant to. Guests are regularly surprised by how deeply they sleep here from the very first night.
+Research has shown that ordinary evening room light is enough to suppress melatonin, the hormone that tells the body it is time to sleep. Most of us live inside that disruption permanently. On Sark it simply does not happen. When the sun sets, the island goes dark, the body gets the signal it has been waiting for, and the circadian rhythm, the internal clock that modern lighting scrambles, begins to reset within days. Sleep, combined with sea air and days spent walking, arrives the way it was always meant to. Guests are regularly surprised by how deeply they sleep here from the very first night.
 
 It is also why the phone loses its grip so quickly on this island. Our [digital detox retreat](/digital-detox-retreat) page tells that story.
 

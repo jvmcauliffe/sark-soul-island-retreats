@@ -1,7 +1,7 @@
 ---
 title: Digital Detox Retreat
 metaTitle: Digital Detox Retreat UK | Sark Soul Island Retreats
-metaDescription: A digital detox retreat on car-free Sark. No street lights, no traffic, no rush. You stop reaching for your phone because the island gives you better.
+metaDescription: A digital detox retreat on car-free Sark for high-stress professionals. No street lights, no traffic, no rush. You stop reaching for the phone by day two.
 slug: digital-detox-retreat
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Digital Detox Retreat on the Isle of Sark
@@ -34,7 +34,9 @@ faqs:
     a: >-
       Anyone who feels their attention has been shredded by constant
       connectivity and wants a real reset rather than a rule they will break
-      by Tuesday.
+      by Tuesday. Many of our guests work in high-pressure jobs and cannot
+      remember their last week of feeling genuinely unreachable. This is
+      that week.
 ---
 
 <div class="centered-block">
@@ -78,6 +80,8 @@ If switching off were a matter of discipline, you would have done it already. Th
 Sark is engineered, by history and by accident, the other way.
 
 There are no cars for visitors here, so there is no traffic noise and no rush. With nothing polluting the night sky, when the sun goes down the night actually arrives, and your body notices. There is no street lighting anywhere on the island. Researchers have found that ordinary evening room light is enough to suppress melatonin, the hormone that governs sleep. On Sark that disruption simply does not happen. Guests are often surprised by how deeply they sleep from the first night.
+
+For guests arriving from high-stress jobs, this is usually the part that lands hardest: a week of feeling unreachable, without ever switching the phone off. Nobody takes anything from you. The island just stops asking.
 
 </div>
 </section>
