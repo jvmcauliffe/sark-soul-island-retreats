@@ -6,7 +6,7 @@ slug: yoga-retreat-sark
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
-heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
+heroImage: ../../assets/photos/sark-morning-yoga-class-studio.jpg
 heroFocus: center 42%
 heroTall: true
 heroCentered: true
