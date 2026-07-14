@@ -15,7 +15,8 @@ const navRight = [
   { label: 'The Practice', href: '/the-practice' },
   { label: 'Our Story', href: '/our-story' },
   { label: 'The Journal', href: '/journal' },
-  { label: 'Free Guide', href: '/visiting-sark-for-a-wellness-retreat#free-guide' },
+  // Clay, per John: the guide is the one clay-accented action on the site.
+  { label: 'Free Guide', href: '/visiting-sark-for-a-wellness-retreat#free-guide', accent: true },
 ];
 
 // Facets of the one September retreat, not separate retreats. Labels must
@@ -77,7 +78,11 @@ const current = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || 
         {
           navRight.map((item) => (
             <li>
-              <a href={item.href} aria-current={current === item.href ? 'page' : undefined}>
+              <a
+                href={item.href}
+                class:list={{ accent: item.accent }}
+                aria-current={current === item.href ? 'page' : undefined}
+              >
                 {item.label}
               </a>
             </li>
@@ -134,6 +139,15 @@ const current = Astro.url.pathname.replace(/\.html$/, '').replace(/\/$/, '') || 
 
   nav a:hover {
     color: var(--teal-dark);
+  }
+
+  /* The guide is the site's one clay action, so its menu entry matches. */
+  nav a.accent {
+    color: var(--clay);
+  }
+
+  nav a.accent:hover {
+    color: var(--clay-dark);
   }
 
   nav a[aria-current='page'] {

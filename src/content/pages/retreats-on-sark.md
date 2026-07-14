@@ -230,8 +230,8 @@ travel:
       out before committing. A deposit holds your place, the rest unfolds with
       guidance.</p>
       <p>Prefer to talk it through with a person first?
-      <a href="https://wa.me/447444133015?text=Hello%20Nadia%2C%20I%27m%20interested%20in%20the%20September%20retreat">Message
-      Nadia on WhatsApp</a> and she will reply herself.</p>
+      <a href="mailto:info@sarksoulretreats.com?subject=September%20retreat">Write
+      to Nadia</a> and she will reply herself.</p>
   - heading: Getting to Sark
     html: >-
       <p>Reaching Sark is part of the retreat experience, a jewel reached only
@@ -243,10 +243,9 @@ travel:
       <a href="/visiting-sark-for-a-wellness-retreat">travel guide</a> answers
       every practical question.</p>
       <p>Questions before choosing a room? See the
-      <a href="/sark-island-yoga-retreat-faq">retreat FAQ</a>, write to Nadia
-      at info@sarksoulretreats.com, or
-      <a href="https://wa.me/447444133015?text=Hello%20Nadia%2C%20I%20have%20a%20question%20about%20the%20September%20retreat">message
-      her on WhatsApp</a>. Explore the retreat experience:
+      <a href="/sark-island-yoga-retreat-faq">retreat FAQ</a> or write to Nadia at
+      <a href="mailto:info@sarksoulretreats.com?subject=September%20retreat">info@sarksoulretreats.com</a>.
+      Explore the retreat experience:
       <a href="/yoga-retreat-sark">the yoga</a>,
       <a href="/digital-detox-retreat">a digital detox</a>,
       <a href="/solo-retreat-women">travelling solo</a>,

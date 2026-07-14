@@ -129,6 +129,16 @@ const circle = [
     </a>
   </section>
 
+  <section class="section" style="text-align: center; padding-top: 0;">
+    <div class="narrow">
+      <p style="margin-inline: auto;">
+        A small group, twice a year, in a historic farmhouse by the sea. Twice daily yoga,
+        coastal walks, nourishing food, and the kind of quiet most people haven't experienced
+        in years.
+      </p>
+    </div>
+  </section>
+
   <section class="section cream">
     <div class="container" style="text-align: center;">
       <h2>What guests say</h2>
@@ -144,16 +154,6 @@ const circle = [
           ))
         }
       </div>
-    </div>
-  </section>
-
-  <section class="section" style="text-align: center; padding-top: 0;">
-    <div class="narrow">
-      <p style="margin-inline: auto;">
-        A small group, twice a year, in a historic farmhouse by the sea. Twice daily yoga,
-        coastal walks, nourishing food, and the kind of quiet most people haven't experienced
-        in years.
-      </p>
     </div>
   </section>
 
@@ -308,7 +308,9 @@ const circle = [
       <div class="circle-grid">
         {
           circle.map((c) => (
-            <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
+            <div class="circle-tile">
+              <Image src={c.src} alt={c.alt} width={520} height={520} class="circle-img" loading="lazy" />
+            </div>
           ))
         }
       </div>
@@ -322,15 +324,8 @@ const circle = [
   <CTABand />
 
   <section class="wa-channel">
-    <p>Prefer to message a person? Nadia reads her WhatsApp herself.</p>
-    {/* wa.me rather than api.whatsapp.com: on phones it opens the app
-        directly, on desktop it offers WhatsApp Web instead of a download
-        page. Almost all traffic here is mobile. */}
-    <a
-      class="btn-wa"
-      href="https://wa.me/447444133015?text=Hello%20Nadia%2C%20I%27m%20interested%20in%20the%20September%20retreat"
-      >Message Nadia on WhatsApp</a
-    >
+    <p>Prefer to talk to a person? Nadia reads and replies to every email herself.</p>
+    <a class="btn" href="mailto:info@sarksoulretreats.com?subject=September%20retreat">Email Nadia</a>
   </section>
 </BaseLayout>
 
@@ -522,12 +517,32 @@ const circle = [
     }
   }
 
+  /* Each tile clips its photo so the hover zoom stays inside the square. */
+  .circle-tile {
+    overflow: hidden;
+    aspect-ratio: 1;
+  }
+
   .circle-grid :global(.circle-img) {
     display: block;
     width: 100%;
     height: 100%;
-    aspect-ratio: 1;
     object-fit: cover;
+    transition: transform 0.45s ease;
+  }
+
+  .circle-tile:hover :global(.circle-img) {
+    transform: scale(1.06);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .circle-grid :global(.circle-img) {
+      transition: none;
+    }
+
+    .circle-tile:hover :global(.circle-img) {
+      transform: none;
+    }
   }
 
   .henge-band :global(.henge-band-img) {
