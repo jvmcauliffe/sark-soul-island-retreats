@@ -240,7 +240,7 @@ travel:
       minutes, gently easing you from everyday pace into island life. Full
       travel guidance, including recommended sailings, will be shared with all
       confirmed guests, and our
-      <a href="/visiting-sark-for-a-wellness-retreat">travel guide</a> answers
+      <a href="/visiting-sark-for-a-wellness-retreat">Visiting Sark page</a> answers
       every practical question.</p>
       <p>Questions before choosing a room? See the
       <a href="/sark-island-yoga-retreat-faq">retreat FAQ</a> or write to Nadia at

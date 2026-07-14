@@ -145,7 +145,7 @@ Here you'll find answers to some of the most common questions about our retreat.
 
 **Step 2: Ferry from Guernsey to Sark.** From Guernsey, a passenger ferry with [Sark Shipping](https://sarkshipping.gg) takes you across to Sark. The crossing takes about 45 minutes, passing islands on the horizon. The ferry crossing creates a natural transition from mainland pace to island rhythm before your wellness retreat even begins. Ferry times vary by day, and we will share recommended sailings once bookings are confirmed.
 
-**Arrival on Sark.** Sark is car-free. On arrival, your luggage is taken care of, and you travel up from the harbour by the island's tractor-drawn toast rack, then on to the farmhouse by horse and carriage. This fun and unique arrival sets the tone for the days ahead. Our [travel guide](/visiting-sark-for-a-wellness-retreat) covers every detail.
+**Arrival on Sark.** Sark is car-free. On arrival, your luggage is taken care of, and you travel up from the harbour by the island's tractor-drawn toast rack, then on to the farmhouse by horse and carriage. This fun and unique arrival sets the tone for the days ahead. Our [Visiting Sark page](/visiting-sark-for-a-wellness-retreat) covers every detail.
 
 ## What's included?
 

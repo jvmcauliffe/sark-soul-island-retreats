@@ -147,7 +147,7 @@ You stay at the retreat house, a historic farmhouse and a real home rather than 
 
 ## The journey is simple
 
-Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of about 45 minutes. From the harbour, a tractor-drawn toast rack carries everyone up the hill and a horse and carriage brings you to the retreat house. Many guests travelling alone find others from the retreat on the same crossing. Our [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat) covers every practical detail, and we help you plan the journey when you book.
+Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of about 45 minutes. From the harbour, a tractor-drawn toast rack carries everyone up the hill and a horse and carriage brings you to the retreat house. Many guests travelling alone find others from the retreat on the same crossing. Our [Visiting Sark page](/visiting-sark-for-a-wellness-retreat) covers every practical detail, and we help you plan the journey when you book.
 
 </div>
 </section>

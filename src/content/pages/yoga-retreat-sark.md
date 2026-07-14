@@ -171,7 +171,7 @@ Guests stay together in the retreat house, a historic farmhouse and a real home 
 
 Most guests fly into Guernsey, around 45 minutes from London, then take the passenger ferry to Sark, a crossing of about 45 minutes past the islands of Herm and Jethou. On arrival, a tractor-drawn "toast rack" carries you up Harbour Hill, and a horse and carriage brings you to the retreat house. By the time you arrive, the world you left already feels far away.
 
-Our full travel guide answers every practical question: [Getting to Sark guide](/visiting-sark-for-a-wellness-retreat).
+Every practical question is answered on our [Visiting Sark page](/visiting-sark-for-a-wellness-retreat).
 
 </div>
 </section>
