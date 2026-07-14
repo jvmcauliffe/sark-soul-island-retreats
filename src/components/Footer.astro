@@ -52,8 +52,8 @@ const columns = [
     text links, not buttons, so the teal button rule holds. */}
 <section class="plan-band">
   <div class="container">
-    <p>
-      <span class="plan-q">Planning a visit?</span>
+    <p class="plan-q">Planning a visit?</p>
+    <p class="plan-line">
       Read <a href="/visiting-sark-for-a-wellness-retreat">Visiting Sark</a>, everything about
       the island in one place, or have the free
       <a href="/free-guide">Getting to Sark</a> guide sent to your inbox.
@@ -149,34 +149,40 @@ const columns = [
   }
 
   .plan-band {
-    background: rgba(176, 122, 79, 0.13);
-    border-top: 1px solid rgba(176, 122, 79, 0.22);
+    background: var(--clay);
     text-align: center;
-    padding-block: 18px;
+    padding-block: clamp(30px, 4.5vw, 46px);
   }
 
   .plan-band p {
-    max-width: none;
-    margin: 0;
-    font-size: 15px;
-    color: var(--ink-soft);
+    max-width: 56ch;
+    margin: 0 auto;
   }
 
   .plan-q {
-    font-weight: 500;
-    color: var(--clay-dark);
-    letter-spacing: 0.3px;
-    margin-right: 4px;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: clamp(24px, 3vw, 30px);
+    color: #fff;
+    margin-bottom: 8px;
+  }
+
+  .plan-line {
+    font-size: 16px;
+    line-height: 1.65;
+    color: rgba(255, 251, 245, 0.94);
   }
 
   .plan-band a {
-    color: var(--clay-dark);
+    color: #fff;
+    font-weight: 500;
     text-decoration: underline;
     text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
   }
 
   .plan-band a:hover {
-    color: var(--ink);
+    color: var(--cream);
   }
 
   .footer-cta {
