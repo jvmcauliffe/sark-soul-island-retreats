@@ -174,6 +174,7 @@ export default async (request) => {
   if (request.method !== 'POST') return json({ error: 'method not allowed' }, 405);
 
   const env = process.env;
+  const url = new URL(request.url);
 
   let body;
   try {
@@ -198,6 +199,12 @@ export default async (request) => {
   let reply = cannedAnswer(question);
   let source = reply ? 'canned' : 'fallback';
 
+  // Diagnostic only, gated behind the export token, never exposed to visitors.
+  // Lets the owner see why the model layer did or did not answer.
+  const debug = url.searchParams.get('debug');
+  const debugOn = env.CHAT_EXPORT_TOKEN && debug === env.CHAT_EXPORT_TOKEN;
+  let modelDiag = { keyPresent: Boolean(env.ANTHROPIC_API_KEY) };
+
   // 2. Model layer, optional. Only for questions the canned layer did not
   // catch, and only if a key is configured. Any failure keeps the fallback.
   if (!reply && env.ANTHROPIC_API_KEY) {
@@ -216,6 +223,7 @@ export default async (request) => {
           messages,
         }),
       });
+      modelDiag.status = res.status;
       if (res.ok) {
         const data = await res.json();
         const text = (data.content || [])
@@ -228,9 +236,11 @@ export default async (request) => {
           source = 'model';
         }
       } else {
+        modelDiag.body = (await res.text()).slice(0, 500);
         console.error('chat model error, status', res.status);
       }
     } catch (err) {
+      modelDiag.error = String(err);
       console.error('chat model error', err);
     }
   }
@@ -265,7 +275,7 @@ export default async (request) => {
     }).catch((err) => console.log(JSON.stringify({ kind: 'chat-webhook-error', message: String(err) })));
   }
 
-  return json({ reply });
+  return json(debugOn ? { reply, source, _debug: modelDiag } : { reply });
 };
 
 export const config = { path: '/api/chat' };
