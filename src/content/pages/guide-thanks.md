@@ -1,7 +1,7 @@
 ---
 title: Your guide is on its way
 metaTitle: Your Guide Is on Its Way | Sark Soul Island Retreats
-metaDescription: Thank you. Getting to Sark, our free guide, is on its way to your inbox. While you wait, explore the Sark Journal or see the September retreat dates.
+metaDescription: Thank you. Getting to Sark, our guide, is on its way to your inbox. While you wait, explore the Sark Journal or see the September retreat dates.
 slug: guide-thanks
 heroPlain: true
 retreatPage: false
