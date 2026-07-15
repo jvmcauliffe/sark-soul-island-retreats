@@ -331,6 +331,59 @@ const breadcrumbs =
     max-width: 44ch;
   }
 
+  /* Blend the MailerLite embed into the page. The form arrives with its own
+     box, heading and fonts; strip the box, hide its duplicate heading (the
+     band above already says it), and match the site's type and clay button.
+     Standard MailerLite embed classes, scoped so nothing else is touched. */
+  .guide-capture :global(.ml-form-embedContainer),
+  .guide-capture :global(.ml-form-embedWrapper),
+  .guide-capture :global(.ml-form-embedBody) {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  /* The band's own heading and reassurance line replace the form's copy. */
+  .guide-capture :global(.ml-form-embedContent),
+  .guide-capture :global(.ml-form-embedContent + div .ml-form-embedContent) {
+    display: none !important;
+  }
+
+  .guide-capture :global(.ml-form-embedBody .ml-form-fieldRow input),
+  .guide-capture :global(.ml-form-embedBody input.form-control) {
+    font-family: var(--font-body) !important;
+    font-size: 16px !important;
+    padding: 13px 16px !important;
+    border: 1px solid var(--cream-deep) !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+  }
+
+  .guide-capture :global(.ml-form-embedSubmit button),
+  .guide-capture :global(.ml-form-embedSubmit button.primary) {
+    font-family: var(--font-body) !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1.6px !important;
+    text-transform: uppercase !important;
+    background: var(--clay) !important;
+    border: none !important;
+    border-radius: 2px !important;
+    padding: 14px 26px !important;
+  }
+
+  .guide-capture :global(.ml-form-embedSubmit button:hover) {
+    background: var(--clay-dark) !important;
+  }
+
+  /* MailerLite badge reads as a third-party widget; quiet it. */
+  .guide-capture :global(.ml-form-embedContainer .ml-form-embedFooter) {
+    opacity: 0.5;
+  }
+
   .hero-banner {
     position: relative;
     z-index: 2;
