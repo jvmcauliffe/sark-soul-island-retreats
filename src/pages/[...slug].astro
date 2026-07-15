@@ -74,6 +74,7 @@ const breadcrumbs =
           shot={d.heroShot}
           focus={d.heroFocus}
           tall={d.heroTall}
+          short={d.heroShort}
           centered={d.heroCentered}
           cta={d.heroCta}
           sub={d.heroSub}
@@ -85,6 +86,19 @@ const breadcrumbs =
     )
   }
   <AttributionStrip />
+
+  {
+    d.guideCapture && (
+      <section class="guide-capture">
+        <div class="container narrow">
+          <span class="eyebrow gold">Sent to your inbox</span>
+          <h2>Where shall we send it?</h2>
+          <p>Add your email and the guide arrives in a minute or two. Just island news now and then, and you can unsubscribe anytime.</p>
+          <MailerLiteForm slug="9SoA2F" />
+        </div>
+      </section>
+    )
+  }
 
   {
     page.body?.trim() && (
@@ -288,6 +302,35 @@ const breadcrumbs =
 </BaseLayout>
 
 <style>
+  /* Form-first capture band for the /free-guide landing page. Sits directly
+     under the hero so a visitor arriving from an ad sees the email field at
+     once, with no reveal click and no scrolling to find it. */
+  .guide-capture {
+    background: var(--cream);
+    border-block: 1px solid var(--cream-deep);
+    text-align: center;
+    padding-block: clamp(30px, 5vw, 52px);
+  }
+
+  .guide-capture .narrow {
+    max-width: 560px;
+  }
+
+  .guide-capture .eyebrow {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .guide-capture h2 {
+    margin: 0 0 0.4em;
+  }
+
+  .guide-capture p {
+    color: var(--sage-dark);
+    margin: 0 auto 22px;
+    max-width: 44ch;
+  }
+
   .hero-banner {
     position: relative;
     z-index: 2;

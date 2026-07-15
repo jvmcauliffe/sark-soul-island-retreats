@@ -21,6 +21,7 @@ interface Props {
   focus?: string;
   focusMobile?: string;
   tall?: boolean;
+  short?: boolean;
 }
 
 const {
@@ -40,6 +41,7 @@ const {
   focus,
   focusMobile,
   tall = false,
+  short = false,
 } = Astro.props;
 
 // Crop control travels as CSS custom properties rather than a hard inline
@@ -52,7 +54,7 @@ const focusStyle =
     .join('; ') || undefined;
 ---
 
-<section class:list={['hero', 'on-dark', { 'hero-tall': tall }]}>
+<section class:list={['hero', 'on-dark', { 'hero-tall': tall, 'hero-short': short }]}>
   {
     image ? (
       <Picture
@@ -97,6 +99,12 @@ const focusStyle =
     display: flex;
     align-items: flex-end;
     overflow: hidden;
+  }
+
+  /* Compact variant for conversion landing pages, so the content below the
+     hero (an email form) sits near the top of the first screen. */
+  .hero.hero-short {
+    min-height: clamp(280px, 44vh, 440px);
   }
 
   .hero-image {
