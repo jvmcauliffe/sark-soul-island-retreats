@@ -13,6 +13,13 @@
 # so they are recreated here.
 /spring  /retreats-on-sark  301
 /autumn  /retreats-on-sark  301
+# The exact links in Monica's newsletters, still opened and clicked. They
+# 404'd on the new site, so warm clicks were landing on nothing. Point them
+# at the booking page.
+/spring-immersion  /retreats-on-sark  301
+/autumn-immersion  /retreats-on-sark  301
+/immersion-overview  /retreats-on-sark  301
+/reserve-place  /retreats-on-sark  301
 /blog  /journal  301
 /blog/*  /journal/:splat  301
 /copy-of-12-sept-sea-lavender-single-1  /12-sept-sea-lavender-shared  301
