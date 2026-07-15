@@ -661,6 +661,26 @@ img {
   color: var(--sage-dark);
 }
 
+/* The price anchor on the booking page. It has to make the saving and the
+   deadline unmissable, so it reads as a quiet clay-bordered card, not body
+   copy, per John: the discount was invisible before. */
+.prose .rate-anchor {
+  max-width: 40rem;
+  margin: 0 auto 1.4em;
+  padding: 18px 22px;
+  background: rgba(176, 122, 79, 0.09);
+  border: 1px solid rgba(176, 122, 79, 0.28);
+  border-radius: 3px;
+  font-size: 16px;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  text-align: left;
+}
+
+.prose .rate-anchor strong {
+  color: var(--clay-dark);
+}
+
 .prose .dark-band {
   background: radial-gradient(ellipse at 50% 0%, #27384b 0%, #111b27 75%);
   text-align: center;

@@ -269,6 +269,8 @@ All rooms are located within a beautifully historic farmhouse surrounded by awar
 
 ## Retreat & Rooms Investment
 
-All-inclusive 5-night retreat: accommodation, meals, yoga and activities. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place via PayPal or card payment.
+<p class="rate-anchor"><strong>Early booking rate, £1,495 per person sharing.</strong> That is £200 less than the standard rate of £1,695, which the price returns to on 31 July. Single occupancy is £1,995 early. Reserve any room with a £300 deposit today, the balance is not due until 45 days before you travel.</p>
+
+All-inclusive 5-night retreat: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity. That is five nights fully hosted for less than £300 a night. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place via PayPal or card payment.
 
 <p class="fine-print">Prices are per person, exclusive of flights and transfers. Bookings are on a first come first served basis and are subject to our <a href="/terms-conditions">Terms &amp; Conditions</a>. The balance is due 45 days before the immersion.</p>
