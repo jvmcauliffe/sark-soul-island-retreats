@@ -37,7 +37,7 @@ const BOOKING = 'https://www.sarksoulretreats.com/retreats-on-sark';
 // any of its keywords; order matters, first match wins.
 const CANNED = [
   {
-    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates', 'how long is the retreat', 'how long is the stay', 'how many nights', 'duration', 'how many days'],
+    keys: ['price', 'cost', 'how much', 'expensive', 'fee', 'rate', '£', 'pound', 'when is', 'what date', 'dates', 'how long is the retreat', 'how long is the stay', 'how many nights', 'duration', 'how many days', 'discount', 'last day', 'deadline', 'early bird', 'offer end', 'go up', 'goes up', 'price rise', 'until when', 'cheaper'],
     answer:
       "The next retreat is 12 to 17 September 2026, five nights on the Isle of Sark. A shared room is 1,495 pounds at the early booking rate, which ends 31 July, then 1,695 pounds. A single room is 1,995 pounds early. That covers your room, all meals, daily yoga and every activity. You can reserve your place here: " +
       BOOKING,
@@ -46,10 +46,36 @@ const CANNED = [
     // Pools are a headline amenity on the booking page, so answer directly
     // rather than hand off. Sits high so it is not swallowed by the sea
     // swimming or the general stay entries below.
-    keys: ['pool', 'swimming pool', 'indoor pool', 'outdoor pool', 'heated pool', 'is there a pool', 'hot tub', 'jacuzzi'],
+    keys: ['pool', 'swimming pool', 'indoor pool', 'outdoor pool', 'heated pool', 'is there a pool', 'hot tub', 'jacuzzi', 'swim', 'wild swimming', 'sea swimming', 'beach'],
     answer:
-      "Yes. The retreat house has a heated indoor swimming pool and a heated outdoor pool in the garden, both included in your stay. There is also wild sea swimming in the coves nearby, guided and chosen for the day's conditions. You can see more on the retreat page: " +
+      "Yes, twice over. There is wild swimming in the crystal clear coves around the island, guided and chosen for the day's conditions, and the retreat house has a heated indoor swimming pool and a heated outdoor pool in the garden, both included in your stay. You can see more on the retreat page: " +
       BOOKING,
+  },
+  {
+    // Pregnancy and anything medical is deliberately a warm human handoff,
+    // never a scripted yes or no. Sits high so yoga or booking words in the
+    // same question cannot swallow it.
+    keys: ['pregnan', 'expecting a baby', 'trimester', 'medical condition', 'health condition'],
+    answer:
+      "Congratulations, and thank you for asking rather than guessing. Monica adapts the practice for every body, but pregnancy and anything medical deserve a proper conversation rather than a chat answer, so email info@sarksoulretreats.com and Nadia will talk it through with you personally and honestly.",
+  },
+  {
+    keys: ['age range', 'what age', 'how old', 'too old', 'too young', 'average age', 'my age', 'age limit'],
+    answer:
+      "Our guests span a wide range of ages, and most arrive on their own. Nothing about the week is age-gated: the yoga adapts to every level, the walks go at your pace, and a quiet afternoon in the garden is always an option. If you are wondering whether it would suit you or someone in particular, email info@sarksoulretreats.com and Nadia will answer honestly.",
+  },
+  {
+    // Passport wording is new copy, pending Nadia's review. It stays hedged
+    // and hands any specific case to a person. Sits before the journey entry
+    // so a passport question mentioning the ferry lands here.
+    keys: ['passport', 'visa', 'photo id', 'identification'],
+    answer:
+      "Sark is part of the Bailiwick of Guernsey in the British Isles, so travelling from the UK is like a domestic trip and most UK guests do not need a passport, though airlines and the ferry ask for photo ID. If you are travelling from outside the UK, the entry requirements are the same as for visiting the UK. For your specific situation, email info@sarksoulretreats.com and Nadia will check with you.",
+  },
+  {
+    keys: ['dog', 'pets', 'pet friendly', 'bring my pet', 'puppy'],
+    answer:
+      "We keep the retreat week simple and shared for everyone, so pets are one to raise with Nadia directly rather than something the chat can promise. Email info@sarksoulretreats.com and she will give you a straight answer for your situation.",
   },
   {
     // Group size is a locked fact and should answer, not hand off. Sits before
@@ -72,12 +98,12 @@ const CANNED = [
       "You fly to Guernsey, about an hour from London, then take the passenger ferry from St Peter Port to Sark, about 45 minutes. Your luggage is carried for you from the harbour to the retreat house, and you arrive by the tractor-drawn toast rack and then a horse and carriage. Ferry timetable is at https://www.sarkshipping.gg, and we help you plan the connections when you book.",
   },
   {
-    keys: ['alone', 'solo', 'on my own', 'by myself', 'single person', 'women only', 'woman', 'men welcome', 'is it just women'],
+    keys: ['alone', 'solo', 'on my own', 'by myself', 'single person', 'women only', 'woman', 'men welcome', 'is it just women', 'men come', 'men allowed', 'man come', 'male', 'husband', 'boyfriend', 'my partner', 'my wife', 'as a couple', 'couples'],
     answer:
       "More than okay. Most of our guests arrive alone, so you will be in good company, and men are equally welcome, alone or as couples. With a small group of no more than twelve sharing one house, one table and one morning practice, no one stays a stranger past the first evening.",
   },
   {
-    keys: ['food', 'eat', 'meal', 'vegetarian', 'vegan', 'diet', 'allerg', 'dinner', 'breakfast', 'menu'],
+    keys: ['food', 'eat', 'meal', 'vegetarian', 'vegan', 'diet', 'allerg', 'dinner', 'breakfast', 'menu', 'gluten', 'coeliac', 'celiac', 'dairy free', 'intoleran', 'food requirement'],
     answer:
       "All meals are included and vegetarian, cooked by Bram and Pip from generous, seasonal produce, and eaten together around one long table. Dietary needs are looked after, just tell us in advance.",
   },
@@ -163,14 +189,34 @@ const FOLLOWUP = /^\s*(what else|tell me more|tell me anything else|more|anythin
 const MORE_MENU =
   "Plenty. Ask me about dates and prices, rooms, what is included, the food, treatments, getting here and the famous luggage system, a typical day, the yoga and who it suits, the dark skies, the weather in September, or coming alone. Anything personal goes straight to Nadia.";
 
+// Pure greetings and thanks get a human reply, never the email deflection.
+// Anchored to the whole message so "hi, do you allow dogs" still routes on.
+const GREETING = /^\s*(hi|hiya|hello|hey|heya|howdy|good\s+(morning|afternoon|evening))[\s,!.]*(there|nadia|monica)?[\s!.?]*$/i;
+const GREETING_REPLY =
+  "Hello, and welcome. Ask me anything about the September retreat on Sark: the dates and prices, the rooms, the food, the yoga, or how you get here. What would you like to know?";
+const THANKS = /^\s*(thanks|thank\s*you|thankyou|many thanks|cheers|ta|lovely,?\s*thanks?|great,?\s*thanks?|perfect,?\s*thanks?|bye|goodbye|see you)[\s!.]*$/i;
+const THANKS_REPLY =
+  "A pleasure. If anything else comes to mind I am here, and for anything personal, Nadia is at info@sarksoulretreats.com. We would love to see you on Sark in September.";
+
 function cannedAnswer(question) {
+  if (GREETING.test(question)) return GREETING_REPLY;
+  if (THANKS.test(question)) return THANKS_REPLY;
   if (FOLLOWUP.test(question)) return MORE_MENU;
   const q = ' ' + question.toLowerCase().replace(/[^a-z0-9£ ]+/g, ' ') + ' ';
+  // Longest matching key wins, so "included in the price" beats "price" and
+  // the most specific intent answers. Ties keep the earlier entry.
+  let best = null;
+  let bestLen = 0;
   for (const entry of CANNED) {
-    // Word boundary match so "eat" does not fire inside "weather", etc.
-    if (entry.keys.some((k) => q.includes(' ' + k + ' ') || q.includes(' ' + k))) return entry.answer;
+    for (const k of entry.keys) {
+      // Word boundary match so "eat" does not fire inside "weather", etc.
+      if (k.length > bestLen && (q.includes(' ' + k + ' ') || q.includes(' ' + k))) {
+        best = entry;
+        bestLen = k.length;
+      }
+    }
   }
-  return null;
+  return best ? best.answer : null;
 }
 
 function json(obj, status = 200) {
