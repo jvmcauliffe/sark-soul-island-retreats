@@ -1,7 +1,7 @@
 ---
 title: Sea Holly, Single Room
 metaTitle: Book Sea Holly, Single Room | Sark Retreat September 2026
-metaDescription: Reserve the Sea Holly single room for the Late Summer Retreat on Sark, 12 to 17 September 2026. A £300 deposit secures your place.
+metaDescription: The Sea Holly single room is sold out for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
 slug: 12-sept-book-sea-holly-single
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Sea Holly, Single Room
@@ -14,7 +14,6 @@ booking:
   intro: >-
     Warm and understated, this ensuite room offers a soothing space after each day's practice. Soft tones create an atmosphere of peace, ease and grounding.
   rateLine: "Exclusive Early Booking Rate: £1,995"
-  paypal: https://www.paypal.com/ncp/payment/KDWDKNN6NSKGQ
   includes:
     - Your place on the retreat
     - En-suite accommodation

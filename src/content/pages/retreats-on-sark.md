@@ -29,12 +29,11 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        cta: Choose shared room
+        status: soldout
         href: "/12-sept-book-wild-thyme-shared"
       - label: Single
         price: £1,995 per person
-        cta: Choose single room
-        href: "/12-sept-book-wild-thyme-single"
+        status: soldout
     images:
       - src: ../../assets/photos/sark-wild-thyme-double-room.jpg
         alt: The Wild Thyme double bedroom at the retreat house on Sark
@@ -69,8 +68,7 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        cta: Choose shared room
-        note: 1 space left
+        status: soldout
         href: "/12-book-sept-coastal-rose-shared"
       - label: Single
         price: £1,995 per person
@@ -89,12 +87,11 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        cta: Choose shared room
+        status: soldout
         href: "/12-sept-book-sea-holly-shared"
       - label: Single
         price: £1,995 per person
-        cta: Choose single room
-        href: "/12-sept-book-sea-holly-single"
+        status: soldout
     images:
       - src: ../../assets/photos/sark-sea-holly-room.jpg
         alt: The Sea Holly bedroom at the retreat house on Sark
@@ -128,7 +125,7 @@ rooms:
     rates:
       - label: Single
         price: £1,995 per person
-        cta: Choose room
+        status: soldout
         href: "/12-sept-book-foxglove-single"
     images:
       - src: ../../assets/photos/sark-foxglove-single-room.jpg
@@ -269,7 +266,7 @@ All rooms are located within a beautifully historic farmhouse surrounded by awar
 
 ## Retreat & Rooms Investment
 
-<p class="rate-anchor"><strong>Early booking rate, £1,495 per person sharing.</strong> That is £200 less than the standard rate of £1,695, which the price returns to on 31 July. Single occupancy is £1,995 early. Reserve any room with a £300 deposit today, the balance is not due until 45 days before you travel.</p>
+<p class="rate-anchor"><strong>Five of the six rooms are now taken. Sea Lavender is the last room for September.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard rate of £1,695 which returns on 31 July, or £1,995 for single occupancy. A £300 deposit holds it today, the balance is not due until 45 days before you travel.</p>
 
 All-inclusive 5-night retreat: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity. That is five nights fully hosted for less than £300 a night. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place via PayPal or card payment.
 

@@ -1,7 +1,7 @@
 ---
 title: Coastal Rose, Shared Room
 metaTitle: Book Coastal Rose, Shared Room | Sark Retreat September 2026
-metaDescription: Reserve the Coastal Rose shared room for the Late Summer Retreat on Sark, 12 to 17 September 2026. A £300 deposit secures your place.
+metaDescription: The Coastal Rose shared room is sold out for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
 slug: 12-book-sept-coastal-rose-shared
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Coastal Rose, Shared Room
@@ -14,7 +14,6 @@ booking:
   intro: >-
     Light filled and restful, this ensuite room blends simple elegance with natural textures. A peaceful space designed for deep rest, quiet mornings and gentle evenings.
   rateLine: "Exclusive Early Booking Rate: £1,495"
-  paypal: https://www.paypal.com/ncp/payment/D7W6GJZAYXQSC
   note: 1 space left
   includes:
     - Your place on the retreat
