@@ -13,6 +13,7 @@ heroImage: ../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg
 heroImageAlt: Yachts at anchor in a turquoise bay below the cliffs of Sark, Channel Islands
 heroShot: Booking page hero, turquoise bay
 retreatPage: true
+guideCaptureEnd: true
 centerBody: true
 guideForm: true
 nadiaNote: Places are intentionally limited. With no more than twelve guests, one table and one teacher, the week has room to give every person the care they came for.

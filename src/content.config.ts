@@ -35,6 +35,7 @@ const pages = defineCollection({
     // hero, for the /free-guide landing page. No reveal click, no scrolling to
     // find it, the single job of a paid-traffic capture page.
     guideCapture: z.boolean().default(false),
+    guideCaptureEnd: z.boolean().default(false),
     practiceBand: z.boolean().default(false),
     // Cross-link band rendered after the guide panel with page-supplied
     // copy, like the "Come join us" band on Why Sark.
