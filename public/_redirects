@@ -23,6 +23,14 @@
 /blog  /journal  301
 /blog/*  /journal/:splat  301
 /copy-of-12-sept-sea-lavender-single-1  /12-sept-sea-lavender-shared  301
+# More dead Wix-era paths still taking real visitors, per GA4, July 2026.
+/12-sept-honeysuckle-single  /retreats-on-sark  301
+/16-may-book-sea-holly-single  /retreats-on-sark  301
+/reserve-place-how-it-works  /retreats-on-sark  301
+/retreats-on  /retreats-on-sark  301
+/retreats-on-sarkResults  /retreats-on-sark  301
+/de  /  301
+/de/*  /  301
 
 # Convenience alias: Astro emits sitemap-index.xml, but sitemap.xml is the habit.
 /sitemap.xml  /sitemap-index.xml  301
