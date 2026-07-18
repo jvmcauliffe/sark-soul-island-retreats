@@ -195,6 +195,21 @@ const breadcrumbs =
   {d.rooms.length > 0 && <RoomCards rooms={d.rooms} />}
 
   {
+    d.nextRetreatBand && (
+      <section class="section cream next-retreat">
+        <div class="container narrow">
+          <span class="eyebrow gold">{d.nextRetreatBand.eyebrow}</span>
+          <h2>{d.nextRetreatBand.heading}</h2>
+          <p>{d.nextRetreatBand.body}</p>
+          <a class="btn" href={d.nextRetreatBand.ctaHref}>
+            {d.nextRetreatBand.ctaLabel}
+          </a>
+        </div>
+      </section>
+    )
+  }
+
+  {
     d.includes && (
       <section class="section cream includes">
         <div class="container">
@@ -669,6 +684,16 @@ const breadcrumbs =
 
   .booking-back {
     font-size: 14px;
+  }
+
+  .next-retreat {
+    text-align: center;
+  }
+
+  .next-retreat p {
+    max-width: 52ch;
+    margin-inline: auto;
+    margin-bottom: 26px;
   }
 
   .travel {

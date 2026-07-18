@@ -22,6 +22,12 @@ darkStrip:
   heading: September nights under the first Dark Sky Island
   body: With zero light pollution, Sark's night skies hold more stars than most guests have ever seen. In 2011 it became the world's first Dark Sky Island. A guided night-sky session at the Sark Observatory is part of your week, and clear September evenings end with the Milky Way overhead.
 faqs: []
+nextRetreatBand:
+  eyebrow: Next year
+  heading: September 2027 is open
+  body: 18 to 23 September 2027, five nights on the island, all six rooms at this year's rates. A £300 deposit holds your room.
+  ctaLabel: Choose your 2027 room
+  ctaHref: /retreats-on-sark-2027
 rooms:
   - name: Honeysuckle
     type: King or twin room en suite

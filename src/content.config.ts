@@ -134,6 +134,18 @@ const pages = defineCollection({
         })
       )
       .default([]),
+    // Compact cross-sell band rendered after the room grid, used on the 2026
+    // booking page to point at the open September 2027 retreat without
+    // duplicating a second room grid on the page.
+    nextRetreatBand: z
+      .object({
+        eyebrow: z.string(),
+        heading: z.string(),
+        body: z.string(),
+        ctaLabel: z.string(),
+        ctaHref: z.string(),
+      })
+      .optional(),
     // Per room-and-rate booking pages, mirroring the live site's individual
     // reservation pages. No paypal link means the rate is sold out.
     booking: z
