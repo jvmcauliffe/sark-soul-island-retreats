@@ -83,11 +83,12 @@ const retreats = {
   '2027': {
     name: 'Sark Soul Island Retreats, September Retreat 2027',
     description:
-      'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
+      'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga with senior teacher Monica, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
     startDate: '2027-09-18',
     endDate: '2027-09-23',
     url: `${site}/retreats-on-sark-2027`,
-    performer: null,
+    // Monica confirmed for September 2027, per John, 18 July 2026.
+    performer: { '@id': `${site}/#monica` },
     offers: [
       { name: 'Shared room, early booking', price: '1495' },
       { name: 'Single room', price: '1995' },

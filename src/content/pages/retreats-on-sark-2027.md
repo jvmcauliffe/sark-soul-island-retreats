@@ -7,7 +7,8 @@ heroEyebrow: ''
 heroTitle: Late Summer Retreat
 heroCentered: true
 heroSub: on the Isle of Sark
-heroLine: 18 to 23 September, 2027
+heroLine: September, 2027 now open
+heroNote: with Monica Marini of YogaMorphic
 heroCtaHref: '#rooms'
 heroImage: ../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg
 heroImageAlt: Yachts at anchor in a turquoise bay below the cliffs of Sark, Channel Islands
