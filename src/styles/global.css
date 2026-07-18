@@ -103,7 +103,8 @@ img {
 }
 
 .promo-banner {
-  background: var(--ink);
+  /* Dark blue, not the near black ink, per John. */
+  background: #1e3a5f;
   color: #fff;
   font-size: 13px;
   font-weight: 500;
