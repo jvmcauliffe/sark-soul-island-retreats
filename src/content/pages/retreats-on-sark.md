@@ -23,6 +23,44 @@ darkStrip:
   body: With zero light pollution, Sark's night skies hold more stars than most guests have ever seen. In 2011 it became the world's first Dark Sky Island. A guided night-sky session at the Sark Observatory is part of your week, and clear September evenings end with the Milky Way overhead.
 faqs: []
 rooms:
+  - name: Honeysuckle
+    type: King or twin room en suite
+    occupancy: Shared room or single occupancy
+    description: A spacious luxurious en-suite with king or twin beds and beautiful original stonework. Full of the warmth and character of the historic farmhouse.
+    rates:
+      - label: Shared
+        price: £1,495 per person
+        status: soldout
+        href: "/12-sept-book-honeysuckle-shared"
+      - label: Single
+        price: £1,995 per person
+        status: soldout
+    images:
+      - src: ../../assets/photos/sark-honeysuckle-room.jpg
+        alt: The Honeysuckle room with original stonework at the retreat house on Sark
+      - src: ../../assets/photos/sark-honeysuckle-bathroom-tiles.jpg
+        alt: The tiled bathroom of the Honeysuckle room at the retreat house on Sark
+      - src: ../../assets/photos/sark-retreat-welcome-journal-gifts.jpg
+        alt: A welcome journal and mug from Sark Soul Island Retreats
+  - name: Coastal Rose
+    type: Twin room en suite
+    occupancy: Shared room
+    description: Light filled and restful, this ensuite room blends simple elegance with natural textures. A peaceful space designed for deep rest, quiet mornings and gentle evenings.
+    rates:
+      - label: Shared
+        price: £1,495 per person
+        status: soldout
+        href: "/12-book-sept-coastal-rose-shared"
+      - label: Single
+        price: £1,995 per person
+        status: soldout
+    images:
+      - src: ../../assets/photos/sark-coastal-rose-twin-room.jpg
+        alt: The Coastal Rose twin bedroom at the retreat house on Sark
+      - src: ../../assets/photos/sark-coastal-rose-room-sink.jpg
+        alt: The bathroom sink in the Coastal Rose room at the retreat house on Sark
+      - src: ../../assets/photos/sark-homemade-jam-retreat-breakfast.jpg
+        alt: Homemade jams at breakfast in the retreat house on Sark
   - name: Wild Thyme
     type: Double or twin room en suite
     occupancy: Shared room or single occupancy
@@ -43,6 +81,41 @@ rooms:
         alt: The washstand in the Wild Thyme room at the retreat house on Sark
       - src: ../../assets/photos/sark-wild-thyme-fruit-bowl.jpg
         alt: A fresh fruit bowl at the retreat house on Sark
+  - name: Foxglove
+    type: Private ensuite room
+    occupancy: Single occupancy only
+    description: A serene sanctuary designed for one, this charming en-suite room invites deep rest and a restful space. Perfect for those welcoming additional privacy within the rhythm of retreat life.
+    rates:
+      - label: Single
+        price: £1,995 per person
+        status: soldout
+        href: "/12-sept-book-foxglove-single"
+    images:
+      - src: ../../assets/photos/sark-foxglove-single-room.jpg
+        alt: The Foxglove single bedroom at the retreat house on Sark
+      - src: ../../assets/photos/sark-foxglove-bedside-lamp.jpg
+        alt: The bedside lamp in the Foxglove room at the retreat house on Sark
+      - src: ../../assets/photos/sark-breakfast-croissant.jpg
+        alt: A croissant breakfast at the retreat house on Sark
+  - name: Sea Holly
+    type: Double or twin room en suite
+    occupancy: Shared room or single occupancy
+    description: Warm and understated, this ensuite room offers a soothing space after each day's practice. Soft tones create an atmosphere of peace, ease and grounding.
+    rates:
+      - label: Shared
+        price: £1,495 per person
+        status: soldout
+        href: "/12-sept-book-sea-holly-shared"
+      - label: Single
+        price: £1,995 per person
+        status: soldout
+    images:
+      - src: ../../assets/photos/sark-sea-holly-room.jpg
+        alt: The Sea Holly bedroom at the retreat house on Sark
+      - src: ../../assets/photos/sark-sea-holly-room-flowers.jpg
+        alt: Fresh flowers in the Sea Holly room at the retreat house on Sark
+      - src: ../../assets/photos/sark-sea-holly-room-sink.jpg
+        alt: The bathroom sink in the Sea Holly room at the retreat house on Sark
   - name: Sea Lavender
     type: Double or twin room en suite
     occupancy: Shared room or single occupancy
@@ -63,79 +136,6 @@ rooms:
         alt: The dressing table and seating in the Sea Lavender room at the retreat house on Sark
       - src: ../../assets/photos/sark-sea-lavender-morning-coffee.jpg
         alt: Morning coffee and teapots at the retreat house on Sark
-  - name: Coastal Rose
-    type: Twin room en suite
-    occupancy: Shared room
-    description: Light filled and restful, this ensuite room blends simple elegance with natural textures. A peaceful space designed for deep rest, quiet mornings and gentle evenings.
-    rates:
-      - label: Shared
-        price: £1,495 per person
-        status: soldout
-        href: "/12-book-sept-coastal-rose-shared"
-      - label: Single
-        price: £1,995 per person
-        status: soldout
-    images:
-      - src: ../../assets/photos/sark-coastal-rose-twin-room.jpg
-        alt: The Coastal Rose twin bedroom at the retreat house on Sark
-      - src: ../../assets/photos/sark-coastal-rose-room-sink.jpg
-        alt: The bathroom sink in the Coastal Rose room at the retreat house on Sark
-      - src: ../../assets/photos/sark-homemade-jam-retreat-breakfast.jpg
-        alt: Homemade jams at breakfast in the retreat house on Sark
-  - name: Sea Holly
-    type: Double or twin room en suite
-    occupancy: Shared room or single occupancy
-    description: Warm and understated, this ensuite room offers a soothing space after each day's practice. Soft tones create an atmosphere of peace, ease and grounding.
-    rates:
-      - label: Shared
-        price: £1,495 per person
-        status: unavailable
-        href: "/12-sept-book-sea-holly-shared"
-      - label: Single
-        price: £1,995 per person
-        status: unavailable
-    images:
-      - src: ../../assets/photos/sark-sea-holly-room.jpg
-        alt: The Sea Holly bedroom at the retreat house on Sark
-      - src: ../../assets/photos/sark-sea-holly-room-flowers.jpg
-        alt: Fresh flowers in the Sea Holly room at the retreat house on Sark
-      - src: ../../assets/photos/sark-sea-holly-room-sink.jpg
-        alt: The bathroom sink in the Sea Holly room at the retreat house on Sark
-  - name: Honeysuckle
-    type: King or twin room en suite
-    occupancy: Shared room or single occupancy
-    description: A spacious luxurious en-suite with king or twin beds and beautiful original stonework. Full of the warmth and character of the historic farmhouse.
-    rates:
-      - label: Shared
-        price: £1,495 per person
-        status: unavailable
-        href: "/12-sept-book-honeysuckle-shared"
-      - label: Single
-        price: £1,995 per person
-        status: unavailable
-    images:
-      - src: ../../assets/photos/sark-honeysuckle-room.jpg
-        alt: The Honeysuckle room with original stonework at the retreat house on Sark
-      - src: ../../assets/photos/sark-honeysuckle-bathroom-tiles.jpg
-        alt: The tiled bathroom of the Honeysuckle room at the retreat house on Sark
-      - src: ../../assets/photos/sark-retreat-welcome-journal-gifts.jpg
-        alt: A welcome journal and mug from Sark Soul Island Retreats
-  - name: Foxglove
-    type: Private ensuite room
-    occupancy: Single occupancy only
-    description: A serene sanctuary designed for one, this charming en-suite room invites deep rest and a restful space. Perfect for those welcoming additional privacy within the rhythm of retreat life.
-    rates:
-      - label: Single
-        price: £1,995 per person
-        status: soldout
-        href: "/12-sept-book-foxglove-single"
-    images:
-      - src: ../../assets/photos/sark-foxglove-single-room.jpg
-        alt: The Foxglove single bedroom at the retreat house on Sark
-      - src: ../../assets/photos/sark-foxglove-bedside-lamp.jpg
-        alt: The bedside lamp in the Foxglove room at the retreat house on Sark
-      - src: ../../assets/photos/sark-breakfast-croissant.jpg
-        alt: A croissant breakfast at the retreat house on Sark
 includes:
   # Ordered by what matters most to guests, per Nadia: the yoga, the nights,
   # the food, then the facilities and activities, with rest and support last.
