@@ -256,7 +256,10 @@ travel:
 
 Discover our yoga and wellness retreats on Sark. Small group retreats designed for rest, movement and reset.
 
-**Sep 12 to 17, 2026. Early booking rate ends 31 July, [book now](/retreats-on-sark#rooms).** May 16 to 21, 2026, sold out. September 2027, [now open to book](/retreats-on-sark-2027). June 2027, [join the waitlist](/contact).
+**Sep 12 to 17, 2026. Early booking rate ends 31 July, [book now](/retreats-on-sark#rooms).**\
+May 16 to 21, 2026, sold out.\
+September 2027, [now open to book](/retreats-on-sark-2027).\
+June 2027, [join the waitlist](/contact).
 
 All rooms are located within a beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
