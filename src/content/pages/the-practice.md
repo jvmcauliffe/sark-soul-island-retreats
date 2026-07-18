@@ -1,14 +1,14 @@
 ---
 title: The Practice
 metaTitle: The Practice | Yoga & Meditation on Sark
-metaDescription: Daily yoga on the Isle of Sark. Morning practice to wake the body, evening practice to let the day settle, led by senior teacher Monica of YogaMorphic.
+metaDescription: Daily yoga on the Isle of Sark. Morning practice to wake the body, evening practice to let the day settle, in a small group led by senior teachers.
 slug: the-practice
 heroEyebrow: Daily yoga on Sark
 heroTitle: The Practice
 heroLine: Each day opens and closes with yoga. Morning to wake the body gently, evening to let the day settle.
-heroImage: ../../assets/photos/sark-monica-boat-pose-studio.jpg
-heroImageAlt: Senior yoga teacher Monica of YogaMorphic practising boat pose in the studio
-heroShot: The Practice hero, Monica in boat pose
+heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
+heroImageAlt: Morning yoga practice in the private studio at the retreat on Sark
+heroShot: The Practice hero, morning practice in the studio
 retreatPage: false
 joinBand:
   eyebrow: Meet everyone
@@ -33,11 +33,11 @@ joinBand:
 
 <section class="pband on-dark">
 
-## Your Instructor for the week:
+## Your teachers for the week:
 
-Each day opens and closes with yoga. Morning practice to wake the body gently, evening practice to let the day settle. Monica Marini leads every session, drawing on over twenty years of teaching. Her style is warm and unhurried, with room for both seasoned practitioners and those returning to the mat after time away.
+Each day opens and closes with yoga. Morning practice to wake the body gently, evening practice to let the day settle. Every retreat is led by a senior teacher with decades of practice behind them, named on that retreat's page, with a style that is warm and unhurried, with room for both seasoned practitioners and those returning to the mat after time away.
 
-You will never be pushed to perform. Sessions are small by design, so the teaching meets you where you are. Through years of study with international teachers and her own dedicated practice, Monica has learned to make space for creativity, integration, and the quiet joy of inner freedom. Between practices, the days are yours: coastal walks, sea swims, quiet corners for rest. The rhythm is simple, and that simplicity is the point.
+You will never be pushed to perform. Sessions are small by design, so the teaching meets you where you are. Between practices, the days are yours: coastal walks, sea swims, quiet corners for rest. The rhythm is simple, and that simplicity is the point.
 
 <div class="pband-trio">
 
@@ -64,7 +64,7 @@ You will never be pushed to perform. Sessions are small by design, so the teachi
 
 <div class="note-band">
 
-Sark Soul Island Retreats was founded and is hosted by Nadia, who leads every retreat alongside Monica. The week is unhurried by design: space to rest, breathe, and come back to yourself, away from the pull of everyday life.
+Sark Soul Island Retreats was founded and is hosted by Nadia, who leads every retreat alongside our senior yoga teachers. The week is unhurried by design: space to rest, breathe, and come back to yourself, away from the pull of everyday life.
 
 </div>
 
@@ -115,7 +115,9 @@ If you seek to experience life unfiltered, if you wish to practice anew, if you 
 <section class="monica-panel">
 <div class="mp-text">
 
-## Monica, lead yoga teacher
+## Monica, senior yoga teacher
+
+Monica leads our September 2027 retreat. In her own words:
 
 Inquisitive, restless, permanently seeking and still learning not to take myself too seriously! After more than 30 years of Yoga, my practice has evolved to reflect new learnings and understanding. I've come to know that Yoga is experiential rather than performative and I take a multi-disciplinary approach to the practice, exploring traditional principles and combining them with my interests in science, quantum physics, buddhism, astrology, and functional anatomy.
 
