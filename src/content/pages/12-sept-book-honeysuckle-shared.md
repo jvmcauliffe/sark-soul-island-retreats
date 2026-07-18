@@ -1,7 +1,7 @@
 ---
 title: Honeysuckle, Shared Room
 metaTitle: Honeysuckle, Shared Room | Sark Retreat September 2026
-metaDescription: Booking for the Honeysuckle shared room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
+metaDescription: The Honeysuckle shared room is not available for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
 slug: 12-sept-book-honeysuckle-shared
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Honeysuckle, Shared Room

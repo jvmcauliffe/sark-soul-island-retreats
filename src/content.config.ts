@@ -77,7 +77,7 @@ const pages = defineCollection({
             z.object({
               label: z.string(),
               price: z.string(),
-              status: z.enum(['available', 'soldout']).default('available'),
+              status: z.enum(['available', 'soldout', 'unavailable']).default('available'),
               note: z.string().optional(),
               href: z.string().optional(),
               cta: z.string().optional(),

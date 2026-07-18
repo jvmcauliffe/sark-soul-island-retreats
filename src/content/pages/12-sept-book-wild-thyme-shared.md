@@ -1,7 +1,7 @@
 ---
 title: Wild Thyme, Shared Room
 metaTitle: Book Wild Thyme, Shared Room | Sark Retreat September 2026
-metaDescription: Booking for the Wild Thyme shared room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
+metaDescription: Reserve the Wild Thyme shared room for the Late Summer Retreat on Sark, 12 to 17 September 2026. A £300 deposit secures your place.
 slug: 12-sept-book-wild-thyme-shared
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Wild Thyme, Shared Room
@@ -14,6 +14,7 @@ booking:
   intro: >-
     Elegant and serene, our ensuite rooms offer a soothing space after each day's practice. Every detail has been designed for comfort, so you can breathe, reflect, and simply be.
   rateLine: "Exclusive Early Booking Rate: £1,495"
+  paypal: https://www.paypal.com/ncp/payment/CW3ZA8LASXT3J
   includes:
     - Your place on the retreat
     - En-suite accommodation

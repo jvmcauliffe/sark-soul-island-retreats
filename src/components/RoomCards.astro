@@ -42,7 +42,7 @@ const short = (rate: Rate) =>
     <div class="rooms-grid">
       {
         rooms.map((room) => {
-          const available = room.rates.filter((r) => r.status !== 'soldout');
+          const available = room.rates.filter((r) => !r.status || r.status === 'available');
           const primary = available[0] ?? room.rates[0];
           const soldOut = available.length === 0;
           return (
@@ -73,12 +73,14 @@ const short = (rate: Rate) =>
                     visitors reach the waitlist and the page is never orphaned. */}
                 <p class="room-links">
                   {soldOut ? (
-                    room.rates.find((r) => r.href) ? (
+                    room.rates.every((r) => r.status === 'unavailable') ? (
+                      <span class="room-soldout">Not available for this retreat</span>
+                    ) : room.rates.find((r) => r.href) ? (
                       <a class="room-soldout" href={room.rates.find((r) => r.href)?.href}>
-                        Booking paused &middot; join the waitlist
+                        Sold out &middot; join the waitlist
                       </a>
                     ) : (
-                      <span class="room-soldout">Booking paused</span>
+                      <span class="room-soldout">Sold out</span>
                     )
                   ) : (
                     available.map((rate) => (

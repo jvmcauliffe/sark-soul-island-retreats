@@ -30,11 +30,12 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
+        cta: Choose shared room
         href: "/12-sept-book-wild-thyme-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        cta: Choose single room
+        href: "/12-sept-book-wild-thyme-single"
     images:
       - src: ../../assets/photos/sark-wild-thyme-double-room.jpg
         alt: The Wild Thyme double bedroom at the retreat house on Sark
@@ -49,11 +50,12 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
+        cta: Choose shared room
         href: "/12-sept-sea-lavender-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        cta: Choose single room
+        href: "/12-sept-sea-lavender-single"
     images:
       - src: ../../assets/photos/sark-sea-lavender-bedroom.jpg
         alt: The Sea Lavender bedroom at the retreat house on Sark
@@ -87,11 +89,11 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
+        status: unavailable
         href: "/12-sept-book-sea-holly-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        status: unavailable
     images:
       - src: ../../assets/photos/sark-sea-holly-room.jpg
         alt: The Sea Holly bedroom at the retreat house on Sark
@@ -106,11 +108,11 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
+        status: unavailable
         href: "/12-sept-book-honeysuckle-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        status: unavailable
     images:
       - src: ../../assets/photos/sark-honeysuckle-room.jpg
         alt: The Honeysuckle room with original stonework at the retreat house on Sark
@@ -266,7 +268,7 @@ All rooms are located within a beautifully historic farmhouse surrounded by awar
 
 ## Retreat & Rooms Investment
 
-<p class="rate-anchor"><strong>Booking for September is currently paused while we finalise some changes to the retreat.</strong> Existing bookings are unaffected. Join the waitlist at the bottom of the page to hear first when booking reopens, or email info@sarksoulretreats.com with any questions.</p>
+<p class="rate-anchor"><strong>Two rooms remain for September, Wild Thyme and Sea Lavender.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard rate of £1,695 which returns on 31 July, or £1,995 for single occupancy. A £300 deposit holds your room. If anything about the retreat changes that does not suit you, or the retreat cannot run, your deposit is returned in full. We confirm final retreat details in early August, so we suggest booking your travel after that.</p>
 
 All-inclusive 5-night retreat: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity. That is five nights fully hosted for less than £300 a night. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place via PayPal or card payment.
 

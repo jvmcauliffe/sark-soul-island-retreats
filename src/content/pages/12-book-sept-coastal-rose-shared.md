@@ -1,7 +1,7 @@
 ---
 title: Coastal Rose, Shared Room
 metaTitle: Book Coastal Rose, Shared Room | Sark Retreat September 2026
-metaDescription: Booking for the Coastal Rose shared room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
+metaDescription: The Coastal Rose shared room is sold out for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
 slug: 12-book-sept-coastal-rose-shared
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Coastal Rose, Shared Room
