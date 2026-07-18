@@ -269,7 +269,7 @@ June 2027, [join the waitlist](/contact).
 
 Every room is en-suite in a beautifully historic farmhouse, surrounded by award-winning gardens and open countryside. Shared or single occupancy.
 
-> "I thoroughly enjoyed all aspects of the retreat. Everything that was organised was brilliantly communicated. The detail of everything from the property, the studio, decoration of the barn and the menus was meticulous."
+> "I thoroughly enjoyed all aspects of the retreat. Everything that was organised was brilliantly communicated. The detail of everything from the property, the studio and the menus was meticulous."
 >
 > Andrea, May 2026
 
