@@ -646,6 +646,14 @@ img {
   margin-inline: auto;
 }
 
+/* Bullet lists sit centered as a block, items staying ragged left so the
+   markers line up, per John on the guide landing page. */
+.prose .centered-block ul {
+  width: fit-content;
+  margin-inline: auto;
+  text-align: left;
+}
+
 /* Closing CTA button centered beneath its section */
 .prose .cta-center {
   text-align: center;
