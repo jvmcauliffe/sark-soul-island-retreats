@@ -140,7 +140,7 @@ const focusStyle =
        keeps its true colour. */
     position: absolute;
     inset: 0;
-    background: linear-gradient(to top, rgba(17, 27, 39, 0.62) 0%, rgba(17, 27, 39, 0.24) 42%, rgba(17, 27, 39, 0.03) 75%);
+    background: linear-gradient(to top, rgba(17, 27, 39, 0.62) 0%, rgba(17, 27, 39, 0.32) 42%, rgba(17, 27, 39, 0.06) 75%);
   }
 
   /* Centered heroes carry no copy at the foot of the frame, so they need
@@ -160,11 +160,12 @@ const focusStyle =
     padding-block: clamp(56px, 9vw, 110px);
   }
 
-  /* Gold on a bright sky disappears; a crisp, tight shadow gives the eyebrow
-     a clean edge to sit on. The old 8px glow haloed the small letters and
-     read as blur, so keep the blur radius low. */
+  /* Gold on a bright sky disappears even with a shadow, so on the hero the
+     eyebrow goes warm white with a crisp edge. Gold remains the eyebrow
+     colour everywhere off the hero. */
   .hero-content :global(.eyebrow) {
-    text-shadow: 0 1px 2px rgba(9, 16, 26, 0.9), 0 0 1px rgba(9, 16, 26, 0.95);
+    color: #fdf9f0;
+    text-shadow: 0 1px 3px rgba(9, 16, 26, 0.85), 0 0 1px rgba(9, 16, 26, 0.95);
   }
 
   .hero h1 {
@@ -172,6 +173,16 @@ const focusStyle =
     max-width: 15ch;
     margin-bottom: 0.35em;
     text-shadow: 0 2px 22px rgba(17, 27, 39, 0.55), 0 1px 3px rgba(17, 27, 39, 0.4);
+  }
+
+  /* The supporting lines sit higher up the frame than the h1, where the
+     scrim is thinnest, so they carry their own crisp shadow for bright
+     sky and sea photographs. */
+  .hero-content :global(.hero-sub),
+  .hero-content :global(.hero-line),
+  .hero-content :global(.hero-note),
+  .hero-content :global(.brand-display) {
+    text-shadow: 0 1px 3px rgba(9, 16, 26, 0.8), 0 2px 16px rgba(17, 27, 39, 0.45);
   }
 
   .brand-display {
