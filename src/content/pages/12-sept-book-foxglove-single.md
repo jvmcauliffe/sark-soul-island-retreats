@@ -1,7 +1,7 @@
 ---
 title: Foxglove, Single Room
 metaTitle: Book Foxglove, Single Room | Sark Retreat September 2026
-metaDescription: The Foxglove single room is sold out for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
+metaDescription: Booking for the Foxglove single room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
 slug: 12-sept-book-foxglove-single
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Foxglove, Single Room

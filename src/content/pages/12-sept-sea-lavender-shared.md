@@ -1,7 +1,7 @@
 ---
 title: Sea Lavender, Shared Room
 metaTitle: Book Sea Lavender, Shared Room | Sark Retreat September 2026
-metaDescription: Reserve the Sea Lavender shared room for the Late Summer Retreat on Sark, 12 to 17 September 2026. A £300 deposit secures your place.
+metaDescription: Booking for the Sea Lavender shared room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
 slug: 12-sept-sea-lavender-shared
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Sea Lavender, Shared Room
@@ -14,7 +14,6 @@ booking:
   intro: >-
     Spacious and comfortable, this ensuite room is a sanctuary for slowing down. Thoughtfully arranged to support rest and reflection.
   rateLine: "Exclusive Early Booking Rate: £1,495"
-  paypal: https://www.paypal.com/ncp/payment/847CR2D6UZJL6
   includes:
     - Your place on the retreat
     - En-suite accommodation

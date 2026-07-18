@@ -49,12 +49,11 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        cta: Choose shared room
+        status: soldout
         href: "/12-sept-sea-lavender-shared"
       - label: Single
         price: £1,995 per person
-        cta: Choose single room
-        href: "/12-sept-sea-lavender-single"
+        status: soldout
     images:
       - src: ../../assets/photos/sark-sea-lavender-bedroom.jpg
         alt: The Sea Lavender bedroom at the retreat house on Sark
@@ -267,7 +266,7 @@ All rooms are located within a beautifully historic farmhouse surrounded by awar
 
 ## Retreat & Rooms Investment
 
-<p class="rate-anchor"><strong>Five of the six rooms are now taken. Sea Lavender is the last room for September.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard rate of £1,695 which returns on 31 July, or £1,995 for single occupancy. A £300 deposit holds it today, the balance is not due until 45 days before you travel.</p>
+<p class="rate-anchor"><strong>Booking for September is currently paused while we finalise some changes to the retreat.</strong> Existing bookings are unaffected. Join the waitlist at the bottom of the page to hear first when booking reopens, or email info@sarksoulretreats.com with any questions.</p>
 
 All-inclusive 5-night retreat: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity. That is five nights fully hosted for less than £300 a night. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place via PayPal or card payment.
 

@@ -1,7 +1,7 @@
 ---
 title: Wild Thyme, Shared Room
 metaTitle: Book Wild Thyme, Shared Room | Sark Retreat September 2026
-metaDescription: The Wild Thyme shared room is sold out for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
+metaDescription: Booking for the Wild Thyme shared room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
 slug: 12-sept-book-wild-thyme-shared
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Wild Thyme, Shared Room

@@ -1,7 +1,7 @@
 ---
 title: Sea Holly, Single Room
 metaTitle: Book Sea Holly, Single Room | Sark Retreat September 2026
-metaDescription: The Sea Holly single room is sold out for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist or choose another room.
+metaDescription: Booking for the Sea Holly single room is paused for the Late Summer Retreat on Sark, 12 to 17 September 2026. Join the waitlist to hear first.
 slug: 12-sept-book-sea-holly-single
 heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
 heroTitle: Sea Holly, Single Room
