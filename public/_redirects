@@ -32,5 +32,9 @@
 /de  /  301
 /de/*  /  301
 
+# The guide landing page is named for the guide itself now, per John,
+# 18 July 2026. Ads and old links still point at /free-guide.
+/free-guide  /getting-to-sark-guide  301
+
 # Convenience alias: Astro emits sitemap-index.xml, but sitemap.xml is the habit.
 /sitemap.xml  /sitemap-index.xml  301

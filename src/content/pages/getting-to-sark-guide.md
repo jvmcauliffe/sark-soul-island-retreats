@@ -2,7 +2,7 @@
 title: Getting to Sark
 metaTitle: Getting to Sark | Sark Soul Island Retreats
 metaDescription: "How to get to Sark: flights, the ferry, the famous luggage system, what to pack, and what the first evening on the island feels like. Nadia's guide."
-slug: free-guide
+slug: getting-to-sark-guide
 heroEyebrow: Before You Come
 heroTitle: Getting to Sark
 heroLine: The island you reach by boat, then tractor, then horse and carriage. Here is how it all works, from Nadia.
