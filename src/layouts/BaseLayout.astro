@@ -130,20 +130,7 @@ const breadcrumbSchema =
   <body>
     <a class="visually-hidden" href="#main">Skip to content</a>
     <Header />
-    <p class="promo-banner">Early booking rate ends 31 July<span id="rate-days"></span> - <a class="promo-gold" href="/retreats-on-sark">two rooms remain</a></p>
-    {/* Days-left counter in the banner. Inline, ~300 bytes, well inside the
-        JS budget; without JS the banner still reads correctly. */}
-    <script is:inline>
-      (function () {
-        var el = document.getElementById('rate-days');
-        if (!el) return;
-        var days = Math.floor(
-          (new Date('2026-07-31T23:59:59+01:00') - Date.now()) / 86400000
-        );
-        if (days < 0) return;
-        el.textContent = days > 1 ? ', ' + days + ' days left' : days === 1 ? ', 1 day left' : ', last day today';
-      })();
-    </script>
+    <p class="promo-banner">September 2027 confirmed, 18 to 23 September - <a class="promo-gold" href="/contact">join the waitlist for first pick of rooms</a></p>
     <main id="main">
       <slot />
     </main>
