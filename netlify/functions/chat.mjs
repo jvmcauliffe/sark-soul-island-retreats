@@ -187,7 +187,7 @@ const CANNED = [
 // still routes to food.
 const FOLLOWUP = /^\s*(what else|tell me more|tell me anything else|more|anything else|go on|what can you (tell me|answer|do|help with)|what do you know|help)\s*[?!.]*\s*$/i;
 const MORE_MENU =
-  "Plenty. Ask me about dates and prices, rooms, what is included, the food, treatments, getting here and the famous luggage system, a typical day, the yoga and who it suits, the dark skies, the weather in September, or coming alone. Anything personal goes straight to Nadia.";
+  "Plenty. Ask me about dates and prices, rooms, what is included, the food, treatments, getting here and the luggage system, a typical day, the yoga and who it suits, the dark skies, the weather in September, or coming alone. Anything personal goes straight to Nadia.";
 
 // Pure greetings and thanks get a human reply, never the email deflection.
 // Anchored to the whole message so "hi, do you allow dogs" still routes on.

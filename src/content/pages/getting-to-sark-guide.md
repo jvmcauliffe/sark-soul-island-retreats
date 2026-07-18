@@ -1,7 +1,7 @@
 ---
 title: Getting to Sark
 metaTitle: Getting to Sark | Sark Soul Island Retreats
-metaDescription: "How to get to Sark: flights, the ferry, the famous luggage system, what to pack, and what the first evening on the island feels like. Nadia's guide."
+metaDescription: "How to get to Sark: flights, the ferry, the luggage system, what to pack, and what the first evening on the island feels like. Nadia's guide."
 slug: getting-to-sark-guide
 heroEyebrow: Before You Come
 heroTitle: Getting to Sark
