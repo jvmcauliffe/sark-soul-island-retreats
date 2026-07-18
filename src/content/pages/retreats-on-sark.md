@@ -81,22 +81,6 @@ rooms:
         alt: The washstand in the Wild Thyme room at the retreat house on Sark
       - src: ../../assets/photos/sark-wild-thyme-fruit-bowl.jpg
         alt: A fresh fruit bowl at the retreat house on Sark
-  - name: Foxglove
-    type: Private ensuite room
-    occupancy: Single occupancy only
-    description: A serene sanctuary designed for one, this charming en-suite room invites deep rest and a restful space. Perfect for those welcoming additional privacy within the rhythm of retreat life.
-    rates:
-      - label: Single
-        price: £1,995 per person
-        status: soldout
-        href: "/12-sept-book-foxglove-single"
-    images:
-      - src: ../../assets/photos/sark-foxglove-single-room.jpg
-        alt: The Foxglove single bedroom at the retreat house on Sark
-      - src: ../../assets/photos/sark-foxglove-bedside-lamp.jpg
-        alt: The bedside lamp in the Foxglove room at the retreat house on Sark
-      - src: ../../assets/photos/sark-breakfast-croissant.jpg
-        alt: A croissant breakfast at the retreat house on Sark
   - name: Sea Holly
     type: Double or twin room en suite
     occupancy: Shared room or single occupancy
@@ -136,6 +120,22 @@ rooms:
         alt: The dressing table and seating in the Sea Lavender room at the retreat house on Sark
       - src: ../../assets/photos/sark-sea-lavender-morning-coffee.jpg
         alt: Morning coffee and teapots at the retreat house on Sark
+  - name: Foxglove
+    type: Private ensuite room
+    occupancy: Single occupancy only
+    description: A serene sanctuary designed for one, this charming en-suite room invites deep rest and a restful space. Perfect for those welcoming additional privacy within the rhythm of retreat life.
+    rates:
+      - label: Single
+        price: £1,995 per person
+        status: soldout
+        href: "/12-sept-book-foxglove-single"
+    images:
+      - src: ../../assets/photos/sark-foxglove-single-room.jpg
+        alt: The Foxglove single bedroom at the retreat house on Sark
+      - src: ../../assets/photos/sark-foxglove-bedside-lamp.jpg
+        alt: The bedside lamp in the Foxglove room at the retreat house on Sark
+      - src: ../../assets/photos/sark-breakfast-croissant.jpg
+        alt: A croissant breakfast at the retreat house on Sark
 includes:
   # Ordered by what matters most to guests, per Nadia: the yoga, the nights,
   # the food, then the facilities and activities, with rest and support last.
