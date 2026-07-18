@@ -67,7 +67,11 @@ for (const [route, html] of Object.entries(pages)) {
 const retreatPages = Object.entries(pages).filter(([, html]) => html.includes('"@type":"Event"'));
 if (retreatPages.length === 0) failures.push('no pages carry Event schema');
 for (const [route, html] of retreatPages) {
-  if (!html.includes('"validThrough":"2026-07-31"')) failures.push(`${route}: early rate validThrough missing`);
+  // The early rate deadline belongs to the 2026 retreat; the 2027 event
+  // carries no deadline until John sets one.
+  if (html.includes('"startDate":"2026-09-12"') && !html.includes('"validThrough":"2026-07-31"')) {
+    failures.push(`${route}: early rate validThrough missing`);
+  }
   // The dark sky section is either the DarkStrip component or the inline
   // dark-band markup the intent pages carry in their markdown. Check for the
   // rendered element, not the stylesheet: Astro only inlines small CSS

@@ -11,6 +11,7 @@ interface Offer {
 interface Props {
   canonical: string;
   event?: boolean;
+  eventYear?: '2026' | '2027';
   article?: {
     headline: string;
     description: string;
@@ -19,7 +20,7 @@ interface Props {
   };
 }
 
-const { canonical, event = false, article } = Astro.props;
+const { canonical, event = false, eventYear = '2026', article } = Astro.props;
 
 const site = 'https://www.sarksoulretreats.com';
 
@@ -62,21 +63,48 @@ const business = {
   employee: [{ '@id': `${site}/#nadia` }, { '@id': `${site}/#monica` }],
 };
 
-const offers: Offer[] = [
-  { name: 'Shared room, early booking', price: '1495', validThrough: '2026-07-31' },
-  { name: 'Shared room, standard', price: '1695' },
-  { name: 'Single room, early booking', price: '1995' },
-];
+// One entry per retreat. 2027's teacher is not confirmed, so its event
+// names no performer; Monica is performer for 2026 only.
+const retreats = {
+  '2026': {
+    name: 'Sark Soul Island Retreats, Late Summer Retreat 2026',
+    description:
+      'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga with senior teacher Monica, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
+    startDate: '2026-09-12',
+    endDate: '2026-09-17',
+    url: `${site}/retreats-on-sark`,
+    performer: { '@id': `${site}/#monica` },
+    offers: [
+      { name: 'Shared room, early booking', price: '1495', validThrough: '2026-07-31' },
+      { name: 'Shared room, standard', price: '1695' },
+      { name: 'Single room, early booking', price: '1995' },
+    ] as Offer[],
+  },
+  '2027': {
+    name: 'Sark Soul Island Retreats, September Retreat 2027',
+    description:
+      'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
+    startDate: '2027-09-18',
+    endDate: '2027-09-23',
+    url: `${site}/retreats-on-sark-2027`,
+    performer: null,
+    offers: [
+      { name: 'Shared room, early booking', price: '1495' },
+      { name: 'Single room', price: '1995' },
+    ] as Offer[],
+  },
+};
+
+const retreat = retreats[eventYear];
 
 const eventNode = event
   ? {
       '@type': 'Event',
-      name: 'Sark Soul Island Retreats, Late Summer Retreat 2026',
-      description:
-        'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga with senior teacher Monica, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
+      name: retreat.name,
+      description: retreat.description,
       image: [`${site}/og-default.jpg`],
-      startDate: '2026-09-12',
-      endDate: '2026-09-17',
+      startDate: retreat.startDate,
+      endDate: retreat.endDate,
       eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
       eventStatus: 'https://schema.org/EventScheduled',
       location: {
@@ -89,13 +117,13 @@ const eventNode = event
         },
       },
       organizer: { '@id': `${site}/#business` },
-      performer: { '@id': `${site}/#monica` },
-      offers: offers.map((o) => ({
+      ...(retreat.performer ? { performer: retreat.performer } : {}),
+      offers: retreat.offers.map((o) => ({
         '@type': 'Offer',
         name: o.name,
         price: o.price,
         priceCurrency: 'GBP',
-        url: `${site}/retreats-on-sark`,
+        url: retreat.url,
         availability: 'https://schema.org/InStock',
         ...(o.validThrough ? { validThrough: o.validThrough } : {}),
       })),

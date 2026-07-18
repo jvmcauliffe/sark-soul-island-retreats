@@ -26,6 +26,11 @@ const pages = defineCollection({
     heroBannerTop: z.boolean().default(false),
     heroCentered: z.boolean().default(false),
     heroCta: z.boolean().default(true),
+    // Hero button target for pages without a booking block; booking pages
+    // always send the hero button to their payment or reservation link.
+    heroCtaHref: z.string().optional(),
+    // Which retreat's Event schema the page carries, 2026 unless stated.
+    retreatYear: z.enum(['2026', '2027']).default('2026'),
     heroSub: z.string().optional(),
     heroNote: z.string().optional(),
     ogImage: z.string().optional(),
@@ -139,6 +144,9 @@ const pages = defineCollection({
         balance: z.string().default('Balance due 45 days before arrival'),
         paypal: z.string().optional(),
         note: z.string().optional(),
+        // Where "Back to all rooms and rates" points; the 2027 room pages
+        // return to the 2027 booking page rather than the 2026 one.
+        back: z.string().default('/retreats-on-sark'),
         includes: z.array(z.string()),
         images: z
           .array(z.object({ src: image(), alt: z.string() }))

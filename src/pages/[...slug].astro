@@ -53,6 +53,7 @@ const breadcrumbs =
   description={d.metaDescription}
   ogImage={d.ogImage ?? d.heroImage?.src}
   event={d.retreatPage}
+  eventYear={d.retreatYear}
   breadcrumbs={breadcrumbs}
 >
   {(d.heroPlain || d.heroBannerTop) && d.heroBanner && (
@@ -79,7 +80,7 @@ const breadcrumbs =
           cta={d.heroCta}
           sub={d.heroSub}
           note={d.heroNote}
-          ctaHref={d.booking?.paypal}
+          ctaHref={d.booking?.paypal ?? d.heroCtaHref}
         />
         {d.heroBanner && !d.heroBannerTop && <p class="hero-banner">{d.heroBanner}</p>}
       </>
@@ -168,7 +169,14 @@ const breadcrumbs =
           d.booking.paypal && (
             <div class="booking-final">
               <p class="booking-final-lead">You are one step away from securing your place</p>
-              <p>Complete your booking securely via PayPal or card payment.</p>
+              {/* Until John supplies per rate PayPal links for a retreat, its
+                  reserve buttons open a pre filled email instead, so the copy
+                  must not promise an online payment step. */}
+              <p>
+                {d.booking.paypal.startsWith('mailto:')
+                  ? 'Reserve by email and Nadia will reply with your deposit details.'
+                  : 'Complete your booking securely via PayPal or card payment.'}
+              </p>
               <p class="booking-final-cta">
                 <a class="btn" href={d.booking.paypal}>Reserve my place</a>
               </p>
@@ -177,7 +185,7 @@ const breadcrumbs =
         }
 
         <p class="booking-back">
-          <a href="/retreats-on-sark">Back to all rooms and rates</a>
+          <a href={d.booking.back}>Back to all rooms and rates</a>
         </p>
         </div>
       </section>
