@@ -16,8 +16,8 @@ Please use the following contact information to reach us. We are a very small te
 
 Enquiries: info@sarksoulretreats.com
 
-## Retreat Waitlist
+## Our 2027 retreats, June and September
 
-Leave your details and we'll be in touch if a place becomes available on one of our retreats. You'll also receive occasional updates from us, sharing future immersions and related offerings. The waitlist form is in the footer below.
+Our first 2027 dates are confirmed, 18 to 23 September, [now open to book](/retreats-on-sark-2027), with June to follow soon. The waitlist hears about June first and chooses June rooms at the best rate before booking opens to anyone else. The waitlist form is in the footer below.
 
 [See September dates and reserve your place](/retreats-on-sark), or read the [retreat FAQ](/sark-island-yoga-retreat-faq) and our [Terms & Conditions](/terms-conditions).

@@ -262,7 +262,7 @@ travel:
 
 Discover our yoga and wellness retreats on Sark. Small group retreats designed for rest, movement and reset.
 
-**Sep 18 to 23, 2027, all six rooms open, [book now](/retreats-on-sark-2027#rooms).** Travelling this year instead? Two rooms remain for 12 to 17 September 2026, [see this year's retreat](/retreats-on-sark). June 2027 dates will be released soon, [join the 2027 waitlist](/contact) for first choice of rooms.
+**Sep 18 to 23, 2027, all six rooms open, [book now](/retreats-on-sark-2027#rooms).** Travelling this year instead? Two rooms remain for 12 to 17 September 2026, [see this year's retreat](/retreats-on-sark). June 2027 follows soon, the waitlist hears about June first and chooses June rooms at the best rate, [join the 2027 waitlist](/contact).
 
 All rooms are located within a beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
