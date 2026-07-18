@@ -75,10 +75,10 @@ const short = (rate: Rate) =>
                   {soldOut ? (
                     room.rates.find((r) => r.href) ? (
                       <a class="room-soldout" href={room.rates.find((r) => r.href)?.href}>
-                        Sold out &middot; join the waitlist
+                        Booking paused &middot; join the waitlist
                       </a>
                     ) : (
-                      <span class="room-soldout">Sold out</span>
+                      <span class="room-soldout">Booking paused</span>
                     )
                   ) : (
                     available.map((rate) => (
