@@ -47,9 +47,10 @@ const columns = [
 ];
 ---
 
-{/* Clay planning band, per John, 14 July 2026: a quiet signpost above the
-    footer to the Visiting Sark hub and the free guide. Clay as a wash with
-    text links, not buttons, so the teal button rule holds. */}
+{/* Planning band: a quiet signpost above the footer to the Visiting Sark
+    hub and the guide. Cream, per John, 18 July 2026: clay belongs on the
+    guide button only, not as a strip. Text links, not buttons, so the teal
+    button rule holds. */}
 <section class="plan-band">
   <div class="container">
     <p class="plan-q">Planning a visit?</p>
@@ -149,7 +150,8 @@ const columns = [
   }
 
   .plan-band {
-    background: var(--clay);
+    background: var(--cream);
+    border-top: 1px solid var(--cream-deep);
     text-align: center;
     padding-block: clamp(14px, 2.2vw, 22px);
   }
@@ -163,18 +165,18 @@ const columns = [
     font-family: var(--font-display);
     font-style: italic;
     font-size: clamp(21px, 2.4vw, 25px);
-    color: #fff;
+    color: var(--ink);
     margin-bottom: 4px;
   }
 
   .plan-line {
     font-size: 16px;
     line-height: 1.65;
-    color: rgba(255, 251, 245, 0.94);
+    color: var(--charcoal);
   }
 
   .plan-band a {
-    color: #fff;
+    color: var(--teal-dark);
     font-weight: 500;
     text-decoration: underline;
     text-underline-offset: 3px;
