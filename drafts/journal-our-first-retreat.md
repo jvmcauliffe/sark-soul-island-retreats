@@ -5,8 +5,10 @@ kept verbatim except: "toaster rack" corrected to "toast rack", "Dixcat"
 to "Dixcart", and John's edits of 19 July 2026: barn mentions removed
 (the barn may not be available in 2027), the bike sentence removed,
 "transformed" swapped for "turned" in the chefs line, the first walk
-now names Dixcart beach, and the journal-writing moment rewritten in
-John's anonymised wording. Photo slots marked where she indicated them.
+now names Dixcart beach, the journal-writing moment rewritten in
+John's anonymised wording, and the carriage paragraph tightened to
+John's wording (the delay detail cut). Photo slots marked where she
+indicated them.
 
 Planned home: the Journal, as a first person piece by Nadia, signed with
 her leaf. Planned slug: our-first-retreat.
@@ -91,10 +93,10 @@ and hearing someone call out "hold on to your boobs" because it was going
 to be a bumpy ride. Everyone burst into laughter, and from that moment
 the atmosphere became relaxed, fun and full of joy.
 
-When our horse and carriage was delayed, nobody minded. We simply stood
-together chatting, getting to know one another while we waited. Before
-long the carriage arrived and our guests set off on their first tour of
-the island, smiling and waving as they disappeared up the lane.
+When our horse and carriage arrived, our guests set off on their first
+tour of the island, smiling and waving as they disappeared up the lane.
+
+[photo: guests aboard the horse and carriage]
 
 [photo: a guest bedroom]
 
