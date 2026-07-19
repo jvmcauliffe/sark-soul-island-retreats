@@ -20,11 +20,13 @@ in the shared preview, awaiting Nadia's picks:
    bedroom shot is enough, and the next paragraph is Nadia imagining the
    guests on the ferry (the literal welcome gifts shot can still be
    staged next retreat if wanted)
-3. Guest bedroom: sark-coastal-rose-twin-room.jpg
+3. Guest bedroom: sark-bedroom-retreat-house.jpg, the room made ready
+   with the welcome gifts visible, per John 19 July (one bedroom shot
+   total, coastal rose twin dropped)
 4. Morning yoga: sark-yoga-immersion-monica-teaching.jpg
 5. Goats: sark-lane-goat-greeting.jpg
-6. Dixcart beach: sark-turquoise-bay-beach-path.jpg, CONFIRM this is
-   actually Dixcart before publish, geo honesty matters
+6. Dixcart beach: sark-turquoise-bay-beach-path.jpg, John confirmed 19
+   July this is Dixcart
 7. Dinner: sark-candlelit-shared-table.jpg
 8. Treatment room: sark-massage-treatment-retreat.jpg
 9. Goodbye: sark-retreat-group-garden.jpg (fallback
@@ -35,6 +37,10 @@ photo library with rotation baked in), placed after the final paragraph,
 above Nadia's leaf sign-off.
 Extras worth adding: sark-toast-rack-guests-arrival.jpg beside the toast
 rack paragraph, sark-welcome-tunnel-arrival.jpg beside the welcome.
+Night sky beat, John 19 July: sark-dark-sky-stargazing-firelight.jpg IS
+from that week, confirmed. It sits after the treatments paragraph with a
+space held for two or three sentences from Nadia about that evening, in
+her own words. Do not publish the beat without her sentences.
 Guest faces appear in several; the courtesy yes should cover photos too.
 
 FLAG 1: the "hold on to your boobs" moment is wonderful and human; keep
