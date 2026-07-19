@@ -90,7 +90,7 @@ Most guests fly into Guernsey in the morning, take an early-afternoon boat, and 
 
 ![The historic farmhouse behind a field of poppies on Sark, Channel Islands](../../assets/photos/sark-retreat-farmhouse-poppies.jpg)
 
-Our next retreat runs 12 to 17 September 2026. Five nights, a small group of no more than twelve. Places are limited, and the early booking rate ends 31 July.
+Our next retreat runs 25 to 30 September 2027. Five nights, a small group of no more than twelve. Places are limited.
 
 [Reserve my place](/retreats-on-sark)
 

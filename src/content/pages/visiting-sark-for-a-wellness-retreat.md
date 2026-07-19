@@ -250,7 +250,7 @@ The full argument, with the harbour, the carters and the coast by boat, is in [W
 
 In summer the flowers are almost showing off. In autumn the ferns turn gold and the hills go gold and purple in the evening light, and you find yourself just standing there, looking, the way you did as a child before anyone taught you to be busy.
 
-Summer suits people who want long evenings and expansiveness. The shoulder seasons often deliver the sharper reset, because the contrast with home is stronger. Our Late Summer Retreat sits in the sweet spot: warm sea, golden light, and skies at their best in the hours after sunset. This year it runs 12 to 17 September 2026.
+Summer suits people who want long evenings and expansiveness. The shoulder seasons often deliver the sharper reset, because the contrast with home is stronger. Our Late Summer Retreat sits in the sweet spot: warm sea, golden light, and skies at their best in the hours after sunset. It next runs 25 to 30 September 2027.
 
 </div>
 </section>

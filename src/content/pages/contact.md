@@ -18,6 +18,6 @@ Enquiries: info@sarksoulretreats.com
 
 ## Our 2027 retreats, June and September
 
-Our first 2027 dates are confirmed, 25 to 30 September, [now open to book](/retreats-on-sark-2027), with June to follow soon. The waitlist hears about June first and chooses June rooms at the best rate before booking opens to anyone else. The waitlist form is in the footer below.
+Our first 2027 dates are confirmed, 25 to 30 September, [now open to book](/retreats-on-sark), with June to follow soon. The waitlist hears about June first and chooses June rooms at the best rate before booking opens to anyone else. The waitlist form is in the footer below.
 
 [See September dates and reserve your place](/retreats-on-sark), or read the [retreat FAQ](/sark-island-yoga-retreat-faq) and our [Terms & Conditions](/terms-conditions).

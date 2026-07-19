@@ -1,18 +1,20 @@
 ---
-title: Retreats & Booking
-metaTitle: Intimate Sark Yoga Retreat, September 2026 | Booking
-metaDescription: An intimate, small-group yoga retreat on Sark, 12 to 17 September 2026. Rest and reset on the world's first Dark Sky Island. Early rate ends 31 July.
+title: September 2027 Retreat & Booking
+metaTitle: Sark Yoga Retreat, 25 to 30 September 2027 | Booking
+metaDescription: Our September 2027 yoga retreat on Sark is open to book, 25 to 30 September. A £300 deposit holds your room on the world's first Dark Sky Island.
 slug: retreats-on-sark
 heroEyebrow: ''
 heroTitle: Late Summer Retreat
 heroCentered: true
 heroSub: on the Isle of Sark
-heroLine: 12 to 17 September, 2026
+heroLine: September, 2027 now open
 heroNote: with Monica Marini of YogaMorphic
+heroCtaHref: '#rooms'
 heroImage: ../../assets/photos/sark-turquoise-bay-yachts-cliffs.jpg
 heroImageAlt: Yachts at anchor in a turquoise bay below the cliffs of Sark, Channel Islands
 heroShot: Booking page hero, turquoise bay
 retreatPage: true
+retreatYear: '2027'
 guideCaptureEnd: true
 centerBody: true
 guideForm: true
@@ -22,12 +24,6 @@ darkStrip:
   heading: September nights under the first Dark Sky Island
   body: With zero light pollution, Sark's night skies hold more stars than most guests have ever seen. In 2011 it became the world's first Dark Sky Island. A guided night-sky session at the Sark Observatory is part of your week, and clear September evenings end with the Milky Way overhead.
 faqs: []
-nextRetreatBand:
-  eyebrow: Next year
-  heading: September 2027 is open, June dates coming soon
-  body: 25 to 30 September 2027, five nights on the island, all six rooms at this year's rates. A £300 deposit holds your room.
-  ctaLabel: Choose your 2027 room
-  ctaHref: /retreats-on-sark-2027
 rooms:
   - name: Honeysuckle
     type: King or twin room en suite
@@ -36,11 +32,12 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
-        href: "/12-sept-book-honeysuckle-shared"
+        cta: Choose shared room
+        href: "/25-sept-2027-book-honeysuckle-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        cta: Choose single room
+        href: "/25-sept-2027-book-honeysuckle-single"
     images:
       - src: ../../assets/photos/sark-honeysuckle-room.jpg
         alt: The Honeysuckle room with original stonework at the retreat house on Sark
@@ -50,16 +47,17 @@ rooms:
         alt: A welcome journal and mug from Sark Soul Island Retreats
   - name: Coastal Rose
     type: Twin room en suite
-    occupancy: Shared room
+    occupancy: Shared room or single occupancy
     description: Light filled and restful, this ensuite room blends simple elegance with natural textures. A peaceful space designed for deep rest, quiet mornings and gentle evenings.
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
-        href: "/12-book-sept-coastal-rose-shared"
+        cta: Choose shared room
+        href: "/25-sept-2027-book-coastal-rose-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        cta: Choose single room
+        href: "/25-sept-2027-book-coastal-rose-single"
     images:
       - src: ../../assets/photos/sark-coastal-rose-twin-room.jpg
         alt: The Coastal Rose twin bedroom at the retreat house on Sark
@@ -75,11 +73,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/12-sept-book-wild-thyme-shared"
+        href: "/25-sept-2027-book-wild-thyme-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/12-sept-book-wild-thyme-single"
+        href: "/25-sept-2027-book-wild-thyme-single"
     images:
       - src: ../../assets/photos/sark-wild-thyme-double-room.jpg
         alt: The Wild Thyme double bedroom at the retreat house on Sark
@@ -94,11 +92,12 @@ rooms:
     rates:
       - label: Shared
         price: £1,495 per person
-        status: soldout
-        href: "/12-sept-book-sea-holly-shared"
+        cta: Choose shared room
+        href: "/25-sept-2027-book-sea-holly-shared"
       - label: Single
         price: £1,995 per person
-        status: soldout
+        cta: Choose single room
+        href: "/25-sept-2027-book-sea-holly-single"
     images:
       - src: ../../assets/photos/sark-sea-holly-room.jpg
         alt: The Sea Holly bedroom at the retreat house on Sark
@@ -114,11 +113,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/12-sept-sea-lavender-shared"
+        href: "/25-sept-2027-book-sea-lavender-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/12-sept-sea-lavender-single"
+        href: "/25-sept-2027-book-sea-lavender-single"
     images:
       - src: ../../assets/photos/sark-sea-lavender-bedroom.jpg
         alt: The Sea Lavender bedroom at the retreat house on Sark
@@ -133,8 +132,8 @@ rooms:
     rates:
       - label: Single
         price: £1,995 per person
-        status: soldout
-        href: "/12-sept-book-foxglove-single"
+        cta: Choose single room
+        href: "/25-sept-2027-book-foxglove-single"
     images:
       - src: ../../assets/photos/sark-foxglove-single-room.jpg
         alt: The Foxglove single bedroom at the retreat house on Sark
@@ -235,7 +234,7 @@ travel:
       out before committing. A deposit holds your place, the rest unfolds with
       guidance.</p>
       <p>Prefer to talk it through with a person first?
-      <a href="mailto:info@sarksoulretreats.com?subject=September%20retreat">Write
+      <a href="mailto:info@sarksoulretreats.com?subject=September%202027%20retreat">Write
       to Nadia</a> and she will reply herself.</p>
   - heading: Getting to Sark
     html: >-
@@ -249,8 +248,9 @@ travel:
       every practical question.</p>
       <p>Questions before choosing a room? See the
       <a href="/sark-island-yoga-retreat-faq">retreat FAQ</a> or write to Nadia at
-      <a href="mailto:info@sarksoulretreats.com?subject=September%20retreat">info@sarksoulretreats.com</a>.
+      <a href="mailto:info@sarksoulretreats.com?subject=September%202027%20retreat">info@sarksoulretreats.com</a>.
       Explore the retreat experience:
+      <a href="/why-sark">why Sark</a>,
       <a href="/yoga-retreat-sark">the yoga</a>,
       <a href="/digital-detox-retreat">a digital detox</a>,
       <a href="/solo-retreat-women">travelling solo</a>,
@@ -258,16 +258,13 @@ travel:
       <a href="/dark-sky-retreat">the dark skies</a>.</p>
 ---
 
-## Yoga & Nature Island Retreat
+## Yoga & Nature Island Retreat, September 2027
 
-Small group retreats on Sark, designed for rest, movement and reset.
+Discover our yoga and wellness retreats on Sark. Small group retreats designed for rest, movement and reset.
 
-**Sep 12 to 17, 2026. Early booking rate ends 31 July, [book now](/retreats-on-sark#rooms).**\
-May 16 to 21, 2026, sold out.\
-September 2027, [now open to book](/retreats-on-sark-2027).\
-June 2027, [join the waitlist](/contact).
+**Sep 25 to 30, 2027, all six rooms open, [book now](#rooms).** June 2027 follows soon, the waitlist hears about June first and chooses June rooms at the best rate, [join the 2027 waitlist](/contact).
 
-Every room is en-suite in a beautifully historic farmhouse, surrounded by award-winning gardens and open countryside. Shared or single occupancy.
+All rooms are located within a beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
 > "I thoroughly enjoyed all aspects of the retreat. Everything that was organised was brilliantly communicated. The detail of everything from the property, the studio and the menus was meticulous."
 >
@@ -277,8 +274,8 @@ Every room is en-suite in a beautifully historic farmhouse, surrounded by award-
 
 ## Retreat & Rooms Investment
 
-<p class="rate-anchor"><strong>Two rooms remain for September, Wild Thyme and Sea Lavender.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard £1,695 which returns on 31 July, or £1,995 for single occupancy. A £300 deposit holds your room, returned in full if anything changes that does not suit you or the retreat cannot run. Looking at next year instead? 25 to 30 September 2027 is confirmed and now open, <a href="/retreats-on-sark-2027">choose your 2027 room</a>.</p>
+<p class="rate-anchor"><strong>All six rooms are open for 25 to 30 September 2027.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard rate of £1,695, or £1,995 for single occupancy. A £300 deposit holds your room. If anything about the retreat changes that does not suit you, or the retreat cannot run, your deposit is returned in full.</p>
 
-All-inclusive for five nights: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity, fully hosted for less than £300 a night. Choose your room below, each has its own reservation page with secure PayPal or card payment.
+All-inclusive 5-night retreat: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity. That is five nights fully hosted for less than £300 a night. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place. While we set up online payment for 2027, the reserve button starts an email to us and we reply with your deposit details.
 
-<p class="fine-print">Prices are per person, exclusive of flights and transfers. Bookings are first come first served and subject to our <a href="/terms-conditions">Terms &amp; Conditions</a>. The balance is due 45 days before the immersion.</p>
+<p class="fine-print">Prices are per person, exclusive of flights and transfers. Bookings are on a first come first served basis and are subject to our <a href="/terms-conditions">Terms &amp; Conditions</a>. The balance is due 45 days before the immersion.</p>

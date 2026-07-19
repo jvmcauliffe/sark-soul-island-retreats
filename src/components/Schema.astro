@@ -20,7 +20,9 @@ interface Props {
   };
 }
 
-const { canonical, event = false, eventYear = '2026', article } = Astro.props;
+// September 2026 is postponed and quietly withdrawn from sale, per John,
+// 19 July 2026. Every event page now describes the 2027 retreat.
+const { canonical, event = false, eventYear = '2027', article } = Astro.props;
 
 const site = 'https://www.sarksoulretreats.com';
 
@@ -63,30 +65,16 @@ const business = {
   employee: [{ '@id': `${site}/#nadia` }, { '@id': `${site}/#monica` }],
 };
 
-// One entry per retreat. 2027's teacher is not confirmed, so its event
-// names no performer; Monica is performer for 2026 only.
+// One entry per retreat. The 2026 event was removed when September 2026
+// was postponed; 2027 is the only retreat on sale.
 const retreats = {
-  '2026': {
-    name: 'Sark Soul Island Retreats, Late Summer Retreat 2026',
-    description:
-      'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga with senior teacher Monica, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
-    startDate: '2026-09-12',
-    endDate: '2026-09-17',
-    url: `${site}/retreats-on-sark`,
-    performer: { '@id': `${site}/#monica` },
-    offers: [
-      { name: 'Shared room, early booking', price: '1495', validThrough: '2026-07-31' },
-      { name: 'Shared room, standard', price: '1695' },
-      { name: 'Single room, early booking', price: '1995' },
-    ] as Offer[],
-  },
   '2027': {
     name: 'Sark Soul Island Retreats, September Retreat 2027',
     description:
       'A five-night small-group yoga and wellness retreat on the Isle of Sark, the world’s first Dark Sky Island. Daily yoga with senior teacher Monica, coastal walks, wild swimming and vegetarian meals at a historic farmhouse.',
     startDate: '2027-09-25',
     endDate: '2027-09-30',
-    url: `${site}/retreats-on-sark-2027`,
+    url: `${site}/retreats-on-sark`,
     // Monica confirmed for September 2027, per John, 18 July 2026.
     performer: { '@id': `${site}/#monica` },
     offers: [
@@ -96,7 +84,7 @@ const retreats = {
   },
 };
 
-const retreat = retreats[eventYear];
+const retreat = retreats['2027'];
 
 const eventNode = event
   ? {

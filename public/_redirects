@@ -53,3 +53,17 @@
 /18-sept-2027-book-sea-lavender-single  /25-sept-2027-book-sea-lavender-single  301
 /18-sept-2027-book-wild-thyme-shared  /25-sept-2027-book-wild-thyme-shared  301
 /18-sept-2027-book-wild-thyme-single  /25-sept-2027-book-wild-thyme-single  301
+
+# Quiet switch, per John, 19 July 2026: September 2026 is postponed and no
+# longer sold. The 2027 page now lives at /retreats-on-sark, and the old
+# 2026 room pages and the temporary 2027 URL all land on the booking page.
+/retreats-on-sark-2027  /retreats-on-sark  301
+/12-book-sept-coastal-rose-shared  /retreats-on-sark  301
+/12-sept-book-foxglove-single  /retreats-on-sark  301
+/12-sept-book-honeysuckle-shared  /retreats-on-sark  301
+/12-sept-book-sea-holly-shared  /retreats-on-sark  301
+/12-sept-book-sea-holly-single  /retreats-on-sark  301
+/12-sept-book-wild-thyme-shared  /retreats-on-sark  301
+/12-sept-book-wild-thyme-single  /retreats-on-sark  301
+/12-sept-sea-lavender-shared  /retreats-on-sark  301
+/12-sept-sea-lavender-single  /retreats-on-sark  301

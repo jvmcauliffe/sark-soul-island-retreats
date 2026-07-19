@@ -3,7 +3,7 @@ title: Travelling Solo
 metaTitle: Solo Yoga Retreat UK | Sark Soul Island Retreats
 metaDescription: A yoga and wellness retreat where most guests arrive alone. Small group, one shared house, car-free island. Come on your own, leave with friends.
 slug: solo-retreat-women
-heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
+heroEyebrow: Late Summer Retreat · 25 to 30 September 2027
 heroTitle: A Solo Retreat, on an Island Made for It
 heroLine: Most of our guests arrive alone. You will probably be in the majority.
 heroImage: ../../assets/photos/sark-coastal-path-walk.jpg
@@ -48,7 +48,7 @@ faqs:
 
 With no more than twelve guests sharing one farmhouse, one table and one morning practice, no one stays a stranger past the first evening.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
+**Next retreat: 25 to 30 September 2027.** Early booking rate £1,495 shared room.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -164,7 +164,7 @@ Fly or sail to Guernsey, then take the passenger ferry to Sark, a crossing of ab
 
 ## Dates, price and what's included
 
-**12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every activity included. Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
+**25 to 30 September 2027.** Five nights, all meals, daily yoga, guided walks and every activity included. Shared room, early booking: **£1,495**, standard rate £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>

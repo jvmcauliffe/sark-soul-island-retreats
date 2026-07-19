@@ -22,7 +22,7 @@ These are hard rules for every session working in this repository. Violating any
 - The house is only ever "the retreat house" or "a/the historic farmhouse", never "our" (it is not ours), and never its name.
 - Pricing: £1,495 early shared (ends 31 July 2026), £1,695 standard shared, £1,995 single early. £1,495 is correct, not an error.
 - Season wording ("Late Summer Retreat") is fine, never flag it.
-- Retreat dates: 12 to 17 September 2026. September 2027 is 25 to 30 September 2027, changed from 18 to 23 per Helen (the venue), 19 July 2026; never reintroduce the old 2027 dates.
+- Retreat dates: September 2027 is 25 to 30 September 2027, changed from 18 to 23 per Helen (the venue), 19 July 2026; never reintroduce the old 2027 dates. September 2026 (was 12 to 17) is POSTPONED, per John, 19 July 2026: quiet switch, the site sells only 2027, no public postponement notice, /retreats-on-sark is the 2027 booking page, booked 2026 guests are handled personally by Nadia. Do not resurrect 2026 sales pages or dates.
 
 ## Imagery
 

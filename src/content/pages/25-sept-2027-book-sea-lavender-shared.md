@@ -15,7 +15,7 @@ booking:
     Spacious and comfortable, this ensuite room is a sanctuary for slowing down. Thoughtfully arranged to support rest and reflection.
   rateLine: "Exclusive Early Booking Rate: £1,495"
   paypal: "mailto:info@sarksoulretreats.com?subject=Reserve%20Sea%20Lavender%20shared%20room%2C%20September%202027%20retreat&body=Hi%20Nadia%2C%20I%20would%20like%20to%20reserve%20the%20Sea%20Lavender%20shared%20room%20for%20the%2025%20to%2030%20September%202027%20retreat.%20Please%20send%20me%20the%20deposit%20details."
-  back: /retreats-on-sark-2027
+  back: /retreats-on-sark
   includes:
     - Your place on the retreat
     - En-suite accommodation

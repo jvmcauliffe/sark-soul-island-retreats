@@ -3,7 +3,7 @@ title: Digital Detox Retreat
 metaTitle: Digital Detox Retreat UK | Sark Soul Island Retreats
 metaDescription: A digital detox retreat on car-free Sark for high-stress professionals. No street lights, no traffic, no rush. You stop reaching for the phone by day two.
 slug: digital-detox-retreat
-heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
+heroEyebrow: Late Summer Retreat · 25 to 30 September 2027
 heroTitle: A Digital Detox Retreat on the Isle of Sark
 heroLine: Not a rule about phones. An island that quietly removes every reason to look at one.
 heroImage: ../../assets/photos/sark-horse-and-carriage-guests.jpg
@@ -47,7 +47,7 @@ Sark has wifi. Sark has mobile signal. Nobody will take your phone at the harbou
 
 And yet by the second day, most of our guests have stopped reaching for it. Not because they cannot, but because the island quietly removes every reason to. That is the difference between a rule and an environment, and it is why a digital detox on Sark actually holds.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
+**Next retreat: 25 to 30 September 2027.** Early booking rate £1,495 shared room.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -144,7 +144,7 @@ If your exhaustion runs deeper than screen fatigue, our [burnout recovery retrea
 
 Five nights at the retreat house, a historic farmhouse, with no more than twelve guests. Daily yoga for all levels, guided coastal walks, all meals included, and generous free time. Nothing is compulsory and nobody polices your phone. By day three, most guests have simply forgotten where they left it.
 
-**12 to 17 September 2026.** Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995. Everything included.
+**25 to 30 September 2027.** Shared room, early booking: **£1,495**, standard rate £1,695. Single room, early booking: £1,995. Everything included.
 
 </div>
 </section>

@@ -3,7 +3,7 @@ title: Dark Sky Retreat
 metaTitle: Stargazing, Dark Sky Retreat UK | Sark Soul Island Retreats
 metaDescription: Stay on the world's first Dark Sky Island. Zero light pollution, the Milky Way overhead, deep sleep. A stargazing retreat on Sark, Channel Islands.
 slug: dark-sky-retreat
-heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
+heroEyebrow: Late Summer Retreat · 25 to 30 September 2027
 heroTitle: A Retreat on the World's First Dark Sky Island
 heroLine: When the sun goes down here, the night does not dim. It deepens.
 heroImage: ../../assets/photos/sark-milky-way-dark-sky.jpg
@@ -58,7 +58,7 @@ In 2011, Sark became the first island in the world to be designated a Dark Sky I
 
 On a clear evening the Milky Way is not a faint smudge but a textured band across the whole sky. Most of our guests have never seen it before. Watching them look up on the first clear night is one of the great pleasures of hosting the retreat. The Journal tells the fuller story of [Sark after dark](/journal/why-a-day-isnt-enough#the-darkest-sky-in-europe).
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
+**Next retreat: 25 to 30 September 2027.** Early booking rate £1,495 shared room.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -164,7 +164,7 @@ New to the island? Start with [Why Sark?](/why-sark) for the full picture of thi
 
 ## Dates, price and what's included
 
-**12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every evening under the darkest skies in the British Isles. Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
+**25 to 30 September 2027.** Five nights, all meals, daily yoga, guided walks and every evening under the darkest skies in the British Isles. Shared room, early booking: **£1,495**, standard rate £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>

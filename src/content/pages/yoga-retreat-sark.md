@@ -1,9 +1,9 @@
 ---
 title: Yoga Retreat on Sark
 metaTitle: Yoga Retreat on Sark | Sark Soul Island Retreats
-metaDescription: A small-group yoga retreat on the car-free Isle of Sark, the world's first Dark Sky Island. Five nights, September 2026. Founded and hosted by Nadia.
+metaDescription: A small-group yoga retreat on the car-free Isle of Sark, the world's first Dark Sky Island. Five nights, September 2027. Founded and hosted by Nadia.
 slug: yoga-retreat-sark
-heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
+heroEyebrow: Late Summer Retreat · 25 to 30 September 2027
 heroTitle: A Yoga Retreat on the Isle of Sark
 heroLine: Five nights of yoga, coastal walking, shared meals and genuine rest.
 heroImage: ../../assets/photos/sark-morning-yoga-practice-studio.jpg
@@ -49,7 +49,7 @@ The island sits nine miles off Guernsey, reached only by boat. There are no cars
 
 Our retreats bring no more than twelve guests to a historic farmhouse for five nights of yoga, coastal walking, shared meals and genuine rest. Whether you practise every week or have never stepped onto a mat, you will be welcomed exactly as you are.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
+**Next retreat: 25 to 30 September 2027.** Early booking rate £1,495 shared room.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -188,9 +188,9 @@ Every practical question is answered on our [Visiting Sark page](/visiting-sark-
 
 ## Dates, price and what's included
 
-**12 to 17 September 2026.** Five nights. Your place includes accommodation at the retreat house, all meals, daily yoga with Monica, guided walks and every retreat activity. No hidden extras once you are here.
+**25 to 30 September 2027.** Five nights. Your place includes accommodation at the retreat house, all meals, daily yoga with Monica, guided walks and every retreat activity. No hidden extras once you are here.
 
-Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
+Shared room, early booking: **£1,495**, standard rate £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>

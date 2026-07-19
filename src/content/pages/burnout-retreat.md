@@ -1,9 +1,9 @@
 ---
 title: Burnout Retreat
 metaTitle: Burnout Retreat UK | Sark Soul Island Retreats
-metaDescription: A retreat for burnout and exhaustion on the quiet, car-free Isle of Sark. Rest and rejuvenation, gentle yoga, sea air and dark-sky sleep. September 2026.
+metaDescription: A retreat for burnout and exhaustion on the quiet, car-free Isle of Sark. Rest and rejuvenation, gentle yoga, sea air and dark-sky sleep. September 2027.
 slug: burnout-retreat
-heroEyebrow: Late Summer Retreat · 12 to 17 September 2026
+heroEyebrow: Late Summer Retreat · 25 to 30 September 2027
 heroTitle: A Retreat for Burnout, on the Quietest Island in Europe
 heroLine: Rest is not a gap in the programme here. It is the programme.
 heroImage: ../../assets/photos/sark-wild-swimming-cove.jpg
@@ -46,7 +46,7 @@ What you need is somewhere the demands actually stop. Not a spa timetable. Not a
 
 Sark, we would gently argue, is the best place in Britain to do that.
 
-**Next retreat: 12 to 17 September 2026.** Early booking rate £1,495 shared room until 31 July.
+**Next retreat: 25 to 30 September 2027.** Early booking rate £1,495 shared room.
 
 <a class="btn" href="/retreats-on-sark">Reserve my place</a>
 
@@ -143,9 +143,9 @@ One of the lonelier parts of burnout is how isolating it is. The retreat is smal
 
 ## Dates, price and what's included
 
-**12 to 17 September 2026.** Five nights, all meals, daily yoga, guided walks and every activity included. No decisions to make once you are here, which for most of our guests is part of the relief.
+**25 to 30 September 2027.** Five nights, all meals, daily yoga, guided walks and every activity included. No decisions to make once you are here, which for most of our guests is part of the relief.
 
-Shared room, early booking: **£1,495** until 31 July 2026, then £1,695. Single room, early booking: £1,995.
+Shared room, early booking: **£1,495**, standard rate £1,695. Single room, early booking: £1,995.
 
 </div>
 </section>
