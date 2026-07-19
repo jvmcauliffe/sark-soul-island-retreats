@@ -6,8 +6,9 @@ slug: terms-conditions
 heroEyebrow: Sark Soul Island Retreats
 heroTitle: Terms & Conditions
 heroLine: The details that make sure everything runs smoothly, for you and for us.
+heroImage: ../../assets/photos/sark-retreat-house-gardens-aerial.jpg
 heroImageAlt: The gardens of the retreat house on Sark, Channel Islands
-heroShot: Terms page hero, optional
+heroShot: Terms page hero, the retreat house gardens
 retreatPage: false
 ---
 

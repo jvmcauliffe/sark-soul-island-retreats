@@ -2,17 +2,21 @@
 
 Status: DRAFT for Nadia's approval, not built or published. Her words
 kept verbatim except: "toaster rack" corrected to "toast rack", "Dixcat"
-to "Dixcart", and two flags below that need her decision before publish.
-Photo slots marked where she indicated them.
+to "Dixcart", and John's edits of 19 July 2026: barn mentions removed
+(the barn may not be available in 2027), the bike sentence removed,
+"transformed" swapped for "turned" in the chefs line, the first walk
+now names Dixcart beach, and the journal-writing moment rewritten in
+John's anonymised wording. Photo slots marked where she indicated them.
 
 Planned home: the Journal, as a first person piece by Nadia, signed with
 her leaf. Planned slug: our-first-retreat.
 
 FLAG 1: the "hold on to your boobs" moment is wonderful and human; keep
 or soften is Nadia's call.
-FLAG 2: the passage about the guest who lost her husband is the most
-moving in the piece. In a group of six she is identifiable. It must not
-publish without her personal blessing, and ideally her words for it.
+FLAG 2, eased 19 July 2026: the journal-writing passage now uses John's
+anonymised wording, no husband, no loss, just a guest returning after
+thirty years. The hard blessing requirement no longer applies, though a
+courtesy word with her before publish is still the kind thing.
 
 ---
 
@@ -30,9 +34,9 @@ air and that wonderful feeling of leaving the outside world behind.
 The day before everyone arrived was spent preparing every last detail.
 The yoga studio was set up with mats, props and a beautiful altar space.
 The treatment room was prepared for massages. Each guest room was made
-ready with a journal, pen and Turkish beach towel, while the beautiful
-old barn was transformed into our dining space, ready for the wonderful
-meals our chefs would prepare throughout the week.
+ready with a journal, pen and Turkish beach towel, and the dining space
+was ready for the wonderful meals our chefs would prepare throughout
+the week.
 
 [photo: the welcome gifts]
 
@@ -56,14 +60,12 @@ the atmosphere became relaxed, fun and full of joy.
 When our horse and carriage was delayed, nobody minded. We simply stood
 together chatting, getting to know one another while we waited. Before
 long the carriage arrived and our guests set off on their first tour of
-the island, smiling and waving as they disappeared up the lane. I
-followed on my bike, looking forward to welcoming everyone properly at
-the accommodation.
+the island, smiling and waving as they disappeared up the lane.
 
 [photo: a guest bedroom]
 
 That first evening everyone settled into their beautiful rooms before
-gathering together for dinner. Our chefs had transformed locally grown
+gathering together for dinner. Our chefs had turned locally grown
 ingredients into colourful vegetarian dishes, and everyone sat around the
 large handmade dining table chatting, laughing and enjoying their first
 evening together. From that very first meal, it already felt less like
@@ -76,7 +78,8 @@ already knew and loved her teaching, but this was different. Instead of a
 weekly class, they were immersed in yoga, meditation and wisdom every
 day, surrounded by the peace of Sark. It felt incredibly special.
 
-After breakfast we headed out for our first walk together.
+After breakfast we headed out for our first walk together, to Dixcart
+beach.
 
 [photo: the goats in the woodland]
 
@@ -96,13 +99,10 @@ There was no need to rush anywhere. Everyone simply spread out naturally.
 Some sat quietly looking out to sea. Some paddled in the clear water.
 Some explored the rocks. Others journalled or chatted together.
 
-One moment that stayed with me was seeing one of our guests quietly
-writing in her journal. She had first visited Sark with her husband
-around thirty years earlier, and this was her first visit back after
-recently losing him.
-
-Watching her sitting peacefully on the beach was incredibly moving, and I
-found myself wondering what memories she was revisiting as she wrote.
+One moment that stayed with me was seeing our guests quietly writing in
+their journals. One of our guests had first visited Sark around thirty
+years earlier, and this was her first visit back. I found myself
+wondering what memories she was revisiting as she wrote.
 
 We also introduced our group to some of Sark's incredible wild food.
 Guests gathered sea lettuce along the shoreline, while I showed them
@@ -113,9 +113,9 @@ tiny island.
 Each day followed a gentle rhythm of yoga, nourishing food, island
 adventures, relaxation and massage.
 
-[photo: the barn at dinner]
+[photo: the dining table at dinner]
 
-The barn quickly became a favourite place for our guests. Each meal
+The dining table quickly became a favourite place for our guests. Each meal
 brought laughter, conversation and incredible food prepared by our chefs
 using seasonal produce, much of it grown in the gardens around us. I
 noticed that nobody ever kept the same seat. People naturally moved
