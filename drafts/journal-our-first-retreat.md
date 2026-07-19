@@ -16,8 +16,10 @@ in the shared preview, awaiting Nadia's picks:
 1. Studio preparations: sark-nadia-founder-host-studio.jpg, Nadia on her
    mat in the studio, per John 19 July (the ideal shot, the empty studio
    with mats and altar set, still does not exist)
-2. Welcome gifts: sark-bedroom-retreat-house.jpg (or stage the literal
-   journal, pen and towel shot next retreat)
+2. The crossing: sark-ferry-boat-crossing.jpg, per John 19 July, one
+   bedroom shot is enough, and the next paragraph is Nadia imagining the
+   guests on the ferry (the literal welcome gifts shot can still be
+   staged next retreat if wanted)
 3. Guest bedroom: sark-coastal-rose-twin-room.jpg
 4. Morning yoga: sark-yoga-immersion-monica-teaching.jpg
 5. Goats: sark-lane-goat-greeting.jpg
