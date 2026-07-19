@@ -1,9 +1,17 @@
 # A week on retreat (DRAFT for approval, not built or published)
 
 All quotes below are verified verbatim guest language from the May 2026
-feedback set, first names as attributed there. Em dashes in the source
-are rendered as commas or hyphens per the house style. Quotes naming the
-house or its owners are deliberately excluded per the naming rule.
+feedback set. Em dashes in the source are rendered as commas or hyphens
+per the house style. Quotes naming the house or its owners are
+deliberately excluded per the naming rule.
+
+Attribution, per John 19 July 2026: on the built page every quote is
+credited "Retreat guest, May 2026", no first names shown. The names in
+this draft are the internal record of who said what. Quote format stays
+as the original preview (centred italic with typed quotation marks),
+the left aligned gold mark restyle was reverted the same day. With no
+names on the page, the courtesy yes gate applies to the photos showing
+faces, not to the quotes.
 
 Planned slug: a-week-on-retreat
 Planned metaTitle: A Week on Retreat | Sark Soul Island Retreats
