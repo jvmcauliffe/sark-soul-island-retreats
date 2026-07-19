@@ -13,8 +13,9 @@ her leaf. Planned slug: our-first-retreat.
 
 Photo plan, 19 July 2026, suggested from the existing library and shown
 in the shared preview, awaiting Nadia's picks:
-1. Studio preparations: sark-private-yoga-studio-garden.jpg (ideal shot,
-   the empty studio with mats and altar set, does not exist yet)
+1. Studio preparations: sark-nadia-founder-host-studio.jpg, Nadia on her
+   mat in the studio, per John 19 July (the ideal shot, the empty studio
+   with mats and altar set, still does not exist)
 2. Welcome gifts: sark-bedroom-retreat-house.jpg (or stage the literal
    journal, pen and towel shot next retreat)
 3. Guest bedroom: sark-coastal-rose-twin-room.jpg
@@ -26,8 +27,10 @@ in the shared preview, awaiting Nadia's picks:
 8. Treatment room: sark-massage-treatment-retreat.jpg
 9. Goodbye: sark-retreat-group-garden.jpg (fallback
    sark-golden-coastline-evening.jpg if any guest prefers no faces)
-Closing image, John's pick 19 July: sark-nadia-looking-over-coast.jpg,
-placed after the final paragraph, above Nadia's leaf sign-off.
+Closing image, John's pick 19 July: sark-nadia-cliff-meditation-sea.jpg
+(new, from John's Drive, "Nadia on cliff sark island.jpeg", added to the
+photo library with rotation baked in), placed after the final paragraph,
+above Nadia's leaf sign-off.
 Extras worth adding: sark-toast-rack-guests-arrival.jpg beside the toast
 rack paragraph, sark-welcome-tunnel-arrival.jpg beside the welcome.
 Guest faces appear in several; the courtesy yes should cover photos too.
