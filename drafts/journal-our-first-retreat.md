@@ -35,8 +35,10 @@ Closing image, John's pick 19 July: sark-nadia-cliff-meditation-sea.jpg
 (new, from John's Drive, "Nadia on cliff sark island.jpeg", added to the
 photo library with rotation baked in), placed after the final paragraph,
 above Nadia's leaf sign-off.
-Extras worth adding: sark-toast-rack-guests-arrival.jpg beside the toast
-rack paragraph, sark-welcome-tunnel-arrival.jpg beside the welcome.
+Hero: sark-toast-rack-guests-arrival.jpg, the guests that week riding
+the toast rack, no other Journal article uses it as hero. With it as
+hero, the toast rack extra beside the boobs paragraph is redundant;
+sark-welcome-tunnel-arrival.jpg beside the welcome is still worth it.
 Night sky beat, John 19 July: sark-dark-sky-stargazing-firelight.jpg IS
 from that week, confirmed. It sits after the treatments paragraph with a
 space held for two or three sentences from Nadia about that evening, in
