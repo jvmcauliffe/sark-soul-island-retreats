@@ -20,10 +20,10 @@ skies and the journey home.
 >
 > Yvonne, May 2026
 
-> "I was quite nervous about coming on my own and sharing a room. I have
-> thoroughly enjoyed it, including the yoga."
+> "I have thoroughly enjoyed this retreat. There is plenty to do or you
+> can just relax. Very peaceful without traffic."
 >
-> Yvonne, May 2026
+> Maxine, May 2026
 
 Nadia's line: The crossing does half the work before we even say hello.
 By the time the carriage turns up the lane, the mainland has let go.
@@ -58,10 +58,11 @@ Photo: sark-morning-yoga-practice-studio.jpg
 >
 > Annie, May 2026
 
-> "Sark is a very special place. I will definitely be coming back. My
-> only regret is I didn't have more time to appreciate it and savour it."
+> "I enjoyed the walks as you know the areas and John's talks. Although
+> a small island, there is plenty to see. The massage was an aid to
+> feeling relaxed."
 >
-> Amanda, May 2026
+> Maxine, May 2026
 
 Nadia's line: The afternoons belong to you. Some guests walk every
 headland; some barely leave the garden. Both are doing it right, and
@@ -94,8 +95,8 @@ Photo: sark-milky-way-dark-sky.jpg
 >
 > Maria, May 2026
 
-> "I have never been on a yoga retreat so I had very few expectations. I
-> have thoroughly enjoyed it. I would definitely come again."
+> "Sark is a very special place. I will definitely be coming back. My
+> only regret is I didn't have more time to appreciate it and savour it."
 >
 > Amanda, May 2026
 
@@ -107,19 +108,36 @@ Photo: sark-golden-coastline-evening.jpg
 ## Closing
 
 CTA band: Reserve my place, linking to /retreats-on-sark, plus one line
-pointing at the 2027 page and the Getting to Sark guide.
+pointing at the 2027 page and the Getting to Sark guide, and one line
+for first timers pointing at the Your first yoga retreat Journal
+article (which links back here once this page is live).
 
 ---
 
 Held out on purpose, and why:
-1. Every quote naming the house or its owners (the property quotes from
-   Amanda, Maria, Maxine, Annie, Yvonne) per the house naming rule. The
-   grounds and gardens can be praised in our own words instead.
+1. Every quote naming the house per the house naming rule (including
+   Maxine's "wonderful place" accommodation quote). The grounds and
+   gardens can be praised in our own words instead. Correction, 19 July
+   2026: Maxine DOES have usable non house quotes, four of them, and
+   she now appears on the page. All six guests are represented.
 2. Amanda's "I'm not a joiner" quote: powerful, but reads best in the
    planned first timer article rather than the showcase page. Her point
    is honoured in Nadia's line about optional activities.
 3. Nothing from the operational feedback (shoe policy, lunch, schedule),
    which is planning input, not marketing.
+4. De duplication against the live Your first yoga retreat article, 19
+   July 2026: Yvonne's nervous solo quote and Amanda's "never been on a
+   yoga retreat" quote live THERE and were removed from this page.
+   Amanda's knee and hip quote appears on both, tolerated because this
+   page carries the longer headstands version doing different work.
+5. Spares if a section ever needs another voice: Maxine's meals quote
+   ("I enjoyed all the meals, they were well presented and a good
+   variety.") and Maria's "Excellent organisation by Nadia and John
+   with walks, history, and activities offered throughout. Nice and
+   welcoming atmosphere throughout."
+6. Note on Maxine's walks quote: "as you know the areas" addresses
+   Nadia directly, kept verbatim per the no rewriting rule; it reads as
+   a testimonial spoken to the host.
 
 Before this can build: Nadia approves her connecting lines in her own
 voice, and you confirm the six named guests are happy to be quoted on the
