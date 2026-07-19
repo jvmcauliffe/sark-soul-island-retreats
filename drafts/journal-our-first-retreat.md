@@ -37,10 +37,13 @@ Closing image, John's pick 19 July: sark-nadia-cliff-meditation-sea.jpg
 (new, from John's Drive, "Nadia on cliff sark island.jpeg", added to the
 photo library with rotation baked in), placed after the final paragraph,
 above Nadia's leaf sign-off.
-Hero: sark-toast-rack-guests-arrival.jpg, the guests that week riding
-the toast rack, no other Journal article uses it as hero. With it as
-hero, the toast rack extra beside the boobs paragraph is redundant;
-sark-welcome-tunnel-arrival.jpg beside the welcome is still worth it.
+Hero, John approved 19 July: sark-horse-and-carriage-guests.jpg, the
+guests that week aboard the carriage, no other Journal article uses it
+as hero. The toast rack photo (sark-toast-rack-guests-arrival.jpg)
+moves into the body beside the "hold on to your boobs" paragraph, and
+the separate carriage slot in the body is dropped so nothing appears
+twice. sark-welcome-tunnel-arrival.jpg beside the welcome is still
+worth adding.
 Night sky beat, John 19 July: sark-dark-sky-stargazing-firelight.jpg IS
 from that week, confirmed. It sits after the treatments paragraph with a
 space held for two or three sentences from Nadia about that evening, in
