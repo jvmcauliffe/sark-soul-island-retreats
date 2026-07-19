@@ -11,6 +11,27 @@ John's anonymised wording. Photo slots marked where she indicated them.
 Planned home: the Journal, as a first person piece by Nadia, signed with
 her leaf. Planned slug: our-first-retreat.
 
+Photo plan, 19 July 2026, suggested from the existing library and shown
+in the shared preview, awaiting Nadia's picks:
+1. Studio preparations: sark-private-yoga-studio-garden.jpg (ideal shot,
+   the empty studio with mats and altar set, does not exist yet)
+2. Welcome gifts: sark-bedroom-retreat-house.jpg (or stage the literal
+   journal, pen and towel shot next retreat)
+3. Guest bedroom: sark-coastal-rose-twin-room.jpg
+4. Morning yoga: sark-yoga-immersion-monica-teaching.jpg
+5. Goats: sark-lane-goat-greeting.jpg
+6. Dixcart beach: sark-turquoise-bay-beach-path.jpg, CONFIRM this is
+   actually Dixcart before publish, geo honesty matters
+7. Dinner: sark-candlelit-shared-table.jpg
+8. Treatment room: sark-massage-treatment-retreat.jpg
+9. Goodbye: sark-retreat-group-garden.jpg (fallback
+   sark-golden-coastline-evening.jpg if any guest prefers no faces)
+Closing image, John's pick 19 July: sark-nadia-looking-over-coast.jpg,
+placed after the final paragraph, above Nadia's leaf sign-off.
+Extras worth adding: sark-toast-rack-guests-arrival.jpg beside the toast
+rack paragraph, sark-welcome-tunnel-arrival.jpg beside the welcome.
+Guest faces appear in several; the courtesy yes should cover photos too.
+
 FLAG 1: the "hold on to your boobs" moment is wonderful and human; keep
 or soften is Nadia's call.
 FLAG 2, eased 19 July 2026: the journal-writing passage now uses John's
