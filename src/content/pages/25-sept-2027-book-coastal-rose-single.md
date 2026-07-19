@@ -1,9 +1,9 @@
 ---
 title: Coastal Rose, Single Room
 metaTitle: Book Coastal Rose, Single Room | Sark Retreat September 2027
-metaDescription: Reserve the Coastal Rose single room for the September 2027 retreat on Sark, 18 to 23 September. A £300 deposit holds your room.
-slug: 18-sept-2027-book-coastal-rose-single
-heroEyebrow: September Retreat · 18 to 23 September 2027
+metaDescription: Reserve the Coastal Rose single room for the September 2027 retreat on Sark, 25 to 30 September. A £300 deposit holds your room.
+slug: 25-sept-2027-book-coastal-rose-single
+heroEyebrow: September Retreat · 25 to 30 September 2027
 heroTitle: Coastal Rose, Single Room
 heroLine: September 2027 Retreat, Isle of Sark, 5 nights.
 heroImage: ../../assets/photos/sark-coastal-rose-twin-room.jpg
@@ -14,7 +14,7 @@ booking:
   intro: >-
     Light filled and restful, this ensuite room blends simple elegance with natural textures. A peaceful space designed for deep rest, quiet mornings and gentle evenings.
   rateLine: "Exclusive Early Booking Rate: £1,995"
-  paypal: "mailto:info@sarksoulretreats.com?subject=Reserve%20Coastal%20Rose%20single%20room%2C%20September%202027%20retreat&body=Hi%20Nadia%2C%20I%20would%20like%20to%20reserve%20the%20Coastal%20Rose%20single%20room%20for%20the%2018%20to%2023%20September%202027%20retreat.%20Please%20send%20me%20the%20deposit%20details."
+  paypal: "mailto:info@sarksoulretreats.com?subject=Reserve%20Coastal%20Rose%20single%20room%2C%20September%202027%20retreat&body=Hi%20Nadia%2C%20I%20would%20like%20to%20reserve%20the%20Coastal%20Rose%20single%20room%20for%20the%2025%20to%2030%20September%202027%20retreat.%20Please%20send%20me%20the%20deposit%20details."
   back: /retreats-on-sark-2027
   includes:
     - Your place on the retreat

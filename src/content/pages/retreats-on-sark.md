@@ -25,7 +25,7 @@ faqs: []
 nextRetreatBand:
   eyebrow: Next year
   heading: September 2027 is open, June dates coming soon
-  body: 18 to 23 September 2027, five nights on the island, all six rooms at this year's rates. A £300 deposit holds your room.
+  body: 25 to 30 September 2027, five nights on the island, all six rooms at this year's rates. A £300 deposit holds your room.
   ctaLabel: Choose your 2027 room
   ctaHref: /retreats-on-sark-2027
 rooms:
@@ -277,7 +277,7 @@ Every room is en-suite in a beautifully historic farmhouse, surrounded by award-
 
 ## Retreat & Rooms Investment
 
-<p class="rate-anchor"><strong>Two rooms remain for September, Wild Thyme and Sea Lavender.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard £1,695 which returns on 31 July, or £1,995 for single occupancy. A £300 deposit holds your room, returned in full if anything changes that does not suit you or the retreat cannot run. Looking at next year instead? 18 to 23 September 2027 is confirmed and now open, <a href="/retreats-on-sark-2027">choose your 2027 room</a>.</p>
+<p class="rate-anchor"><strong>Two rooms remain for September, Wild Thyme and Sea Lavender.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard £1,695 which returns on 31 July, or £1,995 for single occupancy. A £300 deposit holds your room, returned in full if anything changes that does not suit you or the retreat cannot run. Looking at next year instead? 25 to 30 September 2027 is confirmed and now open, <a href="/retreats-on-sark-2027">choose your 2027 room</a>.</p>
 
 All-inclusive for five nights: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity, fully hosted for less than £300 a night. Choose your room below, each has its own reservation page with secure PayPal or card payment.
 

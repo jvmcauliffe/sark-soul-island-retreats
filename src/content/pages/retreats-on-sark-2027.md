@@ -1,7 +1,7 @@
 ---
 title: September 2027 Retreat & Booking
-metaTitle: Sark Yoga Retreat, 18 to 23 September 2027 | Booking
-metaDescription: Our September 2027 yoga retreat on Sark is open to book, 18 to 23 September. A £300 deposit holds your room on the world's first Dark Sky Island.
+metaTitle: Sark Yoga Retreat, 25 to 30 September 2027 | Booking
+metaDescription: Our September 2027 yoga retreat on Sark is open to book, 25 to 30 September. A £300 deposit holds your room on the world's first Dark Sky Island.
 slug: retreats-on-sark-2027
 heroEyebrow: ''
 heroTitle: Late Summer Retreat
@@ -33,11 +33,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/18-sept-2027-book-honeysuckle-shared"
+        href: "/25-sept-2027-book-honeysuckle-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/18-sept-2027-book-honeysuckle-single"
+        href: "/25-sept-2027-book-honeysuckle-single"
     images:
       - src: ../../assets/photos/sark-honeysuckle-room.jpg
         alt: The Honeysuckle room with original stonework at the retreat house on Sark
@@ -53,11 +53,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/18-sept-2027-book-coastal-rose-shared"
+        href: "/25-sept-2027-book-coastal-rose-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/18-sept-2027-book-coastal-rose-single"
+        href: "/25-sept-2027-book-coastal-rose-single"
     images:
       - src: ../../assets/photos/sark-coastal-rose-twin-room.jpg
         alt: The Coastal Rose twin bedroom at the retreat house on Sark
@@ -73,11 +73,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/18-sept-2027-book-wild-thyme-shared"
+        href: "/25-sept-2027-book-wild-thyme-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/18-sept-2027-book-wild-thyme-single"
+        href: "/25-sept-2027-book-wild-thyme-single"
     images:
       - src: ../../assets/photos/sark-wild-thyme-double-room.jpg
         alt: The Wild Thyme double bedroom at the retreat house on Sark
@@ -93,11 +93,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/18-sept-2027-book-sea-holly-shared"
+        href: "/25-sept-2027-book-sea-holly-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/18-sept-2027-book-sea-holly-single"
+        href: "/25-sept-2027-book-sea-holly-single"
     images:
       - src: ../../assets/photos/sark-sea-holly-room.jpg
         alt: The Sea Holly bedroom at the retreat house on Sark
@@ -113,11 +113,11 @@ rooms:
       - label: Shared
         price: £1,495 per person
         cta: Choose shared room
-        href: "/18-sept-2027-book-sea-lavender-shared"
+        href: "/25-sept-2027-book-sea-lavender-shared"
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/18-sept-2027-book-sea-lavender-single"
+        href: "/25-sept-2027-book-sea-lavender-single"
     images:
       - src: ../../assets/photos/sark-sea-lavender-bedroom.jpg
         alt: The Sea Lavender bedroom at the retreat house on Sark
@@ -133,7 +133,7 @@ rooms:
       - label: Single
         price: £1,995 per person
         cta: Choose single room
-        href: "/18-sept-2027-book-foxglove-single"
+        href: "/25-sept-2027-book-foxglove-single"
     images:
       - src: ../../assets/photos/sark-foxglove-single-room.jpg
         alt: The Foxglove single bedroom at the retreat house on Sark
@@ -262,7 +262,7 @@ travel:
 
 Discover our yoga and wellness retreats on Sark. Small group retreats designed for rest, movement and reset.
 
-**Sep 18 to 23, 2027, all six rooms open, [book now](/retreats-on-sark-2027#rooms).** Travelling this year instead? Two rooms remain for 12 to 17 September 2026, [see this year's retreat](/retreats-on-sark). June 2027 follows soon, the waitlist hears about June first and chooses June rooms at the best rate, [join the 2027 waitlist](/contact).
+**Sep 25 to 30, 2027, all six rooms open, [book now](/retreats-on-sark-2027#rooms).** Travelling this year instead? Two rooms remain for 12 to 17 September 2026, [see this year's retreat](/retreats-on-sark). June 2027 follows soon, the waitlist hears about June first and chooses June rooms at the best rate, [join the 2027 waitlist](/contact).
 
 All rooms are located within a beautifully historic farmhouse surrounded by award-winning gardens and open countryside. Each room is en-suite, simply styled and designed to support rest and ease. Choose between shared or single occupancy depending on your preference.
 
@@ -274,7 +274,7 @@ All rooms are located within a beautifully historic farmhouse surrounded by awar
 
 ## Retreat & Rooms Investment
 
-<p class="rate-anchor"><strong>All six rooms are open for 18 to 23 September 2027.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard rate of £1,695, or £1,995 for single occupancy, the same rates as this year. A £300 deposit holds your room. If anything about the retreat changes that does not suit you, or the retreat cannot run, your deposit is returned in full.</p>
+<p class="rate-anchor"><strong>All six rooms are open for 25 to 30 September 2027.</strong> The early booking rate is £1,495 per person sharing, £200 less than the standard rate of £1,695, or £1,995 for single occupancy, the same rates as this year. A £300 deposit holds your room. If anything about the retreat changes that does not suit you, or the retreat cannot run, your deposit is returned in full.</p>
 
 All-inclusive 5-night retreat: accommodation, meals, twice daily yoga, guided walks, a night at the observatory and every activity. That is five nights fully hosted for less than £300 a night. To book, choose your room below. Each room and rate has its own reservation page, where a £300 deposit per person secures your place. While we set up online payment for 2027, the reserve button starts an email to us and we reply with your deposit details.
 

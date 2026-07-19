@@ -38,3 +38,18 @@
 
 # Convenience alias: Astro emits sitemap-index.xml, but sitemap.xml is the habit.
 /sitemap.xml  /sitemap-index.xml  301
+
+# September 2027 moved from 18 to 23 to 25 to 30 September, per Helen (the
+# venue), 19 July 2026. The room page slugs carry the date, so the old URLs
+# redirect to the renamed pages.
+/18-sept-2027-book-coastal-rose-shared  /25-sept-2027-book-coastal-rose-shared  301
+/18-sept-2027-book-coastal-rose-single  /25-sept-2027-book-coastal-rose-single  301
+/18-sept-2027-book-foxglove-single  /25-sept-2027-book-foxglove-single  301
+/18-sept-2027-book-honeysuckle-shared  /25-sept-2027-book-honeysuckle-shared  301
+/18-sept-2027-book-honeysuckle-single  /25-sept-2027-book-honeysuckle-single  301
+/18-sept-2027-book-sea-holly-shared  /25-sept-2027-book-sea-holly-shared  301
+/18-sept-2027-book-sea-holly-single  /25-sept-2027-book-sea-holly-single  301
+/18-sept-2027-book-sea-lavender-shared  /25-sept-2027-book-sea-lavender-shared  301
+/18-sept-2027-book-sea-lavender-single  /25-sept-2027-book-sea-lavender-single  301
+/18-sept-2027-book-wild-thyme-shared  /25-sept-2027-book-wild-thyme-shared  301
+/18-sept-2027-book-wild-thyme-single  /25-sept-2027-book-wild-thyme-single  301
